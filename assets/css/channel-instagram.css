@@ -1,0 +1,67 @@
+.ig-hero{position:relative;overflow:hidden;color:#fff;background:radial-gradient(1000px 600px at 8% -10%,rgba(236,72,153,.4),transparent 55%),radial-gradient(900px 520px at 95% 5%,rgba(251,146,60,.3),transparent 50%),radial-gradient(700px 400px at 40% 100%,rgba(139,92,246,.35),transparent 50%),linear-gradient(165deg,#050814 0%,#1e1b4b 40%,#4c1d95 100%);padding:calc(var(--nav,72px)+2.25rem) 0 3rem}
+.ig-hero-bg{position:absolute;inset:0;pointer-events:none;opacity:.2;background-image:radial-gradient(rgba(255,255,255,.1) 1px,transparent 1px);background-size:26px 26px}
+.ig-hero .container{position:relative;z-index:2}
+.ig-hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:2rem;align-items:center}
+.ig-badge{background:linear-gradient(90deg,rgba(236,72,153,.3),rgba(251,146,60,.25));color:#FCE7F3;border:1px solid rgba(244,114,182,.4)}
+.ig-hero h1{font-size:clamp(1.5rem,4vw,2.75rem);line-height:1.12;margin:1rem 0 .85rem;font-weight:800;color:#fff}
+.ig-hero h1 .grad{background:linear-gradient(105deg,#F9A8D4,#FDBA74 40%,#C4B5FD 80%);background-size:200% auto;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;animation:hbGradientShift 5s ease infinite}
+.ig-lead{color:rgba(255,255,255,.8);max-width:34rem;line-height:1.6;margin:0 0 1.25rem}
+.ig-ctas{display:flex;flex-wrap:wrap;gap:.75rem}
+.ig-tabs{display:flex;flex-wrap:nowrap;gap:.4rem;overflow-x:auto;padding:.5rem 0 0;scrollbar-width:none;margin-top:.85rem}
+.ig-tabs::-webkit-scrollbar{display:none}
+.ig-tabs button{flex:0 0 auto;border:1px solid rgba(255,255,255,.22);background:rgba(255,255,255,.08);color:#fff;border-radius:999px;padding:.45rem .85rem;font-size:.74rem;font-weight:600;cursor:pointer}
+.ig-tabs button.is-active{background:linear-gradient(135deg,#EC4899,#F97316,#8B5CF6);border-color:transparent}
+.ig-phone-stage{display:flex;justify-content:center}
+.ig-phone{width:min(260px,75vw);border-radius:34px;padding:11px;background:linear-gradient(160deg,#831843,#4c1d95);border:2px solid rgba(255,255,255,.14);box-shadow:0 28px 70px rgba(0,0,0,.5);animation:hbPhoneFloat 6s ease-in-out infinite}
+.ig-notch{width:85px;height:20px;background:#0B1120;border-radius:0 0 12px 12px;margin:0 auto 6px}
+.ig-screen{background:#0B141A;border-radius:24px;overflow:hidden;height:400px;display:flex;flex-direction:column}
+.ig-head{background:#1F2C34;padding:8px 10px;display:flex;align-items:center;gap:8px}
+.ig-av{width:30px;height:30px;border-radius:50%;background:linear-gradient(135deg,#EC4899,#F97316,#8B5CF6);display:flex;align-items:center;justify-content:center;font-size:.6rem;font-weight:800;color:#fff}
+.ig-head strong{display:block;font-size:.78rem;color:#E9EDEF}
+.ig-head small{color:#F9A8D4;font-size:.65rem}
+.ig-body{flex:1;padding:8px;overflow:hidden;display:flex;flex-direction:column;gap:6px;justify-content:flex-end}
+.ig-msg{max-width:92%;padding:7px 10px;border-radius:10px;font-size:.72rem;line-height:1.4;opacity:0;transform:translateY(6px);transition:opacity .35s,transform .35s}
+.ig-msg.show{opacity:1;transform:none}
+.ig-msg.bot{align-self:flex-start;background:#1F2C34;color:#E9EDEF}
+.ig-msg.user{align-self:flex-end;background:linear-gradient(135deg,#EC4899,#8B5CF6);color:#fff}
+.ig-typing{align-self:flex-start;background:#1F2C34;padding:8px 12px;border-radius:10px;display:none;gap:4px}
+.ig-typing.on{display:inline-flex}
+.ig-typing i{width:5px;height:5px;border-radius:50%;background:#8696A0;animation:hbDot 1.2s infinite}
+.ig-flow{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:.35rem;margin:1.25rem 0;font-weight:600;font-size:.82rem}
+.ig-flow span{padding:.4rem .65rem;border-radius:999px;background:#fff;border:1px solid var(--bd)}
+.ig-flow .arr{border:0;background:transparent;color:#EC4899;padding:0}
+.section-dark .ig-flow span{background:rgba(255,255,255,.1);border-color:rgba(255,255,255,.2);color:#fff}
+.ig-split{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;margin-top:1.25rem}
+.ig-live{background:#0B141A;border-radius:14px;padding:1.15rem;color:#E9EDEF}
+.ig-b{padding:.55rem .85rem;border-radius:10px;margin:.4rem 0;font-size:.85rem;max-width:90%}
+.ig-b.user{background:linear-gradient(135deg,#EC4899,#8B5CF6);margin-left:auto;color:#fff}
+.ig-b.bot{background:#1F2C34}
+.ig-actions .card{padding:.85rem;margin-bottom:.5rem;font-weight:700;font-size:.9rem}
+.ig-usecases,.ig-industries,.ig-testimonials{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1rem;margin-top:1.25rem}
+.ig-usecases .card{padding:1.15rem}
+.ig-usecases h3{margin:0 0 .35rem;font-size:.95rem}
+.ig-usecases p{margin:0;font-size:.85rem;color:var(--t2)}
+.ig-industries .card{padding:1rem;text-align:center;font-weight:700}
+.ig-testimonials .card{padding:1.25rem}
+.ig-testimonials p{font-size:.9rem;color:var(--t2);margin:0 0 .75rem}
+.ig-final{background:radial-gradient(800px 400px at 50% 0%,rgba(236,72,153,.35),transparent 55%),radial-gradient(600px 300px at 80% 100%,rgba(251,146,60,.25),transparent 50%),linear-gradient(165deg,#070B16,#1e1b4b)!important}
+@media(max-width:900px){
+  .ig-hero-grid{grid-template-columns:1fr}
+  .ig-phone-stage{order:3}
+  .ig-hero-copy{order:1}
+  .ig-tabs{order:2}
+  .ig-split{grid-template-columns:1fr}
+}
+@media(max-width:768px){
+  .ig-flow{flex-direction:column;align-items:stretch}
+  .ig-flow span{width:100%;text-align:center;box-sizing:border-box}
+}
+@media(max-width:640px){
+  .ig-hero{padding:calc(var(--nav,60px)+1.1rem) 0 1.75rem;overflow-x:hidden}
+  .ig-hero h1{font-size:1.35rem}
+  .ig-ctas{flex-direction:column}
+  .ig-ctas .btn{width:100%;justify-content:center}
+  .ig-phone{width:min(210px,72vw)}
+  .ig-screen{height:340px}
+  body{overflow-x:hidden}
+}

@@ -1,0 +1,75 @@
+.tg-hero{position:relative;overflow:hidden;color:#fff;background:radial-gradient(1100px 640px at 10% -12%,rgba(34,158,217,.4),transparent 55%),radial-gradient(900px 500px at 95% 10%,rgba(6,182,212,.3),transparent 50%),linear-gradient(165deg,#050814 0%,#0c1a2e 40%,#0e7490 100%);padding:calc(var(--nav,72px)+2.25rem) 0 3rem}
+.tg-hero-bg{position:absolute;inset:0;pointer-events:none;opacity:.2;background-image:radial-gradient(rgba(255,255,255,.1) 1px,transparent 1px);background-size:26px 26px}
+.tg-hero .container{position:relative;z-index:2}
+.tg-hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:2rem;align-items:center}
+.tg-badge{background:rgba(34,158,217,.25);color:#BAE6FD;border:1px solid rgba(56,189,248,.4)}
+.tg-hero h1{font-size:clamp(1.5rem,4vw,2.75rem);line-height:1.12;margin:1rem 0 .85rem;font-weight:800;color:#fff}
+.tg-hero h1 .grad{background:linear-gradient(105deg,#7DD3FC,#67E8F9 50%,#C4B5FD);background-size:200% auto;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;animation:hbGradientShift 5s ease infinite}
+.tg-lead{color:rgba(255,255,255,.8);max-width:34rem;line-height:1.6;margin:0 0 1.25rem}
+.tg-ctas{display:flex;flex-wrap:wrap;gap:.75rem}
+.tg-tabs{display:flex;flex-wrap:nowrap;gap:.4rem;overflow-x:auto;padding:.5rem 0 0;scrollbar-width:none;margin-top:.85rem}
+.tg-tabs::-webkit-scrollbar{display:none}
+.tg-tabs button{flex:0 0 auto;border:1px solid rgba(255,255,255,.22);background:rgba(255,255,255,.08);color:#fff;border-radius:999px;padding:.45rem .85rem;font-size:.74rem;font-weight:600;cursor:pointer}
+.tg-tabs button.is-active{background:linear-gradient(135deg,#229ED9,#06B6D4);border-color:transparent}
+.tg-phone-stage{display:flex;justify-content:center}
+.tg-phone{width:min(260px,75vw);border-radius:34px;padding:11px;background:linear-gradient(160deg,#0e7490,#1e3a5f);border:2px solid rgba(255,255,255,.14);box-shadow:0 28px 70px rgba(0,0,0,.5);animation:hbPhoneFloat 6s ease-in-out infinite}
+.tg-notch{width:85px;height:20px;background:#0B1120;border-radius:0 0 12px 12px;margin:0 auto 6px}
+.tg-screen{background:#0B141A;border-radius:24px;overflow:hidden;height:400px;display:flex;flex-direction:column}
+.tg-head{background:#1F2C34;padding:8px 10px;display:flex;align-items:center;gap:8px}
+.tg-av{width:30px;height:30px;border-radius:50%;background:linear-gradient(135deg,#229ED9,#06B6D4);display:flex;align-items:center;justify-content:center;font-size:.6rem;font-weight:800;color:#fff}
+.tg-head strong{display:block;font-size:.78rem;color:#E9EDEF}
+.tg-head small{color:#7DD3FC;font-size:.65rem}
+.tg-body{flex:1;padding:8px;overflow:hidden;display:flex;flex-direction:column;gap:6px;justify-content:flex-end}
+.tg-msg{max-width:92%;padding:7px 10px;border-radius:10px;font-size:.72rem;line-height:1.4;opacity:0;transform:translateY(6px);transition:opacity .35s,transform .35s}
+.tg-msg.show{opacity:1;transform:none}
+.tg-msg.bot{align-self:flex-start;background:#1F2C34;color:#E9EDEF}
+.tg-msg.user{align-self:flex-end;background:#229ED9;color:#fff}
+.tg-typing{align-self:flex-start;background:#1F2C34;padding:8px 12px;border-radius:10px;display:none;gap:4px}
+.tg-typing.on{display:inline-flex}
+.tg-typing i{width:5px;height:5px;border-radius:50%;background:#8696A0;animation:hbDot 1.2s infinite}
+.tg-flow{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:.35rem;margin:1.25rem 0;font-weight:600;font-size:.82rem}
+.tg-flow span{padding:.4rem .65rem;border-radius:999px;background:#fff;border:1px solid var(--bd)}
+.tg-flow .arr{border:0;background:transparent;color:#229ED9;padding:0}
+.section-dark .tg-flow span{background:rgba(255,255,255,.1);border-color:rgba(255,255,255,.2);color:#fff}
+.tg-builder{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-top:1.25rem}
+.tg-builder-col{background:#fff;border:1px solid var(--bd);border-radius:12px;padding:1.15rem}
+.tg-builder-col strong{display:block;margin-bottom:.35rem}
+.tg-builder-col p{margin:.35rem 0;font-size:.85rem;color:var(--t2)}
+.tg-commands,.tg-notify-cards,.tg-usecases,.tg-metrics,.tg-eco,.tg-why{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:1rem;margin-top:1.25rem}
+.tg-commands .card,.tg-notify-cards .card,.tg-eco .card,.tg-why .card{padding:1rem;text-align:center;font-weight:700}
+.tg-usecases .card{padding:1.15rem;text-align:left}
+.tg-usecases h3{margin:0 0 .35rem;font-size:.95rem}
+.tg-usecases p{margin:0;font-size:.85rem;color:var(--t2)}
+.tg-lead-demo{max-width:400px;margin:1.25rem auto 0;background:#0B141A;border-radius:14px;padding:1.15rem;color:#E9EDEF}
+.tg-b{padding:.55rem .85rem;border-radius:10px;margin:.4rem 0;font-size:.85rem;max-width:90%}
+.tg-b.user{background:#229ED9;margin-left:auto;color:#fff}
+.tg-b.bot{background:#1F2C34}
+.tg-ok{color:#67E8F9;font-weight:700;margin-top:.75rem;font-size:.875rem}
+.tg-split{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;align-items:center}
+.tg-flow-v{display:flex;flex-direction:column;align-items:center;gap:.35rem;font-weight:600}
+.tg-flow-v span{padding:.4rem .75rem;border-radius:999px;background:#fff;border:1px solid var(--bd);text-align:center}
+.tg-flow-v .arr{color:#229ED9}
+.tg-metrics .card{padding:1rem;text-align:center}
+.tg-metrics span{display:block;font-size:.75rem;color:var(--t2)}
+.tg-metrics strong{font-size:1.25rem;color:#229ED9}
+.tg-final{background:radial-gradient(800px 400px at 50% 0%,rgba(34,158,217,.35),transparent 55%),linear-gradient(165deg,#070B16,#0c1a2e)!important}
+@media(max-width:900px){
+  .tg-hero-grid{grid-template-columns:1fr}
+  .tg-phone-stage{order:3}
+  .tg-hero-copy{order:1}
+  .tg-tabs{order:2}
+  .tg-builder,.tg-split{grid-template-columns:1fr}
+}
+@media(max-width:768px){
+  .tg-flow{flex-direction:column;align-items:stretch}
+  .tg-flow span{width:100%;text-align:center;box-sizing:border-box}
+}
+@media(max-width:640px){
+  .tg-hero{padding:calc(var(--nav,60px)+1.1rem) 0 1.75rem;overflow-x:hidden}
+  .tg-hero h1{font-size:1.35rem}
+  .tg-ctas{flex-direction:column}
+  .tg-ctas .btn{width:100%;justify-content:center}
+  .tg-phone{width:min(210px,72vw)}
+  .tg-screen{height:340px}
+  body{overflow-x:hidden}
+}

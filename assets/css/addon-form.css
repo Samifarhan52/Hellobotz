@@ -1,0 +1,13 @@
+.addon-modal{position:fixed;inset:0;z-index:100000;display:flex;align-items:center;justify-content:center;padding:1rem}
+.addon-modal[hidden]{display:none!important}
+.addon-modal-backdrop{position:absolute;inset:0;background:rgba(15,23,42,.55)}
+.addon-modal-dialog{position:relative;background:#fff;border-radius:16px;max-width:520px;width:100%;max-height:90vh;overflow:auto;padding:1.5rem;box-shadow:0 24px 64px rgba(0,0,0,.2)}
+.addon-modal-x{position:absolute;top:.75rem;right:.85rem;border:0;background:transparent;font-size:1.5rem;cursor:pointer;line-height:1;color:#6B7280}
+.addon-modal-sub{color:#6B7280;font-size:.9rem;margin:.25rem 0 1rem}
+.af-grid{display:grid;grid-template-columns:1fr 1fr;gap:.75rem}
+.af-grid .af-full{grid-column:1/-1}
+.af-grid label{display:block;font-size:.8rem;font-weight:600;margin-bottom:.25rem}
+.af-grid input,.af-grid select,.af-grid textarea{width:100%;padding:.6rem .7rem;border:1px solid #E5E7EB;border-radius:10px;font:inherit}
+.af-grid small{display:block;font-size:.75rem;color:#9CA3AF;margin-top:.25rem}
+.af-status{margin-top:.75rem;font-size:.9rem;color:#15803D}
+@media(max-width:560px){.af-grid{grid-template-columns:1fr}}

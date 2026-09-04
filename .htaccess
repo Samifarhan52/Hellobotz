@@ -1,0 +1,45 @@
+Options -Indexes +FollowSymLinks
+DirectoryIndex index.php index.html
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+
+# Force lowercase for known capital folders
+RewriteRule ^Products/(.*)$ /products/$1 [R=301,L]
+RewriteRule ^Solutions/(.*)$ /solutions/$1 [R=301,L]
+RewriteRule ^Industries/(.*)$ /industries/$1 [R=301,L]
+RewriteRule ^Locations/?$ /locations/ [R=301,L]
+RewriteRule ^Locations/(.*)$ /locations/$1 [R=301,L]
+RewriteRule ^Resources/(.*)$ /resources/$1 [R=301,L]
+RewriteRule ^Integrations/(.*)$ /integrations/$1 [R=301,L]
+RewriteRule ^Company/(.*)$ /company/$1 [R=301,L]
+
+# Auth: redirect internal auth login/register to production external URLs
+RewriteRule ^auth/login/?$ https://hellobotz.com/auth/login [R=301,L]
+RewriteRule ^auth/login\.php$ https://hellobotz.com/auth/login [R=301,L]
+RewriteRule ^auth/register/?$ https://hellobotz.com/auth/register [R=301,L]
+RewriteRule ^auth/register\.php$ https://hellobotz.com/auth/register [R=301,L]
+RewriteRule ^login/?$ https://hellobotz.com/auth/login [R=301,L]
+RewriteRule ^signup/?$ https://hellobotz.com/auth/register [R=301,L]
+
+# About: legacy /about/ -> /company/about/
+RewriteRule ^about/?$ /company/about/ [R=301,L]
+RewriteRule ^about/index\.php$ /company/about/ [R=301,L]
+
+# If request is a directory without trailing slash, add it
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^(.+[^/])$ /$1/ [R=301,L]
+
+# Serve index.php inside directories
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteCond %{REQUEST_FILENAME}/index.php -f
+RewriteRule ^(.*)$ $1/index.php [L]
+</IfModule>
+
+# Protect sensitive dirs
+<IfModule mod_authz_core.c>
+  <DirectoryMatch "(secure-console-x7/data|admin/data)">
+    Require all denied
+  </DirectoryMatch>
+</IfModule>
