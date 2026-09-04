@@ -96,8 +96,8 @@
             <li><a href="<?php echo $bp; ?>products/shared-inbox">Shared Team Inbox</a></li>
             <li><a href="<?php echo $bp; ?>products/broadcast">Broadcast Campaigns</a></li>
             <li><a href="<?php echo $bp; ?>products/flow-builder">Flow Builder</a></li>
-            <li><a href="<?php echo $bp; ?>products/crm">CRM &amp; Pipelines</a></li>
             <li><a href="<?php echo $bp; ?>products/chatbot">WhatsApp Chatbot</a></li>
+            <li><a href="<?php echo $bp; ?>products/crm">WhatsApp CRM</a></li>
           </ul>
         </div>
         <div class="footer-col">
@@ -106,18 +106,16 @@
             <li><a href="<?php echo $bp; ?>solutions/sales">Sales on WhatsApp</a></li>
             <li><a href="<?php echo $bp; ?>solutions/customer-support">Customer Support</a></li>
             <li><a href="<?php echo $bp; ?>solutions/lead-generation">Lead Generation</a></li>
-            <li><a href="<?php echo $bp; ?>solutions/data-marketplace">Data Marketplace</a></li>
-            <li><a href="<?php echo $bp; ?>industries/ecommerce">E-commerce</a></li>
+            <li><a href="<?php echo $bp; ?>industries/ecommerce">E-commerce Solutions</a></li>
             <li><a href="/pricing/">Pricing Plans</a></li>
           </ul>
         </div>
         <div class="footer-col">
           <div class="footer-heading">Integrations</div>
           <ul>
-            <li><a href="<?php echo $bp; ?>integrations/shopify">Shopify WhatsApp</a></li>
-            <li><a href="<?php echo $bp; ?>integrations/woocommerce">WooCommerce</a></li>
-            <li><a href="<?php echo $bp; ?>integrations/google-calendar">Google Calendar</a></li>
-            <li><a href="<?php echo $bp; ?>integrations/google-sheets">Google Sheets</a></li>
+            <li><a href="<?php echo $bp; ?>integrations/shopify">Shopify Integration</a></li>
+            <li><a href="<?php echo $bp; ?>integrations/woocommerce">WooCommerce Integration</a></li>
+            <li><a href="<?php echo $bp; ?>integrations/google-calendar">Google Workspace</a></li>
             <li><a href="<?php echo $bp; ?>integrations/webhooks">Webhooks &amp; API</a></li>
           </ul>
         </div>
@@ -127,81 +125,19 @@
             <li><a href="<?php echo $bp; ?>company/about/">About HelloBotz</a></li>
             <li><a href="/contact/">Contact Us</a></li>
             <li><a href="<?php echo $bp; ?>Partners">Partner Program</a></li>
-            <li><a href="<?php echo $bp; ?>company/careers">Careers</a></li>
-            <li><a href="/resources/blog/">Blog</a></li>
+            <li><a href="/resources/blog/">Blog &amp; Resources</a></li>
             <li><a href="/resources/help-center/">Help Center</a></li>
-            <li><a href="/resources/download-app/">Download App</a></li>
-            <li><a href="/resources/download-ios-app/">Download iOS App</a></li>
-            <li><a href="/resources/">Resources</a></li>
           </ul>
         </div>
       </div>
 
-      <div class="footer-seo-regions">
-        <div class="footer-seo-col">
-          <div class="footer-heading">WhatsApp API in India</div>
-          <ul class="footer-seo-links">
-            <li><a href="<?php echo $bp; ?>locations/WhatsApp-API-India/">WhatsApp API India</a></li>
-            <li><a href="<?php echo $bp; ?>locations/WhatsApp-API-Delhi/">WhatsApp API Delhi</a></li>
-            <li><a href="<?php echo $bp; ?>locations/WhatsApp-API-Mumbai/">WhatsApp API Mumbai</a></li>
-            <li><a href="<?php echo $bp; ?>locations/WhatsApp-API-Bangalore/">WhatsApp API Bangalore</a></li>
-            <li><a href="<?php echo $bp; ?>locations/WhatsApp-API-Hyderabad/">WhatsApp API Hyderabad</a></li>
-            <li><a href="<?php echo $bp; ?>locations/WhatsApp-API-Chennai/">WhatsApp API Chennai</a></li>
-            <li><a href="<?php echo $bp; ?>locations/WhatsApp-API-Kolkata/">WhatsApp API Kolkata</a></li>
-            <li><a href="<?php echo $bp; ?>locations/WhatsApp-API-Pune/">WhatsApp API Pune</a></li>
-            <li><a href="<?php echo $bp; ?>locations/WhatsApp-API-Ahmedabad/">WhatsApp API Ahmedabad</a></li>
-            <li><a href="<?php echo $bp; ?>locations/WhatsApp-API-Surat/">WhatsApp API Surat</a></li>
-            <li><a href="<?php echo $bp; ?>locations/WhatsApp-API-Indore/">WhatsApp API Indore</a></li>
-            <li><a href="<?php echo $bp; ?>locations/WhatsApp-API-Jaipur/">WhatsApp API Jaipur</a></li>
-            <li><a href="<?php echo $bp; ?>locations/WhatsApp-API-Lucknow/">WhatsApp API Lucknow</a></li>
-            <li><a href="<?php echo $bp; ?>locations/">View all locations →</a></li>
-          </ul>
-        </div>
-        <div class="footer-seo-col">
-          <div class="footer-heading">Gulf &amp; Global</div>
-          <ul class="footer-seo-links">
-            <li><a href="<?php echo $bp; ?>locations/WhatsApp-API-Dubai/">WhatsApp API Dubai</a></li>
-            <li><a href="<?php echo $bp; ?>locations/WhatsApp-API-Abu-Dhabi/">WhatsApp API Abu Dhabi</a></li>
-            <li><a href="<?php echo $bp; ?>locations/WhatsApp-API-UAE/">WhatsApp API UAE</a></li>
-            <li><a href="<?php echo $bp; ?>locations/WhatsApp-API-Saudi-Arabia/">WhatsApp API Saudi Arabia</a></li>
-            <li><a href="<?php echo $bp; ?>locations/WhatsApp-API-Singapore/">WhatsApp API Singapore</a></li>
-            <li><a href="<?php echo $bp; ?>locations/WhatsApp-API-UK/">WhatsApp API UK</a></li>
-            <li><a href="<?php echo $bp; ?>locations/WhatsApp-API-Malaysia/">WhatsApp API Malaysia</a></li>
-            <li><a href="<?php echo $bp; ?>locations/WhatsApp-API-Australia/">WhatsApp API Australia</a></li>
-            <li><a href="<?php echo $bp; ?>locations/WhatsApp-API-Canada/">WhatsApp API Canada</a></li>
-            <li><a href="<?php echo $bp; ?>locations/WhatsApp-API-Germany/">WhatsApp API Germany</a></li>
-            <li><a href="<?php echo $bp; ?>locations/WhatsApp-API-South-Africa/">WhatsApp API South Africa</a></li>
-            <li><a href="<?php echo $bp; ?>locations/WhatsApp-API-Nepal/">WhatsApp API Nepal</a></li>
-            <li><a href="<?php echo $bp; ?>locations/">View all locations →</a></li>
-          </ul>
-        </div>
-        <div class="footer-seo-col">
-          <div class="footer-heading">Solutions by use case</div>
-          <ul class="footer-seo-links">
-            <li><a href="<?php echo $bp; ?>solutions/appointment/">Appointments</a></li>
-            <li><a href="<?php echo $bp; ?>solutions/class-bookings/">Class Bookings</a></li>
-            <li><a href="<?php echo $bp; ?>solutions/payments/">Invoice &amp; Payments</a></li>
-            <li><a href="<?php echo $bp; ?>solutions/subscriptions/">Subscriptions</a></li>
-            <li><a href="<?php echo $bp; ?>solutions/customer-support/">Customer Support</a></li>
-            <li><a href="<?php echo $bp; ?>solutions/sales/">Sales</a></li>
-            <li><a href="<?php echo $bp; ?>solutions/marketing/">Marketing</a></li>
-            <li><a href="<?php echo $bp; ?>solutions/recruitment/">Recruitment</a></li>
-            <li><a href="<?php echo $bp; ?>solutions/onboarding/">Onboarding</a></li>
-            <li><a href="<?php echo $bp; ?>solutions/collections/">Collections</a></li>
-            <li><a href="<?php echo $bp; ?>solutions/data-marketplace/">Data Marketplace</a></li>
-            <li><a href="<?php echo $bp; ?>products/chatbot/">WhatsApp Chatbot</a></li>
-            <li><a href="<?php echo $bp; ?>products/broadcast/">Broadcast Campaigns</a></li>
-          </ul>
-        </div>
-      </div>
       <div class="footer-bottom">
-        <p class="footer-copy">&copy; <?php echo date('Y'); ?> HelloBotz AI Technologies Pvt Ltd. All rights reserved. We process personal data in line with applicable privacy laws, including GDPR where relevant.</p>
+        <p class="footer-copy">&copy; <?php echo date('Y'); ?> HelloBotz AI Technologies Pvt Ltd. All rights reserved.</p>
         <div class="footer-legal">
           <a href="/privacy/">Privacy Policy</a>
           <a href="/terms/">Terms of Service</a>
           <a href="/security/">Security</a>
-          <a href="/privacy/#cookies">Cookie Policy</a>
-          <a href="/privacy/#gdpr">GDPR</a>
+          <a href="/cookie-policy/">Cookie Policy</a>
         </div>
       </div>
     </div>
