@@ -225,3 +225,126 @@
   .hb-img-slot .hb-img-fallback{padding:1.5rem 1rem;min-height:160px}
   .hb-img-slot .hb-img-fallback strong{font-size:.95rem}
 }
+
+/* =========================================================
+   UNIVERSAL MOBILE RESPONSIVE SYSTEM (All Pages & Channels)
+   ========================================================= */
+
+html, body {
+  overflow-x: hidden !important;
+  max-width: 100vw !important;
+  width: 100% !important;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.container, .site-header .container, .header-inner {
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+@media (max-width: 768px) {
+  h1, .h1, h2, .h2, .hero-title, .tg-hero h1, .fb-hero h1, .ig-hero h1, .wa-hero h1,
+  .prt-hero h1, .prc-hero h1, .ab-hero h1, .sol-hero h1, .ind-hero h1, .dm-hero h1,
+  .edu-hero h1, .re-hero h1, .shy-hero h1, .woo-hero h1, .ecom-hero h1, .gcm-hero h1,
+  .gfs-hero h1, .crm-hero h1, .wa-product-hero h1, .form-product-hero h1, .cb-product-hero h1 {
+    word-break: break-word !important;
+    overflow-wrap: break-word !important;
+    max-width: 100% !important;
+    letter-spacing: normal !important;
+  }
+}
+
+@media (max-width: 640px) {
+  h1, .h1, .tg-hero h1, .fb-hero h1, .ig-hero h1, .wa-hero h1,
+  .prt-hero h1, .prc-hero h1, .ab-hero h1, .sol-hero h1, .ind-hero h1, .dm-hero h1,
+  .edu-hero h1, .re-hero h1, .shy-hero h1, .woo-hero h1, .ecom-hero h1, .gcm-hero h1,
+  .gfs-hero h1, .crm-hero h1 {
+    font-size: clamp(1.3rem, 5.5vw, 1.7rem) !important;
+    line-height: 1.22 !important;
+  }
+
+  h2, .h2 {
+    font-size: clamp(1.15rem, 4.8vw, 1.45rem) !important;
+    line-height: 1.25 !important;
+  }
+
+  .badge, .hb-hero-badge, .tg-badge, .fb-badge, .ig-badge, .wa-badge, .prt-badge, .prc-badge {
+    white-space: normal !important;
+    max-width: 100% !important;
+    word-break: break-word !important;
+    display: inline-block !important;
+    text-align: center !important;
+    font-size: 0.72rem !important;
+    padding: 0.35rem 0.65rem !important;
+  }
+
+  .hero-ctas, .tg-ctas, .fb-ctas, .ig-ctas, .wa-ctas, .hb-hero-ctas,
+  .prt-ctas, .prc-ctas, .edu-ctas, .re-ctas, .shy-ctas, .woo-ctas,
+  .ecom-ctas, .gcm-ctas, .gfs-ctas, .crm-ctas, .hero-actions {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    gap: 0.65rem !important;
+  }
+
+  .hero-ctas .btn, .tg-ctas .btn, .fb-ctas .btn, .ig-ctas .btn, .wa-ctas .btn,
+  .hb-hero-ctas .btn, .prt-ctas .btn, .prc-ctas .btn, .edu-ctas .btn,
+  .re-ctas .btn, .shy-ctas .btn, .woo-ctas .btn, .ecom-ctas .btn,
+  .gcm-ctas .btn, .gfs-ctas .btn, .crm-ctas .btn, .hero-actions .btn,
+  .btn-ghost-light, .btn-demo-open {
+    width: 100% !important;
+    justify-content: center !important;
+    box-sizing: border-box !important;
+    white-space: normal !important;
+    text-align: center !important;
+  }
+
+  .tg-tabs, .fb-tabs, .ig-tabs, .wa-tabs, .edu-sim-tabs, .re-sim-tabs,
+  .shy-tabs, .woo-tabs, .ecom-tabs, .gcm-tabs, .gfs-tabs, .crm-tabs {
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 0.35rem !important;
+  }
+}
+
+@media (max-width: 900px) {
+  .tg-hero-grid, .fb-hero-grid, .ig-hero-grid, .wa-hero-grid,
+  .prt-hero-grid, .prc-hero-grid, .ab-hero-grid, .sol-hero-grid,
+  .ind-hero-grid, .dm-hero-grid, .wa-product-grid, .form-product-grid,
+  .cb-product-grid, .api-hero-grid, .split-section, .footer-contact-grid,
+  .pricing-grid, .features-grid, .why-grid, .channels-grid, .industries-grid,
+  .integrations-grid, .stats-grid, .testimonials-grid, .ab-build-grid,
+  .ab-mission-grid, .ab-why-grid, .prt-why-grid, .prt-rev-grid, .dm-cat-grid,
+  .dm-grid, .tg-builder, .tg-split, .tg-commands, .tg-notify-cards,
+  .tg-usecases, .tg-metrics, .tg-eco, .tg-why {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 1.25rem !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .tg-phone-stage, .fb-phone-stage, .ig-phone-stage, .wa-phone-stage,
+  .prt-hero-visual, .prc-hero-visual {
+    order: 3 !important;
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+  }
+  
+  .tg-hero-copy, .fb-hero-copy, .ig-hero-copy, .wa-hero-copy {
+    order: 1 !important;
+    width: 100% !important;
+  }
+
+  .tg-tabs, .fb-tabs, .ig-tabs, .wa-tabs {
+    order: 2 !important;
+  }
+}
+
