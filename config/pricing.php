@@ -9,7 +9,7 @@ return [
   'gst_rate' => 0.18,
   'trial_days' => 14,
   'register_url' => 'https://hellobotz.com/auth/register',
-  'whatsapp' => '919638911838',
+  'whatsapp' => '918050854445',
 
   'plans' => [
     'growth' => [
