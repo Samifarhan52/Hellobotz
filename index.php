@@ -52,11 +52,11 @@ include __DIR__ . '/includes/header.php';
       <div class="hb-hero-grid">
         <div class="hb-hero-copy">
           <div class="hb-hero-badge">Official WhatsApp Business API · AI Automation Platform India</div>
-          <h1>WhatsApp Automation Software &amp; AI Chatbot for Business</h1>
-          <p class="hb-lead">HelloBotz is an premier <strong>AI automation platform India</strong> offering leading <strong>WhatsApp automation software</strong> and <strong>WhatsApp marketing tool</strong>. Power sales and support with the <strong>Official WhatsApp Business API</strong>, <strong>lead generation chatbot</strong>, <strong>WhatsApp CRM software</strong>, <strong>instagram automation tool</strong>, and <strong>live chat handover software</strong> — all on one <strong>omnichannel customer engagement platform</strong>.</p>
+          <h1>WhatsApp Automation Software &amp; <span class="hb-grad">AI Chatbot</span> for Business</h1>
+          <p class="hb-lead">Boost engagement, qualify leads, and provide 24/7 support with seamless, AI-powered WhatsApp conversations. Integrate instantly and scale efficiently across your business.</p>
           <div class="hb-hero-ctas">
-            <a href="https://hellobotz.com/auth/register" class="btn btn-primary btn-lg">Start Free Trial</a>
-            <button type="button" class="btn-ghost-light btn-demo-open">Book a Live Demo</button>
+            <a href="https://hellobotz.com/auth/register" class="btn btn-primary btn-lg">Start Automating - It's Free</a>
+            <button type="button" class="btn btn-outline btn-lg btn-demo-open">Book a Demo</button>
           </div>
           <div class="hb-stats">
             <div class="hb-stat"><b>10M+</b><span>Messages delivered</span></div>
@@ -77,7 +77,7 @@ include __DIR__ . '/includes/header.php';
               <div class="hb-wa-head">
                 <div class="hb-wa-av">HB</div>
                 <div>
-                  <strong>HelloBotz</strong>
+                  <strong>HelloBotz AI</strong>
                   <small>online</small>
                 </div>
               </div>
@@ -91,6 +91,41 @@ include __DIR__ . '/includes/header.php';
               </div>
             </div>
           </div>
+        </div>
+      </div>
+
+      <!-- HERO 4 FEATURE CARDS GRID (MATCHING DESIGN MOCKUP) -->
+      <div class="hb-hero-cards-grid">
+        <div class="hb-hero-card hb-card-light">
+          <div class="hb-card-icon icon-purple">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"/></svg>
+          </div>
+          <h3>Instant Lead Qualification</h3>
+          <p>Automated workflow on automated workflows and lead capture.</p>
+        </div>
+
+        <div class="hb-hero-card hb-card-dark">
+          <div class="hb-card-icon icon-dark-purple">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </div>
+          <h3>24/7 Customer Support</h3>
+          <p>Boost engagement, qualify leads, and provide 24/7 customer conversations.</p>
+        </div>
+
+        <div class="hb-hero-card hb-card-light">
+          <div class="hb-card-icon icon-cyan">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+          </div>
+          <h3>Broadcast Campaigns</h3>
+          <p>Broadcast campaigns proven and consistent to engaging new prospects.</p>
+        </div>
+
+        <div class="hb-hero-card hb-card-dark">
+          <div class="hb-card-icon icon-dark-cyan">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 20V10M12 20V4M6 20v-6"/></svg>
+          </div>
+          <h3>Smart Analytics</h3>
+          <p>Performance dashboard on analytics in real-time performance dashboard.</p>
         </div>
       </div>
     </div>
