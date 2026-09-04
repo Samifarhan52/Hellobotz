@@ -46,17 +46,18 @@ include __DIR__ . '/includes/header.php';
 }
 </script>
 
-  <!-- HERO -->
+<div class="hb-story-wrapper">
+  <!-- HERO STORY STAGE -->
   <section class="hb-hero" aria-label="Hero">
     <div class="container">
       <div class="hb-hero-grid">
         <div class="hb-hero-copy">
-          <div class="hb-hero-badge">Official WhatsApp Business API · AI Automation Platform India</div>
-          <h1>WhatsApp Automation Software &amp; <span class="hb-grad">AI Chatbot</span> for Business</h1>
-          <p class="hb-lead">Boost engagement, qualify leads, and provide 24/7 support with seamless, AI-powered WhatsApp conversations. Integrate instantly and scale efficiently across your business.</p>
+          <div class="hb-hero-badge">⚡ Meta Tech Partner · Official WhatsApp Business API</div>
+          <h1>Automate 90% of Customer Conversations &amp; <span class="hb-grad">Skyrocket Sales</span> on WhatsApp</h1>
+          <p class="hb-lead">Replace manual messaging with HelloBotz AI — Official WhatsApp API, No-Code Flow Builder, Shared Inbox, and Automated Broadcasts on one unified platform.</p>
           <div class="hb-hero-ctas">
-            <a href="https://hellobotz.com/auth/register" class="btn btn-primary btn-lg">Start Automating - It's Free</a>
-            <button type="button" class="btn btn-outline btn-lg btn-demo-open">Book a Demo</button>
+            <a href="https://hellobotz.com/auth/register" class="btn btn-primary btn-lg">Start Automating Free &rarr;</a>
+            <button type="button" class="btn btn-outline btn-lg btn-demo-open">Book a Live Demo</button>
           </div>
           <div class="hb-stats">
             <div class="hb-stat"><b>10M+</b><span>Messages delivered</span></div>
@@ -69,7 +70,7 @@ include __DIR__ . '/includes/header.php';
         <div class="hb-phone-stage" aria-hidden="false">
           <div class="hb-float hb-float-1"><b>+128</b>Leads today</div>
           <div class="hb-float hb-float-2"><b>24/7</b>Bot active</div>
-          <div class="hb-float hb-float-3"><b>18k</b>Messages sent</div>
+          <div class="hb-float hb-float-3"><b>99.9%</b>Delivery</div>
 
           <div class="hb-phone">
             <div class="hb-phone-notch"></div>
@@ -93,503 +94,340 @@ include __DIR__ . '/includes/header.php';
           </div>
         </div>
       </div>
+    </div>
+  </section>
 
-      <!-- HERO 4 FEATURE CARDS GRID (MATCHING DESIGN MOCKUP) -->
-      <div class="hb-hero-cards-grid">
-        <div class="hb-hero-card hb-card-light">
-          <div class="hb-card-icon icon-purple">
+  <!-- CHAPTER 1: OLD WAY VS HELLOBOTZ AI (COMPARISON STORY) -->
+  <section class="hb-story-section">
+    <div class="container">
+      <div class="hb-story-header">
+        <div class="hb-story-badge">CHAPTER 01 · THE REVOLUTION</div>
+        <h2>Stop Losing Customers to <span class="hb-text-grad">Slow Manual Replies</span></h2>
+        <p>Traditional manual messaging leaks 70% of potential sales leads. HelloBotz turns every incoming chat into a closed deal instantly.</p>
+      </div>
+
+      <div class="hb-comparison-grid">
+        <!-- OLD WAY -->
+        <div class="hb-comp-card hb-comp-old">
+          <span class="hb-comp-badge">&cross; The Traditional Manual Way</span>
+          <div class="hb-comp-title">Slow, Unorganized &amp; Losing Revenue</div>
+          <div class="hb-comp-list">
+            <div class="hb-comp-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg>
+              <span>Missed customer inquiries after business hours and on weekends.</span>
+            </div>
+            <div class="hb-comp-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg>
+              <span>Single phone login bottleneck creating customer support delays.</span>
+            </div>
+            <div class="hb-comp-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg>
+              <span>Risk of number getting banned due to un-official broadcast tools.</span>
+            </div>
+            <div class="hb-comp-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg>
+              <span>No centralized CRM analytics or agent response tracking.</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- HELLOBOTZ AI WAY -->
+        <div class="hb-comp-card hb-comp-new">
+          <span class="hb-comp-badge">&check; The HelloBotz AI Way</span>
+          <div class="hb-comp-title">Instant, Automated &amp; Scaling Revenue</div>
+          <div class="hb-comp-list">
+            <div class="hb-comp-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              <span>Instant 2-second AI auto-replies qualifying leads 24/7/365.</span>
+            </div>
+            <div class="hb-comp-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              <span>Multi-agent shared team inbox with live chat handover &amp; internal notes.</span>
+            </div>
+            <div class="hb-comp-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              <span>Official Meta WhatsApp API access with green tick badge support.</span>
+            </div>
+            <div class="hb-comp-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              <span>Full CRM deal pipeline, automated broadcasts &amp; real-time analytics.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CHAPTER 2: THE 3-STEP GROWTH JOURNEY -->
+  <section class="hb-story-section">
+    <div class="container">
+      <div class="hb-story-header">
+        <div class="hb-story-badge">CHAPTER 02 · HOW IT WORKS</div>
+        <h2>3 Simple Steps to <span class="hb-text-grad">Automate Your Business</span></h2>
+        <p>Deploy enterprise-grade WhatsApp automation in under 10 minutes without writing code.</p>
+      </div>
+
+      <div class="hb-steps-grid">
+        <div class="hb-step-card">
+          <div class="hb-step-num">01</div>
+          <div class="hb-step-icon">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"/></svg>
           </div>
-          <h3>Instant Lead Qualification</h3>
-          <p>Automated workflow on automated workflows and lead capture.</p>
+          <h3>Connect Meta WhatsApp API</h3>
+          <p>Link your official WhatsApp Business number directly via Meta embedded signup in 2 minutes. Get green tick support.</p>
         </div>
 
-        <div class="hb-hero-card hb-card-dark">
-          <div class="hb-card-icon icon-dark-purple">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        <div class="hb-step-card">
+          <div class="hb-step-num">02</div>
+          <div class="hb-step-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="6" height="6" rx="1"/><rect x="15" y="3" width="6" height="6" rx="1"/><rect x="9" y="15" width="6" height="6" rx="1"/><path d="M6 9v3a3 3 0 003 3h6a3 3 0 003-3V9"/></svg>
           </div>
-          <h3>24/7 Customer Support</h3>
-          <p>Boost engagement, qualify leads, and provide 24/7 customer conversations.</p>
+          <h3>Build AI Chatbot Workflows</h3>
+          <p>Use our visual no-code flow builder to design lead qualification bots, interactive button menus, and support FAQs.</p>
         </div>
 
-        <div class="hb-hero-card hb-card-light">
-          <div class="hb-card-icon icon-cyan">
+        <div class="hb-step-card">
+          <div class="hb-step-num">03</div>
+          <div class="hb-step-icon">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
           </div>
-          <h3>Broadcast Campaigns</h3>
-          <p>Broadcast campaigns proven and consistent to engaging new prospects.</p>
+          <h3>Broadcast &amp; Multiply Sales</h3>
+          <p>Send personalized WhatsApp broadcasts to 100,000+ contacts with 98% open rates and track instant conversions.</p>
         </div>
+      </div>
+    </div>
+  </section>
 
-        <div class="hb-hero-card hb-card-dark">
-          <div class="hb-card-icon icon-dark-cyan">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 20V10M12 20V4M6 20v-6"/></svg>
+  <!-- CHAPTER 3: INTERACTIVE PRODUCT MODULES SHOWCASE -->
+  <section class="hb-story-section">
+    <div class="container">
+      <div class="hb-story-header">
+        <div class="hb-story-badge">CHAPTER 03 · PLATFORM SUITE</div>
+        <h2>Everything You Need to <span class="hb-text-grad">Scale Customer Messaging</span></h2>
+        <p>Explore the complete suite of HelloBotz tools engineered for high-converting sales &amp; support teams.</p>
+      </div>
+
+      <!-- TABS NAV -->
+      <div class="hb-tabs-nav">
+        <button type="button" class="hb-tab-btn active" onclick="switchHbTab(event, 'tab-api')">Official WhatsApp API</button>
+        <button type="button" class="hb-tab-btn" onclick="switchHbTab(event, 'tab-inbox')">Shared Team Inbox</button>
+        <button type="button" class="hb-tab-btn" onclick="switchHbTab(event, 'tab-bot')">AI Flow Builder</button>
+        <button type="button" class="hb-tab-btn" onclick="switchHbTab(event, 'tab-broadcast')">Broadcast Campaigns</button>
+        <button type="button" class="hb-tab-btn" onclick="switchHbTab(event, 'tab-crm')">WhatsApp CRM</button>
+      </div>
+
+      <!-- TAB PANES -->
+      <div id="tab-api" class="hb-tab-pane active">
+        <div class="hb-tab-content">
+          <h3>Official Meta WhatsApp Business API</h3>
+          <p>Get enterprise reliability with Meta-approved official API access. Enable green tick verification, multi-agent access, and high-volume delivery.</p>
+          <div class="hb-tab-checklist">
+            <div class="hb-tab-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg> Green Tick Verification badge assistance</div>
+            <div class="hb-tab-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg> Interactive quick-reply and call-to-action buttons</div>
+            <div class="hb-tab-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg> 99.9% uptime delivery guarantee</div>
           </div>
-          <h3>Smart Analytics</h3>
-          <p>Performance dashboard on analytics in real-time performance dashboard.</p>
+          <a href="https://hellobotz.com/auth/register" class="btn btn-primary">Connect WhatsApp API &rarr;</a>
+        </div>
+        <div class="hb-tab-preview">
+          <div style="font-weight:700;color:#C4B5FD;margin-bottom:0.75rem;font-size:0.85rem;text-transform:uppercase;">Meta API Status</div>
+          <div style="background:rgba(255,255,255,0.05);padding:1rem;border-radius:12px;border:1px solid rgba(255,255,255,0.1);">
+            <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:0.5rem;">
+              <span style="font-weight:600;color:#fff;">WhatsApp Business API</span>
+              <span style="background:rgba(16,185,129,0.2);color:#10B981;padding:0.2rem 0.6rem;border-radius:999px;font-size:0.75rem;font-weight:700;">CONNECTED</span>
+            </div>
+            <div style="font-size:0.8rem;color:rgba(255,255,255,0.6);">Official Tier 3 Uncapped Messaging Limit Enabled</div>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
-  <script>
-  (function(){
-    /* phone conversation loop */
-    var body = document.getElementById('hb-wa-body');
-    var typing = document.getElementById('hb-typing');
-    var chips = document.getElementById('hb-chips');
-    if(!body || !typing) return;
-    var steps = [
-      {type:'typing', ms:700},
-      {type:'user', text:'Hi, I want to know about your services.'},
-      {type:'typing', ms:900},
-      {type:'bot', text:'Sure! 👋 How can I help you today?'},
-      {type:'chips', ms:1200},
-      {type:'pick', text:'AI Chatbot'},
-      {type:'typing', ms:800},
-      {type:'bot', text:'Great choice! 🤖 HelloBotz qualifies leads and answers FAQs on WhatsApp — then hands off to your team.'},
-      {type:'bot', text:'Ready to see it live? Tap Book a Live Demo →'},
-      {type:'pause', ms:2800}
-    ];
-    function clearMsgs(){
-      body.querySelectorAll('.hb-msg').forEach(function(m){ m.remove(); });
-      chips.classList.remove('on');
-      chips.querySelectorAll('button').forEach(function(b){ b.classList.remove('pick'); });
-      typing.classList.remove('on');
-    }
-    function addMsg(kind, text){
-      var d = document.createElement('div');
-      d.className = 'hb-msg ' + kind;
-      d.textContent = text;
-      body.insertBefore(d, typing);
-      requestAnimationFrame(function(){ d.classList.add('show'); });
-    }
-    var running = false;
-    function run(){
-      if(running) return;
-      running = true;
-      clearMsgs();
-      var i = 0;
-      function next(){
-        if(i >= steps.length){
-          running = false;
-          setTimeout(run, 600);
-          return;
-        }
-        var s = steps[i++];
-        if(s.type === 'typing'){
-          typing.classList.add('on');
-          setTimeout(function(){ typing.classList.remove('on'); next(); }, s.ms||700);
-        } else if(s.type === 'user' || s.type === 'bot'){
-          addMsg(s.type, s.text);
-          setTimeout(next, 650);
-        } else if(s.type === 'chips'){
-          chips.classList.add('on');
-          setTimeout(next, s.ms||1000);
-        } else if(s.type === 'pick'){
-          var btns = chips.querySelectorAll('button');
-          btns.forEach(function(b){
-            if(b.textContent.indexOf('AI') >= 0) b.classList.add('pick');
-          });
-          addMsg('user', s.text);
-          setTimeout(next, 700);
-        } else if(s.type === 'pause'){
-          setTimeout(next, s.ms||2000);
-        } else next();
-      }
-      next();
-    }
-    if(!window.matchMedia('(prefers-reduced-motion: reduce)').matches) run();
-    else {
-      addMsg('bot', 'HelloBotz — WhatsApp API, AI chatbot & automation on one platform.');
-    }
-  })();
-  </script>
 
-  <!-- TRUSTED -->
-  <section class="trusted-section">
-    <div class="container">
-      <p class="trusted-label" data-i18n="trusted_label">Trusted by teams running customer messaging at scale with WhatsApp automation software</p>
-      <div class="trusted-logos">
-        <div class="trusted-logo-item">
-          <img src="assets/images/brands/brand-1.png" alt="WhatsApp automation software enterprise client brand" width="140" height="40" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-          <span class="logo-placeholder" style="display:none">Brand 1</span>
+      <div id="tab-inbox" class="hb-tab-pane">
+        <div class="hb-tab-content">
+          <h3>Shared Team Inbox with Live Handover</h3>
+          <p>Unify customer conversations across WhatsApp, Instagram DMs, and Facebook Messenger into one shared inbox for your entire team.</p>
+          <div class="hb-tab-checklist">
+            <div class="hb-tab-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg> Multi-agent auto-assignment &amp; round-robin routing</div>
+            <div class="hb-tab-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg> Internal team chat notes and tag management</div>
+            <div class="hb-tab-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg> Instant live chat human handover from AI bot</div>
+          </div>
+          <a href="https://hellobotz.com/auth/register" class="btn btn-primary">Try Shared Inbox &rarr;</a>
         </div>
-        <div class="trusted-logo-item">
-          <img src="assets/images/brands/brand-2.png" alt="WhatsApp marketing tool partner brand" width="140" height="40" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-          <span class="logo-placeholder" style="display:none">Brand 2</span>
-        </div>
-        <div class="trusted-logo-item">
-          <img src="assets/images/brands/brand-3.png" alt="AI chatbot for business ecommerce user brand" width="140" height="40" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-          <span class="logo-placeholder" style="display:none">Brand 3</span>
-        </div>
-        <div class="trusted-logo-item">
-          <img src="assets/images/brands/brand-4.png" alt="Official WhatsApp business API client brand" width="140" height="40" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-          <span class="logo-placeholder" style="display:none">Brand 4</span>
-        </div>
-        <div class="trusted-logo-item">
-          <img src="assets/images/brands/brand-5.png" alt="Lead generation chatbot platform client" width="140" height="40" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-          <span class="logo-placeholder" style="display:none">Brand 5</span>
-        </div>
-        <div class="trusted-logo-item">
-          <img src="assets/images/brands/brand-6.png" alt="Omnichannel customer engagement platform enterprise client" width="140" height="40" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-          <span class="logo-placeholder" style="display:none">Brand 6</span>
+        <div class="hb-tab-preview">
+          <div style="font-weight:700;color:#67E8F9;margin-bottom:0.75rem;font-size:0.85rem;text-transform:uppercase;">Unified Team Inbox</div>
+          <div style="background:rgba(255,255,255,0.05);padding:1rem;border-radius:12px;border:1px solid rgba(255,255,255,0.1);">
+            <div style="font-weight:600;color:#fff;font-size:0.9rem;">Agent: Sarah Connor assigned to Lead #4819</div>
+            <div style="font-size:0.8rem;color:rgba(255,255,255,0.6);margin-top:0.3rem;">Status: Hot Lead &middot; Priority: High</div>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
 
-  <!-- WHY -->
-  <section class="section section-gradient-1" id="why">
-    <div class="container">
-      <div class="section-header reveal">
-        <span class="badge badge-primary" data-i18n="why_badge">Why HelloBotz</span>
-        <h2>Why Choose HelloBotz WhatsApp Automation Software</h2>
-        <p class="lead" data-i18n="why_lead">One <strong>omnichannel customer engagement platform</strong> unifying Official WhatsApp API, <strong>instagram automation tool</strong>, <strong>facebook messenger automation</strong>, Telegram, <strong>live chat handover software</strong>, and Voice — with <strong>whatsapp marketing automation</strong> your sales team can effortlessly run.</p>
-      </div>
-      <div class="why-grid features-center">
-        <div class="card card-feature card-center reveal">
-          <div class="icon-box icon-box-gradient"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"/></svg></div>
-          <strong class="card-title" data-i18n="why_c1_t">Official WhatsApp Business API Infrastructure</strong>
-          <p data-i18n="why_c1_p">Meta-approved WhatsApp Business API with official green-tick verification, broadcast templates, and high-volume delivery reliability.</p>
+      <div id="tab-bot" class="hb-tab-pane">
+        <div class="hb-tab-content">
+          <h3>No-Code Visual AI Flow Builder</h3>
+          <p>Drag, drop, and construct conversational AI bots that capture leads, book appointments, and answer support queries around the clock.</p>
+          <div class="hb-tab-checklist">
+            <div class="hb-tab-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg> Visual drag-and-drop conversational canvas</div>
+            <div class="hb-tab-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg> Keyword triggers and smart NLP intent recognition</div>
+            <div class="hb-tab-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg> Pre-built templates for E-commerce &amp; Real Estate</div>
+          </div>
+          <a href="https://hellobotz.com/auth/register" class="btn btn-primary">Build AI Bot Now &rarr;</a>
         </div>
-        <div class="card card-feature card-center reveal reveal-delay-1">
-          <div class="icon-box icon-box-accent"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4"/></svg></div>
-          <strong class="card-title" data-i18n="why_c2_t">Omnichannel Customer Engagement Platform</strong>
-          <p data-i18n="why_c2_p">Manage WhatsApp, Instagram DMs, Facebook Messenger, Telegram, Live Chat &amp; Voice inside one unified team timeline.</p>
-        </div>
-        <div class="card card-feature card-center reveal reveal-delay-2">
-          <div class="icon-box icon-box-success"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4"/></svg></div>
-          <strong class="card-title" data-i18n="why_c3_t">High-Converting Chatbot &amp; WhatsApp Marketing Automation</strong>
-          <p data-i18n="why_c3_p">Automate lead capture, support FAQs, broadcasts, abandoned cart recovery, and appointment bookings with AI automation platform India tools.</p>
+        <div class="hb-tab-preview">
+          <div style="font-weight:700;color:#C4B5FD;margin-bottom:0.75rem;font-size:0.85rem;text-transform:uppercase;">Visual Canvas</div>
+          <div style="background:rgba(255,255,255,0.05);padding:1rem;border-radius:12px;border:1px solid rgba(255,255,255,0.1);">
+            <div style="font-weight:600;color:#fff;">Trigger: New Lead Message &rarr; AI Qualification &rarr; Book Demo</div>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
 
-  <!-- PRODUCTS GRID -->
-  <section class="section" id="platform">
-    <div class="container">
-      <div class="section-header reveal">
-        <span class="badge badge-dark" data-i18n="prod_badge">Products</span>
-        <h2>All-in-One WhatsApp Marketing Tool &amp; Omnichannel Features</h2>
-        <p class="lead" data-i18n="prod_lead">From initial customer lead capture to closed sales deal — power your business with shared inbox, <strong>whatsapp broadcast campaign tool</strong>, visual flow builder, and <strong>whatsapp CRM software</strong>.</p>
-      </div>
-      <div class="features-grid features-center">
-        <div class="card card-feature card-center reveal">
-          <div class="icon-box icon-box-gradient"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"/></svg></div>
-          <strong class="card-title">Official WhatsApp Business API</strong>
-          <p>Meta Business API access, template approvals, green-tick badge support, and reliable high-volume message delivery.</p>
+      <div id="tab-broadcast" class="hb-tab-pane">
+        <div class="hb-tab-content">
+          <h3>Targeted Broadcast Campaigns</h3>
+          <p>Send bulk WhatsApp messages to targeted customer lists with media attachments, personalized variables, and high-conversion CTA buttons.</p>
+          <div class="hb-tab-checklist">
+            <div class="hb-tab-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg> High deliverability with Meta compliance</div>
+            <div class="hb-tab-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg> Smart list segmentation and custom audience tags</div>
+            <div class="hb-tab-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg> Real-time open, click, and reply analytics</div>
+          </div>
+          <a href="https://hellobotz.com/auth/register" class="btn btn-primary">Launch Campaign &rarr;</a>
         </div>
-        <div class="card card-feature card-center reveal reveal-delay-1">
-          <div class="icon-box icon-box-accent"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-6l-2 3h-4l-2-3H2"/><path d="M5.45 5.11L2 12v6a2 2 0 002 2h16a2 2 0 002-2v-6l-3.45-6.89A2 2 0 0016.76 4H7.24a2 2 0 00-1.79 1.11z"/></svg></div>
-          <strong class="card-title">Shared Inbox with Live Chat Handover</strong>
-          <p>Assign customer chats, internal notes, SLA tracking, and instant agent handoffs across every channel.</p>
-        </div>
-        <div class="card card-feature card-center reveal reveal-delay-2">
-          <div class="icon-box icon-box-success"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg></div>
-          <strong class="card-title">WhatsApp Broadcast Campaign Tool</strong>
-          <p>Targeted segmented bulk WhatsApp messages, automated broadcasts, and real-time open and reply analytics.</p>
-        </div>
-        <div class="card card-feature card-center reveal">
-          <div class="icon-box icon-box-gradient"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="6" height="6" rx="1"/><rect x="15" y="3" width="6" height="6" rx="1"/><rect x="9" y="15" width="6" height="6" rx="1"/><path d="M6 9v3a3 3 0 003 3h6a3 3 0 003-3V9"/></svg></div>
-          <strong class="card-title">Visual No-Code Flow Builder</strong>
-          <p>Build custom automated customer journeys for sales qualification, lead generation chatbot flows, and support.</p>
-        </div>
-        <div class="card card-feature card-center reveal reveal-delay-1">
-          <div class="icon-box icon-box-accent"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/></svg></div>
-          <strong class="card-title">WhatsApp CRM Software</strong>
-          <p>Organize customer contacts, custom tags, deal pipelines, and complete interaction history linked directly to WhatsApp chats.</p>
-        </div>
-        <div class="card card-feature card-center reveal reveal-delay-2">
-          <div class="icon-box icon-box-success"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="10" rx="2"/><circle cx="12" cy="5" r="2"/><path d="M12 7v4"/></svg></div>
-          <strong class="card-title">AI Chatbot for Business &amp; Auto-replies</strong>
-          <p>Smart FAQ auto-responders, keyword triggers, 24/7 AI lead capture, and smooth human agent live chat handover software.</p>
-        </div>
-        <div class="card card-feature card-center reveal">
-          <div class="icon-box icon-box-gradient"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 20V10M12 20V4M6 20v-6"/></svg></div>
-          <strong class="card-title">Real-Time Messaging Analytics</strong>
-          <p>Track agent response speeds, broadcast campaign ROI, conversion rates, and team performance metrics live.</p>
-        </div>
-        <div class="card card-feature card-center reveal reveal-delay-1">
-          <div class="icon-box icon-box-accent"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg></div>
-          <strong class="card-title">Google Workspace Connectivity</strong>
-          <p>Sync Google Calendar appointments, Google Sheets lead records, and Google Forms submissions right into your chat workflow.</p>
-        </div>
-        <div class="card card-feature card-center reveal reveal-delay-2">
-          <div class="icon-box icon-box-success"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 002 1.61h9.72a2 2 0 002-1.61L23 6H6"/></svg></div>
-          <strong class="card-title">Shopify &amp; WooCommerce E-Commerce Automation</strong>
-          <p>Automate abandoned cart recovery, order confirmation messages, shipping updates, and product catalogs on WhatsApp.</p>
+        <div class="hb-tab-preview">
+          <div style="font-weight:700;color:#67E8F9;margin-bottom:0.75rem;font-size:0.85rem;text-transform:uppercase;">Campaign Analytics</div>
+          <div style="background:rgba(255,255,255,0.05);padding:1rem;border-radius:12px;border:1px solid rgba(255,255,255,0.1);">
+            <div style="display:flex;justify-content:space-between;color:#fff;font-weight:600;">
+              <span>Sent: 25,000</span>
+              <span>Delivered: 99.8%</span>
+              <span style="color:#06B6D4">Open Rate: 97.4%</span>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
 
-  <!-- WHATSAPP API HIGHLIGHT -->
-  <section class="section section-gradient-2" id="whatsapp-api">
-    <div class="container">
-      <div class="split-section">
-        <div class="split-content reveal">
-          <span class="badge badge-primary">Official WhatsApp Business API</span>
-          <h2>Scale Campaigns with Official WhatsApp Business API</h2>
-          <p class="lead">Reach thousands of targeted buyers instantly with our high-converting <strong>whatsapp broadcast campaign tool</strong> and <strong>whatsapp marketing automation</strong> engine built for Meta compliance.</p>
-          <ul class="check-list">
-            <li>Meta-approved message templates &amp; rich interactive media buttons</li>
-            <li>Official green-tick verified WhatsApp business profile support</li>
-            <li>Direct Click-to-WhatsApp ad tracking &amp; instant lead generation</li>
-            <li>Automated order status notifications &amp; multi-tier product catalogs</li>
-          </ul>
-          <a href="products/whatsapp-api" class="btn btn-primary">Explore WhatsApp API Features</a>
+      <div id="tab-crm" class="hb-tab-pane">
+        <div class="hb-tab-content">
+          <h3>Built-in WhatsApp CRM &amp; Pipeline</h3>
+          <p>Manage lead stages, track deal values, tag contacts, and view complete customer interaction histories inside your WhatsApp environment.</p>
+          <div class="hb-tab-checklist">
+            <div class="hb-tab-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg> Drag-and-drop lead deal stages</div>
+            <div class="hb-tab-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg> Sync with HubSpot, Salesforce &amp; Google Sheets</div>
+            <div class="hb-tab-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg> Automated follow-ups and payment reminders</div>
+          </div>
+          <a href="https://hellobotz.com/auth/register" class="btn btn-primary">Explore WhatsApp CRM &rarr;</a>
         </div>
-        <div class="media-slot reveal reveal-delay-1">
-          <div class="media-slot-placeholder">
-            <div class="play-hint"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></div>
-            <span>Official WhatsApp Business API Dashboard &amp; Shared Inbox Preview</span>
-            <small>HelloBotz WhatsApp Automation Software Interface</small>
+        <div class="hb-tab-preview">
+          <div style="font-weight:700;color:#C4B5FD;margin-bottom:0.75rem;font-size:0.85rem;text-transform:uppercase;">CRM Pipeline</div>
+          <div style="background:rgba(255,255,255,0.05);padding:1rem;border-radius:12px;border:1px solid rgba(255,255,255,0.1);">
+            <div style="color:#fff;font-weight:600;">Pipeline: New Lead &rarr; Contacted &rarr; Qualified &rarr; Closed Won</div>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- PRODUCT VIDEO -->
-  <section class="section" id="product-video">
+  <!-- CHAPTER 4: INDUSTRY USE CASES -->
+  <section class="hb-story-section">
     <div class="container">
-      <div class="section-header reveal">
-        <span class="badge badge-primary">Platform Walkthrough</span>
-        <h2>Watch HelloBotz WhatsApp Marketing Automation in Action</h2>
-        <p class="lead">See how our <strong>AI chatbot for business</strong>, <strong>whatsapp CRM software</strong>, broadcast campaigns, and shared team inbox work in unison.</p>
+      <div class="hb-story-header">
+        <div class="hb-story-badge">CHAPTER 04 · TAILORED SOLUTIONS</div>
+        <h2>Automated Journeys Built for <span class="hb-text-grad">Every Industry</span></h2>
+        <p>Discover how leading brands across sectors use HelloBotz to drive automated growth.</p>
       </div>
-      <div class="video-section-inner reveal">
-        <div class="video-frame">
-          <div class="video-placeholder">
-            <div class="play-hint"><svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22"><path d="M8 5v14l11-7z"/></svg></div>
-            <strong style="color:#fff">HelloBotz WhatsApp Automation Software Demo</strong>
-            <span>Official WhatsApp Business API &amp; AI Chatbot Walkthrough</span>
-          </div>
+
+      <div class="hb-ind-grid">
+        <div class="hb-ind-card">
+          <div class="hb-ind-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><path d="M3 6h18M16 10a4 4 0 01-8 0"/></svg></div>
+          <h4>E-Commerce &amp; D2C</h4>
+          <p>Recover abandoned carts, send automated order updates, and enable 1-click WhatsApp checkout.</p>
+        </div>
+
+        <div class="hb-ind-card">
+          <div class="hb-ind-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18M5 21V7l7-4 7 4v14"/></svg></div>
+          <h4>Real Estate</h4>
+          <p>Qualify property inquiries automatically, share digital brochures, and book site visits 24/7.</p>
+        </div>
+
+        <div class="hb-ind-card">
+          <div class="hb-ind-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10l-10-5L2 10l10 5 10-5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg></div>
+          <h4>Education &amp; EdTech</h4>
+          <p>Automate student course inquiries, fee reminders, and admission application follow-ups.</p>
+        </div>
+
+        <div class="hb-ind-card">
+          <div class="hb-ind-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></div>
+          <h4>Healthcare &amp; Clinics</h4>
+          <p>Schedule doctor appointments, send automated consultation reminders, and dispatch lab reports.</p>
+        </div>
+
+        <div class="hb-ind-card">
+          <div class="hb-ind-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20"/></svg></div>
+          <h4>Finance &amp; BFSI</h4>
+          <p>Send instant payment alerts, automate loan application collection, and provide secure support.</p>
+        </div>
+
+        <div class="hb-ind-card">
+          <div class="hb-ind-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18M5 21V10l7-5 7 5v11"/></svg></div>
+          <h4>Hotels &amp; Hospitality</h4>
+          <p>Handle room reservations, table bookings, and automated concierge guest services on chat.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- OMNICHANNEL -->
-  <section class="section section-dark" id="omnichannel">
+  <!-- CHAPTER 5: RESULTS & ROI STATS -->
+  <section class="hb-story-section">
     <div class="container">
-      <div class="section-header reveal">
-        <span class="badge badge-primary">Omnichannel Engagement</span>
-        <h2>Omnichannel Customer Engagement &amp; Instagram Automation Tool</h2>
-        <p class="lead">Engage customers wherever they message. HelloBotz combines WhatsApp, Instagram DMs, Facebook Messenger, and website live chat into one unified inbox with <strong>live chat handover software</strong>.</p>
+      <div class="hb-story-header">
+        <div class="hb-story-badge">CHAPTER 05 · PROOF OF IMPACT</div>
+        <h2>Real Results Driven by <span class="hb-text-grad">HelloBotz AI</span></h2>
       </div>
-      <div class="channels-grid">
-        <div class="channel-card reveal">
-          <div class="channel-icon channel-wa" aria-hidden="true">
-            <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-          </div>
-          <strong class="card-title">WhatsApp Marketing Automation</strong>
-          <p>Official Business API Inbox</p>
+
+      <div class="hb-steps-grid" style="text-align:center;">
+        <div class="hb-glass-card">
+          <div style="font-size:3rem;font-weight:900;color:#C4B5FD;margin-bottom:0.5rem;">3.5x</div>
+          <div style="font-weight:700;color:#fff;font-size:1.1rem;">Higher Lead Conversion</div>
+          <p style="margin-top:0.5rem;">Compared to traditional email and manual SMS channels.</p>
         </div>
-        <div class="channel-card reveal reveal-delay-1">
-          <div class="channel-icon channel-ig" aria-hidden="true">
-            <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
-          </div>
-          <strong class="card-title">Instagram Automation Tool</strong>
-          <p>DMs &amp; Comment Auto-replies</p>
+
+        <div class="hb-glass-card">
+          <div style="font-size:3rem;font-weight:900;color:#67E8F9;margin-bottom:0.5rem;">80%</div>
+          <div style="font-weight:700;color:#fff;font-size:1.1rem;">Support Cost Savings</div>
+          <p style="margin-top:0.5rem;">AI bots handle routine FAQs and lead qualification automatically.</p>
         </div>
-        <div class="channel-card reveal reveal-delay-1">
-          <div class="channel-icon channel-fb" aria-hidden="true">
-            <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
-          </div>
-          <strong class="card-title">Facebook Messenger Automation</strong>
-          <p>Page Messages &amp; Ads Leads</p>
-        </div>
-        <div class="channel-card reveal reveal-delay-2">
-          <div class="channel-icon channel-tg" aria-hidden="true">
-            <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.15 1.568-.769 5.233-1.087 6.94-.134.69-.402 1.215-.652 1.386-.54.34-1.113.29-1.553.176-.69-.175-1.212-.507-1.88-.872-.855-.463-1.339-.726-2.166-1.164-.96-.513-.337-.796.21-1.259.143-.121 2.68-2.456 2.727-2.666.006-.026.014-.125-.047-.177s-.146-.03-.209-.018c-.09.018-1.517.962-4.28 2.826-.405.278-.772.415-1.1.408-.362-.008-1.06-.204-1.578-.373-.635-.207-1.14-.316-1.096-.666.023-.183.356-.37.98-.561 3.836-1.672 6.394-2.776 7.674-3.313 3.66-1.52 4.42-1.784 4.916-1.793z"/></svg>
-          </div>
-          <strong class="card-title">Telegram Bot Automation</strong>
-          <p>Channel &amp; Group Support</p>
-        </div>
-        <div class="channel-card reveal reveal-delay-2">
-          <div class="channel-icon channel-chat" aria-hidden="true">
-            <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
-          </div>
-          <strong class="card-title">Live Chat Handover Software</strong>
-          <p>Website Chat Widget</p>
-        </div>
-        <div class="channel-card reveal reveal-delay-3">
-          <div class="channel-icon channel-voice" aria-hidden="true">
-            <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-          </div>
-          <strong class="card-title">Voice &amp; Click-to-Call</strong>
-          <p>Instant Phone Routing</p>
+
+        <div class="hb-glass-card">
+          <div style="font-size:3rem;font-weight:900;color:#C4B5FD;margin-bottom:0.5rem;">98%</div>
+          <div style="font-weight:700;color:#fff;font-size:1.1rem;">Average Open Rate</div>
+          <p style="margin-top:0.5rem;">Unbeatable message visibility with Official Meta WhatsApp API.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- INDUSTRIES -->
-  <section class="section" id="industries" aria-labelledby="industries-heading">
+  <!-- FINAL CTA BANNER -->
+  <section class="hb-story-section">
     <div class="container">
-      <div class="section-header reveal">
-        <span class="badge badge-primary" data-i18n="ind_badge">Industries</span>
-        <h2 id="industries-heading" data-i18n="ind_title">Industry-Specific WhatsApp CRM &amp; Lead Generation Chatbot Solutions</h2>
-        <p class="lead" data-i18n="ind_lead">Customized <strong>whatsapp automation software</strong> and <strong>AI chatbot for business</strong> for E-commerce, Education, Healthcare, IT, Hotels, Real Estate, BFSI, and Retail across India and global markets.</p>
-      </div>
-      <div class="industries-grid features-center">
-        <a href="industries/ecommerce" class="card card-center industry-card reveal" title="WhatsApp API for E-commerce">
-          <div class="icon-box icon-box-gradient" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 002 1.61h9.72a2 2 0 002-1.61L23 6H6"/></svg></div>
-          <strong class="card-title" data-i18n="ind_ecom_t">E-commerce</strong>
-          <p data-i18n="ind_ecom_p">Cart recovery, shipping updates and product catalog checkout on Official WhatsApp API.</p>
-        </a>
-        <a href="industries/education" class="card card-center industry-card reveal reveal-delay-1" title="WhatsApp API for Education">
-          <div class="icon-box icon-box-accent" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10l-10-5L2 10l10 5 10-5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg></div>
-          <strong class="card-title" data-i18n="ind_edu_t">Education</strong>
-          <p data-i18n="ind_edu_p">Student admission inquiries, fee reminders and automated lead generation chatbot flows.</p>
-        </a>
-        <a href="industries/healthcare" class="card card-center industry-card reveal reveal-delay-2" title="WhatsApp API for Healthcare">
-          <div class="icon-box icon-box-success" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></div>
-          <strong class="card-title" data-i18n="ind_health_t">Healthcare</strong>
-          <p data-i18n="ind_health_p">Doctor appointment scheduling, automated reminders and patient follow-ups via WhatsApp.</p>
-        </a>
-        <a href="industries/communication-it" class="card card-center industry-card reveal" title="WhatsApp API for Communication and IT">
-          <div class="icon-box icon-box-gradient" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg></div>
-          <strong class="card-title" data-i18n="ind_it_t">Communication &amp; IT</strong>
-          <p data-i18n="ind_it_p">Support ticketing, incident alerts and IT service client messaging automation.</p>
-        </a>
-        <a href="industries/hotel-restaurant" class="card card-center industry-card reveal reveal-delay-1" title="WhatsApp API for Hotels and Restaurants">
-          <div class="icon-box icon-box-accent" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18M5 21V10l7-5 7 5v11"/><path d="M9 21v-6h6v6"/></svg></div>
-          <strong class="card-title" data-i18n="ind_hotel_t">Hotel &amp; Restaurant</strong>
-          <p data-i18n="ind_hotel_p">Room reservations, table booking and guest concierge via WhatsApp &amp; Instagram automation.</p>
-        </a>
-        <a href="industries/real-estate" class="card card-center industry-card reveal reveal-delay-2" title="WhatsApp API for Real Estate">
-          <div class="icon-box icon-box-success" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18M5 21V7l7-4 7 4v14"/></svg></div>
-          <strong class="card-title" data-i18n="ind_re_t">Real Estate</strong>
-          <p data-i18n="ind_re_p">Automated property lead capture, site-visit scheduling and agent lead handover software.</p>
-        </a>
-
-        <a href="industries/finance-bfsi" class="card card-center industry-card reveal" title="WhatsApp API for Finance and BFSI">
-          <div class="icon-box icon-box-gradient" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20"/></svg></div>
-          <strong class="card-title">Finance &amp; BFSI</strong>
-          <p>Secure KYC alerts, EMI payment reminders and confidential customer support messaging.</p>
-        </a>
-        <a href="industries/travel-tourism" class="card card-center industry-card reveal" title="WhatsApp API for Travel and Tourism">
-          <div class="icon-box icon-box-accent" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg></div>
-          <strong class="card-title">Travel &amp; Tourism</strong>
-          <p>Tour booking updates, itinerary dispatch and traveler support across messaging channels.</p>
-        </a>
-        <a href="industries/retail" class="card card-center industry-card reveal" title="WhatsApp API for Retail">
-          <div class="icon-box icon-box-success" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><path d="M3 6h18M16 10a4 4 0 01-8 0"/></svg></div>
-          <strong class="card-title">Retail</strong>
-          <p>Personalized store promotions, customer loyalty programs and instant WhatsApp support.</p>
-        </a>
-        <a href="industries/logistics" class="card card-center industry-card reveal" title="WhatsApp API for Logistics">
-          <div class="icon-box icon-box-gradient" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="3" width="15" height="13"/><path d="M16 8h4l3 3v5h-7V8z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg></div>
-          <strong class="card-title">Logistics</strong>
-          <p>Real-time package tracking alerts, delivery status updates and driver dispatch notifications.</p>
-        </a>
-        <a href="industries/automotive" class="card card-center industry-card reveal" title="WhatsApp API for Automotive">
-          <div class="icon-box icon-box-accent" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 17h14v-5l-2-5H7l-2 5v5z"/><circle cx="7.5" cy="17.5" r="1.5"/><circle cx="16.5" cy="17.5" r="1.5"/></svg></div>
-          <strong class="card-title">Automotive</strong>
-          <p>Test-drive booking automation, vehicle service reminders and dealership lead management.</p>
-        </a>
-        <a href="industries/government-ngo" class="card card-center industry-card reveal" title="WhatsApp API for Government and NGO">
-          <div class="icon-box icon-box-success" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
-          <strong class="card-title">Government &amp; NGO</strong>
-          <p>Public service announcements, grievance support helpdesks and large-scale community outreach.</p>
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <!-- INTEGRATIONS -->
-  <section class="section section-alt" id="integrations">
-    <div class="container">
-      <div class="section-header reveal">
-        <span class="badge badge-primary" data-i18n="int_badge">Integrations</span>
-        <h2>Seamless E-Commerce &amp; CRM Integrations</h2>
-        <p class="lead">Connect your stack with native integrations for Shopify, WooCommerce, Google Workspace, CRMs, and webhooks.</p>
-      </div>
-      <div class="integrations-grid features-center">
-        <div class="card card-center integration-card reveal"><div class="icon-box icon-box-success"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 002 1.61h9.72a2 2 0 002-1.61L23 6H6"/></svg></div><strong class="card-title">Shopify WhatsApp</strong></div>
-        <div class="card card-center integration-card reveal"><div class="icon-box icon-box-accent"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/></svg></div><strong class="card-title">WooCommerce Sync</strong></div>
-        <div class="card card-center integration-card reveal"><div class="icon-box icon-box-gradient"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg></div><strong class="card-title">Facebook Ads Leads</strong></div>
-        <div class="card card-center integration-card reveal"><div class="icon-box icon-box-accent"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg></div><strong class="card-title">Google Calendar</strong></div>
-        <div class="card card-center integration-card reveal"><div class="icon-box icon-box-success"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6"/></svg></div><strong class="card-title">Google Sheets</strong></div>
-        <div class="card card-center integration-card reveal"><div class="icon-box icon-box-gradient"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg></div><strong class="card-title">Google Forms</strong></div>
-        <div class="card card-center integration-card reveal"><div class="icon-box icon-box-accent"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/></svg></div><strong class="card-title">Enterprise CRM</strong></div>
-        <div class="card card-center integration-card reveal"><div class="icon-box icon-box-success"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71"/></svg></div><strong class="card-title">Custom Webhooks</strong></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- RESULTS -->
-  <section class="section">
-    <div class="container">
-      <div class="section-header reveal">
-        <span class="badge badge-primary" data-i18n="res_badge">Results</span>
-        <h2>Proven Results with Lead Generation Chatbot Automation</h2>
-      </div>
-      <div class="stats-grid">
-        <div class="stat-item reveal"><div class="stat-number" data-count="98">98</div><div class="stat-suffix">%</div><p>Official WhatsApp delivery rate</p></div>
-        <div class="stat-item reveal reveal-delay-1"><div class="stat-number" data-count="60">60</div><div class="stat-suffix">%</div><p>Faster first response speed</p></div>
-        <div class="stat-item reveal reveal-delay-2"><div class="stat-number" data-count="3">3</div><div class="stat-suffix">x</div><p>Higher broadcast campaign replies</p></div>
-      </div>
-      <div class="testimonials-grid">
-        <div class="card testimonial-card reveal">
-          <p>"All our customer support and sales chats live in HelloBotz. Auto-replies handle repetitive FAQs while our live chat handover software routes hot leads to agents."</p>
-          <div class="testimonial-author"><div class="avatar">PK</div><div><strong>Priya Kapoor</strong><span>Head of Support</span></div></div>
-        </div>
-        <div class="card testimonial-card reveal reveal-delay-1">
-          <p>"Using the WhatsApp broadcast campaign tool and visual flow builder gave us a direct path from lead capture to booked demo. Calendar sync was seamless."</p>
-          <div class="testimonial-author"><div class="avatar">RM</div><div><strong>Rahul Mehta</strong><span>Growth Lead</span></div></div>
-        </div>
-        <div class="card testimonial-card reveal reveal-delay-2">
-          <p>"Our team scaled support agents effortlessly with the shared inbox. Official WhatsApp Business API access with HelloBotz gave us true competitive edge."</p>
-          <div class="testimonial-author"><div class="avatar">AS</div><div><strong>Ananya Sharma</strong><span>CX Director</span></div></div>
+      <div class="hb-cta-banner">
+        <h2 style="font-size:clamp(2rem,4vw,3.25rem);font-weight:800;color:#fff;margin-bottom:1rem;">Ready to Transform Your <span class="hb-text-grad">Customer Messaging?</span></h2>
+        <p style="font-size:1.15rem;color:rgba(255,255,255,0.8);max-width:36rem;margin:0 auto 2rem;">Start your 14-day free trial today. Access Official WhatsApp API, Shared Inbox, and AI Flow Builder in minutes.</p>
+        <div style="display:flex;justify-content:center;gap:1rem;flex-wrap:wrap;">
+          <a href="https://hellobotz.com/auth/register" class="btn btn-primary btn-lg">Start Free Trial Now &rarr;</a>
+          <button type="button" class="btn btn-outline btn-lg btn-demo-open">Book a Live Demo</button>
         </div>
       </div>
     </div>
   </section>
+</div>
 
-  <!-- FAQ -->
-  <section class="section section-alt" id="faq">
-    <div class="container">
-      <div class="section-header reveal">
-        <span class="badge badge-dark">FAQ</span>
-        <h2>Frequently Asked Questions About WhatsApp Business API</h2>
-      </div>
-      <div class="faq-list">
-        <div class="faq-item">
-          <button type="button" class="faq-question" aria-expanded="false">What is HelloBotz WhatsApp automation software?<svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button>
-          <div class="faq-answer"><div class="faq-answer-inner">HelloBotz is a premier AI automation platform India offering Official Meta WhatsApp Business API, AI chatbot for business, shared team inbox, visual flow builder, WhatsApp CRM software, and native e-commerce integrations for Shopify and WooCommerce.</div></div>
-        </div>
-        <div class="faq-item">
-          <button type="button" class="faq-question" aria-expanded="false">Is this Official Meta WhatsApp Business API?<svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button>
-          <div class="faq-answer"><div class="faq-answer-inner">Yes. HelloBotz operates on Meta’s Official WhatsApp Business API with template approvals, green-tick badge support, and enterprise-grade message delivery.</div></div>
-        </div>
-        <div class="faq-item">
-          <button type="button" class="faq-question" aria-expanded="false">Which channels are supported on the omnichannel platform?<svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button>
-          <div class="faq-answer"><div class="faq-answer-inner">WhatsApp, Instagram automation tool DMs, Facebook Messenger automation, Telegram bots, website live chat handover software, and Voice — all unified in one team workspace.</div></div>
-        </div>
-        <div class="faq-item">
-          <button type="button" class="faq-question" aria-expanded="false">Can I connect Shopify, WooCommerce, or Google Calendar?<svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button>
-          <div class="faq-answer"><div class="faq-answer-inner">Yes. Native integrations support Shopify, WooCommerce, Google Calendar, Google Sheets, Google Forms, Facebook Click-to-WhatsApp ads, CRMs, and custom webhooks.</div></div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- CTA -->
-  <section class="section final-cta-section">
-    <div class="container">
-      <div class="cta-band reveal">
-        <h2>Get Started with AI Automation Platform India Today</h2>
-        <p data-i18n="cta_lead">Start your free trial today. Access Official WhatsApp Business API, shared inbox, broadcast campaigns, and automated workflows built for growth.</p>
-        <div class="hero-cta">
-          <a href="https://hellobotz.com/auth/register" class="btn btn-white btn-lg">Start Free Trial</a>
-          <button type="button" class="btn btn-outline btn-lg btn-demo-open" style="border-color:#fff;color:#fff;background:transparent">Book a Live Demo</button>
-        </div>
-      </div>
-    </div>
-  </section>
+<script>
+function switchHbTab(evt, tabId) {
+  var btns = document.querySelectorAll('.hb-tab-btn');
+  var panes = document.querySelectorAll('.hb-tab-pane');
+  btns.forEach(function(b){ b.classList.remove('active'); });
+  panes.forEach(function(p){ p.classList.remove('active'); });
+  evt.currentTarget.classList.add('active');
+  var target = document.getElementById(tabId);
+  if(target) target.classList.add('active');
+}
+</script>
 
 <?php
 include __DIR__ . '/includes/offer-popup.php';

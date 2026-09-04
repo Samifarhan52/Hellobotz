@@ -101,6 +101,7 @@ if (!function_exists('hb_seo_esc')) {
   <link rel="stylesheet" href="/app.css?v=42">
   <link rel="stylesheet" href="/assets/css/style.css?v=42">
   <link rel="stylesheet" href="/assets/css/mobile-menu.css?v=38">
+  <link rel="stylesheet" href="/assets/css/story-journey.css?v=43">
 
   <script type="application/ld+json">
   {
