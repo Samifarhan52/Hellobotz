@@ -1,70 +1,103 @@
 (function(){
+  var userName = 'Alex';
+  
   var flows = {
-    admission: [
-      {t:'typing',ms:600},
-      {t:'user',text:'Hi, I want to know about BBA admission.'},
-      {t:'typing',ms:800},
-      {t:'bot',text:'Sure! 👋 I can help you with admission.'},
-      {t:'bot',text:'Which course interests you?'},
-      {t:'chips',opts:['BBA','BCA','B.Com'],pick:'BBA'},
-      {t:'user',text:'BBA'},
-      {t:'typing',ms:700},
-      {t:'bot',text:'Great. Share your city and preferred counselling mode.'},
-      {t:'chips',opts:['Online','Campus Visit'],pick:'Campus Visit'},
-      {t:'bot',text:'Counselling available — Book Counselling to confirm a slot.'}
-    ],
-    course: [
-      {t:'typing',ms:500},
-      {t:'user',text:'Can you share course details?'},
-      {t:'typing',ms:700},
-      {t:'bot',text:'Here is a quick overview of our programs 📚'},
-      {t:'bot',text:'BBA · BCA · B.Com — eligibility, duration and next intake dates can be shared in chat.'},
-      {t:'chips',opts:['Eligibility','Fees range','Apply'],pick:'Eligibility'},
-      {t:'bot',text:'Eligibility varies by program. A counsellor can confirm based on your marks.'}
-    ],
-    counselling: [
-      {t:'typing',ms:500},
-      {t:'bot',text:'Choose your counselling preference'},
-      {t:'chips',opts:['Online Counselling','Campus Visit'],pick:'Online Counselling'},
-      {t:'user',text:'Online Counselling'},
-      {t:'typing',ms:600},
-      {t:'bot',text:'Available: Tomorrow 11:00 AM · 4:00 PM'},
-      {t:'chips',opts:['11:00 AM','4:00 PM'],pick:'11:00 AM'},
-      {t:'bot',text:'Counselling Booked ✓ We will remind you on WhatsApp.'}
-    ],
-    attendance: [
-      {t:'typing',ms:500},
-      {t:'bot',text:'Your attendance update is ready.'},
-      {t:'bot',text:'Student: Rahul Sharma'},
-      {t:'bot',text:'Attendance: 92%'},
-      {t:'chips',opts:['View Attendance'],pick:'View Attendance'},
-      {t:'bot',text:'Detailed subject-wise attendance can open in your student portal link.'}
-    ],
-    fee: [
-      {t:'typing',ms:500},
-      {t:'bot',text:'Fee payment reminder'},
-      {t:'bot',text:'Your upcoming fee payment is due. Please complete it to avoid late charges.'},
-      {t:'chips',opts:['View Fee Details','Pay Now'],pick:'Pay Now'},
-      {t:'bot',text:'Payment link can be shared securely after verification by your accounts team.'}
-    ],
-    result: [
-      {t:'typing',ms:500},
-      {t:'bot',text:'Your result has been updated 🎓'},
-      {t:'bot',text:'Student: Rahul Sharma'},
-      {t:'bot',text:'Semester: 4'},
-      {t:'chips',opts:['View Result','Download Result'],pick:'View Result'},
-      {t:'bot',text:'Result link is ready in the next message from your institute portal.'}
-    ]
+    admission: function(name) {
+      return [
+        {t:'typing', ms:500},
+        {t:'user', text: 'Hi, I want to inquire about 2026 Admissions.'},
+        {t:'typing', ms:700},
+        {t:'bot', text: 'Hello ' + name + '! 👋 Welcome to Apex University Admission Desk.'},
+        {t:'bot', text: 'Which program or major are you interested in?'},
+        {t:'chips', opts: ['B.Tech CSE', 'MBA / PGDM', 'BBA / BCA', 'Medical'], pick: 'B.Tech CSE'},
+        {t:'user', text: 'B.Tech CSE'},
+        {t:'typing', ms:650},
+        {t:'bot', text: 'Awesome choice ' + name + '! 🚀 B.Tech CSE has 94.8% placement record.'},
+        {t:'bot', text: 'Would you like to download the syllabus or book a campus tour?'},
+        {t:'chips', opts: ['Book Campus Tour', 'Get Syllabus', 'Scholarships'], pick: 'Book Campus Tour'},
+        {t:'user', text: 'Book Campus Tour'},
+        {t:'typing', ms:600},
+        {t:'bot', text: 'Campus Tour Reserved for ' + name + '! 🎟️ Our admission counsellor will ping you with details.'}
+      ];
+    },
+    course: function(name) {
+      return [
+        {t:'typing', ms:500},
+        {t:'user', text: 'Can you send the complete course fee structure?'},
+        {t:'typing', ms:700},
+        {t:'bot', text: 'Hi ' + name + '! 📚 Here is our 2026-27 Fee & Course Catalog.'},
+        {t:'bot', text: 'B.Tech: ₹1.2L/yr · MBA: ₹1.8L/yr · BBA: ₹85k/yr'},
+        {t:'chips', opts: ['Check Merit Scholarship', 'Hostel Fees', 'Apply Now'], pick: 'Check Merit Scholarship'},
+        {t:'user', text: 'Check Merit Scholarship'},
+        {t:'typing', ms:650},
+        {t:'bot', text: 'Great news ' + name + '! Score above 85% in 12th/Graduation to get up to 40% fee waiver.'}
+      ];
+    },
+    counselling: function(name) {
+      return [
+        {t:'typing', ms:500},
+        {t:'bot', text: 'Hi ' + name + ', choose your preferred 1-on-1 Counselling mode:'},
+        {t:'chips', opts: ['Online Video Session', 'In-Person Campus Visit'], pick: 'Online Video Session'},
+        {t:'user', text: 'Online Video Session'},
+        {t:'typing', ms:600},
+        {t:'bot', text: 'Available slots for ' + name + ':'},
+        {t:'chips', opts: ['Today 4:00 PM', 'Tomorrow 11:00 AM'], pick: 'Tomorrow 11:00 AM'},
+        {t:'user', text: 'Tomorrow 11:00 AM'},
+        {t:'typing', ms:550},
+        {t:'bot', text: 'Slot Confirmed! ✅ Calendar invite sent to your email.'}
+      ];
+    },
+    docs: function(name) {
+      return [
+        {t:'typing', ms:500},
+        {t:'bot', text: 'Hi ' + name + ', submit your admission documents inside WhatsApp Flow 📑'},
+        {t:'chips', opts: ['Upload 12th Marksheet', 'Aadhaar / ID Card'], pick: 'Upload 12th Marksheet'},
+        {t:'user', text: 'Uploaded 12th Marksheet PDF'},
+        {t:'typing', ms:700},
+        {t:'bot', text: 'Document Received! Instant verification complete for ' + name + '. Eligibility: PASSED ✅'}
+      ];
+    },
+    fee: function(name) {
+      return [
+        {t:'typing', ms:500},
+        {t:'bot', text: 'Fee Payment Reminder for ' + name + ' 🎓'},
+        {t:'bot', text: 'Semester 2 Tuition Fee: ₹45,000 (Due Date: 15 Sept)'},
+        {t:'chips', opts: ['Pay via WhatsApp UPI', 'Download Invoice'], pick: 'Pay via WhatsApp UPI'},
+        {t:'user', text: 'Pay via WhatsApp UPI'},
+        {t:'typing', ms:600},
+        {t:'bot', text: 'Payment Successful! 🎉 Receipt #EDU-9921 generated for ' + name + '.'}
+      ];
+    },
+    results: function(name) {
+      return [
+        {t:'typing', ms:500},
+        {t:'bot', text: 'Final Exam Result Announcement 🎓'},
+        {t:'bot', text: 'Student Name: ' + name + '\nCGPA: 9.2 (Distinction)'},
+        {t:'chips', opts: ['View Grade Card', 'Share with Parent'], pick: 'View Grade Card'},
+        {t:'user', text: 'View Grade Card'},
+        {t:'typing', ms:600},
+        {t:'bot', text: 'Official Grade Sheet dispatched to ' + name + '\'s registered email & WhatsApp.'}
+      ];
+    }
   };
 
   var body = document.getElementById('edu-wa-body');
   var typing = document.getElementById('edu-typing');
   var chips = document.getElementById('edu-chips');
   var tabs = document.getElementById('edu-tabs');
+  var nameInput = document.getElementById('edu-student-name');
   if(!body || !typing || !tabs) return;
 
   var timer = null;
+  var currentFlow = 'admission';
   var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  if (nameInput) {
+    nameInput.addEventListener('input', function(e) {
+      userName = e.target.value.trim() || 'Alex';
+      run(currentFlow);
+    });
+  }
 
   function clear(){
     body.querySelectorAll('.edu-msg').forEach(function(m){ m.remove(); });
@@ -72,6 +105,7 @@
     chips.innerHTML = '';
     typing.classList.remove('on');
   }
+
   function add(kind, text){
     var d = document.createElement('div');
     d.className = 'edu-msg ' + kind;
@@ -79,14 +113,17 @@
     body.insertBefore(d, typing);
     requestAnimationFrame(function(){ d.classList.add('show'); });
   }
+
   function run(name){
+    currentFlow = name;
     if(timer){ clearTimeout(timer); timer = null; }
     clear();
-    var steps = flows[name] || flows.admission;
+    var flowFn = flows[name] || flows.admission;
+    var steps = flowFn(userName);
     var i = 0;
     function next(){
       if(i >= steps.length){
-        timer = setTimeout(function(){ run(name); }, 3200);
+        timer = setTimeout(function(){ run(name); }, 4000);
         return;
       }
       var s = steps[i++];
@@ -95,7 +132,7 @@
         timer = setTimeout(function(){ typing.classList.remove('on'); next(); }, reduced ? 0 : (s.ms||600));
       } else if(s.t === 'user' || s.t === 'bot'){
         add(s.t, s.text);
-        timer = setTimeout(next, reduced ? 0 : 650);
+        timer = setTimeout(next, reduced ? 0 : 700);
       } else if(s.t === 'chips'){
         chips.innerHTML = '';
         (s.opts||[]).forEach(function(o){
@@ -108,8 +145,8 @@
         chips.classList.add('on');
         timer = setTimeout(function(){
           if(s.pick) add('user', s.pick);
-          timer = setTimeout(next, reduced ? 0 : 500);
-        }, reduced ? 0 : 900);
+          timer = setTimeout(next, reduced ? 0 : 600);
+        }, reduced ? 0 : 1000);
       } else next();
     }
     next();
@@ -122,5 +159,6 @@
       run(btn.getAttribute('data-flow'));
     });
   });
+
   run('admission');
 })();
