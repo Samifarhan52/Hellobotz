@@ -2181,16 +2181,16 @@ body.menu-open { overflow: hidden !important; touch-action: none; }
 
 /* ===== HOMEPAGE HERO HB v31 ===== */
 .hb-hero{
-  position:relative;overflow:hidden;color:#fff;
+  position:relative;overflow:hidden;color:#0F172A;
   background:
-    radial-gradient(1000px 600px at 10% -10%, rgba(139,92,246,.35), transparent 55%),
-    radial-gradient(800px 500px at 90% 20%, rgba(6,182,212,.22), transparent 50%),
-    linear-gradient(165deg,#070B16 0%,#0F172A 40%,#111827 100%);
-  padding:calc(var(--nav,72px) + 2.5rem) 0 3.5rem;
+    radial-gradient(900px 550px at 85% 20%, rgba(139,92,246,.15), transparent 60%),
+    radial-gradient(600px 400px at 15% 80%, rgba(6,182,212,.12), transparent 50%),
+    #F8FAFC;
+  padding:calc(var(--nav,72px) + 2.5rem) 0 4rem;
 }
 .hb-hero::before{
-  content:'';position:absolute;inset:0;pointer-events:none;opacity:.35;
-  background-image:radial-gradient(rgba(255,255,255,.07) 1px, transparent 1px);
+  content:'';position:absolute;inset:0;pointer-events:none;opacity:.25;
+  background-image:radial-gradient(rgba(15,23,42,.06) 1px, transparent 1px);
   background-size:28px 28px;
   mask-image:radial-gradient(ellipse at 50% 30%, #000 20%, transparent 70%);
 }
@@ -2202,41 +2202,46 @@ body.menu-open { overflow: hidden !important; touch-action: none; }
   display:inline-flex;align-items:center;gap:.4rem;
   padding:.4rem .9rem;border-radius:999px;font-size:.75rem;font-weight:700;
   letter-spacing:.04em;text-transform:uppercase;
-  background:rgba(139,92,246,.2);border:1px solid rgba(167,139,250,.35);color:#E9D5FF;
+  background:rgba(139,92,246,.12);border:1px solid rgba(139,92,246,.25);color:#7C3AED;
   animation:hbHIn .6s ease both;
 }
 .hb-hero h1{
-  font-size:clamp(1.85rem,4.2vw,3.15rem);line-height:1.12;margin:1rem 0 .9rem;
-  font-weight:800;color:#fff;animation:hbHIn .7s .08s ease both;
+  font-size:clamp(2rem,4.2vw,3.25rem);line-height:1.15;margin:1rem 0 .9rem;
+  font-weight:800;color:#0F172A;animation:hbHIn .7s .08s ease both;
 }
 .hb-hero h1 .hb-grad{
-  background:linear-gradient(135deg,#C4B5FD 0%,#818CF8 50%,#67E8F9 100%);
-  background-size:200% auto;-webkit-background-clip:text;background-clip:text;
-  -webkit-text-fill-color:transparent;animation:hbGradientShift 5s ease infinite;
+  background:linear-gradient(135deg,#8B5CF6 0%,#6366F1 50%,#06B6D4 100%);
+  -webkit-background-clip:text;background-clip:text;
+  -webkit-text-fill-color:transparent;
 }
 .hb-rotate{
   display:inline-block;position:relative;min-height:1.15em;vertical-align:bottom;
 }
 .hb-rotate span{
-  display:none;background:linear-gradient(105deg,#A78BFA,#22D3EE);
+  display:none;background:linear-gradient(105deg,#8B5CF6,#06B6D4);
   -webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;
   font-weight:800;
 }
 .hb-rotate span.is-on{display:inline;animation:hbRot .55s ease both}
 @keyframes hbRot{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
 .hb-hero .hb-lead{
-  color:rgba(255,255,255,.78);font-size:clamp(.95rem,1.5vw,1.125rem);
-  max-width:34rem;line-height:1.6;margin:0 0 1.5rem;animation:hbHIn .7s .16s ease both;
+  color:#475569;font-size:clamp(.95rem,1.5vw,1.125rem);
+  max-width:34rem;line-height:1.6;margin:0 0 1.75rem;animation:hbHIn .7s .16s ease both;
 }
 .hb-hero-ctas{display:flex;flex-wrap:wrap;gap:.75rem;margin-bottom:1.75rem;animation:hbHIn .7s .24s ease both}
 .hb-hero-ctas .btn-primary{
-  background:linear-gradient(135deg,#8B5CF6 0%,#6366F1 50%,#06B6D4 100%);border:0;box-shadow:0 8px 28px rgba(139,92,246,.45);
+  background:linear-gradient(135deg,#8B5CF6 0%,#6366F1 50%,#06B6D4 100%);
+  color:#fff;border-radius:999px;font-weight:700;padding:.85rem 1.75rem;
+  box-shadow:0 8px 25px rgba(139,92,246,.4);border:0;
 }
-.hb-hero-ctas .btn-ghost-light{
-  background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.28);color:#fff;
-  border-radius:999px;padding:.85rem 1.35rem;font-weight:700;cursor:pointer;
+.hb-hero-ctas .btn-outline{
+  background:#FFFFFF;border:1.5px solid #CBD5E1;color:#0F172A;
+  border-radius:999px;font-weight:600;padding:.85rem 1.5rem;
+  box-shadow:0 2px 8px rgba(15,23,42,.06);
 }
-.hb-hero-ctas .btn-ghost-light:hover{background:rgba(255,255,255,.12)}
+.hb-hero-ctas .btn-outline:hover{
+  border-color:#8B5CF6;color:#8B5CF6;background:#F5F3FF;
+}
 .hb-stats{
   display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:.75rem;
   animation:hbHIn .7s .32s ease both;
