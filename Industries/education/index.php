@@ -5,8 +5,8 @@ $pageDescription = 'Transform student recruitment, automate course enquiries, ca
 $canonicalUrl = 'https://inboxwa.com/industries/education/';
 include __DIR__ . '/../../includes/header.php';
 ?>
-<link rel="stylesheet" href="/assets/css/education.css?v=43">
-<link rel="stylesheet" href="/assets/css/hero-mobile-system.css?v=3">
+<link rel="stylesheet" href="/assets/css/education.css?v=44">
+<link rel="stylesheet" href="/assets/css/hero-mobile-system.css?v=4">
 
 <!-- Hero Section -->
 <section class="edu-hero" aria-label="Education solution hero">
@@ -21,14 +21,19 @@ include __DIR__ . '/../../includes/header.php';
         <p class="edu-lead">InboxWa helps schools, universities, coaching institutes, and EdTech platforms automate student enquiries, campus counselling, application workflows, fee reminders, and parent notifications on Meta Official WhatsApp Business API.</p>
         
         <div class="edu-ctas">
-          <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg">Start Free Trial</a>
+          <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg">Start 14-Day Free Trial</a>
           <button type="button" class="btn-ghost-light btn-demo-open">Book Education Demo</button>
         </div>
 
         <!-- Student Name Personalization Interactive Box -->
         <div class="edu-name-input-wrap">
           <span>⚡ Try Live Demo As:</span>
-          <input type="text" id="edu-student-name" value="Alex" placeholder="Enter student name..." aria-label="Enter student name for simulation">
+          <input type="text" id="edu-student-name" value="Rahul" placeholder="Enter student name..." aria-label="Enter student name for simulation">
+          <div class="edu-preset-names">
+            <button type="button" data-name="Rahul">Rahul</button>
+            <button type="button" data-name="Ananya">Ananya</button>
+            <button type="button" data-name="Priya">Priya</button>
+          </div>
         </div>
 
         <div class="edu-sim-tabs" id="edu-tabs" role="tablist" aria-label="Education WhatsApp simulations">
@@ -160,6 +165,41 @@ include __DIR__ . '/../../includes/header.php';
   </div>
 </section>
 
+<!-- Interactive ROI Calculator -->
+<section class="edu-roi-section">
+  <div class="container">
+    <div class="section-header reveal text-center">
+      <h2>Estimate Your Admission Growth &amp; Admin Time Savings</h2>
+      <p class="lead">Calculate how much your school, college or coaching institute can gain with InboxWa.</p>
+    </div>
+
+    <div class="edu-roi-card reveal">
+      <div class="edu-roi-controls">
+        <label for="edu-roi-slider">
+          <span>Monthly Student Enquiries:</span>
+          <b id="edu-roi-val">500 / mo</b>
+        </label>
+        <input type="range" id="edu-roi-slider" class="edu-roi-slider" min="100" max="5000" step="100" value="500">
+      </div>
+
+      <div class="edu-roi-results">
+        <div class="edu-roi-res-box">
+          <b id="edu-roi-extra">+215 Students</b>
+          <span>Additional Annual Admissions</span>
+        </div>
+        <div class="edu-roi-res-box">
+          <b id="edu-roi-hours">125 Hrs/Mo</b>
+          <span>Counselling Time Saved</span>
+        </div>
+        <div class="edu-roi-res-box">
+          <b id="edu-roi-rev">₹1.6 Lakhs</b>
+          <span>Est. Fee Revenue Growth</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- Core Solutions Grid -->
 <section class="edu-solutions-section">
   <div class="container">
@@ -221,7 +261,12 @@ include __DIR__ . '/../../includes/header.php';
         <div class="edu-crm-title">
           <span>🎓</span> 2026 Student Admission Tracker (Live CRM)
         </div>
-        <div style="font-size:0.8rem;color:#94A3B8">Filtered by: <b>All Departments</b></div>
+        <div class="edu-crm-filter-btns">
+          <button type="button" class="active">All Departments</button>
+          <button type="button">Engineering</button>
+          <button type="button">Business / MBA</button>
+          <button type="button">Medical</button>
+        </div>
       </div>
 
       <div style="overflow-x:auto">
@@ -394,12 +439,12 @@ include __DIR__ . '/../../includes/header.php';
       <h2 style="color:#fff">Ready to Boost Your Institution's Admissions?</h2>
       <p class="lead" style="color:rgba(255,255,255,.8)">Join hundreds of schools, universities, and coaching institutes growing faster with InboxWa.</p>
       <div style="margin-top:1.5rem;display:flex;flex-wrap:wrap;gap:1rem;justify-content:center">
-        <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg">Start Free Trial</a>
+        <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg">Start 14-Day Free Trial</a>
         <a href="https://wa.me/918050854445?text=Hi%20InboxWa%2C%20I%20want%20a%20demo%20for%20our%20educational%20institution" target="_blank" rel="noopener" class="btn btn-outline btn-lg" style="border-color:rgba(255,255,255,.4);color:#fff">WhatsApp Sales Direct</a>
       </div>
     </div>
   </div>
 </section>
 
-<script src="/assets/js/education-sim.js?v=36" defer></script>
+<script src="/assets/js/education-sim.js?v=37" defer></script>
 <?php include __DIR__ . '/../../includes/footer.php'; ?>

@@ -1,5 +1,5 @@
 (function(){
-  var userName = 'Alex';
+  var userName = 'Rahul';
   
   var flows = {
     admission: function(name) {
@@ -92,9 +92,18 @@
   var currentFlow = 'admission';
   var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
+  // Preset name buttons click
+  document.querySelectorAll('.edu-preset-names button').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      userName = this.getAttribute('data-name');
+      if (nameInput) nameInput.value = userName;
+      run(currentFlow);
+    });
+  });
+
   if (nameInput) {
     nameInput.addEventListener('input', function(e) {
-      userName = e.target.value.trim() || 'Alex';
+      userName = e.target.value.trim() || 'Student';
       run(currentFlow);
     });
   }
@@ -157,6 +166,41 @@
       tabs.querySelectorAll('button').forEach(function(b){ b.classList.remove('is-active'); });
       btn.classList.add('is-active');
       run(btn.getAttribute('data-flow'));
+    });
+  });
+
+  // ROI Calculator
+  var roiSlider = document.getElementById('edu-roi-slider');
+  var roiValLabel = document.getElementById('edu-roi-val');
+  var roiExtraAdm = document.getElementById('edu-roi-extra');
+  var roiHoursSaved = document.getElementById('edu-roi-hours');
+  var roiRevIncrease = document.getElementById('edu-roi-rev');
+
+  if (roiSlider) {
+    function updateRoi() {
+      var val = parseInt(roiSlider.value, 10);
+      if (roiValLabel) roiValLabel.textContent = val.toLocaleString() + ' / mo';
+      
+      // Calculations: 43% boost on admissions
+      var extraAdmissions = Math.round(val * 0.43);
+      var hoursSaved = Math.round(val * 0.25);
+      var estRevLakhs = (extraAdmissions * 0.75).toFixed(1);
+
+      if (roiExtraAdm) roiExtraAdm.textContent = '+' + extraAdmissions + ' Students';
+      if (roiHoursSaved) roiHoursSaved.textContent = hoursSaved + ' Hrs/Mo';
+      if (roiRevIncrease) roiRevIncrease.textContent = '₹' + estRevLakhs + ' Lakhs';
+    }
+
+    roiSlider.addEventListener('input', updateRoi);
+    updateRoi();
+  }
+
+  // CRM Filter buttons
+  var filterBtns = document.querySelectorAll('.edu-crm-filter-btns button');
+  filterBtns.forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      filterBtns.forEach(function(b) { b.classList.remove('active'); });
+      this.classList.add('active');
     });
   });
 

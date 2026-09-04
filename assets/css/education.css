@@ -1,14 +1,13 @@
-
-/* Education Industry Solutions Page - InboxWa Premium Theme */
+/* Education Industry Solutions Page - InboxWa Ultra Premium Theme */
 .edu-hero {
   position: relative;
   overflow: hidden;
   color: #fff;
   background:
-    radial-gradient(1000px 600px at 10% -10%, rgba(139, 92, 246, 0.35), transparent 55%),
-    radial-gradient(800px 500px at 90% 20%, rgba(6, 182, 212, 0.22), transparent 50%),
+    radial-gradient(1000px 600px at 10% -10%, rgba(139, 92, 246, 0.4), transparent 55%),
+    radial-gradient(800px 500px at 90% 20%, rgba(6, 182, 212, 0.28), transparent 50%),
     linear-gradient(165deg, #070B16 0%, #0F172A 40%, #111827 100%);
-  padding: calc(var(--nav, 72px) + 2.5rem) 0 3.5rem;
+  padding: calc(var(--nav, 72px) + 2.5rem) 0 3.75rem;
 }
 
 .edu-hero::before {
@@ -43,22 +42,22 @@
   font-weight: 700;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  background: rgba(139, 92, 246, 0.18);
-  border: 1px solid rgba(167, 139, 250, 0.35);
+  background: rgba(139, 92, 246, 0.2);
+  border: 1px solid rgba(167, 139, 250, 0.4);
   color: #E9D5FF;
-  box-shadow: 0 4px 15px rgba(139, 92, 246, 0.15);
+  box-shadow: 0 4px 20px rgba(139, 92, 246, 0.2);
 }
 
 .edu-badge-dot {
-  width: 7px;
-  height: 7px;
+  width: 8px;
+  height: 8px;
   border-radius: 50%;
   background: #22C55E;
-  box-shadow: 0 0 8px #22C55E;
+  box-shadow: 0 0 10px #22C55E;
 }
 
 .edu-hero h1 {
-  font-size: clamp(1.9rem, 4.2vw, 3.25rem);
+  font-size: clamp(2rem, 4.2vw, 3.35rem);
   line-height: 1.12;
   margin: 1.1rem 0 1rem;
   font-weight: 800;
@@ -76,7 +75,7 @@
 }
 
 .edu-lead {
-  color: rgba(255, 255, 255, 0.82);
+  color: rgba(255, 255, 255, 0.85);
   max-width: 36rem;
   font-size: 1.05rem;
   line-height: 1.65;
@@ -87,7 +86,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 0.85rem;
-  margin-bottom: 1.25rem;
+  margin-bottom: 1.35rem;
 }
 
 .edu-ctas .btn-ghost-light {
@@ -112,17 +111,18 @@
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  background: rgba(15, 23, 42, 0.7);
-  border: 1px solid rgba(139, 92, 246, 0.4);
+  background: rgba(15, 23, 42, 0.8);
+  border: 1px solid rgba(139, 92, 246, 0.45);
   border-radius: 999px;
   padding: 0.35rem 0.4rem 0.35rem 1rem;
-  max-width: 360px;
+  max-width: 380px;
   margin-bottom: 1rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
 }
 
 .edu-name-input-wrap span {
   font-size: 0.78rem;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.75);
   white-space: nowrap;
 }
 
@@ -139,6 +139,29 @@
 .edu-name-input-wrap input::placeholder {
   color: rgba(255, 255, 255, 0.4);
   font-weight: 400;
+}
+
+.edu-preset-names {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.edu-preset-names button {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #fff;
+  border-radius: 999px;
+  padding: 0.2rem 0.55rem;
+  font-size: 0.7rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.edu-preset-names button:hover {
+  background: #8B5CF6;
+  border-color: #8B5CF6;
 }
 
 /* Simulation Tabs */
@@ -182,7 +205,7 @@
   box-shadow: 0 4px 15px rgba(139, 92, 246, 0.35);
 }
 
-/* Phone Mockup */
+/* Phone Stage */
 .edu-phone-stage {
   position: relative;
   display: flex;
@@ -388,12 +411,11 @@
 .edu-float-2 { top: 40%; right: -5%; animation-delay: -1.5s; }
 .edu-float-3 { bottom: 8%; left: -2%; animation-delay: -3s; }
 
-/* Metrics Section */
+/* Metrics Bar */
 .edu-metrics-bar {
   background: #0F172A;
   border-y: 1px solid rgba(255, 255, 255, 0.08);
-  padding: 2.5rem 0;
-  margin-top: 0;
+  padding: 2.75rem 0;
   position: relative;
   z-index: 5;
 }
@@ -406,39 +428,39 @@
 }
 
 .edu-metric-item {
-  padding: 1.25rem;
-  border-radius: 16px;
+  padding: 1.35rem 1.25rem;
+  border-radius: 18px;
   background: rgba(255, 255, 255, 0.03);
   border: 1px solid rgba(255, 255, 255, 0.08);
   transition: transform 0.3s ease, border-color 0.3s ease;
 }
 
 .edu-metric-item:hover {
-  transform: translateY(-3px);
-  border-color: rgba(139, 92, 246, 0.4);
+  transform: translateY(-4px);
+  border-color: rgba(139, 92, 246, 0.45);
 }
 
 .edu-metric-val {
-  font-size: clamp(2rem, 3.5vw, 2.75rem);
+  font-size: clamp(2.1rem, 3.6vw, 2.85rem);
   font-weight: 800;
   background: linear-gradient(135deg, #A78BFA, #38BDF8);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   line-height: 1;
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.45rem;
 }
 
 .edu-metric-lbl {
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(255, 255, 255, 0.78);
   font-size: 0.85rem;
   font-weight: 600;
   line-height: 1.35;
 }
 
-/* 4-Step Journey Section */
+/* Interactive Journey Section */
 .edu-journey-section {
-  padding: 5rem 0;
+  padding: 5.5rem 0;
   background: #F8FAFC;
 }
 
@@ -446,45 +468,45 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1.5rem;
-  margin-top: 2.5rem;
+  margin-top: 2.75rem;
   position: relative;
 }
 
 .edu-journey-card {
   background: #FFFFFF;
-  border-radius: 20px;
-  padding: 1.75rem 1.5rem;
+  border-radius: 22px;
+  padding: 1.85rem 1.6rem;
   border: 1px solid #E2E8F0;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
   position: relative;
-  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
   display: flex;
   flex-direction: column;
 }
 
 .edu-journey-card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 20px 40px rgba(99, 102, 241, 0.12);
+  transform: translateY(-8px);
+  box-shadow: 0 20px 45px rgba(99, 102, 241, 0.14);
   border-color: #A5B4FC;
 }
 
 .edu-step-badge {
-  width: 42px;
-  height: 42px;
-  border-radius: 12px;
+  width: 44px;
+  height: 44px;
+  border-radius: 14px;
   background: linear-gradient(135deg, #6366F1, #8B5CF6);
   color: #fff;
   font-weight: 800;
-  font-size: 1.1rem;
+  font-size: 1.15rem;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 1.25rem;
-  box-shadow: 0 6px 16px rgba(99, 102, 241, 0.3);
+  box-shadow: 0 6px 18px rgba(99, 102, 241, 0.35);
 }
 
 .edu-journey-card h3 {
-  font-size: 1.15rem;
+  font-size: 1.2rem;
   font-weight: 700;
   color: #0F172A;
   margin-bottom: 0.65rem;
@@ -493,8 +515,8 @@
 
 .edu-journey-card p {
   color: #64748B;
-  font-size: 0.9rem;
-  line-height: 1.55;
+  font-size: 0.92rem;
+  line-height: 1.6;
   margin-bottom: 1.25rem;
   flex: 1;
 }
@@ -505,11 +527,11 @@
   margin: 0;
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 0.55rem;
 }
 
 .edu-journey-list li {
-  font-size: 0.82rem;
+  font-size: 0.84rem;
   color: #334155;
   display: flex;
   align-items: center;
@@ -523,65 +545,172 @@
   font-weight: 900;
 }
 
+/* ROI Calculator Section */
+.edu-roi-section {
+  padding: 5.5rem 0;
+  background: #FFFFFF;
+  border-y: 1px solid #E2E8F0;
+}
+
+.edu-roi-card {
+  max-width: 860px;
+  margin: 2.5rem auto 0;
+  background: linear-gradient(135deg, #0F172A 0%, #1E1B4B 100%);
+  border-radius: 28px;
+  padding: 2.5rem;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 25px 60px rgba(15, 23, 42, 0.25);
+}
+
+.edu-roi-controls {
+  margin-bottom: 2rem;
+}
+
+.edu-roi-controls label {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #E2E8F0;
+  margin-bottom: 0.75rem;
+}
+
+.edu-roi-controls label span {
+  color: #38BDF8;
+  font-size: 1.2rem;
+}
+
+.edu-roi-slider {
+  width: 100%;
+  height: 8px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.15);
+  outline: none;
+  -webkit-appearance: none;
+  cursor: pointer;
+}
+
+.edu-roi-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #8B5CF6, #06B6D4);
+  box-shadow: 0 0 12px rgba(139, 92, 246, 0.8);
+  cursor: pointer;
+}
+
+.edu-roi-results {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+  text-align: center;
+}
+
+.edu-roi-res-box {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 1.25rem 1rem;
+  border-radius: 18px;
+}
+
+.edu-roi-res-box b {
+  display: block;
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
+  font-weight: 800;
+  color: #A5F3FC;
+  margin-bottom: 0.35rem;
+}
+
+.edu-roi-res-box span {
+  font-size: 0.82rem;
+  color: rgba(255, 255, 255, 0.75);
+}
+
 /* Solutions Grid Section */
 .edu-solutions-section {
-  padding: 5rem 0;
-  background: #FFFFFF;
+  padding: 5.5rem 0;
+  background: #F8FAFC;
 }
 
 .edu-solutions-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.75rem;
-  margin-top: 2.5rem;
+  margin-top: 2.75rem;
 }
 
 .edu-solution-card {
-  padding: 2rem 1.75rem;
-  border-radius: 20px;
-  background: #F8FAFC;
+  padding: 2.2rem 1.85rem;
+  border-radius: 22px;
+  background: #FFFFFF;
   border: 1px solid #E2E8F0;
   transition: all 0.3s ease;
 }
 
 .edu-solution-card:hover {
-  background: #FFFFFF;
   border-color: #C7D2FE;
-  box-shadow: 0 15px 35px rgba(99, 102, 241, 0.08);
-  transform: translateY(-4px);
+  box-shadow: 0 18px 40px rgba(99, 102, 241, 0.1);
+  transform: translateY(-5px);
 }
 
 .edu-sol-ico {
-  font-size: 2.2rem;
-  margin-bottom: 1rem;
+  font-size: 2.4rem;
+  margin-bottom: 1.1rem;
   display: inline-block;
 }
 
 .edu-solution-card h3 {
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   font-weight: 700;
   color: #0F172A;
-  margin-bottom: 0.6rem;
+  margin-bottom: 0.65rem;
 }
 
 .edu-solution-card p {
   color: #64748B;
-  font-size: 0.92rem;
+  font-size: 0.94rem;
   line-height: 1.6;
 }
 
 /* CRM Table Section */
 .edu-crm-section {
-  padding: 5rem 0;
+  padding: 5.5rem 0;
   background: #0F172A;
+  color: #fff;
+}
+
+.edu-crm-filter-btns {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.25rem;
+  flex-wrap: wrap;
+}
+
+.edu-crm-filter-btns button {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: rgba(255, 255, 255, 0.85);
+  padding: 0.4rem 0.85rem;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.edu-crm-filter-btns button.active {
+  background: #8B5CF6;
+  border-color: #8B5CF6;
   color: #fff;
 }
 
 .edu-crm-container {
   background: #1E293B;
-  border-radius: 24px;
+  border-radius: 26px;
   border: 1px solid rgba(255, 255, 255, 0.1);
-  padding: 1.75rem;
+  padding: 1.85rem;
   margin-top: 2rem;
   box-shadow: 0 25px 60px rgba(0, 0, 0, 0.4);
 }
@@ -596,7 +725,7 @@
 }
 
 .edu-crm-title {
-  font-size: 1.1rem;
+  font-size: 1.15rem;
   font-weight: 700;
   color: #F8FAFC;
   display: flex;
@@ -607,24 +736,24 @@
 .edu-crm-table {
   width: 100%;
   border-collapse: collapse;
-  font-size: 0.85rem;
+  font-size: 0.88rem;
   color: #E2E8F0;
-  min-width: 640px;
+  min-width: 660px;
 }
 
 .edu-crm-table th {
   text-align: left;
-  padding: 0.75rem 1rem;
+  padding: 0.85rem 1rem;
   color: #94A3B8;
   font-weight: 600;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  font-size: 0.78rem;
+  font-size: 0.8rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
 
 .edu-crm-table td {
-  padding: 0.85rem 1rem;
+  padding: 0.95rem 1rem;
   border-bottom: 1px solid rgba(255, 255, 255, 0.06);
 }
 
@@ -632,9 +761,9 @@
   display: inline-flex;
   align-items: center;
   gap: 0.35rem;
-  padding: 0.25rem 0.65rem;
+  padding: 0.25rem 0.7rem;
   border-radius: 999px;
-  font-size: 0.72rem;
+  font-size: 0.74rem;
   font-weight: 700;
 }
 
@@ -646,17 +775,17 @@
 
 /* Comparison Table */
 .edu-compare-section {
-  padding: 5rem 0;
-  background: #F8FAFC;
+  padding: 5.5rem 0;
+  background: #FFFFFF;
 }
 
 .edu-compare-table-wrap {
-  margin-top: 2.5rem;
+  margin-top: 2.75rem;
   background: #FFFFFF;
-  border-radius: 24px;
+  border-radius: 26px;
   border: 1px solid #E2E8F0;
   overflow: hidden;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.04);
 }
 
 .edu-compare-table {
@@ -666,8 +795,8 @@
 }
 
 .edu-compare-table th {
-  padding: 1.25rem 1.5rem;
-  font-size: 1rem;
+  padding: 1.35rem 1.6rem;
+  font-size: 1.05rem;
   font-weight: 700;
   border-bottom: 1px solid #E2E8F0;
 }
@@ -677,8 +806,8 @@
 .edu-compare-table th:nth-child(3) { width: 32.5%; color: #4F46E5; background: #EEF2FF; }
 
 .edu-compare-table td {
-  padding: 1rem 1.5rem;
-  font-size: 0.9rem;
+  padding: 1.1rem 1.6rem;
+  font-size: 0.92rem;
   color: #475569;
   border-bottom: 1px solid #F1F5F9;
 }
@@ -694,6 +823,9 @@
   }
   .edu-solutions-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .edu-roi-results {
+    grid-template-columns: 1fr;
   }
 }
 
@@ -731,5 +863,8 @@
   }
   .edu-phone-screen {
     height: 360px !important;
+  }
+  .edu-roi-card {
+    padding: 1.5rem;
   }
 }
