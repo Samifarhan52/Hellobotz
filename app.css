@@ -2,13 +2,13 @@
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{
   --p:#8B5CF6;--p2:#7C3AED;--p3:#6D28D9;--p-l:#F5F3FF;--p-m:#EDE9FE;
-  --a:#06B6D4;--g:#16A34A;--g-l:#DCFCE7;
+  --a:#06B6D4;--a2:#38BDF8;--g:#16A34A;--g-l:#DCFCE7;
   --t:#0F172A;--t2:#475569;--t3:#64748B;--t4:#94A3B8;
   --bg:#FFFFFF;--bg2:#F8FAFC;--bg3:#F1F5F9;
   --bd:#E2E8F0;--bd2:#CBD5E1;
   --sh:0 1px 3px rgba(15,23,42,.06),0 1px 2px rgba(15,23,42,.04);
-  --sh2:0 10px 25px -5px rgba(15,23,42,.1),0 8px 10px -6px rgba(15,23,42,.06);
-  --sh3:0 25px 50px -12px rgba(15,23,42,.18);
+  --sh2:0 10px 30px -5px rgba(139,92,246,.15),0 8px 10px -6px rgba(15,23,42,.06);
+  --sh3:0 25px 50px -12px rgba(139,92,246,.25);
   --r:12px;--r2:16px;--r3:20px;--r4:999px;
   --font:'Inter',system-ui,-apple-system,sans-serif;
   --max:1140px;--nav:72px;
@@ -38,8 +38,8 @@ p{color:var(--t2)}
 
 /* Buttons */
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;padding:.7rem 1.35rem;font-size:.9rem;font-weight:600;border-radius:var(--r4);border:2px solid transparent;transition:all .2s var(--ease);white-space:nowrap;line-height:1.25}
-.btn-primary{background:linear-gradient(135deg,var(--p),var(--a));color:#fff;border-color:transparent;box-shadow:0 4px 14px rgba(139,92,246,.35)}
-.btn-primary:hover{transform:translateY(-1px);box-shadow:0 6px 20px rgba(139,92,246,.45)}
+.btn-primary{background:linear-gradient(135deg,#8B5CF6 0%,#6366F1 50%,#06B6D4 100%);color:#fff;border-color:transparent;box-shadow:0 4px 20px rgba(139,92,246,.4);font-weight:700}
+.btn-primary:hover{transform:translateY(-2px);box-shadow:0 8px 25px rgba(139,92,246,.55);opacity:.96}
 .btn-outline{background:#fff;color:var(--t);border-color:var(--bd)}
 .btn-outline:hover{border-color:var(--p);color:var(--p2)}
 .btn-ghost{color:var(--t2)}
@@ -2203,7 +2203,7 @@ body.menu-open { overflow: hidden !important; touch-action: none; }
   font-weight:800;color:#fff;animation:hbHIn .7s .08s ease both;
 }
 .hb-hero h1 .hb-grad{
-  background:linear-gradient(105deg,#C4B5FD,#A5F3FC 50%,#C4B5FD);
+  background:linear-gradient(135deg,#C4B5FD 0%,#818CF8 50%,#67E8F9 100%);
   background-size:200% auto;-webkit-background-clip:text;background-clip:text;
   -webkit-text-fill-color:transparent;animation:hbGradientShift 5s ease infinite;
 }
@@ -2223,7 +2223,7 @@ body.menu-open { overflow: hidden !important; touch-action: none; }
 }
 .hb-hero-ctas{display:flex;flex-wrap:wrap;gap:.75rem;margin-bottom:1.75rem;animation:hbHIn .7s .24s ease both}
 .hb-hero-ctas .btn-primary{
-  background:linear-gradient(135deg,#8B5CF6,#6D28D9);border:0;box-shadow:0 8px 28px rgba(109,40,217,.35);
+  background:linear-gradient(135deg,#8B5CF6 0%,#6366F1 50%,#06B6D4 100%);border:0;box-shadow:0 8px 28px rgba(139,92,246,.45);
 }
 .hb-hero-ctas .btn-ghost-light{
   background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.28);color:#fff;
