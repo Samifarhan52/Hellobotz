@@ -1,4 +1,4 @@
-/* HelloBotz Design System — app.css */
+/* InboxWa Design System — app.css */
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{
   --p:#8B5CF6;--p2:#7C3AED;--p3:#6D28D9;--p-l:#F5F3FF;--p-m:#EDE9FE;
@@ -1596,7 +1596,7 @@ html[dir="rtl"] .hero-cta{direction:rtl}
 
 
 /* =========================================================
-   HELLOBOTZ MOBILE MENU — HARD OVERRIDE v27
+   INBOXWA MOBILE MENU — HARD OVERRIDE v27
    Desktop: never show menu or its CTAs
    Mobile closed: never show
    Mobile open: full-screen drawer only
@@ -1910,7 +1910,7 @@ body.menu-open { overflow: hidden !important; touch-action: none; }
 
 
 /* =========================================================
-   HELLOBOTZ PREMIUM HERO SYSTEM v29
+   INBOXWA PREMIUM HERO SYSTEM v29
    ========================================================= */
 .hero-premium{
   position:relative;
@@ -2754,7 +2754,7 @@ body.menu-open{overflow:hidden !important}
 
 
 /* =========================================================
-   HELLOBOTZ PREMIUM UI/UX v41
+   INBOXWA PREMIUM UI/UX v41
    Floating SaaS header + global polish
    Content/structure/functionality UNCHANGED
    ========================================================= */

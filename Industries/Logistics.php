@@ -2,7 +2,7 @@
 $basePath = '../../';
 $pageTitle = 'WhatsApp API for Logistics';
 $pageDescription = 'Shipment updates, exception handling and support automation for logistics and delivery teams.';
-$canonicalUrl = 'https://hellobotz.com/industries/logistics';
+$canonicalUrl = 'https://inboxwa.com/industries/logistics';
 include __DIR__ . '/../includes/header.php';
 ?>
 <nav class="container" style="padding-top:calc(var(--nav,72px)+1rem);font-size:.85rem;color:var(--t3)"><a href="<?php echo $bp; ?>">Home</a> / Industries / Logistics</nav>
@@ -28,7 +28,7 @@ include __DIR__ . '/../includes/header.php';
   <ul class="feature-list" style="max-width:720px;margin:1.25rem auto 0;display:flex;flex-direction:column;gap:.65rem"><li class="feature-list-item reveal"><span class="check"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span><span>Shipment created → template milestones</span></li><li class="feature-list-item reveal"><span class="check"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span><span>Exception → notify → collect preferred action</span></li><li class="feature-list-item reveal"><span class="check"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span><span>Delivered → feedback optional</span></li><li class="feature-list-item reveal"><span class="check"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span><span>B2B desk → shared inbox for client ops</span></li></ul>
 </div></section>
 <section class="section section-alt"><div class="container">
-  <div class="section-header reveal"><h2>How HelloBotz helps</h2></div>
+  <div class="section-header reveal"><h2>How InboxWa helps</h2></div>
   <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:1rem;margin-top:1.25rem"><div class="card card-feature reveal"><h3>Event-driven templates</h3><p>Webhooks from your TMS/WMS.</p></div><div class="card card-feature reveal"><h3>Exception playbooks</h3><p>Structured customer choices.</p></div><div class="card card-feature reveal"><h3>Client inbox</h3><p>Account-managed conversations.</p></div><div class="card card-feature reveal"><h3>Broadcast advisories</h3><p>Weather or delay notices.</p></div><div class="card card-feature reveal"><h3>CRM/tickets</h3><p>Link chats to shipment IDs.</p></div><div class="card card-feature reveal"><h3>Analytics</h3><p>Volume and resolution metrics.</p></div></div>
 </div></section>
 <section class="section section-dark"><div class="container"><div class="section-header reveal" style="text-align:center">

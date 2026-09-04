@@ -1,8 +1,8 @@
 <?php
 $basePath = '../../';
-$pageTitle = 'API & Webhooks | Connect Any System to HelloBotz';
-$pageDescription = 'Connect HelloBotz with your website, CRM, ERP or custom software using APIs and real-time webhooks for WhatsApp automation.';
-$canonicalUrl = 'https://hellobotz.com/integrations/api-webhooks/';
+$pageTitle = 'API & Webhooks | Connect Any System to InboxWa';
+$pageDescription = 'Connect InboxWa with your website, CRM, ERP or custom software using APIs and real-time webhooks for WhatsApp automation.';
+$canonicalUrl = 'https://inboxwa.com/integrations/api-webhooks/';
 include __DIR__ . '/../../includes/header.php';
 ?>
 <link rel="stylesheet" href="/assets/css/api-webhooks.css?v=1">
@@ -14,8 +14,8 @@ include __DIR__ . '/../../includes/header.php';
     <div class="api-hero-grid">
       <div class="api-hero-copy">
         <span class="badge api-badge">API + WEBHOOKS</span>
-        <h1>Connect HelloBotz With <span class="grad">Your Own Software</span></h1>
-        <p class="api-lead">Build powerful integrations between HelloBotz and your website, CRM, ERP, SaaS application or custom business software using APIs and real-time webhooks.</p>
+        <h1>Connect InboxWa With <span class="grad">Your Own Software</span></h1>
+        <p class="api-lead">Build powerful integrations between InboxWa and your website, CRM, ERP, SaaS application or custom business software using APIs and real-time webhooks.</p>
         <div class="api-ctas">
           <a href="#code" class="btn btn-primary btn-lg">Explore API</a>
           <button type="button" class="btn btn-outline btn-lg btn-demo-open" style="border-color:rgba(255,255,255,.5);color:#fff;background:transparent">Talk to Developer</button>
@@ -24,7 +24,7 @@ include __DIR__ . '/../../includes/header.php';
       <div class="api-arch">
         <span>Your App</span><span class="arr">↓</span>
         <span>API / Webhook</span><span class="arr">↓</span>
-        <span class="core">HelloBotz</span><span class="arr">↓</span>
+        <span class="core">InboxWa</span><span class="arr">↓</span>
         <span>WhatsApp</span><span class="arr">↓</span>
         <span>Customer</span>
       </div>
@@ -38,14 +38,14 @@ include __DIR__ . '/../../includes/header.php';
     <div class="api-diff">
       <div class="card reveal">
         <h3>API</h3>
-        <p>Your system asks HelloBotz to perform an action.</p>
-        <div class="api-flow-mini">Your App → Request → HelloBotz → Response</div>
+        <p>Your system asks InboxWa to perform an action.</p>
+        <div class="api-flow-mini">Your App → Request → InboxWa → Response</div>
         <p class="api-ex">Send Message · Create Contact · Trigger Workflow · Get Data</p>
         <strong>API = Request</strong>
       </div>
       <div class="card reveal">
         <h3>Webhook</h3>
-        <p>HelloBotz notifies your system when an event happens.</p>
+        <p>InboxWa notifies your system when an event happens.</p>
         <div class="api-flow-mini">Event → Webhook → Your Server → Action</div>
         <p class="api-ex">New Message · Contact · Status · Workflow Event</p>
         <strong>Webhook = Event</strong>
@@ -88,7 +88,7 @@ include __DIR__ . '/../../includes/header.php';
     <div class="section-header reveal"><h2>React to Events in Real Time</h2></div>
     <div class="api-flow reveal">
       <span>Customer Message</span><span class="arr">↓</span>
-      <span>HelloBotz Event</span><span class="arr">↓</span>
+      <span>InboxWa Event</span><span class="arr">↓</span>
       <span>Webhook</span><span class="arr">↓</span>
       <span>Your Server</span><span class="arr">↓</span>
       <span>CRM / Automation</span>
@@ -106,9 +106,9 @@ include __DIR__ . '/../../includes/header.php';
 <section class="section" id="business">
   <div class="container">
     <div class="section-header reveal"><h2>Connect Any Business Workflow</h2></div>
-    <div class="api-flow reveal"><span>Website</span><span class="arr">→</span><span>API</span><span class="arr">→</span><span>HelloBotz</span><span class="arr">→</span><span>WhatsApp</span><span class="arr">→</span><span>Customer</span></div>
+    <div class="api-flow reveal"><span>Website</span><span class="arr">→</span><span>API</span><span class="arr">→</span><span>InboxWa</span><span class="arr">→</span><span>WhatsApp</span><span class="arr">→</span><span>Customer</span></div>
     <div class="api-flow reveal"><span>WhatsApp</span><span class="arr">→</span><span>Webhook</span><span class="arr">→</span><span>CRM</span><span class="arr">→</span><span>Sales Team</span></div>
-    <div class="api-flow reveal"><span>Store</span><span class="arr">→</span><span>API</span><span class="arr">→</span><span>HelloBotz</span><span class="arr">→</span><span>Notification</span></div>
+    <div class="api-flow reveal"><span>Store</span><span class="arr">→</span><span>API</span><span class="arr">→</span><span>InboxWa</span><span class="arr">→</span><span>Notification</span></div>
   </div>
 </section>
 
@@ -198,7 +198,7 @@ include __DIR__ . '/../../includes/header.php';
 </section>
 
 <div class="hb-img-slot" data-hb-img-slot>
-  <div class="hb-img-fallback"><div class="ico">🖼️</div><strong>API Architecture</strong><span>App → API → HelloBotz → WhatsApp</span></div>
+  <div class="hb-img-fallback"><div class="ico">🖼️</div><strong>API Architecture</strong><span>App → API → InboxWa → WhatsApp</span></div>
 </div>
 <div class="hb-img-slot hb-img-slot--dark" data-hb-img-slot>
   <div class="hb-img-fallback"><div class="ico">🖼️</div><strong>Webhook Event Flow</strong><span>Events to your server in real time.</span></div>
@@ -230,8 +230,8 @@ include __DIR__ . '/../../includes/header.php';
   <div class="container">
     <div class="section-header reveal"><h2>FAQ</h2></div>
     <div class="faq-list" style="max-width:760px;margin:1.5rem auto 0">
-      <div class="faq-item reveal"><button type="button" class="faq-question" aria-expanded="false">What is the HelloBotz API?<svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-answer"><div class="faq-answer-inner">A way for your software to request actions from HelloBotz such as messaging or contact workflows, based on your plan and documentation.</div></div></div>
-      <div class="faq-item reveal"><button type="button" class="faq-question" aria-expanded="false">What are Webhooks?<svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-answer"><div class="faq-answer-inner">HTTP callbacks HelloBotz can send to your server when events occur, so you can update CRM or run automation.</div></div></div>
+      <div class="faq-item reveal"><button type="button" class="faq-question" aria-expanded="false">What is the InboxWa API?<svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-answer"><div class="faq-answer-inner">A way for your software to request actions from InboxWa such as messaging or contact workflows, based on your plan and documentation.</div></div></div>
+      <div class="faq-item reveal"><button type="button" class="faq-question" aria-expanded="false">What are Webhooks?<svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-answer"><div class="faq-answer-inner">HTTP callbacks InboxWa can send to your server when events occur, so you can update CRM or run automation.</div></div></div>
       <div class="faq-item reveal"><button type="button" class="faq-question" aria-expanded="false">Can I connect my custom CRM or ERP?<svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-answer"><div class="faq-answer-inner">Yes — typically via API and webhooks, depending on what your system can expose and receive.</div></div></div>
       <div class="faq-item reveal"><button type="button" class="faq-question" aria-expanded="false">Are the code samples production-ready?<svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-answer"><div class="faq-answer-inner">Samples on this page are illustrative. Use official API documentation for real endpoints, auth and payloads.</div></div></div>
     </div>
@@ -242,7 +242,7 @@ include __DIR__ . '/../../includes/header.php';
   <div class="container" style="text-align:center">
     <div class="section-header reveal">
       <h2 style="color:#fff">Your Software. Your Workflow. Your Integration.</h2>
-      <p class="lead" style="color:rgba(255,255,255,.75)">Connect it with HelloBotz using APIs and Webhooks.</p>
+      <p class="lead" style="color:rgba(255,255,255,.75)">Connect it with InboxWa using APIs and Webhooks.</p>
       <div style="margin-top:1.5rem;display:flex;flex-wrap:wrap;gap:.75rem;justify-content:center">
         <a href="#code" class="btn btn-primary btn-lg">Explore API</a>
         <button type="button" class="btn btn-outline btn-lg btn-demo-open" style="border-color:rgba(255,255,255,.5);color:#fff;background:transparent">Talk to Developer</button>

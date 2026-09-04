@@ -2,7 +2,7 @@
 $basePath = '../../';
 $pageTitle = 'WhatsApp API for Education';
 $pageDescription = 'Admissions, fee reminders and parent communication on WhatsApp — for schools, colleges, coaching and EdTech.';
-$canonicalUrl = 'https://hellobotz.com/industries/education';
+$canonicalUrl = 'https://inboxwa.com/industries/education';
 include __DIR__ . '/../includes/header.php';
 ?>
 <nav class="container" style="padding-top:calc(var(--nav,72px)+1rem);font-size:.85rem;color:var(--t3)"><a href="<?php echo $bp; ?>">Home</a> / Industries / Education</nav>
@@ -28,7 +28,7 @@ include __DIR__ . '/../includes/header.php';
   <ul class="feature-list" style="max-width:720px;margin:1.25rem auto 0;display:flex;flex-direction:column;gap:.65rem"><li class="feature-list-item reveal"><span class="check"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span><span>Campaign/ad → course interest → counsellor assignment</span></li><li class="feature-list-item reveal"><span class="check"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span><span>Document checklist → application status updates</span></li><li class="feature-list-item reveal"><span class="check"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span><span>Fee reminder templates on schedule</span></li><li class="feature-list-item reveal"><span class="check"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span><span>Parent alerts for events and attendance summaries where appropriate</span></li></ul>
 </div></section>
 <section class="section section-alt"><div class="container">
-  <div class="section-header reveal"><h2>How HelloBotz helps</h2></div>
+  <div class="section-header reveal"><h2>How InboxWa helps</h2></div>
   <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:1rem;margin-top:1.25rem"><div class="card card-feature reveal"><h3>Admissions bots</h3><p>Qualify program interest 24/7.</p></div><div class="card card-feature reveal"><h3>Counsellor inbox</h3><p>Shared ownership of hot leads.</p></div><div class="card card-feature reveal"><h3>Broadcast to batches</h3><p>Announcements to opted-in lists.</p></div><div class="card card-feature reveal"><h3>Reminder automation</h3><p>Fees, exams, orientation.</p></div><div class="card card-feature reveal"><h3>Multi-language</h3><p>Serve families in preferred languages.</p></div><div class="card card-feature reveal"><h3>CRM for cohorts</h3><p>Track stage from lead to enrolled.</p></div></div>
 </div></section>
 <section class="section section-dark"><div class="container"><div class="section-header reveal" style="text-align:center">

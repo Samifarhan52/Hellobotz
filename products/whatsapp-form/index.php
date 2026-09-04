@@ -1,8 +1,8 @@
 <?php
 $basePath = '../../';
-$pageTitle = 'WhatsApp Form | Lead Capture & Form Automation | HelloBotz';
-$pageDescription = 'Collect customer information through WhatsApp forms, qualify leads and trigger CRM workflows with HelloBotz.';
-$canonicalUrl = 'https://hellobotz.com/products/whatsapp-form/';
+$pageTitle = 'WhatsApp Form | Lead Capture & Form Automation | InboxWa';
+$pageDescription = 'Collect customer information through WhatsApp forms, qualify leads and trigger CRM workflows with InboxWa.';
+$canonicalUrl = 'https://inboxwa.com/products/whatsapp-form/';
 include __DIR__ . '/../../includes/header.php';
 ?>
 <link rel="stylesheet" href="/assets/css/whatsapp-form-product.css?v=1">
@@ -17,7 +17,7 @@ include __DIR__ . '/../../includes/header.php';
         <h1>Turn WhatsApp Conversations Into <span class="grad">Smart Lead Forms</span></h1>
         <p class="wf-lead">Collect customer information directly through WhatsApp, qualify leads and trigger the right business workflow automatically.</p>
         <div class="wf-ctas">
-          <a href="https://hellobotz.com/auth/register" class="btn btn-primary btn-lg">Get Started</a>
+          <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg">Get Started</a>
           <button type="button" class="btn btn-outline btn-lg btn-demo-open" style="border-color:rgba(255,255,255,.5);color:#fff;background:transparent">Try WhatsApp Form</button>
         </div>
         <div class="wf-tabs" id="wf-tabs">
@@ -32,7 +32,7 @@ include __DIR__ . '/../../includes/header.php';
         <div class="wf-phone">
           <div class="wf-notch"></div>
           <div class="wf-screen">
-            <div class="wf-wa-head"><div class="wf-av">HB</div><div><strong>HelloBotz Form</strong><small>Lead capture</small></div></div>
+            <div class="wf-wa-head"><div class="wf-av">HB</div><div><strong>InboxWa Form</strong><small>Lead capture</small></div></div>
             <div class="wf-wa-body" id="wf-wa-body"><div class="wf-typing" id="wf-typing"><i></i><i></i><i></i></div></div>
           </div>
         </div>
@@ -124,7 +124,7 @@ include __DIR__ . '/../../includes/header.php';
     <div class="section-header reveal"><h2>Form → CRM Flow</h2></div>
     <div class="wf-flow reveal">
       <span>WhatsApp Form</span><span class="arr">→</span>
-      <span>HelloBotz</span><span class="arr">→</span>
+      <span>InboxWa</span><span class="arr">→</span>
       <span>CRM</span><span class="arr">→</span>
       <span>Sales Agent</span><span class="arr">→</span>
       <span>Follow-up</span>
@@ -187,7 +187,7 @@ include __DIR__ . '/../../includes/header.php';
     <div class="section-header reveal">
       <h2 style="color:#fff">Start Collecting Better Leads on WhatsApp</h2>
       <div style="margin-top:1.5rem;display:flex;flex-wrap:wrap;gap:.75rem;justify-content:center">
-        <a href="https://hellobotz.com/auth/register" class="btn btn-primary btn-lg">Get Started</a>
+        <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg">Get Started</a>
         <button type="button" class="btn btn-outline btn-lg btn-demo-open" style="border-color:rgba(255,255,255,.5);color:#fff;background:transparent">Try WhatsApp Form</button>
       </div>
     </div>

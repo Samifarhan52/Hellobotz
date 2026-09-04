@@ -48,7 +48,7 @@
         .catch(function(){});
       var st = document.getElementById('support-status');
       if(st){ st.style.display='block'; st.textContent = 'Support request submitted. Our team will respond shortly.'; }
-      var msg = '*HelloBotz Support*\n'+payload.subject+'\n'+payload.message+'\nFrom: '+payload.name+' '+payload.phone;
+      var msg = '*InboxWa Support*\n'+payload.subject+'\n'+payload.message+'\nFrom: '+payload.name+' '+payload.phone;
       // optional WA
       sf.reset();
     });

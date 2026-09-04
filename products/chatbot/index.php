@@ -1,8 +1,8 @@
 <?php
 $basePath = '../../';
-$pageTitle = 'AI Chatbot Product | Build, Train, Deploy on WhatsApp | HelloBotz';
+$pageTitle = 'AI Chatbot Product | Build, Train, Deploy on WhatsApp | InboxWa';
 $pageDescription = 'Build a chatbot that knows your business. Train with website, FAQs and Q&A, test conversations, deploy on WhatsApp and hand over to humans when needed.';
-$canonicalUrl = 'https://hellobotz.com/products/chatbot/';
+$canonicalUrl = 'https://inboxwa.com/products/chatbot/';
 include __DIR__ . '/../../includes/header.php';
 ?>
 <link rel="stylesheet" href="/assets/css/chatbot-product.css?v=1">
@@ -13,11 +13,11 @@ include __DIR__ . '/../../includes/header.php';
   <div class="container">
     <div class="bot-hero-grid">
       <div class="bot-hero-copy">
-        <span class="badge bot-badge">HELLOBOTZ AI CHATBOT</span>
+        <span class="badge bot-badge">INBOXWA AI CHATBOT</span>
         <h1>Build a Chatbot That <span class="grad">Knows Your Business</span></h1>
         <p class="bot-lead">Train your AI chatbot with your own business knowledge, test conversations instantly and deploy it on WhatsApp to answer customers 24/7.</p>
         <div class="bot-ctas">
-          <a href="https://hellobotz.com/auth/register" class="btn btn-primary btn-lg">Build Your Chatbot</a>
+          <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg">Build Your Chatbot</a>
           <button type="button" class="btn btn-outline btn-lg btn-demo-open" style="border-color:rgba(255,255,255,.5);color:#fff;background:transparent">Try Live Demo</button>
         </div>
         <div class="bot-tabs" id="bot-tabs">
@@ -45,7 +45,7 @@ include __DIR__ . '/../../includes/header.php';
           <div class="bot-screen">
             <div class="bot-wa-head">
               <div class="bot-av">AI</div>
-              <div><strong>HelloBotz AI</strong><small>Training Status: Ready ✓</small></div>
+              <div><strong>InboxWa AI</strong><small>Training Status: Ready ✓</small></div>
             </div>
             <div class="bot-wa-body" id="bot-wa-body">
               <div class="bot-typing" id="bot-typing"><i></i><i></i><i></i></div>
@@ -219,7 +219,7 @@ include __DIR__ . '/../../includes/header.php';
     <div class="section-header reveal"><h2 style="color:#fff">Bring Your AI Chatbot to WhatsApp</h2></div>
     <div class="bot-wa-flow reveal">
       <span>Customer WhatsApp</span><span class="arr">↓</span>
-      <span>HelloBotz AI</span><span class="arr">↓</span>
+      <span>InboxWa AI</span><span class="arr">↓</span>
       <span>Knowledge Base</span><span class="arr">↓</span>
       <span>Business Action</span>
     </div>
@@ -227,14 +227,14 @@ include __DIR__ . '/../../includes/header.php';
 </section>
 
 <div class="hb-img-slot" data-hb-img-slot>
-  <div class="hb-img-fallback"><div class="ico">🖼️</div><strong>Customer Chatting with AI on WhatsApp</strong><span>WhatsApp conversation powered by trained HelloBotz chatbot.</span></div>
+  <div class="hb-img-fallback"><div class="ico">🖼️</div><strong>Customer Chatting with AI on WhatsApp</strong><span>WhatsApp conversation powered by trained InboxWa chatbot.</span></div>
 </div>
 
 <section class="section" id="website">
   <div class="container">
     <div class="section-header reveal"><h2>Website Chatbot</h2></div>
     <div class="bot-web-widget reveal">
-      <div class="bot-web-head">HelloBotz Chat</div>
+      <div class="bot-web-head">InboxWa Chat</div>
       <p class="bot-bubble user">Can someone contact me?</p>
       <p class="bot-bubble ai">Sure. Please share your name and phone number.</p>
       <div class="bot-web-fields"><span>Name</span><span>Phone</span></div>
@@ -354,7 +354,7 @@ include __DIR__ . '/../../includes/header.php';
       <h2 style="color:#fff">Build Your AI Chatbot Today</h2>
       <p class="lead" style="color:rgba(255,255,255,.75)">Train it on your business knowledge, test every conversation and deploy an AI assistant that works alongside your team.</p>
       <div style="margin-top:1.5rem;display:flex;flex-wrap:wrap;gap:.75rem;justify-content:center">
-        <a href="https://hellobotz.com/auth/register" class="btn btn-primary btn-lg">Build Your Chatbot</a>
+        <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg">Build Your Chatbot</a>
         <button type="button" class="btn btn-outline btn-lg btn-demo-open" style="border-color:rgba(255,255,255,.5);color:#fff;background:transparent">Try Live Demo</button>
       </div>
     </div>

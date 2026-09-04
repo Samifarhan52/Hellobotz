@@ -1,8 +1,8 @@
 <?php
 $basePath = '../../../';
-$pageTitle = 'Instagram DM Automation | Leads, Enquiries & Support | HelloBotz';
-$pageDescription = 'Turn Instagram DMs into customers — automate replies, product enquiries, lead capture and follow-ups with HelloBotz.';
-$canonicalUrl = 'https://hellobotz.com/products/channels/instagram/';
+$pageTitle = 'Instagram DM Automation | Leads, Enquiries & Support | InboxWa';
+$pageDescription = 'Turn Instagram DMs into customers — automate replies, product enquiries, lead capture and follow-ups with InboxWa.';
+$canonicalUrl = 'https://inboxwa.com/products/channels/instagram/';
 include __DIR__ . '/../../../includes/header.php';
 ?>
 <link rel="stylesheet" href="/assets/css/channel-instagram.css?v=1">
@@ -15,9 +15,9 @@ include __DIR__ . '/../../../includes/header.php';
       <div class="ig-hero-copy">
         <span class="badge ig-badge">INSTAGRAM DMS</span>
         <h1>Turn Instagram Conversations Into <span class="grad">Customers</span></h1>
-        <p class="ig-lead">Automate Instagram DMs for lead generation, instant replies, product enquiries, support, qualification and follow-ups with HelloBotz.</p>
+        <p class="ig-lead">Automate Instagram DMs for lead generation, instant replies, product enquiries, support, qualification and follow-ups with InboxWa.</p>
         <div class="ig-ctas">
-          <a href="https://hellobotz.com/auth/register" class="btn btn-primary btn-lg">Start Free</a>
+          <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg">Start Free</a>
           <button type="button" class="btn btn-outline btn-lg btn-demo-open" style="border-color:rgba(255,255,255,.5);color:#fff;background:transparent">Book Instagram Demo</button>
         </div>
         <div class="ig-tabs" id="ig-tabs">
@@ -114,10 +114,10 @@ include __DIR__ . '/../../../includes/header.php';
 
 <section class="section" id="integration">
   <div class="container">
-    <div class="section-header reveal"><h2>Instagram + HelloBotz Integration</h2></div>
+    <div class="section-header reveal"><h2>Instagram + InboxWa Integration</h2></div>
     <div class="ig-flow reveal">
       <span>Instagram</span><span class="arr">→</span>
-      <span>HelloBotz</span><span class="arr">→</span>
+      <span>InboxWa</span><span class="arr">→</span>
       <span>AI / Automation</span><span class="arr">→</span>
       <span>Shared Inbox</span><span class="arr">→</span>
       <span>CRM</span><span class="arr">→</span>
@@ -159,10 +159,10 @@ include __DIR__ . '/../../../includes/header.php';
   <div class="container">
     <div class="section-header reveal"><h2>FAQ</h2></div>
     <div class="faq-list" style="max-width:760px;margin:1.5rem auto 0">
-      <div class="faq-item reveal"><button type="button" class="faq-question" aria-expanded="false">Can HelloBotz automate Instagram DMs?<svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-answer"><div class="faq-answer-inner">Yes where Instagram is connected as a channel and automation is configured for your account.</div></div></div>
+      <div class="faq-item reveal"><button type="button" class="faq-question" aria-expanded="false">Can InboxWa automate Instagram DMs?<svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-answer"><div class="faq-answer-inner">Yes where Instagram is connected as a channel and automation is configured for your account.</div></div></div>
       <div class="faq-item reveal"><button type="button" class="faq-question" aria-expanded="false">Can I capture leads from Instagram?<svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-answer"><div class="faq-answer-inner">Yes — collect details in DM flows and create leads for your team.</div></div></div>
       <div class="faq-item reveal"><button type="button" class="faq-question" aria-expanded="false">Can chats go to a shared inbox or CRM?<svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-answer"><div class="faq-answer-inner">Where supported, conversations can move to shared inbox and CRM workflows.</div></div></div>
-      <div class="faq-item reveal"><button type="button" class="faq-question" aria-expanded="false">Does this copy Instagram’s official UI?<svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-answer"><div class="faq-answer-inner">No — this page uses HelloBotz product visuals inspired by Instagram-style messaging, not a clone of Instagram’s UI.</div></div></div>
+      <div class="faq-item reveal"><button type="button" class="faq-question" aria-expanded="false">Does this copy Instagram’s official UI?<svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-answer"><div class="faq-answer-inner">No — this page uses InboxWa product visuals inspired by Instagram-style messaging, not a clone of Instagram’s UI.</div></div></div>
     </div>
   </div>
 </section>
@@ -172,7 +172,7 @@ include __DIR__ . '/../../../includes/header.php';
     <div class="section-header reveal">
       <h2 style="color:#fff">Turn Every Instagram Conversation Into an Opportunity</h2>
       <div style="margin-top:1.5rem;display:flex;flex-wrap:wrap;gap:.75rem;justify-content:center">
-        <a href="https://hellobotz.com/auth/register" class="btn btn-primary btn-lg">Start Free</a>
+        <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg">Start Free</a>
         <button type="button" class="btn btn-outline btn-lg btn-demo-open" style="border-color:rgba(255,255,255,.5);color:#fff;background:transparent">Book Instagram Demo</button>
       </div>
     </div>

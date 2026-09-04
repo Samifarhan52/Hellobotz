@@ -1,8 +1,8 @@
 <?php
 $basePath = '../../';
-$pageTitle = 'Case Studies — HelloBotz';
-$pageDescription = 'How teams use HelloBotz WhatsApp API and omnichannel automation across industries.';
-$canonicalUrl = 'https://hellobotz.com/resources/case-studies/';
+$pageTitle = 'Case Studies — InboxWa';
+$pageDescription = 'How teams use InboxWa WhatsApp API and omnichannel automation across industries.';
+$canonicalUrl = 'https://inboxwa.com/resources/case-studies/';
 include __DIR__ . '/../../includes/header.php';
 ?>
 <link rel="stylesheet" href="/assets/css/resources.css?v=1">

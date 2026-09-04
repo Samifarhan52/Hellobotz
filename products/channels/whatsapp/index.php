@@ -1,8 +1,8 @@
 <?php
 $basePath = '../../../';
-$pageTitle = 'WhatsApp Business Channel | Conversations, Inbox & Growth | HelloBotz';
-$pageDescription = 'Turn WhatsApp into your business channel — API, team inbox, broadcasts, chatbot, forms, CRM and analytics with HelloBotz.';
-$canonicalUrl = 'https://hellobotz.com/products/channels/whatsapp/';
+$pageTitle = 'WhatsApp Business Channel | Conversations, Inbox & Growth | InboxWa';
+$pageDescription = 'Turn WhatsApp into your business channel — API, team inbox, broadcasts, chatbot, forms, CRM and analytics with InboxWa.';
+$canonicalUrl = 'https://inboxwa.com/products/channels/whatsapp/';
 include __DIR__ . '/../../../includes/header.php';
 ?>
 <link rel="stylesheet" href="/assets/css/channel-whatsapp.css?v=1">
@@ -15,9 +15,9 @@ include __DIR__ . '/../../../includes/header.php';
       <div class="cw-hero-copy">
         <span class="badge cw-badge">WHATSAPP BUSINESS PLATFORM</span>
         <h1>Turn WhatsApp Into Your Most <span class="grad">Powerful Business Channel</span></h1>
-        <p class="cw-lead">Connect with customers, capture leads, automate conversations, manage your team and grow your business — all through WhatsApp with HelloBotz.</p>
+        <p class="cw-lead">Connect with customers, capture leads, automate conversations, manage your team and grow your business — all through WhatsApp with InboxWa.</p>
         <div class="cw-ctas">
-          <a href="https://hellobotz.com/auth/register" class="btn btn-primary btn-lg">Start Free Trial</a>
+          <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg">Start Free Trial</a>
           <button type="button" class="btn btn-outline btn-lg btn-demo-open" style="border-color:rgba(255,255,255,.5);color:#fff;background:transparent">Book WhatsApp Demo</button>
         </div>
       </div>
@@ -28,7 +28,7 @@ include __DIR__ . '/../../../includes/header.php';
         <div class="cw-phone">
           <div class="cw-notch"></div>
           <div class="cw-screen">
-            <div class="cw-wa-head"><div class="cw-av">HB</div><div><strong>HelloBotz</strong><small>WhatsApp Business</small></div></div>
+            <div class="cw-wa-head"><div class="cw-av">HB</div><div><strong>InboxWa</strong><small>WhatsApp Business</small></div></div>
             <div class="cw-wa-body" id="cw-wa-body"><div class="cw-typing" id="cw-typing"><i></i><i></i><i></i></div></div>
           </div>
         </div>
@@ -72,7 +72,7 @@ include __DIR__ . '/../../../includes/header.php';
     <div class="cw-flow reveal">
       <span>Customer</span><span class="arr">↓</span>
       <span>WhatsApp</span><span class="arr">↓</span>
-      <span>HelloBotz</span><span class="arr">↓</span>
+      <span>InboxWa</span><span class="arr">↓</span>
       <span>AI / Automation</span><span class="arr">↓</span>
       <span>Team / CRM</span><span class="arr">↓</span>
       <span>Follow-up</span>
@@ -230,7 +230,7 @@ include __DIR__ . '/../../../includes/header.php';
   <div class="container">
     <div class="section-header reveal"><h2>FAQ</h2></div>
     <div class="faq-list" style="max-width:760px;margin:1.5rem auto 0">
-      <div class="faq-item reveal"><button type="button" class="faq-question" aria-expanded="false">What is WhatsApp Business API?<svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-answer"><div class="faq-answer-inner">Official Meta Business API for business messaging, templates and webhooks through a BSP like HelloBotz.</div></div></div>
+      <div class="faq-item reveal"><button type="button" class="faq-question" aria-expanded="false">What is WhatsApp Business API?<svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-answer"><div class="faq-answer-inner">Official Meta Business API for business messaging, templates and webhooks through a BSP like InboxWa.</div></div></div>
       <div class="faq-item reveal"><button type="button" class="faq-question" aria-expanded="false">Can I manage WhatsApp conversations with my team?<svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-answer"><div class="faq-answer-inner">Yes — Shared Team Inbox supports multi-agent collaboration on the same number.</div></div></div>
       <div class="faq-item reveal"><button type="button" class="faq-question" aria-expanded="false">Can I send WhatsApp campaigns?<svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-answer"><div class="faq-answer-inner">Yes — approved template campaigns to eligible audiences under Meta policy.</div></div></div>
       <div class="faq-item reveal"><button type="button" class="faq-question" aria-expanded="false">Can I automate WhatsApp conversations?<svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-answer"><div class="faq-answer-inner">Yes — chatbot, flows and automation features available on your plan.</div></div></div>
@@ -246,7 +246,7 @@ include __DIR__ . '/../../../includes/header.php';
     <div class="section-header reveal">
       <h2 style="color:#fff">Ready to Make WhatsApp Your Business Growth Channel?</h2>
       <div style="margin-top:1.5rem;display:flex;flex-wrap:wrap;gap:.75rem;justify-content:center">
-        <a href="https://hellobotz.com/auth/register" class="btn btn-primary btn-lg">Start Free Trial</a>
+        <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg">Start Free Trial</a>
         <button type="button" class="btn btn-outline btn-lg btn-demo-open" style="border-color:rgba(255,255,255,.5);color:#fff;background:transparent">Book WhatsApp Demo</button>
       </div>
     </div>

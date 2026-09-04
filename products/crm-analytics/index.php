@@ -1,8 +1,8 @@
 <?php
 $basePath = '../../';
-$pageTitle = 'CRM & Customer Analytics | Customer Intelligence | HelloBotz';
-$pageDescription = 'Manage contacts, leads and customer journeys while turning conversation data into clear insights with HelloBotz CRM and Analytics.';
-$canonicalUrl = 'https://hellobotz.com/products/crm-analytics/';
+$pageTitle = 'CRM & Customer Analytics | Customer Intelligence | InboxWa';
+$pageDescription = 'Manage contacts, leads and customer journeys while turning conversation data into clear insights with InboxWa CRM and Analytics.';
+$canonicalUrl = 'https://inboxwa.com/products/crm-analytics/';
 include __DIR__ . '/../../includes/header.php';
 ?>
 <link rel="stylesheet" href="/assets/css/crm-analytics.css?v=1">
@@ -17,7 +17,7 @@ include __DIR__ . '/../../includes/header.php';
         <h1>Turn Every Customer Conversation Into <span class="grad">Actionable Intelligence</span></h1>
         <p class="ca-lead">Manage contacts, conversations, leads and customer journeys while turning your business data into clear insights from one powerful workspace.</p>
         <div class="ca-ctas">
-          <a href="https://hellobotz.com/auth/register" class="btn btn-primary btn-lg">Start Free Trial</a>
+          <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg">Start Free Trial</a>
           <button type="button" class="btn btn-outline btn-lg btn-demo-open" style="border-color:rgba(255,255,255,.5);color:#fff;background:transparent">Book CRM Demo</button>
         </div>
         <div class="ca-tabs" id="ca-tabs">
@@ -159,7 +159,7 @@ include __DIR__ . '/../../includes/header.php';
 
 <section class="section" id="why">
   <div class="container">
-    <div class="section-header reveal"><h2>Why HelloBotz</h2></div>
+    <div class="section-header reveal"><h2>Why InboxWa</h2></div>
     <div class="ca-why">
       <div class="card reveal">Centralized Customer Data</div>
       <div class="card reveal">Lead Management</div>
@@ -175,7 +175,7 @@ include __DIR__ . '/../../includes/header.php';
   <div class="container">
     <div class="section-header reveal"><h2>FAQ</h2></div>
     <div class="faq-list" style="max-width:760px;margin:1.5rem auto 0">
-      <div class="faq-item reveal"><button type="button" class="faq-question" aria-expanded="false">What is HelloBotz CRM?<svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-answer"><div class="faq-answer-inner">A workspace to manage contacts, leads, assignments and customer activity connected to WhatsApp conversations.</div></div></div>
+      <div class="faq-item reveal"><button type="button" class="faq-question" aria-expanded="false">What is InboxWa CRM?<svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-answer"><div class="faq-answer-inner">A workspace to manage contacts, leads, assignments and customer activity connected to WhatsApp conversations.</div></div></div>
       <div class="faq-item reveal"><button type="button" class="faq-question" aria-expanded="false">Can I manage WhatsApp leads in CRM?<svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-answer"><div class="faq-answer-inner">Yes — leads from WhatsApp can be stored, tagged and assigned where configured.</div></div></div>
       <div class="faq-item reveal"><button type="button" class="faq-question" aria-expanded="false">Can multiple team members manage leads?<svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-answer"><div class="faq-answer-inner">Yes — assign agents and collaborate based on your team setup.</div></div></div>
       <div class="faq-item reveal"><button type="button" class="faq-question" aria-expanded="false">What analytics are available?<svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-answer"><div class="faq-answer-inner">Conversation, lead and campaign-style insights depending on your plan and connected data.</div></div></div>
@@ -189,7 +189,7 @@ include __DIR__ . '/../../includes/header.php';
     <div class="section-header reveal">
       <h2 style="color:#fff">Manage Customers Smarter. Understand Your Business Better.</h2>
       <div style="margin-top:1.5rem;display:flex;flex-wrap:wrap;gap:.75rem;justify-content:center">
-        <a href="https://hellobotz.com/auth/register" class="btn btn-primary btn-lg">Start Free Trial</a>
+        <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg">Start Free Trial</a>
         <button type="button" class="btn btn-outline btn-lg btn-demo-open" style="border-color:rgba(255,255,255,.5);color:#fff;background:transparent">Book CRM Demo</button>
       </div>
     </div>

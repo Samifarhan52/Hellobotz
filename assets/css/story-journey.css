@@ -1,4 +1,4 @@
-/* HelloBotz Story Journey Light UI System — Matching Exact Desktop & Mobile Mockup Images */
+/* InboxWa Story Journey Light UI System — Matching Exact Desktop & Mobile Mockup Images */
 :root {
   --hb-light-bg: #F8FAFC;
   --hb-light-card: #FFFFFF;
@@ -404,7 +404,7 @@ body {
   outline: none;
 }
 
-/* SECTION 1: OLD WAY VS HELLOBOTZ AI WAY (COMPARISON STORY) */
+/* SECTION 1: OLD WAY VS INBOXWA AI WAY (COMPARISON STORY) */
 .hb-comparison-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;

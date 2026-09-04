@@ -11,7 +11,7 @@
           <div class="footer-address">
             <div class="footer-address-item">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              <span>HelloBotz AI Technologies Pvt Ltd<br>Head Office — Bangalore, India</span>
+              <span>InboxWa AI Technologies Pvt Ltd<br>Head Office — Bangalore, India</span>
             </div>
             <div class="footer-address-item">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
@@ -19,15 +19,15 @@
             </div>
             <div class="footer-address-item">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="M22 6l-10 7L2 6"/></svg>
-              <span><a href="mailto:mail@hellobotz.com"><strong>Send Enquiry Email</strong></a></span>
+              <span><a href="mailto:mail@inboxwa.com"><strong>Send Enquiry Email</strong></a></span>
             </div>
             <div class="footer-address-item">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="M22 6l-10 7L2 6"/></svg>
-              <span><a href="mailto:support@hellobotz.com"><strong>Email Technical Support</strong></a></span>
+              <span><a href="mailto:support@inboxwa.com"><strong>Email Technical Support</strong></a></span>
             </div>
           </div>
           <div class="footer-app-download" style="margin-top:1.25rem">
-            <strong style="display:block;margin-bottom:.65rem">Download HelloBotz App</strong>
+            <strong style="display:block;margin-bottom:.65rem">Download InboxWa App</strong>
             <div style="display:flex;flex-wrap:wrap;gap:.65rem">
               <a class="btn btn-sm btn-outline" href="/resources/download-ios-app/"> App Store</a>
               <a class="btn btn-sm btn-outline" href="/resources/download-app/">▶ Google Play</a>
@@ -83,11 +83,11 @@
     <div class="container">
       <div class="footer-grid">
         <div class="footer-brand">
-          <a href="<?php echo $bp; ?>" class="logo" aria-label="HelloBotz Home">
-            <img src="<?php echo $bp; ?>assets/images/logo-footer.png" alt="HelloBotz - WhatsApp API Platform" class="logo-img" width="140" height="36" onerror="this.style.display='none';this.nextElementSibling.style.display='inline-flex'">
+          <a href="<?php echo $bp; ?>" class="logo" aria-label="InboxWa Home">
+            <img src="<?php echo $bp; ?>assets/images/logo-footer.png" alt="InboxWa - WhatsApp API Platform" class="logo-img" width="140" height="36" onerror="this.style.display='none';this.nextElementSibling.style.display='inline-flex'">
             <span class="logo-fallback" style="display:none;align-items:center;gap:0.4rem">
               <span class="logo-icon"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></span>
-              <span style="font-weight:800;color:#fff">HelloBotz</span>
+              <span style="font-weight:800;color:#fff">InboxWa</span>
             </span>
           </a>
           <p>AI Powered WhatsApp Business API &amp; Omnichannel Platform. Official Meta API, shared inbox, automation, broadcasts and integrations.</p>
@@ -126,7 +126,7 @@
         <div class="footer-col">
           <div class="footer-heading">Company</div>
           <ul>
-            <li><a href="<?php echo $bp; ?>company/about/">About HelloBotz</a></li>
+            <li><a href="<?php echo $bp; ?>company/about/">About InboxWa</a></li>
             <li><a href="/contact/">Contact Us</a></li>
             <li><a href="<?php echo $bp; ?>Partners">Partner Program</a></li>
             <li><a href="/resources/blog/">Blog &amp; Resources</a></li>
@@ -136,7 +136,7 @@
       </div>
 
       <div class="footer-bottom">
-        <p class="footer-copy">&copy; <?php echo date('Y'); ?> HelloBotz AI Technologies Pvt Ltd. All rights reserved.</p>
+        <p class="footer-copy">&copy; <?php echo date('Y'); ?> InboxWa AI Technologies Pvt Ltd. All rights reserved.</p>
         <div class="footer-legal">
           <a href="/privacy/">Privacy Policy</a>
           <a href="/terms/">Terms of Service</a>

@@ -2,7 +2,7 @@
 $basePath = '../../';
 $pageTitle = 'WhatsApp API for Retail';
 $pageDescription = 'Store support, loyalty nudges and campaign engagement for retail brands on WhatsApp and Instagram.';
-$canonicalUrl = 'https://hellobotz.com/industries/retail';
+$canonicalUrl = 'https://inboxwa.com/industries/retail';
 include __DIR__ . '/../includes/header.php';
 ?>
 <nav class="container" style="padding-top:calc(var(--nav,72px)+1rem);font-size:.85rem;color:var(--t3)"><a href="<?php echo $bp; ?>">Home</a> / Industries / Retail</nav>
@@ -28,7 +28,7 @@ include __DIR__ . '/../includes/header.php';
   <ul class="feature-list" style="max-width:720px;margin:1.25rem auto 0;display:flex;flex-direction:column;gap:.65rem"><li class="feature-list-item reveal"><span class="check"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span><span>Campaign → reply → inbox or bot</span></li><li class="feature-list-item reveal"><span class="check"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span><span>Store locator / stock check flows</span></li><li class="feature-list-item reveal"><span class="check"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span><span>Appointment for high-consideration SKUs</span></li><li class="feature-list-item reveal"><span class="check"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span><span>Post-purchase care and cross-sell</span></li></ul>
 </div></section>
 <section class="section section-alt"><div class="container">
-  <div class="section-header reveal"><h2>How HelloBotz helps</h2></div>
+  <div class="section-header reveal"><h2>How InboxWa helps</h2></div>
   <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:1rem;margin-top:1.25rem"><div class="card card-feature reveal"><h3>Unified social + WhatsApp</h3><p>One team inbox.</p></div><div class="card card-feature reveal"><h3>Compliant broadcasts</h3><p>Template quality monitoring.</p></div><div class="card card-feature reveal"><h3>Store routing</h3><p>Tag by city or outlet.</p></div><div class="card card-feature reveal"><h3>CRM loyalty stages</h3><p>Track engaged shoppers.</p></div><div class="card card-feature reveal"><h3>Instagram comment-to-DM</h3><p>Convert public interest privately.</p></div><div class="card card-feature reveal"><h3>Analytics</h3><p>Campaign to conversation rates.</p></div></div>
 </div></section>
 <section class="section section-dark"><div class="container"><div class="section-header reveal" style="text-align:center">

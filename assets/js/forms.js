@@ -1,5 +1,5 @@
 /**
- * HelloBotz Forms → WhatsApp
+ * InboxWa Forms → WhatsApp
  * Number: 918050854445
  * Later: FORM_MODE = 'api' + FORM_ENDPOINT for Google Sheets
  */
@@ -17,14 +17,14 @@
 
   function formatText(type, d) {
     if (type === 'callback') {
-      return '*Callback Request - HelloBotz*\n\n' +
+      return '*Callback Request - InboxWa*\n\n' +
         'Name: ' + (d.name || '') + '\n' +
         'Mobile: ' + (d.mobile || '') + '\n' +
         'Company: ' + (d.company || '') + '\n' +
         'Requirement: ' + (d.requirement || '');
     }
     if (type === 'demo') {
-      return '*Demo Booking - HelloBotz*\n\n' +
+      return '*Demo Booking - InboxWa*\n\n' +
         'Name: ' + (d.name || '') + '\n' +
         'Mobile: ' + (d.mobile || '') + '\n' +
         'Product: ' + (d.product || '') + '\n' +
@@ -33,7 +33,7 @@
         'Company: ' + (d.company || '');
     }
     if (type === 'contact') {
-      return '*Contact Form - HelloBotz*\n\n' +
+      return '*Contact Form - InboxWa*\n\n' +
         'Name: ' + (d.name || '') + '\n' +
         'Mobile: ' + (d.mobile || '') + '\n' +
         'Regarding: ' + (d.regarding || '') + '\n' +

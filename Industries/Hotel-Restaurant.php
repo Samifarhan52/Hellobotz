@@ -2,7 +2,7 @@
 $basePath = '../../';
 $pageTitle = 'WhatsApp for Hotels & Restaurants';
 $pageDescription = 'Reservations, table booking and guest messaging with automation and a shared team inbox.';
-$canonicalUrl = 'https://hellobotz.com/industries/hotel-restaurant';
+$canonicalUrl = 'https://inboxwa.com/industries/hotel-restaurant';
 include __DIR__ . '/../includes/header.php';
 ?>
 <nav class="container" style="padding-top:calc(var(--nav,72px)+1rem);font-size:.85rem;color:var(--t3)"><a href="<?php echo $bp; ?>">Home</a> / Industries / Hotel Restaurant</nav>
@@ -28,7 +28,7 @@ include __DIR__ . '/../includes/header.php';
   <ul class="feature-list" style="max-width:720px;margin:1.25rem auto 0;display:flex;flex-direction:column;gap:.65rem"><li class="feature-list-item reveal"><span class="check"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span><span>Book table/room → confirm → reminder</span></li><li class="feature-list-item reveal"><span class="check"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span><span>Pre-arrival info and upsell (spa, packages)</span></li><li class="feature-list-item reveal"><span class="check"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span><span>In-stay requests routed to the right team</span></li><li class="feature-list-item reveal"><span class="check"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span><span>Post-visit review ask</span></li></ul>
 </div></section>
 <section class="section section-alt"><div class="container">
-  <div class="section-header reveal"><h2>How HelloBotz helps</h2></div>
+  <div class="section-header reveal"><h2>How InboxWa helps</h2></div>
   <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:1rem;margin-top:1.25rem"><div class="card card-feature reveal"><h3>Booking flows</h3><p>Capture party size, time, preferences.</p></div><div class="card card-feature reveal"><h3>Reminders</h3><p>Cut no-shows.</p></div><div class="card card-feature reveal"><h3>Guest inbox</h3><p>One number for the property.</p></div><div class="card card-feature reveal"><h3>Broadcast to guests</h3><p>Events and offers with opt-out respect.</p></div><div class="card card-feature reveal"><h3>Multi-outlet routing</h3><p>Tags by location.</p></div><div class="card card-feature reveal"><h3>Analytics</h3><p>Booking and response metrics.</p></div></div>
 </div></section>
 <section class="section section-dark"><div class="container"><div class="section-header reveal" style="text-align:center">

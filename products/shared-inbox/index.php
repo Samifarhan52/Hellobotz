@@ -1,8 +1,8 @@
 <?php
 $basePath = '../../';
-$pageTitle = 'Shared Team Inbox | HelloBotz';
+$pageTitle = 'Shared Team Inbox | InboxWa';
 $pageDescription = 'Assign chats, collaborate with notes, and keep SLAs visible across your support and sales teams.';
-$canonicalUrl = 'https://hellobotz.com/products/shared-inbox/';
+$canonicalUrl = 'https://inboxwa.com/products/shared-inbox/';
 include __DIR__ . '/../../includes/header.php';
 ?>
 <section class="page-hero-premium">
@@ -16,7 +16,7 @@ include __DIR__ . '/../../includes/header.php';
     <h1>One shared inbox for WhatsApp and social messages</h1>
     <p class="lead">Assign chats, collaborate with notes, and keep SLAs visible across your support and sales teams.</p>
     <div style="margin-top:1.5rem;display:flex;flex-wrap:wrap;gap:.75rem;justify-content:center">
-      <a href="https://hellobotz.com/auth/register" class="btn btn-primary btn-lg">Start Free Trial</a>
+      <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg">Start Free Trial</a>
       <a href="/#contact-section" class="btn btn-outline btn-lg" style="border-color:rgba(255,255,255,.4);color:#fff">Book a Demo</a>
     </div>
   </div>
@@ -43,11 +43,11 @@ include __DIR__ . '/../../includes/header.php';
 <section class="section">
   <div class="container" style="max-width:720px;text-align:center">
     <div class="hero-visual-float reveal">
-      <img src="/assets/images/products/shared-inbox/hero.webp" alt="Shared Team Inbox | HelloBotz" width="1000" height="560" loading="lazy"
+      <img src="/assets/images/products/shared-inbox/hero.webp" alt="Shared Team Inbox | InboxWa" width="1000" height="560" loading="lazy"
         style="width:100%;border-radius:16px;border:1px solid var(--bd);min-height:180px;object-fit:cover;background:linear-gradient(135deg,#EDE9FE,#CFFAFE)"
         onerror="this.style.minHeight='180px'">
     </div>
-    <p class="lead reveal" style="margin-top:1.5rem">Same HelloBotz platform — this product page focuses on shared inbox outcomes only.</p>
+    <p class="lead reveal" style="margin-top:1.5rem">Same InboxWa platform — this product page focuses on shared inbox outcomes only.</p>
     <div style="margin-top:1.25rem;display:flex;flex-wrap:wrap;gap:.75rem;justify-content:center">
       <a href="/pricing/" class="btn btn-outline">View pricing</a>
       <a href="/#contact-section" class="btn btn-primary">Talk to sales</a>

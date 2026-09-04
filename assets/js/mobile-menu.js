@@ -1,5 +1,5 @@
 /**
- * HelloBotz Mobile Menu v38 — single handler, no conflicts
+ * InboxWa Mobile Menu v38 — single handler, no conflicts
  */
 (function () {
   'use strict';

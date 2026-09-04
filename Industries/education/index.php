@@ -1,8 +1,8 @@
 <?php
 $basePath = '../../';
-$pageTitle = 'Education WhatsApp Automation | Admissions, Fees & Parent Updates | HelloBotz';
-$pageDescription = 'Automate student enquiries, counselling, attendance, fee reminders and result updates on Official WhatsApp Business API with HelloBotz.';
-$canonicalUrl = 'https://hellobotz.com/industries/education/';
+$pageTitle = 'Education WhatsApp Automation | Admissions, Fees & Parent Updates | InboxWa';
+$pageDescription = 'Automate student enquiries, counselling, attendance, fee reminders and result updates on Official WhatsApp Business API with InboxWa.';
+$canonicalUrl = 'https://inboxwa.com/industries/education/';
 include __DIR__ . '/../../includes/header.php';
 ?>
 <link rel="stylesheet" href="/assets/css/education.css?v=42">
@@ -15,9 +15,9 @@ include __DIR__ . '/../../includes/header.php';
       <div class="edu-hero-copy">
         <div class="edu-badge">Education · Schools · Colleges · Coaching · EdTech</div>
         <h1>Turn every student enquiry into an <span class="grad">admission opportunity</span></h1>
-        <p class="edu-lead">HelloBotz helps schools, colleges, coaching institutes and education businesses automate enquiries, counselling, follow-ups, attendance, notifications and student communication on Official WhatsApp Business API.</p>
+        <p class="edu-lead">InboxWa helps schools, colleges, coaching institutes and education businesses automate enquiries, counselling, follow-ups, attendance, notifications and student communication on Official WhatsApp Business API.</p>
         <div class="edu-ctas">
-          <a href="https://hellobotz.com/auth/register" class="btn btn-primary btn-lg">Start Free</a>
+          <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg">Start Free</a>
           <button type="button" class="btn-ghost-light btn-demo-open">Book Education Demo</button>
         </div>
         <div class="edu-sim-tabs" id="edu-tabs" role="tablist" aria-label="Education simulations">
@@ -41,7 +41,7 @@ include __DIR__ . '/../../includes/header.php';
             <div class="edu-wa-head">
               <div class="edu-wa-av">ED</div>
               <div>
-                <strong>HelloBotz Education</strong>
+                <strong>InboxWa Education</strong>
                 <small><span class="edu-live-dot"></span> Live Simulation</small>
               </div>
             </div>
@@ -80,7 +80,7 @@ include __DIR__ . '/../../includes/header.php';
 
 <section class="section">
   <div class="container">
-    <div class="section-header reveal"><h2>Education use cases on HelloBotz</h2></div>
+    <div class="section-header reveal"><h2>Education use cases on InboxWa</h2></div>
     <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1rem;margin-top:1.5rem">
       <div class="card reveal" style="padding:1.25rem"><h3>🤖 AI Admission Counsellor</h3><p>Answer course, eligibility, fees and admission questions automatically — hand off to humans when needed.</p></div>
       <div class="card reveal" style="padding:1.25rem"><h3>📈 Student lead generation</h3><p>Capture leads from website, WhatsApp, Facebook and Instagram into one workspace.</p></div>
@@ -105,7 +105,7 @@ include __DIR__ . '/../../includes/header.php';
 
 <section class="section section-alt">
   <div class="container">
-    <div class="section-header reveal"><h2>How HelloBotz works for education</h2></div>
+    <div class="section-header reveal"><h2>How InboxWa works for education</h2></div>
     <div class="edu-journey reveal" style="margin-top:1.25rem">
       <span>Lead</span><span class="arr">→</span>
       <span>WhatsApp</span><span class="arr">→</span>
@@ -163,7 +163,7 @@ include __DIR__ . '/../../includes/header.php';
 
 <section class="section section-gradient-1">
   <div class="container">
-    <div class="section-header reveal"><h2>Why HelloBotz for education</h2></div>
+    <div class="section-header reveal"><h2>Why InboxWa for education</h2></div>
     <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem;margin-top:1.25rem">
       <div class="card reveal" style="padding:1.15rem"><strong>Faster first response</strong><p>Students get answers outside office hours.</p></div>
       <div class="card reveal" style="padding:1.15rem"><strong>Fewer missed enquiries</strong><p>One shared inbox instead of personal chats.</p></div>
@@ -178,10 +178,10 @@ include __DIR__ . '/../../includes/header.php';
   <div class="container">
     <div class="section-header reveal"><h2>FAQ</h2></div>
     <div class="faq-list" style="max-width:760px;margin:1.5rem auto 0">
-      <div class="faq-item reveal"><button type="button" class="faq-question" aria-expanded="false">Can HelloBotz automate admission FAQs?<svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-answer"><div class="faq-answer-inner">Yes — use flows and AI replies for courses, eligibility and next steps, then hand off to counsellors.</div></div></div>
+      <div class="faq-item reveal"><button type="button" class="faq-question" aria-expanded="false">Can InboxWa automate admission FAQs?<svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-answer"><div class="faq-answer-inner">Yes — use flows and AI replies for courses, eligibility and next steps, then hand off to counsellors.</div></div></div>
       <div class="faq-item reveal"><button type="button" class="faq-question" aria-expanded="false">Are fee and result messages allowed on WhatsApp?<svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-answer"><div class="faq-answer-inner">Utility and other template categories must follow Meta WhatsApp policies and approval for your WABA.</div></div></div>
       <div class="faq-item reveal"><button type="button" class="faq-question" aria-expanded="false">Can multiple counsellors work together?<svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-answer"><div class="faq-answer-inner">Shared inbox supports assignment, notes and team routing by campus or course.</div></div></div>
-      <div class="faq-item reveal"><button type="button" class="faq-question" aria-expanded="false">Does Book Education Demo open a new page?<svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-answer"><div class="faq-answer-inner">No — it opens the same HelloBotz Book Demo widget used across the site.</div></div></div>
+      <div class="faq-item reveal"><button type="button" class="faq-question" aria-expanded="false">Does Book Education Demo open a new page?<svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-answer"><div class="faq-answer-inner">No — it opens the same InboxWa Book Demo widget used across the site.</div></div></div>
     </div>
   </div>
 </section>
@@ -189,9 +189,9 @@ include __DIR__ . '/../../includes/header.php';
 <section class="section section-dark">
   <div class="container"><div class="section-header reveal" style="text-align:center">
     <h2 style="color:#fff">Ready to automate your education business?</h2>
-    <p class="lead" style="color:rgba(255,255,255,.75)">Capture enquiries, engage students and automate the admission journey with HelloBotz.</p>
+    <p class="lead" style="color:rgba(255,255,255,.75)">Capture enquiries, engage students and automate the admission journey with InboxWa.</p>
     <div style="margin-top:1.25rem;display:flex;flex-wrap:wrap;gap:.75rem;justify-content:center">
-      <a href="https://hellobotz.com/auth/register" class="btn btn-primary btn-lg">Start Free</a>
+      <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg">Start Free</a>
       <button type="button" class="btn btn-outline btn-lg btn-demo-open" style="border-color:rgba(255,255,255,.45);color:#fff;background:transparent">Book Education Demo</button>
     </div>
   </div></div>

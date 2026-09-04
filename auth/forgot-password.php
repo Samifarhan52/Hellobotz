@@ -2,8 +2,8 @@
 $basePath = '../';
 $robots = 'noindex, nofollow';
 $pageTitle = 'Forgot Password';
-$pageDescription = 'Reset your HelloBotz account password.';
-$canonicalUrl = 'https://hellobotz.com/auth/forgot-password';
+$pageDescription = 'Reset your InboxWa account password.';
+$canonicalUrl = 'https://inboxwa.com/auth/forgot-password';
 include __DIR__ . '/../includes/header.php';
 ?>
 <section class="section" style="padding-top:calc(var(--nav,72px) + 2.5rem);padding-bottom:4rem">
@@ -15,7 +15,7 @@ include __DIR__ . '/../includes/header.php';
         <input type="email" required placeholder="you@company.com" style="width:100%;padding:.7rem;border:1px solid var(--bd);border-radius:10px;margin:1rem 0">
         <button class="btn btn-primary" style="width:100%">Send reset link</button>
       </form>
-      <p style="margin-top:1rem"><a href="https://hellobotz.com/auth/login">Back to login</a></p>
+      <p style="margin-top:1rem"><a href="https://inboxwa.com/auth/login">Back to login</a></p>
     </div>
   </div>
 </section>

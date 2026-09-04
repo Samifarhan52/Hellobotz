@@ -1,6 +1,6 @@
 <?php
 /**
- * HelloBotz – Centralized pricing configuration (source of truth)
+ * InboxWa – Centralized pricing configuration (source of truth)
  * All plan prices in INR. USD derived via INR_TO_USD_RATE.
  */
 return [
@@ -8,7 +8,7 @@ return [
   'INR_TO_USD_RATE' => 0.012, // configurable – not a live FX feed
   'gst_rate' => 0.18,
   'trial_days' => 14,
-  'register_url' => 'https://hellobotz.com/auth/register',
+  'register_url' => 'https://inboxwa.com/auth/register',
   'whatsapp' => '918050854445',
 
   'plans' => [
@@ -140,7 +140,7 @@ return [
     'campaign_agent' => [
       'name' => 'Managed Campaign Agent',
       'price' => 3500,
-      'description' => 'A dedicated HelloBotz agent can help set up and run campaigns. Share requirements at least 6 hours before launch.',
+      'description' => 'A dedicated InboxWa agent can help set up and run campaigns. Share requirements at least 6 hours before launch.',
     ],
     'data_marketplace' => [
       'name' => 'Data Marketplace – Industry Contact Databases',

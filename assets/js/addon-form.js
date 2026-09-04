@@ -36,7 +36,7 @@
     var status = document.getElementById('af-status');
     btn.disabled = true; btn.textContent = 'Submitting...';
     var fd = new FormData(form);
-    var msg = '*HelloBotz Add-on Request*\n\n'+
+    var msg = '*InboxWa Add-on Request*\n\n'+
       'Name: '+fd.get('name')+'\n'+
       'Business: '+fd.get('business')+'\n'+
       'Email: '+fd.get('email')+'\n'+

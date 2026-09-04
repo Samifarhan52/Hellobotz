@@ -1,8 +1,8 @@
 <?php
 $basePath = '../../';
-$pageTitle = 'Help Center — HelloBotz';
-$pageDescription = 'Search HelloBotz help articles on WhatsApp API, chatbot, broadcast, CRM, billing and account security.';
-$canonicalUrl = 'https://hellobotz.com/resources/help-center/';
+$pageTitle = 'Help Center — InboxWa';
+$pageDescription = 'Search InboxWa help articles on WhatsApp API, chatbot, broadcast, CRM, billing and account security.';
+$canonicalUrl = 'https://inboxwa.com/resources/help-center/';
 include __DIR__ . '/../../includes/header.php';
 ?>
 <link rel="stylesheet" href="/assets/css/resources.css?v=1">

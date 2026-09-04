@@ -2,7 +2,7 @@
 $basePath = '../../';
 $pageTitle = 'WhatsApp for Government & NGO programs';
 $pageDescription = 'Citizen and beneficiary communication at scale using Official WhatsApp API with clear templates and controlled agent access.';
-$canonicalUrl = 'https://hellobotz.com/industries/government-ngo';
+$canonicalUrl = 'https://inboxwa.com/industries/government-ngo';
 include __DIR__ . '/../includes/header.php';
 ?>
 <nav class="container" style="padding-top:calc(var(--nav,72px)+1rem);font-size:.85rem;color:var(--t3)"><a href="<?php echo $bp; ?>">Home</a> / Industries / Government NGO</nav>
@@ -28,7 +28,7 @@ include __DIR__ . '/../includes/header.php';
   <ul class="feature-list" style="max-width:720px;margin:1.25rem auto 0;display:flex;flex-direction:column;gap:.65rem"><li class="feature-list-item reveal"><span class="check"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span><span>Program announcement templates</span></li><li class="feature-list-item reveal"><span class="check"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span><span>FAQ bot for eligibility and documents</span></li><li class="feature-list-item reveal"><span class="check"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span><span>Case open → agent → status updates</span></li><li class="feature-list-item reveal"><span class="check"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span><span>Feedback collection</span></li></ul>
 </div></section>
 <section class="section section-alt"><div class="container">
-  <div class="section-header reveal"><h2>How HelloBotz helps</h2></div>
+  <div class="section-header reveal"><h2>How InboxWa helps</h2></div>
   <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:1rem;margin-top:1.25rem"><div class="card card-feature reveal"><h3>Broadcast with care</h3><p>Opt-out and quality aware.</p></div><div class="card card-feature reveal"><h3>FAQ automation</h3><p>Consistent first answers.</p></div><div class="card card-feature reveal"><h3>Case inbox</h3><p>Controlled access and notes.</p></div><div class="card card-feature reveal"><h3>Multi-language</h3><p>Serve diverse populations.</p></div><div class="card card-feature reveal"><h3>Analytics</h3><p>Reach and response visibility.</p></div><div class="card card-feature reveal"><h3>No fake claims</h3><p>Configure for your compliance needs.</p></div></div>
 </div></section>
 <section class="section section-dark"><div class="container"><div class="section-header reveal" style="text-align:center">

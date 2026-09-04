@@ -1,8 +1,8 @@
 <?php
 $basePath = '../';
 $pageTitle = 'Products';
-$pageDescription = 'HelloBotz products — WhatsApp API, chatbot, inbox, flows, CRM and more.';
-$canonicalUrl = 'https://hellobotz.com/products/';
+$pageDescription = 'InboxWa products — WhatsApp API, chatbot, inbox, flows, CRM and more.';
+$canonicalUrl = 'https://inboxwa.com/products/';
 include __DIR__ . '/../includes/header.php';
 ?>
 <nav class="container" style="padding-top:calc(var(--nav,72px) + 1rem);font-size:.85rem;color:var(--t3)"><a href="<?php echo $bp; ?>">Home</a> / Products</nav>
@@ -10,11 +10,11 @@ include __DIR__ . '/../includes/header.php';
   <div class="container">
     <div class="section-header reveal">
       <span class="badge badge-primary">Products</span>
-      <h1>Everything in one HelloBotz account</h1>
+      <h1>Everything in one InboxWa account</h1>
       <p class="lead">Official WhatsApp API, AI chatbot, shared inbox, flow builder, broadcasts and CRM — built to work together.</p>
       <div style="margin-top:1.5rem;display:flex;flex-wrap:wrap;gap:.75rem;justify-content:center">
         <a href="<?php echo $bp; ?>#contact-section" class="btn btn-primary btn-lg">Book Demo</a>
-        <a href="https://hellobotz.com/auth/register" class="btn btn-outline btn-lg">Start Free</a>
+        <a href="https://inboxwa.com/auth/register" class="btn btn-outline btn-lg">Start Free</a>
       </div>
     </div>
   </div>
@@ -25,7 +25,7 @@ include __DIR__ . '/../includes/header.php';
     <div class="section-header reveal" style="text-align:center">
       <h2 style="color:#fff">Ready to engage customers on WhatsApp?</h2>
       <div style="margin-top:1.25rem;display:flex;flex-wrap:wrap;gap:.75rem;justify-content:center">
-        <a href="https://hellobotz.com/auth/register" class="btn btn-primary btn-lg">Start Free</a>
+        <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg">Start Free</a>
         <a href="<?php echo $bp; ?>#contact-section" class="btn btn-white btn-lg">Talk to sales</a>
       </div>
     </div>

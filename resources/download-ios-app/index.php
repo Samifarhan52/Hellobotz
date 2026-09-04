@@ -1,8 +1,8 @@
 <?php
 $basePath = '../../';
-$pageTitle = 'Download HelloBotz for iOS';
-$pageDescription = 'HelloBotz iPhone and iPad app for inbox, automation and notifications.';
-$canonicalUrl = 'https://hellobotz.com/resources/download-ios-app/';
+$pageTitle = 'Download InboxWa for iOS';
+$pageDescription = 'InboxWa iPhone and iPad app for inbox, automation and notifications.';
+$canonicalUrl = 'https://inboxwa.com/resources/download-ios-app/';
 $appLinks = require __DIR__ . '/../../config/app-links.php';
 include __DIR__ . '/../../includes/header.php';
 $ios = trim($appLinks['ios'] ?? '');
@@ -11,12 +11,12 @@ $ios = trim($appLinks['ios'] ?? '');
 <nav class="container" style="padding-top:calc(var(--nav,72px)+1rem);font-size:.85rem;color:var(--t3)"><a href="/">Home</a> / Resources / iOS App</nav>
 <section class="section page-hero" style="padding-top:1.25rem"><div class="container"><div class="section-header reveal">
 <span class="badge badge-primary">iOS</span>
-<h1>HelloBotz for iPhone &amp; iPad</h1>
+<h1>InboxWa for iPhone &amp; iPad</h1>
 <p class="lead">Stay close to customer conversations with a mobile-first agent experience.</p>
 <?php if ($ios): ?>
 <a class="btn btn-primary btn-lg" style="margin-top:1rem" href="<?php echo htmlspecialchars($ios); ?>" target="_blank" rel="noopener"> Download on the App Store</a>
 <?php else: ?>
-<a class="btn btn-primary btn-lg" style="margin-top:1rem" href="https://hellobotz.com/auth/login">Use Web App until App Store link is live</a>
+<a class="btn btn-primary btn-lg" style="margin-top:1rem" href="https://inboxwa.com/auth/login">Use Web App until App Store link is live</a>
 <?php endif; ?>
 </div></div></section>
 <section class="section"><div class="container"><div class="res-grid">

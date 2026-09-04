@@ -1,8 +1,8 @@
 <?php
 $basePath = '../';
 $pageTitle = 'Integrations';
-$pageDescription = 'Connect HelloBotz to your stack.';
-$canonicalUrl = 'https://hellobotz.com/integrations/';
+$pageDescription = 'Connect InboxWa to your stack.';
+$canonicalUrl = 'https://inboxwa.com/integrations/';
 include __DIR__ . '/../includes/header.php';
 ?>
 <nav class="container" style="padding-top:calc(var(--nav,72px) + 1rem);font-size:.85rem;color:var(--t3)"><a href="<?php echo $bp; ?>">Home</a> / Integrations</nav>
@@ -14,7 +14,7 @@ include __DIR__ . '/../includes/header.php';
       <p class="lead">Shopify, WooCommerce, Google Workspace, ads, CRMs and webhooks.</p>
       <div style="margin-top:1.5rem;display:flex;flex-wrap:wrap;gap:.75rem;justify-content:center">
         <a href="<?php echo $bp; ?>#contact-section" class="btn btn-primary btn-lg">Book Demo</a>
-        <a href="https://hellobotz.com/auth/register" class="btn btn-outline btn-lg">Start Free</a>
+        <a href="https://inboxwa.com/auth/register" class="btn btn-outline btn-lg">Start Free</a>
       </div>
     </div>
   </div>
@@ -25,7 +25,7 @@ include __DIR__ . '/../includes/header.php';
     <div class="section-header reveal" style="text-align:center">
       <h2 style="color:#fff">Ready to engage customers on WhatsApp?</h2>
       <div style="margin-top:1.25rem;display:flex;flex-wrap:wrap;gap:.75rem;justify-content:center">
-        <a href="https://hellobotz.com/auth/register" class="btn btn-primary btn-lg">Start Free</a>
+        <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg">Start Free</a>
         <a href="<?php echo $bp; ?>#contact-section" class="btn btn-white btn-lg">Talk to sales</a>
       </div>
     </div>

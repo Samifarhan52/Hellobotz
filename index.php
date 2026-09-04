@@ -1,26 +1,26 @@
 <?php
 $basePath = "";
-$pageTitle = 'WhatsApp Automation Software & AI Chatbot for Business | HelloBotz';
-$pageDescription = 'HelloBotz is an AI chatbot for business & WhatsApp automation software with Official WhatsApp Business API, shared inbox, CRM & broadcast campaigns.';
-$pageKeywords = 'whatsapp automation software, whatsapp marketing tool, whatsapp business API, AI chatbot for business, whatsapp CRM software, lead generation chatbot, instagram automation tool, live chat handover software, AI automation platform India, omnichannel customer engagement platform, whatsapp broadcast campaign tool, facebook messenger automation, whatsapp marketing automation';
+$pageTitle = 'WhatsApp Marketing & Automation Platform | InboxWa';
+$pageDescription = 'Automate WhatsApp marketing with official WhatsApp Business API, chatbots, broadcasts, shared inbox & CRM. Start free with InboxWa today.';
+$pageKeywords = 'WhatsApp marketing software, WhatsApp Business API, WhatsApp automation tool, AI chatbot for business, WhatsApp CRM software, lead generation chatbot, shared inbox, broadcast campaigns, InboxWa';
 $reqPath = parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH) ?: '/';
-$canonicalUrl = 'https://hellobotz.com' . ($reqPath === '/index.php' ? '/' : $reqPath);
+$canonicalUrl = 'https://inboxwa.com' . ($reqPath === '/index.php' ? '/' : $reqPath);
 include __DIR__ . '/includes/header.php';
 ?>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  "name": "HelloBotz",
-  "url": "https://hellobotz.com/",
+  "name": "InboxWa",
+  "url": "https://inboxwa.com/",
   "publisher": {
     "@type": "Organization",
-    "name": "HelloBotz AI Technologies Pvt Ltd",
-    "url": "https://hellobotz.com/"
+    "name": "InboxWa AI Technologies Pvt Ltd",
+    "url": "https://inboxwa.com/"
   },
   "potentialAction": {
     "@type": "RegisterAction",
-    "target": "https://hellobotz.com/auth/register"
+    "target": "https://inboxwa.com/auth/register"
   }
 }
 </script>
@@ -28,10 +28,10 @@ include __DIR__ . '/includes/header.php';
 {
   "@context": "https://schema.org",
   "@type": "SoftwareApplication",
-  "name": "HelloBotz WhatsApp Automation Software",
+  "name": "InboxWa WhatsApp Automation Software",
   "applicationCategory": "BusinessApplication",
   "operatingSystem": "Web",
-  "url": "https://hellobotz.com/",
+  "url": "https://inboxwa.com/",
   "description": "Leading WhatsApp automation software and AI chatbot for business with Official WhatsApp Business API, shared inbox, broadcasts, flow builder and CRM.",
   "offers": {
     "@type": "Offer",
@@ -41,7 +41,7 @@ include __DIR__ . '/includes/header.php';
   },
   "provider": {
     "@type": "Organization",
-    "name": "HelloBotz AI Technologies Pvt Ltd"
+    "name": "InboxWa AI Technologies Pvt Ltd"
   }
 }
 </script>
@@ -56,7 +56,7 @@ include __DIR__ . '/includes/header.php';
           <h1>WhatsApp Automation Software &amp; <span class="hb-grad">AI Chatbot</span> for Business</h1>
           <p class="hb-lead">Boost engagement, qualify leads, and provide 24/7 support with seamless, AI-powered WhatsApp conversations. Integrate instantly and scale efficiently.</p>
           <div class="hb-hero-ctas">
-            <a href="https://hellobotz.com/auth/register" class="btn btn-primary btn-lg">Start Automating - It's Free</a>
+            <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg">Start Automating - It's Free</a>
             <button type="button" class="btn btn-outline btn-lg btn-demo-open">Book a Demo</button>
           </div>
           <div class="hb-stats">
@@ -78,7 +78,7 @@ include __DIR__ . '/includes/header.php';
               <div class="hb-wa-head">
                 <div class="hb-wa-av">HB</div>
                 <div>
-                  <strong>HelloBotz AI</strong>
+                  <strong>InboxWa AI</strong>
                   <small>online</small>
                 </div>
               </div>
@@ -149,13 +149,13 @@ include __DIR__ . '/includes/header.php';
     </div>
   </section>
 
-  <!-- STORY CHAPTER 1: OLD WAY VS HELLOBOTZ AI -->
+  <!-- STORY CHAPTER 1: OLD WAY VS INBOXWA AI -->
   <section class="hb-story-section">
     <div class="container">
       <div class="hb-story-header">
         <div class="hb-story-badge">THE REVOLUTION</div>
         <h2>Stop Losing Customers to <span class="hb-text-grad">Slow Manual Replies</span></h2>
-        <p>Traditional manual messaging leaks 70% of potential sales leads. HelloBotz turns every incoming chat into a closed deal instantly.</p>
+        <p>Traditional manual messaging leaks 70% of potential sales leads. InboxWa turns every incoming chat into a closed deal instantly.</p>
       </div>
 
       <div class="hb-comparison-grid">
@@ -179,9 +179,9 @@ include __DIR__ . '/includes/header.php';
           </div>
         </div>
 
-        <!-- HELLOBOTZ AI WAY -->
+        <!-- INBOXWA AI WAY -->
         <div class="hb-comp-card hb-comp-new">
-          <span class="hb-comp-badge">&check; The HelloBotz AI Way</span>
+          <span class="hb-comp-badge">&check; The InboxWa AI Way</span>
           <div class="hb-comp-title">Instant, Automated &amp; Scaling Revenue</div>
           <div class="hb-comp-list">
             <div class="hb-comp-item">
@@ -248,7 +248,7 @@ include __DIR__ . '/includes/header.php';
       <div class="hb-story-header">
         <div class="hb-story-badge">PLATFORM SUITE</div>
         <h2>Everything You Need to <span class="hb-text-grad">Scale Customer Messaging</span></h2>
-        <p>Explore the complete suite of HelloBotz tools engineered for high-converting sales &amp; support teams.</p>
+        <p>Explore the complete suite of InboxWa tools engineered for high-converting sales &amp; support teams.</p>
       </div>
 
       <div class="hb-tabs-nav">
@@ -266,7 +266,7 @@ include __DIR__ . '/includes/header.php';
             <div class="hb-tab-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg> Green Tick Verification badge assistance</div>
             <div class="hb-tab-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg> Interactive quick-reply buttons</div>
           </div>
-          <a href="https://hellobotz.com/auth/register" class="btn btn-primary" style="margin-top:1rem;">Connect WhatsApp API &rarr;</a>
+          <a href="https://inboxwa.com/auth/register" class="btn btn-primary" style="margin-top:1rem;">Connect WhatsApp API &rarr;</a>
         </div>
         <div class="hb-tab-preview">
           <div style="font-weight:700;color:#C4B5FD;margin-bottom:0.75rem;font-size:0.85rem;text-transform:uppercase;">Meta API Status</div>
@@ -284,7 +284,7 @@ include __DIR__ . '/includes/header.php';
         <div class="hb-tab-content">
           <h3>Shared Team Inbox with Live Handover</h3>
           <p>Unify customer conversations across WhatsApp, Instagram DMs, and Facebook Messenger into one shared team workspace.</p>
-          <a href="https://hellobotz.com/auth/register" class="btn btn-primary" style="margin-top:1rem;">Try Shared Inbox &rarr;</a>
+          <a href="https://inboxwa.com/auth/register" class="btn btn-primary" style="margin-top:1rem;">Try Shared Inbox &rarr;</a>
         </div>
         <div class="hb-tab-preview">
           <div style="font-weight:700;color:#67E8F9;margin-bottom:0.75rem;font-size:0.85rem;text-transform:uppercase;">Team Workspace</div>
@@ -298,7 +298,7 @@ include __DIR__ . '/includes/header.php';
         <div class="hb-tab-content">
           <h3>No-Code Visual AI Flow Builder</h3>
           <p>Drag, drop, and construct conversational AI bots that capture leads and answer support queries 24/7.</p>
-          <a href="https://hellobotz.com/auth/register" class="btn btn-primary" style="margin-top:1rem;">Build AI Bot Now &rarr;</a>
+          <a href="https://inboxwa.com/auth/register" class="btn btn-primary" style="margin-top:1rem;">Build AI Bot Now &rarr;</a>
         </div>
         <div class="hb-tab-preview">
           <div style="font-weight:700;color:#C4B5FD;margin-bottom:0.75rem;font-size:0.85rem;text-transform:uppercase;">Flow Canvas</div>
@@ -312,7 +312,7 @@ include __DIR__ . '/includes/header.php';
         <div class="hb-tab-content">
           <h3>Targeted Broadcast Campaigns</h3>
           <p>Send bulk WhatsApp messages to targeted customer lists with media attachments and CTA buttons.</p>
-          <a href="https://hellobotz.com/auth/register" class="btn btn-primary" style="margin-top:1rem;">Launch Campaign &rarr;</a>
+          <a href="https://inboxwa.com/auth/register" class="btn btn-primary" style="margin-top:1rem;">Launch Campaign &rarr;</a>
         </div>
         <div class="hb-tab-preview">
           <div style="font-weight:700;color:#67E8F9;margin-bottom:0.75rem;font-size:0.85rem;text-transform:uppercase;">Campaign Analytics</div>
@@ -330,7 +330,7 @@ include __DIR__ . '/includes/header.php';
       <div class="hb-story-header">
         <div class="hb-story-badge">TAILORED SOLUTIONS</div>
         <h2>Automated Journeys Built for <span class="hb-text-grad">Every Industry</span></h2>
-        <p>Discover how leading brands across sectors use HelloBotz to drive automated growth.</p>
+        <p>Discover how leading brands across sectors use InboxWa to drive automated growth.</p>
       </div>
 
       <div class="hb-ind-grid">
@@ -386,7 +386,7 @@ include __DIR__ . '/includes/header.php';
         <h2 style="font-size:clamp(2rem,4vw,3.25rem);font-weight:800;color:#fff;margin-bottom:1rem;">Ready to Transform Your <span style="color:#67E8F9">Customer Messaging?</span></h2>
         <p style="font-size:1.15rem;color:rgba(255,255,255,0.9);max-width:36rem;margin:0 auto 2rem;">Start your 14-day free trial today. Access Official WhatsApp API, Shared Inbox, and AI Flow Builder in minutes.</p>
         <div style="display:flex;justify-content:center;gap:1rem;flex-wrap:wrap;">
-          <a href="https://hellobotz.com/auth/register" class="btn btn-primary btn-lg" style="background:#fff;color:#7C3AED;">Start Free Trial Now &rarr;</a>
+          <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg" style="background:#fff;color:#7C3AED;">Start Free Trial Now &rarr;</a>
           <button type="button" class="btn btn-outline btn-lg btn-demo-open" style="border-color:rgba(255,255,255,0.4);color:#fff;background:transparent;">Book a Live Demo</button>
         </div>
       </div>
@@ -483,7 +483,7 @@ include __DIR__ . '/includes/header.php';
     body.appendChild(typing);
 
     showTyping(800, function(){
-      addMsg('bot', '👋 Hi there! Welcome to <b>HelloBotz AI</b>.');
+      addMsg('bot', '👋 Hi there! Welcome to <b>InboxWa AI</b>.');
       showTyping(900, function(){
         addMsg('bot', 'May I please know your name?');
         

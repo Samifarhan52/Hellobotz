@@ -1,14 +1,14 @@
 <?php
 /**
- * HelloBotz global header + SEO meta engine
+ * InboxWa global header + SEO meta engine
  * Set before include: $pageTitle, $pageDescription, $pageKeywords,
  * $canonicalUrl, $ogImage, $ogType, $robots, $basePath
  */
 if (!isset($basePath)) { $basePath = ''; }
 $bp = $basePath;
 
-$SITE_NAME   = 'HelloBotz';
-$SITE_DOMAIN = 'https://hellobotz.com';
+$SITE_NAME   = 'InboxWa';
+$SITE_DOMAIN = 'https://inboxwa.com';
 $DEFAULT_OG  = $SITE_DOMAIN . '/assets/images/og-image.png';
 
 $pageTitle       = isset($pageTitle) ? trim((string)$pageTitle) : '';
@@ -21,13 +21,13 @@ $robots          = isset($robots) ? $robots : 'index, follow, max-image-preview:
 $twitterCard     = isset($twitterCard) ? $twitterCard : 'summary_large_image';
 
 if ($pageTitle === '') {
-  $pageTitle = 'WhatsApp Automation Software & AI Chatbot for Business';
+  $pageTitle = 'WhatsApp Marketing & Automation Platform';
 }
 if ($pageDescription === '') {
-  $pageDescription = 'HelloBotz is an official WhatsApp Business API & WhatsApp automation software with AI chatbot for business, shared inbox, CRM & omnichannel tools.';
+  $pageDescription = 'Automate WhatsApp marketing with official WhatsApp Business API, chatbots, broadcasts, shared inbox & CRM. Start free with InboxWa today.';
 }
 if ($pageKeywords === '') {
-  $pageKeywords = 'whatsapp automation software, whatsapp marketing tool, whatsapp business API, AI chatbot for business, whatsapp CRM software, lead generation chatbot, instagram automation tool, live chat handover software, AI automation platform India';
+  $pageKeywords = 'WhatsApp marketing software, WhatsApp Business API, WhatsApp automation tool, AI chatbot for business, WhatsApp CRM software, lead generation chatbot, shared inbox, broadcast campaigns, InboxWa';
 }
 if ($canonicalUrl === '') {
   $reqUri = isset($_SERVER['REQUEST_URI']) ? strtok($_SERVER['REQUEST_URI'], '?') : '/';
@@ -37,7 +37,7 @@ if (!preg_match('/\.[a-z0-9]+$/i', $canonicalUrl) && substr($canonicalUrl, -1) !
   $canonicalUrl .= '/';
 }
 
-$fullTitle = (stripos($pageTitle, 'HelloBotz') !== false)
+$fullTitle = (stripos($pageTitle, 'InboxWa') !== false)
   ? $pageTitle
   : ($pageTitle . ' | ' . $SITE_NAME);
 
@@ -62,11 +62,11 @@ if (!function_exists('hb_seo_esc')) {
   <title><?php echo hb_seo_esc($fullTitle); ?></title>
   <meta name="description" content="<?php echo hb_seo_esc($pageDescription); ?>">
   <meta name="keywords" content="<?php echo hb_seo_esc($pageKeywords); ?>">
-  <meta name="author" content="HelloBotz">
+  <meta name="author" content="InboxWa">
   <meta name="robots" content="<?php echo hb_seo_esc($robots); ?>">
   <meta name="googlebot" content="<?php echo (strpos($robots, 'noindex') !== false) ? 'noindex, nofollow' : 'index, follow'; ?>">
   <meta name="theme-color" content="#8B5CF6">
-  <meta name="application-name" content="HelloBotz">
+  <meta name="application-name" content="InboxWa">
   <meta name="format-detection" content="telephone=no">
   <meta name="geo.region" content="IN">
   <meta name="language" content="en">
@@ -76,7 +76,7 @@ if (!function_exists('hb_seo_esc')) {
   <link rel="alternate" hreflang="x-default" href="<?php echo hb_seo_esc($canonicalUrl); ?>">
 
   <meta property="og:type" content="<?php echo hb_seo_esc($ogType); ?>">
-  <meta property="og:site_name" content="HelloBotz">
+  <meta property="og:site_name" content="InboxWa">
   <meta property="og:locale" content="en_US">
   <meta property="og:title" content="<?php echo hb_seo_esc($ogTitle); ?>">
   <meta property="og:description" content="<?php echo hb_seo_esc($ogDescription); ?>">
@@ -107,30 +107,53 @@ if (!function_exists('hb_seo_esc')) {
   {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "name": "HelloBotz AI Technologies Pvt Ltd",
-    "url": "https://hellobotz.com/",
-    "logo": "https://hellobotz.com/assets/images/logo.png",
+    "name": "InboxWa AI Technologies Pvt Ltd",
+    "url": "https://inboxwa.com/",
+    "logo": "https://inboxwa.com/assets/images/logo.png",
     "description": "Official WhatsApp Business API and Omnichannel automation platform for WhatsApp, Instagram, Facebook and Telegram.",
-    "email": "hello@hellobotz.com",
-    "telephone": "+91-9638911838",
-    "address": { "@type": "PostalAddress", "addressCountry": "IN" },
+    "email": "mail@inboxwa.com",
+    "telephone": "+91-8050854445",
+    "address": { "@type": "PostalAddress", "addressCountry": "IN", "addressLocality": "Bangalore" },
     "contactPoint": [{
       "@type": "ContactPoint",
-      "telephone": "+91-9638911838",
+      "telephone": "+91-8050854445",
       "contactType": "sales",
       "areaServed": "IN",
       "availableLanguage": ["English", "Hindi"]
-    }]
+    }, {
+      "@type": "ContactPoint",
+      "telephone": "+91-8050854445",
+      "contactType": "customer support",
+      "email": "support@inboxwa.com"
+    }],
+    "sameAs": [
+      "https://facebook.com/inboxwa",
+      "https://instagram.com/inboxwa",
+      "https://linkedin.com/company/inboxwa"
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "InboxWa",
+    "url": "https://inboxwa.com/",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://inboxwa.com/resources/search?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
   }
   </script>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
-    "name": "HelloBotz",
+    "name": "InboxWa",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "url": "https://hellobotz.com/",
+    "url": "https://inboxwa.com/",
     "description": "WhatsApp Business API platform with shared inbox, broadcasts, flow builder, chatbots, CRM and omnichannel automation.",
     "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR", "description": "Free trial available" }
   }
@@ -142,11 +165,11 @@ if (!function_exists('hb_seo_esc')) {
   <a href="#main" class="skip-link">Skip to content</a>
   <header class="site-header" role="banner">
     <div class="header-inner">
-      <a href="<?php echo $bp; ?>" class="logo" aria-label="HelloBotz Home">
-        <img src="<?php echo $bp; ?>assets/images/logo.png" alt="HelloBotz" class="logo-img" width="140" height="36" onerror="this.onerror=null;this.src='';this.style.display='none';var f=this.parentNode.querySelector('.logo-fallback');if(f)f.style.display='inline-flex'">
+      <a href="<?php echo $bp; ?>" class="logo" aria-label="InboxWa Home">
+        <img src="<?php echo $bp; ?>assets/images/logo.png" alt="InboxWa" class="logo-img" width="140" height="36" onerror="this.onerror=null;this.src='';this.style.display='none';var f=this.parentNode.querySelector('.logo-fallback');if(f)f.style.display='inline-flex'">
         <span class="logo-fallback" style="display:none;align-items:center;gap:0.4rem">
           <span class="logo-icon" style="width:36px;height:36px;display:inline-flex;background:linear-gradient(135deg,#8B5CF6,#6366F1);border-radius:10px;color:#fff;align-items:center;justify-content:center"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></span>
-          <span style="font-weight:800;font-size:1.15rem;color:#0F172A">HelloBotz</span>
+          <span style="font-weight:800;font-size:1.15rem;color:#0F172A">InboxWa</span>
         </span>
       </a>
       <nav class="nav-desktop" role="navigation" aria-label="Main">
@@ -213,7 +236,7 @@ if (!function_exists('hb_seo_esc')) {
                 <span class="mega-guide-badge">PLATFORM</span>
                 <h4>WhatsApp API + Automation</h4>
                 <p>Official Meta API, inbox, broadcasts, flows and CRM — built for sales and support teams.</p>
-                <a href="https://hellobotz.com/auth/register" class="btn btn-sm btn-primary" style="margin-top:.5rem;align-self:flex-start">Start Free Trial</a>
+                <a href="https://inboxwa.com/auth/register" class="btn btn-sm btn-primary" style="margin-top:.5rem;align-self:flex-start">Start Free Trial</a>
               </div>
             </div>
           </div>
@@ -339,7 +362,7 @@ if (!function_exists('hb_seo_esc')) {
               </div>
             
                 <div class="mega-cta-box">
-                  <p>Grow with HelloBotz as a partner or reseller.</p>
+                  <p>Grow with InboxWa as a partner or reseller.</p>
                   <a href="/partners/" class="btn btn-primary btn-sm">Join Our Partner Program</a>
                 </div>
 </div>
@@ -395,8 +418,8 @@ if (!function_exists('hb_seo_esc')) {
             <li role="option" data-lang="fr">Français</li>
           </ul>
         </div>
-        <a href="https://hellobotz.com/auth/login" class="header-login"><span>Login</span></a>
-        <a href="https://hellobotz.com/auth/register" class="btn btn-primary btn-sm header-cta-start">Start Free</a>
+        <a href="https://inboxwa.com/auth/login" class="header-login"><span>Login</span></a>
+        <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-sm header-cta-start">Start Free</a>
         <button type="button" class="mobile-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
       </div>
     </div>
@@ -406,8 +429,8 @@ if (!function_exists('hb_seo_esc')) {
     <div class="mobile-backdrop"></div>
     <div class="mobile-drawer">
       <div class="mobile-drawer-header">
-        <a href="<?php echo $bp; ?>" class="logo" aria-label="HelloBotz Home">
-          <img src="<?php echo $bp; ?>assets/images/logo.png" alt="HelloBotz" class="logo-img" width="120" height="32" onerror="this.style.display='none'">
+        <a href="<?php echo $bp; ?>" class="logo" aria-label="InboxWa Home">
+          <img src="<?php echo $bp; ?>assets/images/logo.png" alt="InboxWa" class="logo-img" width="120" height="32" onerror="this.style.display='none'">
         </a>
         <button type="button" class="mobile-close btn btn-icon btn-ghost" aria-label="Close menu"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg></button>
       </div>
@@ -494,8 +517,8 @@ if (!function_exists('hb_seo_esc')) {
           </div></div>
         </div>
         <div class="mobile-nav-actions">
-          <a href="https://hellobotz.com/auth/login" class="mnav-login">Login</a>
-          <a href="https://hellobotz.com/auth/register" class="mnav-start">Start Free</a>
+          <a href="https://inboxwa.com/auth/login" class="mnav-login">Login</a>
+          <a href="https://inboxwa.com/auth/register" class="mnav-start">Start Free</a>
           <a href="/#contact-section" class="mnav-demo btn-demo-open">Book a Demo</a>
         </div>
       </div>

@@ -1,5 +1,5 @@
 /**
- * HelloBotz i18n — EN, AR, ES, PT, DE, FR
+ * InboxWa i18n — EN, AR, ES, PT, DE, FR
  * Applies to all [data-i18n] on the page. Future pages: same attributes + this file.
  */
 (function () {
@@ -11,7 +11,7 @@
     en: {
       hero_badge: 'Official WhatsApp Business API · Instagram · Facebook · Telegram',
       hero_title: 'Engage customers on WhatsApp & every channel — from one platform',
-      hero_lead: 'HelloBotz combines Official WhatsApp Business API, omnichannel inbox, smart automation and team tools so sales and support scale without chaos.',
+      hero_lead: 'InboxWa combines Official WhatsApp Business API, omnichannel inbox, smart automation and team tools so sales and support scale without chaos.',
       cta_trial: 'Start Free Trial',
       cta_demo: 'Book a Demo',
       pill_api: 'Official WhatsApp API',
@@ -20,7 +20,7 @@
       pill_broadcast: 'Broadcasts',
       pill_crm: 'CRM & Integrations',
       trusted_label: 'Trusted by teams running customer messaging at scale',
-      why_badge: 'Why HelloBotz',
+      why_badge: 'Why InboxWa',
       why_title: 'WhatsApp API + Omnichannel, built for business',
       why_lead: 'One platform for Official WhatsApp, Instagram, Facebook, Telegram, Live Chat and Voice — with automation your team can actually run.',
       why_c1_t: 'Official WhatsApp API',
@@ -30,11 +30,11 @@
       why_c3_t: 'Automation that ships',
       why_c3_p: 'Flows, triggers, broadcasts and chatbots for support, sales, carts and appointments.',
       prod_badge: 'Products',
-      prod_title: 'Everything in one HelloBotz account',
+      prod_title: 'Everything in one InboxWa account',
       prod_lead: 'From first WhatsApp message to closed deal — inbox, campaigns, flows and CRM together.',
       ind_badge: 'Industries',
       ind_title: 'Built for teams that message every day',
-      ind_lead: 'WhatsApp Business API & omnichannel automation for E-commerce, Education, Healthcare, IT, Hotels, Restaurants and more — scale customer messaging with HelloBotz.',
+      ind_lead: 'WhatsApp Business API & omnichannel automation for E-commerce, Education, Healthcare, IT, Hotels, Restaurants and more — scale customer messaging with InboxWa.',
       ind_ecom_t: 'E-commerce', ind_ecom_p: 'Cart recovery, order updates and support on Official WhatsApp API.',
       ind_edu_t: 'Education', ind_edu_p: 'Admissions, fee reminders and parent communication automation.',
       ind_health_t: 'Healthcare', ind_health_p: 'Appointment booking, reminders and patient follow-ups on WhatsApp.',
@@ -53,7 +53,7 @@
     ar: {
       hero_badge: 'واجهة واتساب الرسمية · إنستغرام · فيسبوك · تيليغرام',
       hero_title: 'تواصل مع عملائك على واتساب وكل القنوات — من منصة واحدة',
-      hero_lead: 'تجمع HelloBotz بين واتساب الرسمي للأعمال وصندوق الوارد متعدد القنوات والأتمتة وأدوات الفريق لتنمية المبيعات والدعم بسلاسة.',
+      hero_lead: 'تجمع InboxWa بين واتساب الرسمي للأعمال وصندوق الوارد متعدد القنوات والأتمتة وأدوات الفريق لتنمية المبيعات والدعم بسلاسة.',
       cta_trial: 'ابدأ تجربة مجانية',
       cta_demo: 'احجز عرضًا',
       pill_api: 'واتساب API الرسمي',
@@ -62,7 +62,7 @@
       pill_broadcast: 'رسائل جماعية',
       pill_crm: 'CRM وتكاملات',
       trusted_label: 'موثوق به من فرق تراسل العملاء يوميًا',
-      why_badge: 'لماذا HelloBotz',
+      why_badge: 'لماذا InboxWa',
       why_title: 'واتساب API وقنوات متعددة للأعمال',
       why_lead: 'منصة واحدة لواتساب الرسمي وإنستغرام وفيسبوك وتيليغرام والدردشة — بأتمتة يمكن لفريقك تشغيلها.',
       why_c1_t: 'واتساب API الرسمي',
@@ -72,7 +72,7 @@
       why_c3_t: 'أتمتة جاهزة للعمل',
       why_c3_p: 'مسارات وتنبيهات ورسائل جماعية وروبوتات للمبيعات والدعم.',
       prod_badge: 'المنتجات',
-      prod_title: 'كل شيء في حساب HelloBotz واحد',
+      prod_title: 'كل شيء في حساب InboxWa واحد',
       prod_lead: 'من أول رسالة واتساب إلى إغلاق الصفقة — صندوق وارد وحملات ومسارات وCRM.',
       ind_badge: 'القطاعات',
       ind_title: 'مصمم للفرق التي تراسل كل يوم',
@@ -95,7 +95,7 @@
     es: {
       hero_badge: 'API oficial de WhatsApp Business · Instagram · Facebook · Telegram',
       hero_title: 'Conecta con clientes en WhatsApp y cada canal — desde una plataforma',
-      hero_lead: 'HelloBotz combina la API oficial de WhatsApp Business, bandeja omnicanal, automatización e herramientas de equipo para escalar ventas y soporte sin caos.',
+      hero_lead: 'InboxWa combina la API oficial de WhatsApp Business, bandeja omnicanal, automatización e herramientas de equipo para escalar ventas y soporte sin caos.',
       cta_trial: 'Empezar prueba gratis',
       cta_demo: 'Reservar demo',
       pill_api: 'API oficial de WhatsApp',
@@ -104,7 +104,7 @@
       pill_broadcast: 'Difusiones',
       pill_crm: 'CRM e integraciones',
       trusted_label: 'Equipos que mensajear a escala confían en nosotros',
-      why_badge: 'Por qué HelloBotz',
+      why_badge: 'Por qué InboxWa',
       why_title: 'API de WhatsApp + omnicanal para negocios',
       why_lead: 'Una plataforma para WhatsApp oficial, Instagram, Facebook, Telegram, chat en vivo y voz — con automatización que tu equipo puede usar.',
       why_c1_t: 'API oficial de WhatsApp',
@@ -114,7 +114,7 @@
       why_c3_t: 'Automatización lista',
       why_c3_p: 'Flujos, disparadores, difusiones y chatbots para ventas y soporte.',
       prod_badge: 'Productos',
-      prod_title: 'Todo en una cuenta HelloBotz',
+      prod_title: 'Todo en una cuenta InboxWa',
       prod_lead: 'Del primer mensaje de WhatsApp al cierre — bandeja, campañas, flujos y CRM.',
       ind_badge: 'Industrias',
       ind_title: 'Para equipos que mensajear cada día',
@@ -137,7 +137,7 @@
     pt: {
       hero_badge: 'API oficial do WhatsApp Business · Instagram · Facebook · Telegram',
       hero_title: 'Engaje clientes no WhatsApp e em cada canal — em uma plataforma',
-      hero_lead: 'A HelloBotz combina a API oficial do WhatsApp Business, inbox omnichannel, automação e ferramentas de equipe para escalar vendas e suporte sem caos.',
+      hero_lead: 'A InboxWa combina a API oficial do WhatsApp Business, inbox omnichannel, automação e ferramentas de equipe para escalar vendas e suporte sem caos.',
       cta_trial: 'Começar teste grátis',
       cta_demo: 'Agendar demo',
       pill_api: 'API oficial do WhatsApp',
@@ -146,7 +146,7 @@
       pill_broadcast: 'Disparos',
       pill_crm: 'CRM e integrações',
       trusted_label: 'Confiado por equipes que mensageiam em escala',
-      why_badge: 'Por que HelloBotz',
+      why_badge: 'Por que InboxWa',
       why_title: 'API do WhatsApp + omnichannel para negócios',
       why_lead: 'Uma plataforma para WhatsApp oficial, Instagram, Facebook, Telegram, chat e voz — com automação que sua equipe consegue rodar.',
       why_c1_t: 'API oficial do WhatsApp',
@@ -156,7 +156,7 @@
       why_c3_t: 'Automação que entrega',
       why_c3_p: 'Fluxos, gatilhos, disparos e chatbots para vendas e suporte.',
       prod_badge: 'Produtos',
-      prod_title: 'Tudo em uma conta HelloBotz',
+      prod_title: 'Tudo em uma conta InboxWa',
       prod_lead: 'Da primeira mensagem ao fechamento — inbox, campanhas, fluxos e CRM.',
       ind_badge: 'Indústrias',
       ind_title: 'Para equipes que mensageiam todo dia',
@@ -179,7 +179,7 @@
     de: {
       hero_badge: 'Offizielle WhatsApp Business API · Instagram · Facebook · Telegram',
       hero_title: 'Kunden auf WhatsApp und jedem Kanal erreichen — von einer Plattform',
-      hero_lead: 'HelloBotz kombiniert die offizielle WhatsApp Business API, Omnichannel-Posteingang, Automatisierung und Team-Tools für skalierbaren Vertrieb und Support.',
+      hero_lead: 'InboxWa kombiniert die offizielle WhatsApp Business API, Omnichannel-Posteingang, Automatisierung und Team-Tools für skalierbaren Vertrieb und Support.',
       cta_trial: 'Kostenlos testen',
       cta_demo: 'Demo buchen',
       pill_api: 'Offizielle WhatsApp API',
@@ -188,7 +188,7 @@
       pill_broadcast: 'Broadcasts',
       pill_crm: 'CRM & Integrationen',
       trusted_label: 'Vertraut von Teams, die täglich Nachrichten senden',
-      why_badge: 'Warum HelloBotz',
+      why_badge: 'Warum InboxWa',
       why_title: 'WhatsApp API + Omnichannel für Unternehmen',
       why_lead: 'Eine Plattform für offizielles WhatsApp, Instagram, Facebook, Telegram, Live-Chat und Voice — mit Automatisierung, die Ihr Team nutzt.',
       why_c1_t: 'Offizielle WhatsApp API',
@@ -198,7 +198,7 @@
       why_c3_t: 'Automatisierung die liefert',
       why_c3_p: 'Flows, Trigger, Broadcasts und Chatbots für Vertrieb und Support.',
       prod_badge: 'Produkte',
-      prod_title: 'Alles in einem HelloBotz-Konto',
+      prod_title: 'Alles in einem InboxWa-Konto',
       prod_lead: 'Von der ersten WhatsApp-Nachricht bis zum Abschluss — Posteingang, Kampagnen, Flows und CRM.',
       ind_badge: 'Branchen',
       ind_title: 'Für Teams, die täglich schreiben',
@@ -221,7 +221,7 @@
     fr: {
       hero_badge: 'API WhatsApp Business officielle · Instagram · Facebook · Telegram',
       hero_title: 'Engagez vos clients sur WhatsApp et chaque canal — depuis une plateforme',
-      hero_lead: 'HelloBotz combine l’API WhatsApp Business officielle, une boîte de réception omnicanale, l’automatisation et des outils d’équipe pour faire évoluer ventes et support sans chaos.',
+      hero_lead: 'InboxWa combine l’API WhatsApp Business officielle, une boîte de réception omnicanale, l’automatisation et des outils d’équipe pour faire évoluer ventes et support sans chaos.',
       cta_trial: 'Essai gratuit',
       cta_demo: 'Réserver une démo',
       pill_api: 'API WhatsApp officielle',
@@ -230,7 +230,7 @@
       pill_broadcast: 'Diffusions',
       pill_crm: 'CRM et intégrations',
       trusted_label: 'La confiance des équipes qui messagent à grande échelle',
-      why_badge: 'Pourquoi HelloBotz',
+      why_badge: 'Pourquoi InboxWa',
       why_title: 'API WhatsApp + omnicanal pour le business',
       why_lead: 'Une plateforme pour WhatsApp officiel, Instagram, Facebook, Telegram, chat et voix — avec une automatisation que votre équipe peut piloter.',
       why_c1_t: 'API WhatsApp officielle',
@@ -240,7 +240,7 @@
       why_c3_t: 'Automatisation opérationnelle',
       why_c3_p: 'Flux, déclencheurs, diffusions et chatbots pour les ventes et le support.',
       prod_badge: 'Produits',
-      prod_title: 'Tout dans un compte HelloBotz',
+      prod_title: 'Tout dans un compte InboxWa',
       prod_lead: 'Du premier message WhatsApp à la signature — boîte, campagnes, flux et CRM.',
       ind_badge: 'Secteurs',
       ind_title: 'Pour les équipes qui messagent chaque jour',
@@ -326,5 +326,5 @@
   else init();
 
   // Export for future pages
-  window.HelloBotzI18n = { apply: apply, dict: T };
+  window.InboxWaI18n = { apply: apply, dict: T };
 })();

@@ -2,7 +2,7 @@
 $basePath = '../../';
 $pageTitle = 'WhatsApp for IT & Communication teams';
 $pageDescription = 'Client alerts, support desks and renewal conversations for IT services, MSPs and telecom-style operations.';
-$canonicalUrl = 'https://hellobotz.com/industries/communication-it';
+$canonicalUrl = 'https://inboxwa.com/industries/communication-it';
 include __DIR__ . '/../includes/header.php';
 ?>
 <nav class="container" style="padding-top:calc(var(--nav,72px)+1rem);font-size:.85rem;color:var(--t3)"><a href="<?php echo $bp; ?>">Home</a> / Industries / Communication IT</nav>
@@ -28,7 +28,7 @@ include __DIR__ . '/../includes/header.php';
   <ul class="feature-list" style="max-width:720px;margin:1.25rem auto 0;display:flex;flex-direction:column;gap:.65rem"><li class="feature-list-item reveal"><span class="check"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span><span>Incident webhook → approved notice → status thread</span></li><li class="feature-list-item reveal"><span class="check"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span><span>Support request → bot triage → agent</span></li><li class="feature-list-item reveal"><span class="check"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span><span>Renewal reminder → meeting book</span></li><li class="feature-list-item reveal"><span class="check"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span><span>CSAT after resolution</span></li></ul>
 </div></section>
 <section class="section section-alt"><div class="container">
-  <div class="section-header reveal"><h2>How HelloBotz helps</h2></div>
+  <div class="section-header reveal"><h2>How InboxWa helps</h2></div>
   <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:1rem;margin-top:1.25rem"><div class="card card-feature reveal"><h3>Webhook alerts</h3><p>From monitoring into WhatsApp.</p></div><div class="card card-feature reveal"><h3>Shared support inbox</h3><p>Shift-friendly ownership.</p></div><div class="card card-feature reveal"><h3>CRM renewals</h3><p>Pipeline for account health.</p></div><div class="card card-feature reveal"><h3>Automation</h3><p>Reduce repetitive status pings.</p></div><div class="card card-feature reveal"><h3>Audit-friendly history</h3><p>Full conversation logs.</p></div><div class="card card-feature reveal"><h3>Integrations</h3><p>Connect to your existing tools.</p></div></div>
 </div></section>
 <section class="section section-dark"><div class="container"><div class="section-header reveal" style="text-align:center">

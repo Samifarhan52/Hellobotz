@@ -1,8 +1,8 @@
 <?php
 $basePath = '../../';
-$pageTitle = 'Blog — HelloBotz Insights';
+$pageTitle = 'Blog — InboxWa Insights';
 $pageDescription = 'AI automation, WhatsApp API, omnichannel engagement, CRM and business growth insights.';
-$canonicalUrl = 'https://hellobotz.com/resources/blog/';
+$canonicalUrl = 'https://inboxwa.com/resources/blog/';
 include __DIR__ . '/../../includes/header.php';
 ?>
 <link rel="stylesheet" href="/assets/css/resources.css?v=1">
@@ -10,7 +10,7 @@ include __DIR__ . '/../../includes/header.php';
 <nav class="container" style="padding-top:calc(var(--nav,72px)+1rem);font-size:.85rem;color:var(--t3)"><a href="/">Home</a> / Resources / Blog</nav>
 <section class="section page-hero" style="padding-top:1.25rem"><div class="container"><div class="section-header reveal">
 <span class="badge badge-primary">Blog</span>
-<h1>HelloBotz Insights</h1>
+<h1>InboxWa Insights</h1>
 <p class="lead">AI automation, WhatsApp API, omnichannel engagement, CRM and business growth insights.</p>
 </div></div></section>
 <section class="section section-gradient-1"><div class="container">

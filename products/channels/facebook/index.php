@@ -1,8 +1,8 @@
 <?php
 $basePath = '../../../';
-$pageTitle = 'Facebook Messenger Automation | Leads, Support & Chatbot | HelloBotz';
-$pageDescription = 'Turn Facebook Messenger into sales and support — lead capture, chatbot, team inbox and CRM workflows with HelloBotz.';
-$canonicalUrl = 'https://hellobotz.com/products/channels/facebook/';
+$pageTitle = 'Facebook Messenger Automation | Leads, Support & Chatbot | InboxWa';
+$pageDescription = 'Turn Facebook Messenger into sales and support — lead capture, chatbot, team inbox and CRM workflows with InboxWa.';
+$canonicalUrl = 'https://inboxwa.com/products/channels/facebook/';
 include __DIR__ . '/../../../includes/header.php';
 ?>
 <link rel="stylesheet" href="/assets/css/channel-facebook.css?v=1">
@@ -15,9 +15,9 @@ include __DIR__ . '/../../../includes/header.php';
       <div class="fb-hero-copy">
         <span class="badge fb-badge">FACEBOOK MESSENGER</span>
         <h1>Turn Facebook Conversations Into <span class="grad">Sales &amp; Support</span></h1>
-        <p class="fb-lead">Capture leads, reply instantly, run chatbot automation, support customers and follow up — all from Facebook Messenger with HelloBotz.</p>
+        <p class="fb-lead">Capture leads, reply instantly, run chatbot automation, support customers and follow up — all from Facebook Messenger with InboxWa.</p>
         <div class="fb-ctas">
-          <a href="https://hellobotz.com/auth/register" class="btn btn-primary btn-lg">Start Free</a>
+          <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg">Start Free</a>
           <button type="button" class="btn btn-outline btn-lg btn-demo-open" style="border-color:rgba(255,255,255,.5);color:#fff;background:transparent">Book Facebook Demo</button>
         </div>
         <div class="fb-tabs" id="fb-tabs">
@@ -123,10 +123,10 @@ include __DIR__ . '/../../../includes/header.php';
 
 <section class="section" id="integration">
   <div class="container">
-    <div class="section-header reveal"><h2>Facebook + HelloBotz</h2></div>
+    <div class="section-header reveal"><h2>Facebook + InboxWa</h2></div>
     <div class="fb-flow reveal">
       <span>Facebook Messenger</span><span class="arr">→</span>
-      <span>HelloBotz</span><span class="arr">→</span>
+      <span>InboxWa</span><span class="arr">→</span>
       <span>CRM</span><span class="arr">→</span>
       <span>Team Inbox</span>
     </div>
@@ -181,7 +181,7 @@ include __DIR__ . '/../../../includes/header.php';
   <div class="container">
     <div class="section-header reveal"><h2>FAQ</h2></div>
     <div class="faq-list" style="max-width:760px;margin:1.5rem auto 0">
-      <div class="faq-item reveal"><button type="button" class="faq-question" aria-expanded="false">Can HelloBotz connect Facebook Messenger?<svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-answer"><div class="faq-answer-inner">Yes where Messenger is configured as a channel in your HelloBotz account.</div></div></div>
+      <div class="faq-item reveal"><button type="button" class="faq-question" aria-expanded="false">Can InboxWa connect Facebook Messenger?<svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-answer"><div class="faq-answer-inner">Yes where Messenger is configured as a channel in your InboxWa account.</div></div></div>
       <div class="faq-item reveal"><button type="button" class="faq-question" aria-expanded="false">Can I capture leads from Messenger?<svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-answer"><div class="faq-answer-inner">Yes — collect details in conversation and create leads for your team workflow.</div></div></div>
       <div class="faq-item reveal"><button type="button" class="faq-question" aria-expanded="false">Can chats go to a shared team inbox?<svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-answer"><div class="faq-answer-inner">Yes — agents can collaborate and hand off conversations where supported.</div></div></div>
       <div class="faq-item reveal"><button type="button" class="faq-question" aria-expanded="false">Can Messenger connect with CRM?<svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-answer"><div class="faq-answer-inner">Where configured, leads and conversation activity can sync with CRM.</div></div></div>
@@ -194,7 +194,7 @@ include __DIR__ . '/../../../includes/header.php';
     <div class="section-header reveal">
       <h2 style="color:#fff">Ready to Turn Facebook Conversations Into Customers?</h2>
       <div style="margin-top:1.5rem;display:flex;flex-wrap:wrap;gap:.75rem;justify-content:center">
-        <a href="https://hellobotz.com/auth/register" class="btn btn-primary btn-lg">Start Free</a>
+        <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg">Start Free</a>
         <button type="button" class="btn btn-outline btn-lg btn-demo-open" style="border-color:rgba(255,255,255,.5);color:#fff;background:transparent">Book Facebook Demo</button>
       </div>
     </div>

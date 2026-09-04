@@ -2,7 +2,7 @@
 $basePath = '../../';
 $pageTitle = 'WhatsApp API for Real Estate';
 $pageDescription = 'Capture project enquiries, qualify budget and locality, book site visits and keep brokers aligned — all on WhatsApp.';
-$canonicalUrl = 'https://hellobotz.com/industries/real-estate';
+$canonicalUrl = 'https://inboxwa.com/industries/real-estate';
 include __DIR__ . '/../includes/header.php';
 ?>
 <nav class="container" style="padding-top:calc(var(--nav,72px)+1rem);font-size:.85rem;color:var(--t3)"><a href="<?php echo $bp; ?>">Home</a> / Industries / Real Estate</nav>
@@ -28,7 +28,7 @@ include __DIR__ . '/../includes/header.php';
   <ul class="feature-list" style="max-width:720px;margin:1.25rem auto 0;display:flex;flex-direction:column;gap:.65rem"><li class="feature-list-item reveal"><span class="check"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span><span>Ad / portal lead → WhatsApp qualify (budget, BHK, area)</span></li><li class="feature-list-item reveal"><span class="check"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span><span>Match inventory → share brochure → schedule visit</span></li><li class="feature-list-item reveal"><span class="check"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span><span>Reminder 24h and 2h before visit</span></li><li class="feature-list-item reveal"><span class="check"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span><span>Post-visit feedback → nurture or hand to closer</span></li></ul>
 </div></section>
 <section class="section section-alt"><div class="container">
-  <div class="section-header reveal"><h2>How HelloBotz helps</h2></div>
+  <div class="section-header reveal"><h2>How InboxWa helps</h2></div>
   <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:1rem;margin-top:1.25rem"><div class="card card-feature reveal"><h3>Click-to-WhatsApp ads</h3><p>Meta ads into assigned conversations.</p></div><div class="card card-feature reveal"><h3>Qualification bots</h3><p>Structured questions before human time.</p></div><div class="card card-feature reveal"><h3>Visit booking</h3><p>Calendar-aware confirmations.</p></div><div class="card card-feature reveal"><h3>Team inbox</h3><p>Project-wise assignment and notes.</p></div><div class="card card-feature reveal"><h3>CRM stages</h3><p>Enquiry → visit → negotiation → booking.</p></div><div class="card card-feature reveal"><h3>Broadcast to warm lists</h3><p>New phase launches to opted-in buyers.</p></div></div>
 </div></section>
 <section class="section section-dark"><div class="container"><div class="section-header reveal" style="text-align:center">

@@ -1,6 +1,6 @@
 <?php
 /**
- * Vercel Serverless PHP Entrypoint for HelloBotz
+ * Vercel Serverless PHP Entrypoint for InboxWa
  */
 header('Content-Type: text/html; charset=UTF-8');
 

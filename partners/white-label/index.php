@@ -1,8 +1,8 @@
 <?php
 $basePath = '../../';
-$pageTitle = 'Your brand. Your platform. Powered by HelloBotz' . ' | HelloBotz Partners';
-$pageDescription = 'Offer a white-label WhatsApp and omnichannel stack — custom branding, domain and login — while HelloBotz powers the engine.';
-$canonicalUrl = 'https://hellobotz.com/partners/white-label/';
+$pageTitle = 'Your brand. Your platform. Powered by InboxWa' . ' | InboxWa Partners';
+$pageDescription = 'Offer a white-label WhatsApp and omnichannel stack — custom branding, domain and login — while InboxWa powers the engine.';
+$canonicalUrl = 'https://inboxwa.com/partners/white-label/';
 include __DIR__ . '/../../includes/header.php';
 ?>
 
@@ -14,14 +14,14 @@ include __DIR__ . '/../../includes/header.php';
   <div class="partner-orb partner-orb-2" aria-hidden="true"></div>
   <div class="container" style="text-align:center">
     <span class="badge">White Label</span>
-    <h1>Your brand. Your platform. Powered by HelloBotz</h1>
-    <p class="lead">Offer a white-label WhatsApp and omnichannel stack — custom branding, domain and login — while HelloBotz powers the engine.</p>
+    <h1>Your brand. Your platform. Powered by InboxWa</h1>
+    <p class="lead">Offer a white-label WhatsApp and omnichannel stack — custom branding, domain and login — while InboxWa powers the engine.</p>
     <div style="margin-top:1.5rem;display:flex;flex-wrap:wrap;gap:.75rem;justify-content:center">
       <a href="#partner-form" class="btn btn-primary btn-lg">Start White Label Program</a>
       <a href="#flow" class="btn btn-outline btn-lg" style="border-color:rgba(255,255,255,.35);color:#fff">See workflow</a>
     </div>
     <div class="hero-visual-float" style="max-width:760px;margin:2.5rem auto 0">
-      <img src="/assets/images/partners/white-label/hero.webp" alt="White Label — HelloBotz"
+      <img src="/assets/images/partners/white-label/hero.webp" alt="White Label — InboxWa"
         width="1200" height="630" loading="eager"
         style="width:100%;border-radius:18px;border:1px solid rgba(255,255,255,.12);min-height:200px;object-fit:cover;background:linear-gradient(135deg,rgba(139,92,246,.35),rgba(6,182,212,.25))"
         onerror="this.style.minHeight='200px'">
@@ -38,7 +38,7 @@ include __DIR__ . '/../../includes/header.php';
 
 <section class="section section-gradient-1">
   <div class="container">
-    <div class="section-header reveal"><h2>How HelloBotz helps</h2></div>
+    <div class="section-header reveal"><h2>How InboxWa helps</h2></div>
     <p class="lead reveal" style="max-width:720px;margin:0 auto 1.5rem;text-align:center">White Label puts your logo, colors and domain on the experience your customers use, with WhatsApp API, chatbot, CRM and automation underneath.</p>
     <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem"><div class="card card-feature reveal"><h3>White Label SaaS</h3><p>Present the product as yours.</p></div><div class="card card-feature reveal"><h3>Custom branding</h3><p>Logo and visual identity.</p></div><div class="card card-feature reveal"><h3>Custom colors</h3><p>Match your design system.</p></div><div class="card card-feature reveal"><h3>Custom domain</h3><p>Customer-facing URL.</p></div><div class="card card-feature reveal"><h3>Branded login</h3><p>Your sign-in experience.</p></div><div class="card card-feature reveal"><h3>Client management</h3><p>Accounts under your partner tree.</p></div><div class="card card-feature reveal"><h3>WhatsApp API</h3><p>Official API messaging.</p></div><div class="card card-feature reveal"><h3>AI + CRM + Automation</h3><p>Full product surface.</p></div></div>
   </div>
@@ -47,7 +47,7 @@ include __DIR__ . '/../../includes/header.php';
 <section class="section section-dark" id="flow">
   <div class="container">
     <div class="section-header reveal"><span class="badge badge-primary">Workflow</span><h2 style="color:#fff">Partner journey</h2></div>
-    <div class="workflow-sim" id="ws-p-white-label"><div class="ws-step">Your brand</div><div class="ws-step">HelloBotz White Label</div><div class="ws-step">Your customers</div><div class="ws-step">Your recurring revenue</div></div>
+    <div class="workflow-sim" id="ws-p-white-label"><div class="ws-step">Your brand</div><div class="ws-step">InboxWa White Label</div><div class="ws-step">Your customers</div><div class="ws-step">Your recurring revenue</div></div>
     <div class="ws-controls">
       <button type="button" class="btn btn-sm btn-outline ws-prev" style="color:#fff;border-color:rgba(255,255,255,.35)" data-sim="ws-p-white-label">Previous</button>
       <button type="button" class="btn btn-sm btn-primary ws-next" data-sim="ws-p-white-label">Next</button>
@@ -117,7 +117,7 @@ include __DIR__ . '/../../includes/header.php';
 
 <section class="section section-dark">
   <div class="container"><div class="section-header reveal" style="text-align:center">
-    <h2 style="color:#fff">Partner with HelloBotz</h2>
+    <h2 style="color:#fff">Partner with InboxWa</h2>
     <p class="lead" style="color:rgba(255,255,255,.75)">WhatsApp Business API, AI automation and omnichannel — built for partners who scale clients.</p>
     <a href="/#contact-section" class="btn btn-primary btn-lg" style="margin-top:1rem">Contact sales</a>
   </div></div>
@@ -136,7 +136,7 @@ include __DIR__ . '/../../includes/header.php';
   var f=document.getElementById('partner-form-white-label');
   if(f){f.addEventListener('submit',function(){
     var fd=new FormData(f);
-    var msg='*HelloBotz Partner — White Label*\n'+fd.get('name')+' | '+fd.get('company')+'\n'+fd.get('email')+' | '+fd.get('whatsapp')+'\n'+(fd.get('message')||'');
+    var msg='*InboxWa Partner — White Label*\n'+fd.get('name')+' | '+fd.get('company')+'\n'+fd.get('email')+' | '+fd.get('whatsapp')+'\n'+(fd.get('message')||'');
     fetch('/api/lead.php',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({type:'partner',source_page:'/partners/white-label/',name:fd.get('name'),email:fd.get('email'),phone:fd.get('whatsapp'),company:fd.get('company'),message:fd.get('message')}),credentials:'same-origin'}).catch(function(){});
     window.open('https://wa.me/919638911838?text='+encodeURIComponent(msg),'_blank','noopener');
     var st=document.getElementById('pf-status-white-label'); if(st){st.style.display='block';st.textContent='Thanks — WhatsApp opened for your partner request.';}

@@ -2,7 +2,7 @@
 $basePath = '../../';
 $pageTitle = 'WhatsApp API for Travel & Tourism';
 $pageDescription = 'Bookings, itinerary updates and guest care on WhatsApp and Instagram — for agencies, hotels and experience brands.';
-$canonicalUrl = 'https://hellobotz.com/industries/travel-tourism';
+$canonicalUrl = 'https://inboxwa.com/industries/travel-tourism';
 include __DIR__ . '/../includes/header.php';
 ?>
 <nav class="container" style="padding-top:calc(var(--nav,72px)+1rem);font-size:.85rem;color:var(--t3)"><a href="<?php echo $bp; ?>">Home</a> / Industries / Travel Tourism</nav>
@@ -28,7 +28,7 @@ include __DIR__ . '/../includes/header.php';
   <ul class="feature-list" style="max-width:720px;margin:1.25rem auto 0;display:flex;flex-direction:column;gap:.65rem"><li class="feature-list-item reveal"><span class="check"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span><span>Enquiry → package qualify → quote → book</span></li><li class="feature-list-item reveal"><span class="check"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span><span>Pre-trip checklist and document reminders</span></li><li class="feature-list-item reveal"><span class="check"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span><span>Day-of updates and local support handoff</span></li><li class="feature-list-item reveal"><span class="check"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span><span>Post-trip feedback and rebooking</span></li></ul>
 </div></section>
 <section class="section section-alt"><div class="container">
-  <div class="section-header reveal"><h2>How HelloBotz helps</h2></div>
+  <div class="section-header reveal"><h2>How InboxWa helps</h2></div>
   <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:1rem;margin-top:1.25rem"><div class="card card-feature reveal"><h3>Sales inbox</h3><p>Agents share one guest timeline.</p></div><div class="card card-feature reveal"><h3>Template updates</h3><p>Reliable utility notifications.</p></div><div class="card card-feature reveal"><h3>Instagram + WhatsApp</h3><p>Social enquiries in one place.</p></div><div class="card card-feature reveal"><h3>Broadcast offers</h3><p>Seasonal deals to warm travelers.</p></div><div class="card card-feature reveal"><h3>CRM trips</h3><p>Pipeline from enquiry to departure.</p></div><div class="card card-feature reveal"><h3>Automation</h3><p>Reduce repetitive status questions.</p></div></div>
 </div></section>
 <section class="section section-dark"><div class="container"><div class="section-header reveal" style="text-align:center">

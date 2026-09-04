@@ -13,7 +13,7 @@
         <li><span>✓</span> Priority support (3 months)</li>
       </ul>
       <div id="offer-countdown" class="offer-countdown">23:59:59</div>
-      <a href="https://hellobotz.com/auth/register" class="btn btn-primary btn-block offer-cta">Claim This Offer</a>
+      <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-block offer-cta">Claim This Offer</a>
       <p class="offer-foot">Limited to first 50 customers this month</p>
     </div>
   </div>

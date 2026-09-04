@@ -1,8 +1,8 @@
 <?php
 $basePath = '../';
-$pageTitle = 'Facebook Ads + WhatsApp Automation | Lead to Sales | HelloBotz';
-$pageDescription = 'Turn Facebook Ad clicks into WhatsApp conversations — capture leads, qualify prospects and send them to CRM and sales teams with HelloBotz.';
-$canonicalUrl = 'https://hellobotz.com/facebook-ads/';
+$pageTitle = 'Facebook Ads + WhatsApp Automation | Lead to Sales | InboxWa';
+$pageDescription = 'Turn Facebook Ad clicks into WhatsApp conversations — capture leads, qualify prospects and send them to CRM and sales teams with InboxWa.';
+$canonicalUrl = 'https://inboxwa.com/facebook-ads/';
 include __DIR__ . '/../includes/header.php';
 ?>
 <link rel="stylesheet" href="/assets/css/facebook-ads.css?v=1">
@@ -17,7 +17,7 @@ include __DIR__ . '/../includes/header.php';
         <h1>Turn Facebook Ad Clicks Into Real <span class="grad">WhatsApp Conversations</span></h1>
         <p class="fa-lead">Capture leads from Facebook Ads, instantly engage them on WhatsApp, qualify prospects and send them to your sales team automatically.</p>
         <div class="fa-ctas">
-          <a href="https://hellobotz.com/auth/register" class="btn btn-primary btn-lg">Start Free</a>
+          <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg">Start Free</a>
           <button type="button" class="btn btn-outline btn-lg btn-demo-open" style="border-color:rgba(255,255,255,.5);color:#fff;background:transparent">Book a Demo</button>
         </div>
       </div>
@@ -89,7 +89,7 @@ include __DIR__ . '/../includes/header.php';
     <div class="section-header reveal"><h2>Send Facebook Leads Straight to Your CRM</h2></div>
     <div class="fa-flow reveal">
       <span>Facebook Ads</span><span class="arr">→</span>
-      <span>HelloBotz</span><span class="arr">→</span>
+      <span>InboxWa</span><span class="arr">→</span>
       <span>CRM</span><span class="arr">→</span>
       <span>Sales Team</span>
     </div>
@@ -169,7 +169,7 @@ include __DIR__ . '/../includes/header.php';
   <div class="hb-img-fallback"><div class="ico">🖼️</div><strong>Facebook Ad + WhatsApp</strong><span>Ad click becomes a conversation.</span></div>
 </div>
 <div class="hb-img-slot hb-img-slot--dark" data-hb-img-slot>
-  <div class="hb-img-fallback"><div class="ico">🖼️</div><strong>Lead Capture</strong><span>Lead form to HelloBotz.</span></div>
+  <div class="hb-img-fallback"><div class="ico">🖼️</div><strong>Lead Capture</strong><span>Lead form to InboxWa.</span></div>
 </div>
 <div class="hb-img-slot" data-hb-img-slot>
   <div class="hb-img-fallback"><div class="ico">🖼️</div><strong>WhatsApp Qualification</strong><span>Questions and quick replies.</span></div>
@@ -201,7 +201,7 @@ include __DIR__ . '/../includes/header.php';
   <div class="container">
     <div class="section-header reveal"><h2>FAQ</h2></div>
     <div class="faq-list" style="max-width:760px;margin:1.5rem auto 0">
-      <div class="faq-item reveal"><button type="button" class="faq-question" aria-expanded="false">How does Facebook Lead Ads integration work?<svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-answer"><div class="faq-answer-inner">Leads from your Facebook lead setup can flow into HelloBotz, then into WhatsApp conversations and CRM where configured.</div></div></div>
+      <div class="faq-item reveal"><button type="button" class="faq-question" aria-expanded="false">How does Facebook Lead Ads integration work?<svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-answer"><div class="faq-answer-inner">Leads from your Facebook lead setup can flow into InboxWa, then into WhatsApp conversations and CRM where configured.</div></div></div>
       <div class="faq-item reveal"><button type="button" class="faq-question" aria-expanded="false">Can Facebook leads be connected to WhatsApp?<svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-answer"><div class="faq-answer-inner">Yes — engage leads on WhatsApp according to your automation and messaging policies.</div></div></div>
       <div class="faq-item reveal"><button type="button" class="faq-question" aria-expanded="false">Can Facebook leads be sent to CRM?<svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-answer"><div class="faq-answer-inner">Where CRM integration is available or configured via API/webhooks.</div></div></div>
       <div class="faq-item reveal"><button type="button" class="faq-question" aria-expanded="false">Does WhatsApp messaging require approved templates/consent?<svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-answer"><div class="faq-answer-inner">Business-initiated messages outside the customer care window typically require approved templates and proper consent under Meta rules.</div></div></div>
@@ -215,7 +215,7 @@ include __DIR__ . '/../includes/header.php';
       <h2 style="color:#fff">Turn Your Facebook Leads Into Conversations</h2>
       <p class="lead" style="color:rgba(255,255,255,.75)">Capture. Connect. Qualify. Follow Up. Convert.</p>
       <div style="margin-top:1.5rem;display:flex;flex-wrap:wrap;gap:.75rem;justify-content:center">
-        <a href="https://hellobotz.com/auth/register" class="btn btn-primary btn-lg">Start Free</a>
+        <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg">Start Free</a>
         <button type="button" class="btn btn-outline btn-lg btn-demo-open" style="border-color:rgba(255,255,255,.5);color:#fff;background:transparent">Book a Demo</button>
       </div>
     </div>

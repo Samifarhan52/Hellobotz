@@ -1,8 +1,8 @@
 <?php
 $basePath = '../../';
-$pageTitle = 'Automotive Sales & Service Automation | Test Drive & Leads | HelloBotz';
-$pageDescription = 'Capture vehicle enquiries, book test drives, manage sales follow-ups and service appointments on WhatsApp with HelloBotz.';
-$canonicalUrl = 'https://hellobotz.com/industries/automotive/';
+$pageTitle = 'Automotive Sales & Service Automation | Test Drive & Leads | InboxWa';
+$pageDescription = 'Capture vehicle enquiries, book test drives, manage sales follow-ups and service appointments on WhatsApp with InboxWa.';
+$canonicalUrl = 'https://inboxwa.com/industries/automotive/';
 include __DIR__ . '/../../includes/header.php';
 ?>
 <link rel="stylesheet" href="/assets/css/automotive.css?v=1">
@@ -17,7 +17,7 @@ include __DIR__ . '/../../includes/header.php';
         <h1>Turn Every Vehicle Enquiry Into a <span class="grad">Sales Opportunity</span></h1>
         <p class="au-lead">Capture automotive leads, answer vehicle enquiries, book test drives, manage follow-ups and connect customers with your sales team through WhatsApp automation.</p>
         <div class="au-ctas">
-          <a href="https://hellobotz.com/auth/register" class="btn btn-primary btn-lg">Start Free</a>
+          <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg">Start Free</a>
           <button type="button" class="btn btn-outline btn-lg btn-demo-open" style="border-color:rgba(255,255,255,.5);color:#fff;background:transparent">Book Automotive Demo</button>
         </div>
       </div>
@@ -202,7 +202,7 @@ include __DIR__ . '/../../includes/header.php';
   <div class="container">
     <div class="section-header reveal"><h2>FAQ</h2></div>
     <div class="faq-list" style="max-width:760px;margin:1.5rem auto 0">
-      <div class="faq-item reveal"><button type="button" class="faq-question" aria-expanded="false">How can HelloBotz help automotive dealerships?<svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-answer"><div class="faq-answer-inner">Capture vehicle enquiries, share demo model options, book test drives and route leads to sales and service teams.</div></div></div>
+      <div class="faq-item reveal"><button type="button" class="faq-question" aria-expanded="false">How can InboxWa help automotive dealerships?<svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-answer"><div class="faq-answer-inner">Capture vehicle enquiries, share demo model options, book test drives and route leads to sales and service teams.</div></div></div>
       <div class="faq-item reveal"><button type="button" class="faq-question" aria-expanded="false">Can I automate test-drive booking?<svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-answer"><div class="faq-answer-inner">Yes — guide customers through vehicle, date and time selection in WhatsApp conversations where configured.</div></div></div>
       <div class="faq-item reveal"><button type="button" class="faq-question" aria-expanded="false">Can I manage service appointments?<svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-answer"><div class="faq-answer-inner">Yes — service booking and reminder-style workflows can be automated based on your setup.</div></div></div>
       <div class="faq-item reveal"><button type="button" class="faq-question" aria-expanded="false">Can automotive leads connect to CRM?<svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-answer"><div class="faq-answer-inner">Where CRM integration is configured, leads and activity can sync to your sales tools.</div></div></div>
@@ -214,9 +214,9 @@ include __DIR__ . '/../../includes/header.php';
   <div class="container" style="text-align:center">
     <div class="section-header reveal">
       <h2 style="color:#fff">Turn Every Automotive Enquiry Into Your Next Opportunity</h2>
-      <p class="lead" style="color:rgba(255,255,255,.75)">Capture leads, book test drives, automate follow-ups and connect your sales &amp; service teams with HelloBotz.</p>
+      <p class="lead" style="color:rgba(255,255,255,.75)">Capture leads, book test drives, automate follow-ups and connect your sales &amp; service teams with InboxWa.</p>
       <div style="margin-top:1.5rem;display:flex;flex-wrap:wrap;gap:.75rem;justify-content:center">
-        <a href="https://hellobotz.com/auth/register" class="btn btn-primary btn-lg">Start Free</a>
+        <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg">Start Free</a>
         <button type="button" class="btn btn-outline btn-lg btn-demo-open" style="border-color:rgba(255,255,255,.5);color:#fff;background:transparent">Book Automotive Demo</button>
       </div>
     </div>

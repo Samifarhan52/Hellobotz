@@ -1,8 +1,8 @@
 <?php
 $basePath = '../../../';
-$pageTitle = 'Telegram Bot Automation | Leads, Commands & Workflows | HelloBotz';
-$pageDescription = 'Turn Telegram into a smart business automation channel — bots, lead capture, notifications and CRM workflows with HelloBotz.';
-$canonicalUrl = 'https://hellobotz.com/products/channels/telegram/';
+$pageTitle = 'Telegram Bot Automation | Leads, Commands & Workflows | InboxWa';
+$pageDescription = 'Turn Telegram into a smart business automation channel — bots, lead capture, notifications and CRM workflows with InboxWa.';
+$canonicalUrl = 'https://inboxwa.com/products/channels/telegram/';
 include __DIR__ . '/../../../includes/header.php';
 ?>
 <link rel="stylesheet" href="/assets/css/channel-telegram.css?v=1">
@@ -15,9 +15,9 @@ include __DIR__ . '/../../../includes/header.php';
       <div class="tg-hero-copy">
         <span class="badge tg-badge">TELEGRAM BUSINESS AUTOMATION</span>
         <h1>Turn Telegram Into a Smart <span class="grad">Business Automation Channel</span></h1>
-        <p class="tg-lead">Automate conversations, build Telegram bot experiences, capture customer information and connect your business workflows through HelloBotz.</p>
+        <p class="tg-lead">Automate conversations, build Telegram bot experiences, capture customer information and connect your business workflows through InboxWa.</p>
         <div class="tg-ctas">
-          <a href="https://hellobotz.com/auth/register" class="btn btn-primary btn-lg">Start Free</a>
+          <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg">Start Free</a>
           <button type="button" class="btn btn-outline btn-lg btn-demo-open" style="border-color:rgba(255,255,255,.5);color:#fff;background:transparent">Book Telegram Demo</button>
         </div>
         <div class="tg-tabs" id="tg-tabs">
@@ -32,7 +32,7 @@ include __DIR__ . '/../../../includes/header.php';
         <div class="tg-phone">
           <div class="tg-notch"></div>
           <div class="tg-screen">
-            <div class="tg-head"><div class="tg-av">TG</div><div><strong>HelloBotz Bot</strong><small>bot</small></div></div>
+            <div class="tg-head"><div class="tg-av">TG</div><div><strong>InboxWa Bot</strong><small>bot</small></div></div>
             <div class="tg-body" id="tg-body"><div class="tg-typing" id="tg-typing"><i></i><i></i><i></i></div></div>
           </div>
         </div>
@@ -47,7 +47,7 @@ include __DIR__ . '/../../../includes/header.php';
     <div class="tg-flow reveal">
       <span>Customer</span><span class="arr">↓</span>
       <span>Telegram</span><span class="arr">↓</span>
-      <span>HelloBotz Bot</span><span class="arr">↓</span>
+      <span>InboxWa Bot</span><span class="arr">↓</span>
       <span>Understand Request</span><span class="arr">↓</span>
       <span>Send Response</span><span class="arr">↓</span>
       <span>Capture Data</span><span class="arr">↓</span>
@@ -67,7 +67,7 @@ include __DIR__ . '/../../../includes/header.php';
       </div>
       <div class="tg-builder-col">
         <strong>Live Preview</strong>
-        <p>/start → Welcome to HelloBotz 👋</p>
+        <p>/start → Welcome to InboxWa 👋</p>
         <p>Explore Products · Book Demo · Talk to Support</p>
       </div>
     </div>
@@ -131,7 +131,7 @@ include __DIR__ . '/../../../includes/header.php';
     <div class="section-header reveal"><h2>Telegram Notification Automation</h2></div>
     <div class="tg-flow reveal">
       <span>Business Event</span><span class="arr">↓</span>
-      <span>HelloBotz</span><span class="arr">↓</span>
+      <span>InboxWa</span><span class="arr">↓</span>
       <span>Telegram</span><span class="arr">↓</span>
       <span>Customer / Team</span>
     </div>
@@ -150,7 +150,7 @@ include __DIR__ . '/../../../includes/header.php';
     <div class="section-header reveal"><h2>Telegram + CRM</h2></div>
     <div class="tg-flow reveal">
       <span>Telegram Message</span><span class="arr">→</span>
-      <span>HelloBotz</span><span class="arr">→</span>
+      <span>InboxWa</span><span class="arr">→</span>
       <span>Lead / Contact</span><span class="arr">→</span>
       <span>CRM</span><span class="arr">→</span>
       <span>Sales Team</span>
@@ -235,7 +235,7 @@ include __DIR__ . '/../../../includes/header.php';
 
 <section class="section" id="why">
   <div class="container">
-    <div class="section-header reveal"><h2>Why Telegram with HelloBotz</h2></div>
+    <div class="section-header reveal"><h2>Why Telegram with InboxWa</h2></div>
     <div class="tg-why">
       <div class="card reveal">Automated Conversations</div>
       <div class="card reveal">Bot Workflows</div>
@@ -253,7 +253,7 @@ include __DIR__ . '/../../../includes/header.php';
   <div class="container">
     <div class="section-header reveal"><h2>FAQ</h2></div>
     <div class="faq-list" style="max-width:760px;margin:1.5rem auto 0">
-      <div class="faq-item reveal"><button type="button" class="faq-question" aria-expanded="false">What is Telegram Bot Automation?<svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-answer"><div class="faq-answer-inner">Configured bot replies, commands and workflows that respond to users on Telegram through HelloBotz.</div></div></div>
+      <div class="faq-item reveal"><button type="button" class="faq-question" aria-expanded="false">What is Telegram Bot Automation?<svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-answer"><div class="faq-answer-inner">Configured bot replies, commands and workflows that respond to users on Telegram through InboxWa.</div></div></div>
       <div class="faq-item reveal"><button type="button" class="faq-question" aria-expanded="false">Can Telegram capture leads?<svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-answer"><div class="faq-answer-inner">Yes — collect details in conversation and create leads where configured.</div></div></div>
       <div class="faq-item reveal"><button type="button" class="faq-question" aria-expanded="false">Can I create custom bot commands?<svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-answer"><div class="faq-answer-inner">Yes — set up supported commands and responses for your bot experience.</div></div></div>
       <div class="faq-item reveal"><button type="button" class="faq-question" aria-expanded="false">Can Telegram connect with CRM?<svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-answer"><div class="faq-answer-inner">Where supported, leads and activity can connect to CRM workflows.</div></div></div>
@@ -268,7 +268,7 @@ include __DIR__ . '/../../../includes/header.php';
       <h2 style="color:#fff">Build a Smarter Telegram Experience</h2>
       <p class="lead" style="color:rgba(255,255,255,.75)">Automate conversations and connect Telegram with your business workflows.</p>
       <div style="margin-top:1.5rem;display:flex;flex-wrap:wrap;gap:.75rem;justify-content:center">
-        <a href="https://hellobotz.com/auth/register" class="btn btn-primary btn-lg">Start Free</a>
+        <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg">Start Free</a>
         <button type="button" class="btn btn-outline btn-lg btn-demo-open" style="border-color:rgba(255,255,255,.5);color:#fff;background:transparent">Book Telegram Demo</button>
       </div>
     </div>

@@ -1,9 +1,9 @@
 <?php
 $basePath = '../';
-$pageTitle = 'HelloBotz Pricing – WhatsApp API, AI Chatbot & Omnichannel Automation Plans';
+$pageTitle = 'InboxWa Pricing – WhatsApp API, AI Chatbot & Omnichannel Automation Plans';
 $pageDescription = 'Transparent pricing for WhatsApp Business API, AI chatbot and omnichannel automation. Growth ₹1,999, Pro ₹4,999, Business ₹7,999. 14-day free trial. 18% GST at checkout.';
-$pageKeywords = 'HelloBotz pricing, WhatsApp API price, AI chatbot plans, omnichannel pricing India';
-$canonicalUrl = 'https://hellobotz.com/pricing/';
+$pageKeywords = 'InboxWa pricing, WhatsApp API price, AI chatbot plans, omnichannel pricing India';
+$canonicalUrl = 'https://inboxwa.com/pricing/';
 $pricing = require __DIR__ . '/../config/pricing.php';
 include __DIR__ . '/../includes/header.php';
 $reg = htmlspecialchars($pricing['register_url']);
@@ -269,8 +269,8 @@ echo json_encode($faqSchema, JSON_UNESCAPED_UNICODE|JSON_UNESCAPED_SLASHES|JSON_
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    {"@type":"ListItem","position":1,"name":"Home","item":"https://hellobotz.com/"},
-    {"@type":"ListItem","position":2,"name":"Pricing","item":"https://hellobotz.com/pricing/"}
+    {"@type":"ListItem","position":1,"name":"Home","item":"https://inboxwa.com/"},
+    {"@type":"ListItem","position":2,"name":"Pricing","item":"https://inboxwa.com/pricing/"}
   ]
 }
 </script>

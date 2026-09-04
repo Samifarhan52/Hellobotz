@@ -28,7 +28,7 @@
     run.addEventListener('click',function(){
       var tr=document.getElementById('api-trigger');
       var ac=document.getElementById('api-action');
-      rout.textContent=(tr?tr.value:'Trigger')+' → HelloBotz → '+(ac?ac.value:'Action')+' · Workflow Executed ✓ (Demo)';
+      rout.textContent=(tr?tr.value:'Trigger')+' → InboxWa → '+(ac?ac.value:'Action')+' · Workflow Executed ✓ (Demo)';
     });
   }
 })();

@@ -1,8 +1,8 @@
 <?php
 $basePath = '../../';
-$pageTitle = 'E-commerce WhatsApp Automation | Product Discovery, Cart Recovery & Orders | HelloBotz';
-$pageDescription = 'Turn WhatsApp into an e-commerce channel: product discovery, recommendations, cart recovery, order updates, support and retention with HelloBotz.';
-$canonicalUrl = 'https://hellobotz.com/industries/ecommerce/';
+$pageTitle = 'E-commerce WhatsApp Automation | Product Discovery, Cart Recovery & Orders | InboxWa';
+$pageDescription = 'Turn WhatsApp into an e-commerce channel: product discovery, recommendations, cart recovery, order updates, support and retention with InboxWa.';
+$canonicalUrl = 'https://inboxwa.com/industries/ecommerce/';
 include __DIR__ . '/../../includes/header.php';
 ?>
 <link rel="stylesheet" href="/assets/css/ecommerce.css?v=1">
@@ -14,11 +14,11 @@ include __DIR__ . '/../../includes/header.php';
   <div class="container">
     <div class="ecom-hero-grid">
       <div class="ecom-hero-copy">
-        <span class="badge ecom-badge">HELLOBOTZ FOR E-COMMERCE</span>
+        <span class="badge ecom-badge">INBOXWA FOR E-COMMERCE</span>
         <h1>Turn WhatsApp Conversations Into <span class="grad">E-commerce Sales</span></h1>
         <p class="ecom-lead">Help customers discover products, answer questions, recover abandoned carts, send order updates and automate customer engagement with WhatsApp and AI.</p>
         <div class="ecom-ctas">
-          <a href="https://hellobotz.com/auth/register" class="btn btn-primary btn-lg">Get Started</a>
+          <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg">Get Started</a>
           <button type="button" class="btn btn-outline btn-lg btn-demo-open" style="border-color:rgba(255,255,255,.5);color:#fff;background:transparent">Book E-commerce Demo</button>
         </div>
         <div class="ecom-tabs" id="ecom-tabs">
@@ -63,7 +63,7 @@ include __DIR__ . '/../../includes/header.php';
       <div class="card reveal"><h3>Order Queries</h3><p>Teams spend time answering repetitive order-status questions.</p></div>
       <div class="card reveal"><h3>Lost Repeat Customers</h3><p>Businesses don't consistently re-engage customers after purchase.</p></div>
     </div>
-    <p class="ecom-transition reveal">HelloBotz automates the journey from first message to repeat purchase.</p>
+    <p class="ecom-transition reveal">InboxWa automates the journey from first message to repeat purchase.</p>
   </div>
 </section>
 
@@ -113,7 +113,7 @@ include __DIR__ . '/../../includes/header.php';
           <li>Purchase guidance</li>
           <li>Human handover</li>
         </ul>
-        <a href="https://hellobotz.com/auth/register" class="btn btn-primary">Explore E-commerce Automation</a>
+        <a href="https://inboxwa.com/auth/register" class="btn btn-primary">Explore E-commerce Automation</a>
       </div>
       <div class="ecom-catalog">
         <div class="ecom-prod"><div class="ecom-prod-img">👟</div><strong>Running Shoes</strong><span>₹2,999 · Demo</span></div>
@@ -205,12 +205,12 @@ include __DIR__ . '/../../includes/header.php';
     <div class="ecom-store-cards">
       <div class="card reveal">
         <h3>Shopify</h3>
-        <p>Connect Shopify with HelloBotz to automate customer communication and e-commerce workflows.</p>
+        <p>Connect Shopify with InboxWa to automate customer communication and e-commerce workflows.</p>
         <a href="/solutions/shopify/" class="btn btn-primary btn-sm">Explore Shopify Automation</a>
       </div>
       <div class="card reveal">
         <h3>WooCommerce</h3>
-        <p>Connect WooCommerce with HelloBotz for order communication, engagement and WhatsApp workflows.</p>
+        <p>Connect WooCommerce with InboxWa for order communication, engagement and WhatsApp workflows.</p>
         <a href="/solutions/woocommerce/" class="btn btn-primary btn-sm">Explore WooCommerce Automation</a>
       </div>
     </div>
@@ -237,8 +237,8 @@ include __DIR__ . '/../../includes/header.php';
   <div class="container">
     <div class="section-header reveal"><h2>FAQ</h2></div>
     <div class="faq-list" style="max-width:760px;margin:1.5rem auto 0">
-      <div class="faq-item reveal"><button type="button" class="faq-question" aria-expanded="false">Can HelloBotz connect with Shopify?<svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-answer"><div class="faq-answer-inner">Yes — see the Shopify solution page for store-connected WhatsApp workflows.</div></div></div>
-      <div class="faq-item reveal"><button type="button" class="faq-question" aria-expanded="false">Can HelloBotz connect with WooCommerce?<svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-answer"><div class="faq-answer-inner">Yes — see the WooCommerce solution page for order and engagement automation.</div></div></div>
+      <div class="faq-item reveal"><button type="button" class="faq-question" aria-expanded="false">Can InboxWa connect with Shopify?<svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-answer"><div class="faq-answer-inner">Yes — see the Shopify solution page for store-connected WhatsApp workflows.</div></div></div>
+      <div class="faq-item reveal"><button type="button" class="faq-question" aria-expanded="false">Can InboxWa connect with WooCommerce?<svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-answer"><div class="faq-answer-inner">Yes — see the WooCommerce solution page for order and engagement automation.</div></div></div>
       <div class="faq-item reveal"><button type="button" class="faq-question" aria-expanded="false">Can customers discover products on WhatsApp?<svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-answer"><div class="faq-answer-inner">You can guide discovery with AI/flows and product cards linked to your catalog where configured.</div></div></div>
       <div class="faq-item reveal"><button type="button" class="faq-question" aria-expanded="false">Can abandoned carts be followed up?<svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-answer"><div class="faq-answer-inner">Yes — cart recovery messages can be sent within WhatsApp policy using approved templates where required.</div></div></div>
       <div class="faq-item reveal"><button type="button" class="faq-question" aria-expanded="false">Can order updates be sent on WhatsApp?<svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-answer"><div class="faq-answer-inner">Yes — confirmation, shipping and delivery-style updates can be automated.</div></div></div>
@@ -252,9 +252,9 @@ include __DIR__ . '/../../includes/header.php';
   <div class="container" style="text-align:center">
     <div class="section-header reveal">
       <h2 style="color:#fff">Turn Conversations Into Commerce</h2>
-      <p class="lead" style="color:rgba(255,255,255,.75)">Connect your store, automate customer conversations and build a better shopping experience with HelloBotz.</p>
+      <p class="lead" style="color:rgba(255,255,255,.75)">Connect your store, automate customer conversations and build a better shopping experience with InboxWa.</p>
       <div style="margin-top:1.5rem;display:flex;flex-wrap:wrap;gap:.75rem;justify-content:center">
-        <a href="https://hellobotz.com/auth/register" class="btn btn-primary btn-lg">Get Started</a>
+        <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg">Get Started</a>
         <button type="button" class="btn btn-outline btn-lg btn-demo-open" style="border-color:rgba(255,255,255,.5);color:#fff;background:transparent">Book E-commerce Demo</button>
       </div>
     </div>
