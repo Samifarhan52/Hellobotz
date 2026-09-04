@@ -108,6 +108,186 @@ body, .hb-story-wrapper {
   box-shadow: var(--hb-shadow-purple);
 }
 
+/* ===== PHONE STAGE & INTERACTIVE WHATSAPP AI BOT ===== */
+.hb-phone-stage {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 520px;
+}
+.hb-phone {
+  width: min(300px, 85vw);
+  border-radius: 40px;
+  padding: 12px;
+  background: linear-gradient(160deg, #1e1b4b, #0f172a);
+  border: 3px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 30px 80px rgba(15, 23, 42, 0.35), 0 0 0 1px rgba(139, 92, 246, 0.3), 0 0 50px rgba(139, 92, 246, 0.25);
+  animation: hbPhoneFloat 6s ease-in-out infinite;
+  position: relative;
+  z-index: 2;
+  transition: all 0.3s ease;
+}
+.hb-phone:hover {
+  transform: scale(1.02) translateY(-6px);
+  box-shadow: 0 40px 90px rgba(139, 92, 246, 0.4), 0 0 60px rgba(6, 182, 212, 0.3);
+}
+@keyframes hbPhoneFloat { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+
+.hb-phone-notch {
+  width: 96px;
+  height: 22px;
+  background: #0B1120;
+  border-radius: 0 0 14px 14px;
+  margin: 0 auto 8px;
+}
+.hb-phone-screen {
+  background: #0B141A;
+  border-radius: 28px;
+  overflow: hidden;
+  height: 480px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hb-wa-head {
+  background: #1F2C34;
+  padding: 12px 14px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+.hb-wa-av {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #8B5CF6, #06B6D4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: .75rem;
+  font-weight: 800;
+  color: #fff;
+  box-shadow: 0 0 12px rgba(139, 92, 246, 0.5);
+}
+.hb-wa-head strong { display: block; font-size: .88rem; color: #E9EDEF; }
+.hb-wa-head small { color: #10B981; font-size: .72rem; font-weight: 600; display: flex; align-items: center; gap: 4px; }
+.hb-wa-head small::before { content: ''; width: 6px; height: 6px; border-radius: 50%; background: #10B981; }
+
+.hb-wa-body {
+  flex: 1;
+  padding: 12px 10px;
+  overflow-y: auto;
+  background: #0B141A;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: flex-start;
+}
+.hb-msg {
+  max-width: 88%;
+  padding: 9px 12px;
+  border-radius: 12px;
+  font-size: .8rem;
+  line-height: 1.45;
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity .35s, transform .35s;
+  word-break: break-word;
+}
+.hb-msg.show { opacity: 1; transform: none; }
+.hb-msg.bot { align-self: flex-start; background: #1F2C34; color: #E9EDEF; border-top-left-radius: 2px; box-shadow: 0 2px 6px rgba(0,0,0,0.3); }
+.hb-msg.user { align-self: flex-end; background: #005C4B; color: #E9EDEF; border-top-right-radius: 2px; box-shadow: 0 2px 6px rgba(0,0,0,0.3); }
+
+.hb-typing {
+  align-self: flex-start;
+  background: #1F2C34;
+  padding: 8px 12px;
+  border-radius: 12px;
+  display: none;
+  gap: 4px;
+  align-items: center;
+}
+.hb-typing.on { display: inline-flex; }
+.hb-typing i { width: 6px; height: 6px; border-radius: 50%; background: #8696A0; animation: hbDot 1.2s infinite; }
+.hb-typing i:nth-child(2) { animation-delay: .2s; }
+.hb-typing i:nth-child(3) { animation-delay: .4s; }
+@keyframes hbDot { 0%, 80%, 100% { opacity: .3; transform: scale(.8); } 40% { opacity: 1; transform: scale(1); } }
+
+/* INTERACTIVE NAME INPUT IN CHAT */
+.hb-name-input-wrap {
+  display: flex;
+  gap: 6px;
+  background: #1F2C34;
+  padding: 6px;
+  border-radius: 12px;
+  margin-top: 4px;
+}
+.hb-name-input {
+  flex: 1;
+  background: #0B141A;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 8px;
+  padding: 6px 10px;
+  font-size: 0.78rem;
+  color: #fff;
+  outline: none;
+}
+.hb-name-input:focus { border-color: #8B5CF6; }
+.hb-name-btn {
+  background: linear-gradient(135deg, #8B5CF6, #06B6D4);
+  color: #fff;
+  border: 0;
+  border-radius: 8px;
+  padding: 6px 12px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.hb-chips { display: none; flex-wrap: wrap; gap: 6px; padding: 4px 2px; margin-top: 4px; }
+.hb-chips.on { display: flex; }
+.hb-chips button {
+  border: 0;
+  border-radius: 999px;
+  padding: 6px 12px;
+  font-size: .75rem;
+  font-weight: 600;
+  cursor: pointer;
+  background: rgba(139, 92, 246, 0.25);
+  color: #E9D5FF;
+  border: 1px solid rgba(167, 139, 250, 0.35);
+  transition: all 0.2s ease;
+}
+.hb-chips button:hover, .hb-chips button.pick {
+  background: linear-gradient(135deg, #8B5CF6, #06B6D4);
+  color: #fff;
+  border-color: transparent;
+  transform: scale(1.05);
+}
+
+.hb-wa-footer {
+  background: #1F2C34;
+  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  border-top: 1px solid rgba(255,255,255,0.08);
+}
+.hb-wa-footer input {
+  flex: 1;
+  background: #2A3942;
+  border: 0;
+  border-radius: 20px;
+  padding: 6px 12px;
+  font-size: 0.75rem;
+  color: #8696A0;
+  outline: none;
+}
+
 /* SECTION 1: OLD WAY VS HELLOBOTZ AI WAY (COMPARISON STORY) */
 .hb-comparison-grid {
   display: grid;
@@ -118,6 +298,10 @@ body, .hb-story-wrapper {
   border-radius: 24px;
   padding: 2.25rem;
   position: relative;
+  transition: all 0.3s ease;
+}
+.hb-comp-card:hover {
+  transform: translateY(-4px);
 }
 .hb-comp-old {
   background: rgba(239, 68, 68, 0.03);
@@ -191,14 +375,14 @@ body, .hb-story-wrapper {
   transition: all 0.25s ease;
 }
 .hb-step-card:hover {
-  transform: translateY(-4px);
-  border-color: rgba(139, 92, 246, 0.3);
+  transform: translateY(-5px);
+  border-color: rgba(139, 92, 246, 0.4);
   box-shadow: var(--hb-shadow-purple);
 }
 .hb-step-num {
   font-size: 3.5rem;
   font-weight: 900;
-  background: linear-gradient(180deg, rgba(139, 92, 246, 0.2) 0%, rgba(139, 92, 246, 0.02) 100%);
+  background: linear-gradient(180deg, rgba(139, 92, 246, 0.25) 0%, rgba(139, 92, 246, 0.02) 100%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -218,6 +402,10 @@ body, .hb-story-wrapper {
   align-items: center;
   justify-content: center;
   margin-bottom: 1.5rem;
+  transition: transform 0.3s ease;
+}
+.hb-step-card:hover .hb-step-icon {
+  transform: scale(1.1) rotate(5deg);
 }
 .hb-step-icon svg { width: 26px; height: 26px; }
 .hb-step-card h3 { font-size: 1.2rem; font-weight: 700; color: #0F172A; margin-bottom: 0.75rem; }
@@ -278,7 +466,7 @@ body, .hb-story-wrapper {
   color: #FFFFFF;
 }
 
-/* SECTION 4: INDUSTRY USE CASES CARDS */
+/* SECTION 4: INDUSTRY USE CASES CARDS WITH HOVER SAMPLE MESSAGES */
 .hb-ind-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -291,11 +479,13 @@ body, .hb-story-wrapper {
   padding: 1.75rem;
   box-shadow: var(--hb-shadow-soft);
   transition: all 0.25s ease;
+  position: relative;
+  overflow: hidden;
 }
 .hb-ind-card:hover {
   border-color: rgba(6, 182, 212, 0.4);
-  box-shadow: 0 12px 30px rgba(6, 182, 212, 0.15);
-  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(6, 182, 212, 0.18);
+  transform: translateY(-5px);
 }
 .hb-ind-icon {
   width: 44px;
@@ -307,10 +497,34 @@ body, .hb-story-wrapper {
   align-items: center;
   justify-content: center;
   margin-bottom: 1rem;
+  transition: transform 0.25s ease;
 }
+.hb-ind-card:hover .hb-ind-icon { transform: scale(1.1); }
 .hb-ind-icon svg { width: 22px; height: 22px; }
 .hb-ind-card h4 { font-size: 1.1rem; font-weight: 700; color: #0F172A; margin-bottom: 0.5rem; }
 .hb-ind-card p { font-size: 0.875rem; color: #475569; line-height: 1.5; }
+
+.hb-ind-preview-pill {
+  margin-top: 0.75rem;
+  padding: 0.4rem 0.75rem;
+  background: #F1F5F9;
+  border: 1px solid #CBD5E1;
+  border-radius: 8px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: #005C4B;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  opacity: 0.85;
+  transition: all 0.2s ease;
+}
+.hb-ind-card:hover .hb-ind-preview-pill {
+  background: #DCFCE7;
+  border-color: #86EFAC;
+  color: #15803D;
+  opacity: 1;
+}
 
 /* CTA BANNER */
 .hb-cta-banner {

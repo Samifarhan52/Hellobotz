@@ -47,7 +47,7 @@ include __DIR__ . '/includes/header.php';
 </script>
 
 <div class="hb-story-wrapper">
-  <!-- HERO STAGE (MATCHING EXACT DESIGN MOCKUP IMAGE) -->
+  <!-- HERO STAGE WITH INTERACTIVE LIVE WHATSAPP CHAT SIMULATOR -->
   <section class="hb-hero" aria-label="Hero">
     <div class="container">
       <div class="hb-hero-grid">
@@ -82,20 +82,23 @@ include __DIR__ . '/includes/header.php';
                   <small>online</small>
                 </div>
               </div>
+              
+              <!-- LIVE INTERACTIVE CHAT SCREEN -->
               <div class="hb-wa-body" id="hb-wa-body">
                 <div class="hb-typing" id="hb-typing"><i></i><i></i><i></i></div>
-                <div class="hb-chips" id="hb-chips">
-                  <button type="button" data-chip>WhatsApp API</button>
-                  <button type="button" data-chip>AI Chatbot</button>
-                  <button type="button" data-chip>Automation</button>
-                </div>
+              </div>
+
+              <!-- WHATSAPP FOOTER SIMULATOR -->
+              <div class="hb-wa-footer">
+                <input type="text" id="hb-wa-footer-input" placeholder="Type message..." disabled />
+                <span style="color:#8696A0;font-size:0.9rem;">🎤</span>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <!-- HERO 4 FEATURE CARDS GRID (EXACT LAYOUT FROM MOCKUP IMAGE) -->
+      <!-- HERO 4 FEATURE CARDS GRID -->
       <div class="hb-hero-cards-grid">
         <div class="hb-hero-card hb-card-light">
           <div class="hb-card-icon icon-purple">
@@ -321,6 +324,61 @@ include __DIR__ . '/includes/header.php';
     </div>
   </section>
 
+  <!-- STORY CHAPTER 4: INDUSTRY USE CASES WITH HOVER CHAT SAMPLES -->
+  <section class="hb-story-section hb-story-section-alt">
+    <div class="container">
+      <div class="hb-story-header">
+        <div class="hb-story-badge">TAILORED SOLUTIONS</div>
+        <h2>Automated Journeys Built for <span class="hb-text-grad">Every Industry</span></h2>
+        <p>Discover how leading brands across sectors use HelloBotz to drive automated growth.</p>
+      </div>
+
+      <div class="hb-ind-grid">
+        <div class="hb-ind-card">
+          <div class="hb-ind-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><path d="M3 6h18M16 10a4 4 0 01-8 0"/></svg></div>
+          <h4>E-Commerce &amp; D2C</h4>
+          <p>Recover abandoned carts, send automated order updates, and enable 1-click WhatsApp checkout.</p>
+          <div class="hb-ind-preview-pill">💬 "Order #8410 Confirmed 📦"</div>
+        </div>
+
+        <div class="hb-ind-card">
+          <div class="hb-ind-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18M5 21V7l7-4 7 4v14"/></svg></div>
+          <h4>Real Estate</h4>
+          <p>Qualify property inquiries automatically, share digital brochures, and book site visits 24/7.</p>
+          <div class="hb-ind-preview-pill">💬 "Site visit booked for 3 PM 🏠"</div>
+        </div>
+
+        <div class="hb-ind-card">
+          <div class="hb-ind-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10l-10-5L2 10l10 5 10-5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg></div>
+          <h4>Education &amp; EdTech</h4>
+          <p>Automate student course inquiries, fee reminders, and admission application follow-ups.</p>
+          <div class="hb-ind-preview-pill">💬 "Course Brochure Sent 🎓"</div>
+        </div>
+
+        <div class="hb-ind-card">
+          <div class="hb-ind-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></div>
+          <h4>Healthcare &amp; Clinics</h4>
+          <p>Schedule doctor appointments, send automated consultation reminders, and dispatch lab reports.</p>
+          <div class="hb-ind-preview-pill">💬 "Doctor Consultation Confirmed 🏥"</div>
+        </div>
+
+        <div class="hb-ind-card">
+          <div class="hb-ind-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20"/></svg></div>
+          <h4>Finance &amp; BFSI</h4>
+          <p>Send instant payment alerts, automate loan application collection, and provide secure support.</p>
+          <div class="hb-ind-preview-pill">💬 "KYC Verified Successfully 💳"</div>
+        </div>
+
+        <div class="hb-ind-card">
+          <div class="hb-ind-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18M5 21V10l7-5 7 5v11"/></svg></div>
+          <h4>Hotels &amp; Hospitality</h4>
+          <p>Handle room reservations, table bookings, and automated concierge guest services on chat.</p>
+          <div class="hb-ind-preview-pill">💬 "Room Reservation Active 🏨"</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- FINAL CTA BANNER -->
   <section class="hb-story-section">
     <div class="container">
@@ -336,7 +394,152 @@ include __DIR__ . '/includes/header.php';
   </section>
 </div>
 
+<!-- INTERACTIVE SCRIPT: LIVE PERSONALIZED CHATBOT SIMULATOR -->
 <script>
+(function(){
+  var body = document.getElementById('hb-wa-body');
+  var typing = document.getElementById('hb-typing');
+  if(!body || !typing) return;
+
+  var visitorName = "Friend";
+
+  function scrollBottom(){
+    body.scrollTop = body.scrollHeight;
+  }
+
+  function addMsg(kind, text){
+    var d = document.createElement('div');
+    d.className = 'hb-msg ' + kind;
+    d.innerHTML = text;
+    body.appendChild(d);
+    scrollBottom();
+    requestAnimationFrame(function(){ d.classList.add('show'); });
+  }
+
+  function showTyping(ms, callback){
+    typing.classList.add('on');
+    body.appendChild(typing);
+    scrollBottom();
+    setTimeout(function(){
+      typing.classList.remove('on');
+      if(callback) callback();
+    }, ms);
+  }
+
+  function renderChips(options){
+    var wrap = document.createElement('div');
+    wrap.className = 'hb-chips on';
+    options.forEach(function(opt){
+      var btn = document.createElement('button');
+      btn.type = 'button';
+      btn.textContent = opt.label;
+      btn.onclick = function(){
+        wrap.remove();
+        addMsg('user', opt.label);
+        opt.action();
+      };
+      wrap.appendChild(btn);
+    });
+    body.appendChild(wrap);
+    scrollBottom();
+  }
+
+  function renderNameInput(){
+    var wrap = document.createElement('div');
+    wrap.className = 'hb-name-input-wrap';
+    wrap.id = 'hb-name-box';
+    
+    var inp = document.createElement('input');
+    inp.type = 'text';
+    inp.className = 'hb-name-input';
+    inp.placeholder = 'Type your name here...';
+    
+    var btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'hb-name-btn';
+    btn.textContent = 'Send ➔';
+
+    function submitName(){
+      var val = inp.value.trim();
+      if(!val) val = "Farhan";
+      visitorName = val;
+      wrap.remove();
+      addMsg('user', visitorName);
+      continueJourney();
+    }
+
+    btn.onclick = submitName;
+    inp.onkeydown = function(e){ if(e.key === 'Enter') submitName(); };
+
+    wrap.appendChild(inp);
+    wrap.appendChild(btn);
+    body.appendChild(wrap);
+    inp.focus();
+    scrollBottom();
+  }
+
+  function startSimulator(){
+    body.innerHTML = '';
+    body.appendChild(typing);
+
+    showTyping(800, function(){
+      addMsg('bot', '👋 Hi there! Welcome to <b>HelloBotz AI</b>.');
+      showTyping(900, function(){
+        addMsg('bot', 'May I please know your name?');
+        
+        // Suggestion chips + text input
+        renderChips([
+          { label: 'Farhan', action: function(){ visitorName = 'Farhan'; continueJourney(); } },
+          { label: 'Alex', action: function(){ visitorName = 'Alex'; continueJourney(); } },
+          { label: 'Guest', action: function(){ visitorName = 'Guest'; continueJourney(); } }
+        ]);
+        renderNameInput();
+      });
+    });
+  }
+
+  function continueJourney(){
+    showTyping(900, function(){
+      addMsg('bot', 'Awesome to meet you, <b>' + visitorName + '</b>! 🚀');
+      showTyping(1000, function(){
+        addMsg('bot', 'Which WhatsApp automation feature can I demonstrate for you today?');
+        
+        renderChips([
+          { label: 'Official WhatsApp API', action: function(){ showServiceDemo('api'); } },
+          { label: 'AI Flow Builder', action: function(){ showServiceDemo('flow'); } },
+          { label: 'Broadcast Campaigns', action: function(){ showServiceDemo('broadcast'); } },
+          { label: 'Shared Team Inbox', action: function(){ showServiceDemo('inbox'); } }
+        ]);
+      });
+    });
+  }
+
+  function showServiceDemo(type){
+    showTyping(900, function(){
+      if(type === 'api'){
+        addMsg('bot', '<b>' + visitorName + '</b>, with Official Meta WhatsApp API, your brand gets Green Tick verification, 99.9% uptime, and 24/7 lead capture! ⚡');
+      } else if(type === 'flow'){
+        addMsg('bot', 'No coding needed, <b>' + visitorName + '</b>! Our visual AI flow builder automatically qualifies leads & answers customer FAQs 24/7.');
+      } else if(type === 'broadcast'){
+        addMsg('bot', '<b>' + visitorName + '</b>, send targeted WhatsApp broadcasts to 100,000+ contacts with 98% open rates & instant replies! 📢');
+      } else {
+        addMsg('bot', 'Unified inbox, <b>' + visitorName + '</b>! Assign chats across WhatsApp, Instagram DMs & Messenger with live agent handover.');
+      }
+
+      showTyping(1100, function(){
+        addMsg('bot', 'Ready to test it live with your business team? Tap <b>Book a Demo</b> below! 👇');
+        
+        renderChips([
+          { label: '🔄 Re-start Interactive Demo', action: function(){ startSimulator(); } }
+        ]);
+      });
+    });
+  }
+
+  // Start initial simulator journey on load
+  startSimulator();
+})();
+
 function switchHbTab(evt, tabId) {
   var btns = document.querySelectorAll('.hb-tab-btn');
   var panes = document.querySelectorAll('.hb-tab-pane');
@@ -346,71 +549,6 @@ function switchHbTab(evt, tabId) {
   var target = document.getElementById(tabId);
   if(target) target.classList.add('active');
 }
-</script>
-
-<script>
-(function(){
-  var body = document.getElementById('hb-wa-body');
-  var typing = document.getElementById('hb-typing');
-  var chips = document.getElementById('hb-chips');
-  if(!body || !typing) return;
-  var steps = [
-    {type:'typing', ms:700},
-    {type:'user', text:'Hi, I want to know about your services.'},
-    {type:'typing', ms:900},
-    {type:'bot', text:'Sure! 👋 How can I help you today?'},
-    {type:'chips', ms:1200},
-    {type:'pick', text:'AI Chatbot'},
-    {type:'typing', ms:800},
-    {type:'bot', text:'Great choice! 🤖 HelloBotz qualifies leads and answers FAQs on WhatsApp — then hands off to your team.'},
-    {type:'bot', text:'Ready to see it live? Tap Book a Live Demo →'},
-    {type:'pause', ms:2800}
-  ];
-  function clearMsgs(){
-    body.querySelectorAll('.hb-msg').forEach(function(m){ m.remove(); });
-    if(chips) chips.classList.remove('on');
-    typing.classList.remove('on');
-  }
-  function addMsg(kind, text){
-    var d = document.createElement('div');
-    d.className = 'hb-msg ' + kind;
-    d.textContent = text;
-    body.insertBefore(d, typing);
-    requestAnimationFrame(function(){ d.classList.add('show'); });
-  }
-  var running = false;
-  function run(){
-    if(running) return;
-    running = true;
-    clearMsgs();
-    var i = 0;
-    function next(){
-      if(i >= steps.length){
-        running = false;
-        setTimeout(run, 600);
-        return;
-      }
-      var s = steps[i++];
-      if(s.type === 'typing'){
-        typing.classList.add('on');
-        setTimeout(function(){ typing.classList.remove('on'); next(); }, s.ms||700);
-      } else if(s.type === 'user' || s.type === 'bot'){
-        addMsg(s.type, s.text);
-        setTimeout(next, 650);
-      } else if(s.type === 'chips'){
-        if(chips) chips.classList.add('on');
-        setTimeout(next, s.ms||1000);
-      } else if(s.type === 'pick'){
-        addMsg('user', s.text);
-        setTimeout(next, 700);
-      } else if(s.type === 'pause'){
-        setTimeout(next, s.ms||2000);
-      } else next();
-    }
-    next();
-  }
-  if(!window.matchMedia('(prefers-reduced-motion: reduce)').matches) run();
-})();
 </script>
 
 <?php
