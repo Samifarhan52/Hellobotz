@@ -92,14 +92,14 @@ include __DIR__ . '/../../includes/header.php';
   <div class="container">
     <div class="section-header reveal"><h2>Real Estate Solutions</h2></div>
     <div class="re-solutions">
-      <div class="card reveal re-sol"><span>🎯</span><h3>Lead Generation</h3><p>Capture leads from website, Facebook, Instagram and WhatsApp.</p></div>
-      <div class="card reveal re-sol"><span>🤖</span><h3>AI Property Assistant</h3><p>Answer property questions and understand buyer requirements.</p></div>
-      <div class="card reveal re-sol"><span>🏠</span><h3>Property Recommendations</h3><p>Recommend properties based on location, budget and requirements.</p></div>
-      <div class="card reveal re-sol"><span>🔥</span><h3>Lead Qualification</h3><p>Automatically identify buyer intent and requirements.</p></div>
-      <div class="card reveal re-sol"><span>📅</span><h3>Site Visit Booking</h3><p>Allow prospects to book property visits directly on WhatsApp.</p></div>
-      <div class="card reveal re-sol"><span>🔔</span><h3>Automated Follow-ups</h3><p>Automatically follow up with interested buyers.</p></div>
-      <div class="card reveal re-sol"><span>📲</span><h3>WhatsApp Marketing</h3><p>Promote projects, launches and offers to eligible audiences.</p></div>
-      <div class="card reveal re-sol"><span>📊</span><h3>Real Estate CRM</h3><p>Track every lead from enquiry to booking.</p></div>
+      <div class="card reveal re-sol"><span><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></span><h3>Lead Generation</h3><p>Capture leads from website, Facebook, Instagram and WhatsApp.</p></div>
+      <div class="card reveal re-sol"><span><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="10" rx="2"/><circle cx="12" cy="5" r="2"/><path d="M12 7v4"/><line x1="8" y1="16" x2="8.01" y2="16"/><line x1="16" y1="16" x2="16.01" y2="16"/></svg></span><h3>AI Property Assistant</h3><p>Answer property questions and understand buyer requirements.</p></div>
+      <div class="card reveal re-sol"><span><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></span><h3>Property Recommendations</h3><p>Recommend properties based on location, budget and requirements.</p></div>
+      <div class="card reveal re-sol"><span><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 3z"/></svg></span><h3>Lead Qualification</h3><p>Automatically identify buyer intent and requirements.</p></div>
+      <div class="card reveal re-sol"><span><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></span><h3>Site Visit Booking</h3><p>Allow prospects to book property visits directly on WhatsApp.</p></div>
+      <div class="card reveal re-sol"><span><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg></span><h3>Automated Follow-ups</h3><p>Automatically follow up with interested buyers.</p></div>
+      <div class="card reveal re-sol"><span><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg></span><h3>WhatsApp Marketing</h3><p>Promote projects, launches and offers to eligible audiences.</p></div>
+      <div class="card reveal re-sol"><span><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg></span><h3>Real Estate CRM</h3><p>Track every lead from enquiry to booking.</p></div>
     </div>
   </div>
 </section>
@@ -140,7 +140,7 @@ include __DIR__ . '/../../includes/header.php';
 <div class="edu-img-card-wrap reveal" style="margin: 2.5rem 0;">
   <img src="/assets/images/re_property_search_banner.jpg" alt="WhatsApp Real Estate Property Search & Specification Cards" loading="lazy">
   <div class="edu-img-caption-badge">
-    <strong>🏠 Luxury Property Search &amp; Specifications</strong>
+    <strong><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> Luxury Property Search &amp; Specifications</strong>
     <span>Instant WhatsApp Brochure Dispatch</span>
   </div>
 </div>
@@ -173,7 +173,7 @@ include __DIR__ . '/../../includes/header.php';
 <div class="edu-img-card-wrap reveal" style="margin: 2.5rem 0;">
   <img src="/assets/images/re_property_search_banner.jpg" alt="AI Real Estate Buyer Qualification & Property Recommendations" loading="lazy">
   <div class="edu-img-caption-badge">
-    <strong>🤖 AI Buyer Intent Qualification</strong>
+    <strong><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="10" rx="2"/><circle cx="12" cy="5" r="2"/><path d="M12 7v4"/><line x1="8" y1="16" x2="8.01" y2="16"/><line x1="16" y1="16" x2="16.01" y2="16"/></svg> AI Buyer Intent Qualification</strong>
     <span>Automated Filter Matching</span>
   </div>
 </div>
@@ -200,7 +200,7 @@ include __DIR__ . '/../../includes/header.php';
 <div class="edu-img-card-wrap reveal" style="margin: 2.5rem 0;">
   <img src="/assets/images/edtech_reminders_banner.jpg" alt="WhatsApp Real Estate Site Visit Booking & Location Pin" loading="lazy">
   <div class="edu-img-caption-badge">
-    <strong>📅 Interactive Site Visit Booking &amp; Reminders</strong>
+    <strong><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg> Interactive Site Visit Booking &amp; Reminders</strong>
     <span>Automated Calendar &amp; GPS Location Pin</span>
   </div>
 </div>
@@ -292,7 +292,7 @@ include __DIR__ . '/../../includes/header.php';
 <div class="edu-img-card-wrap reveal" style="margin: 2.5rem 0;">
   <img src="/assets/images/edtech_shared_inbox.jpg" alt="InboxWa Real Estate Agent Lead Pipeline & Multi-Agent CRM Inbox" loading="lazy">
   <div class="edu-img-caption-badge">
-    <strong>📊 Real Estate Lead Pipeline &amp; Multi-Agent Workspace</strong>
+    <strong><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg> Real Estate Lead Pipeline &amp; Multi-Agent Workspace</strong>
     <span>Enquiry → Site Visit → Booking Conversion</span>
   </div>
 </div>
@@ -338,14 +338,14 @@ include __DIR__ . '/../../includes/header.php';
   <div class="container">
     <div class="section-header reveal"><h2>Your AI Property Assistant Works 24/7</h2></div>
     <div class="re-ai-feats">
-      <div class="card reveal">✓ Answers property questions</div>
-      <div class="card reveal">✓ Collects buyer requirements</div>
-      <div class="card reveal">✓ Recommends properties</div>
-      <div class="card reveal">✓ Qualifies leads</div>
-      <div class="card reveal">✓ Books site visits</div>
-      <div class="card reveal">✓ Sends reminders</div>
-      <div class="card reveal">✓ Transfers hot leads to agents</div>
-      <div class="card reveal">✓ Handles repetitive enquiries</div>
+      <div class="card reveal"><svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Answers property questions</div>
+      <div class="card reveal"><svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Collects buyer requirements</div>
+      <div class="card reveal"><svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Recommends properties</div>
+      <div class="card reveal"><svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Qualifies leads</div>
+      <div class="card reveal"><svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Books site visits</div>
+      <div class="card reveal"><svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Sends reminders</div>
+      <div class="card reveal"><svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Transfers hot leads to agents</div>
+      <div class="card reveal"><svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Handles repetitive enquiries</div>
     </div>
   </div>
 </section>

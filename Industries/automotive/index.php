@@ -22,7 +22,7 @@ include __DIR__ . '/../../includes/header.php';
         </div>
       </div>
       <div class="au-phone-stage">
-        <div class="au-float au-f1"><b>New Lead</b>✓</div>
+        <div class="au-float au-f1"><b>New Lead</b><svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>
         <div class="au-float au-f2"><b>Test Drive</b>Booked</div>
         <div class="au-phone">
           <div class="au-notch"></div>
@@ -75,7 +75,7 @@ include __DIR__ . '/../../includes/header.php';
       <span>Confirm</span>
     </div>
     <div class="au-confirm reveal">
-      <strong>✓ Test Drive Confirmed · Demo</strong>
+      <strong><svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Test Drive Confirmed · Demo</strong>
       <p>Vehicle: Demo SUV · Date: 28 Aug · Time: 11:30 AM · Location: Demo Showroom</p>
     </div>
   </div>
@@ -114,7 +114,7 @@ include __DIR__ . '/../../includes/header.php';
     <div class="au-chat reveal">
       <p class="m user">I want to book a service.</p>
       <p class="m bot">Regular Service · Repair · Inspection</p>
-      <p class="m ok">Service Appointment Confirmed ✓ · Demo</p>
+      <p class="m ok">Service Appointment Confirmed <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> · Demo</p>
     </div>
     <div class="au-cards" style="margin-top:1.25rem">
       <div class="card reveal">Service Booking</div>
@@ -169,7 +169,7 @@ include __DIR__ . '/../../includes/header.php';
 <div class="edu-img-card-wrap reveal" style="margin: 2.5rem 0;">
   <img src="/assets/images/auto_test_drive_banner.jpg" alt="WhatsApp Automotive Dealership Test Drive Booking & Brochure PDF" loading="lazy">
   <div class="edu-img-caption-badge">
-    <strong>🚘 Interactive Test Drive Booking &amp; Showroom Flow</strong>
+    <strong><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 16H9m10 0a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V9l2.5-4h9.5L19 9v7z"/><circle cx="7.5" cy="14.5" r="1.5"/><circle cx="16.5" cy="14.5" r="1.5"/></svg> Interactive Test Drive Booking &amp; Showroom Flow</strong>
     <span>Instant Brochure PDF &amp; Location Pin</span>
   </div>
 </div>
@@ -177,7 +177,7 @@ include __DIR__ . '/../../includes/header.php';
 <div class="edu-img-card-wrap reveal" style="margin: 2.5rem 0;">
   <img src="/assets/images/edtech_shared_inbox.jpg" alt="InboxWa Automotive Sales Team Workspace & Lead Pipeline" loading="lazy">
   <div class="edu-img-caption-badge">
-    <strong>📊 Dealership Sales Team Dashboard &amp; Lead Tracker</strong>
+    <strong><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg> Dealership Sales Team Dashboard &amp; Lead Tracker</strong>
     <span>Enquiry → Test Drive → Purchase</span>
   </div>
 </div>

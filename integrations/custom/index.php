@@ -198,7 +198,7 @@ include __DIR__ . '/../../includes/header.php';
     </div>
     <div class="ic-code reveal">
       <code>POST /message · contact · template · message</code>
-      <span>Request Sent ✓ · Response Received ✓ · Demo representation</span>
+      <span>Request Sent <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> · Response Received <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> · Demo representation</span>
     </div>
   </div>
 </section>
@@ -234,19 +234,19 @@ include __DIR__ . '/../../includes/header.php';
 </section>
 
 <div class="hb-img-slot" data-hb-img-slot>
-  <div class="hb-img-fallback"><div class="ico">🖼️</div><strong>Integration Ecosystem</strong><span>InboxWa connected to business tools.</span></div>
+  <div class="hb-img-fallback"><div class="ico"><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>️</div><strong>Integration Ecosystem</strong><span>InboxWa connected to business tools.</span></div>
 </div>
 <div class="hb-img-slot hb-img-slot--dark" data-hb-img-slot>
-  <div class="hb-img-fallback"><div class="ico">🖼️</div><strong>WhatsApp + CRM</strong><span>Lead sync and conversation workflows.</span></div>
+  <div class="hb-img-fallback"><div class="ico"><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>️</div><strong>WhatsApp + CRM</strong><span>Lead sync and conversation workflows.</span></div>
 </div>
 <div class="hb-img-slot" data-hb-img-slot>
-  <div class="hb-img-fallback"><div class="ico">🖼️</div><strong>Store + WhatsApp</strong><span>Shopify / WooCommerce order messaging.</span></div>
+  <div class="hb-img-fallback"><div class="ico"><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>️</div><strong>Store + WhatsApp</strong><span>Shopify / WooCommerce order messaging.</span></div>
 </div>
 <div class="hb-img-slot hb-img-slot--dark" data-hb-img-slot>
-  <div class="hb-img-fallback"><div class="ico">🖼️</div><strong>Google Workflows</strong><span>Forms, Sheets and Calendar connected.</span></div>
+  <div class="hb-img-fallback"><div class="ico"><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>️</div><strong>Google Workflows</strong><span>Forms, Sheets and Calendar connected.</span></div>
 </div>
 <div class="hb-img-slot" data-hb-img-slot>
-  <div class="hb-img-fallback"><div class="ico">🖼️</div><strong>Custom API / Webhook</strong><span>Your software to InboxWa to WhatsApp.</span></div>
+  <div class="hb-img-fallback"><div class="ico"><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>️</div><strong>Custom API / Webhook</strong><span>Your software to InboxWa to WhatsApp.</span></div>
 </div>
 
 <section class="section" id="usecases">

@@ -72,7 +72,7 @@ include __DIR__ . '/../../../includes/header.php';
       <div class="hb-timeline-step">
         <div class="hb-step-num">01</div>
         <div class="hb-step-badge">AD / POST CLICK</div>
-        <div class="hb-step-icon">📣</div>
+        <div class="hb-step-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 11l18-5v12L3 13v-2z"/><path d="M11.6 16.8a3 3 0 1 1-5.2-3"/></svg></div>
         <h3>Ad / Page Post</h3>
         <p>Prospect clicks a Click-to-Messenger ad or page post button.</p>
       </div>
@@ -80,7 +80,7 @@ include __DIR__ . '/../../../includes/header.php';
       <div class="hb-timeline-step">
         <div class="hb-step-num">02</div>
         <div class="hb-step-badge">MESSENGER INBOX</div>
-        <div class="hb-step-icon">💙</div>
+        <div class="hb-step-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div>
         <h3>Messenger Opened</h3>
         <p>Instant greeting and interactive quick-reply options load.</p>
       </div>
@@ -88,7 +88,7 @@ include __DIR__ . '/../../../includes/header.php';
       <div class="hb-timeline-step">
         <div class="hb-step-num">03</div>
         <div class="hb-step-badge">AI BOT RESPONSE</div>
-        <div class="hb-step-icon">🤖</div>
+        <div class="hb-step-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="10" rx="2"/><circle cx="12" cy="5" r="2"/><path d="M12 7v4"/><line x1="8" y1="16" x2="8.01" y2="16"/><line x1="16" y1="16" x2="16.01" y2="16"/></svg></div>
         <h3>Bot Automation</h3>
         <p>Bot answers FAQs, presents catalog, and collects requirements.</p>
       </div>
@@ -96,7 +96,7 @@ include __DIR__ . '/../../../includes/header.php';
       <div class="hb-timeline-step">
         <div class="hb-step-num">04</div>
         <div class="hb-step-badge">QUALIFICATION</div>
-        <div class="hb-step-icon">🎯</div>
+        <div class="hb-step-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></div>
         <h3>Lead Qualification</h3>
         <p>Prospect budget and timeline are scored in real time.</p>
       </div>
@@ -104,7 +104,7 @@ include __DIR__ . '/../../../includes/header.php';
       <div class="hb-timeline-step">
         <div class="hb-step-num">05</div>
         <div class="hb-step-badge">CRM SYNC</div>
-        <div class="hb-step-icon">📥</div>
+        <div class="hb-step-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-6l-2 3h-4l-2-3H2"/><path d="M5.45 5.11L2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z"/></svg></div>
         <h3>Lead Capture &amp; CRM</h3>
         <p>Lead info routes to shared team inbox and CRM pipeline.</p>
       </div>
@@ -112,7 +112,7 @@ include __DIR__ . '/../../../includes/header.php';
       <div class="hb-timeline-step hb-step-highlight">
         <div class="hb-step-num">06</div>
         <div class="hb-step-badge">CONVERSION</div>
-        <div class="hb-step-icon">🏆</div>
+        <div class="hb-step-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2z"/></svg></div>
         <h3>Deal Closed</h3>
         <p>Sales representative follows up and confirms the purchase.</p>
       </div>
@@ -128,7 +128,7 @@ include __DIR__ . '/../../../includes/header.php';
         <p class="fb-b user">Hi, I want to know the price</p>
         <p class="fb-b bot">Here are product options…</p>
         <p class="fb-b user">Option A + my requirement</p>
-        <p class="fb-b bot">Thanks — request captured ✓</p>
+        <p class="fb-b bot">Thanks — request captured <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></p>
       </div>
       <div class="fb-actions">
         <div class="card">Lead Captured</div>
@@ -142,10 +142,10 @@ include __DIR__ . '/../../../includes/header.php';
 </section>
 
 <div class="hb-img-slot" data-hb-img-slot>
-  <div class="hb-img-fallback"><div class="ico">🖼️</div><strong>Messenger Conversation</strong><span>Facebook Messenger customer chat automation visual.</span></div>
+  <div class="hb-img-fallback"><div class="ico"><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>️</div><strong>Messenger Conversation</strong><span>Facebook Messenger customer chat automation visual.</span></div>
 </div>
 <div class="hb-img-slot hb-img-slot--dark" data-hb-img-slot>
-  <div class="hb-img-fallback"><div class="ico">🖼️</div><strong>Lead Generation from Messenger</strong><span>Ad → Messenger → lead → team workflow.</span></div>
+  <div class="hb-img-fallback"><div class="ico"><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>️</div><strong>Lead Generation from Messenger</strong><span>Ad → Messenger → lead → team workflow.</span></div>
 </div>
 
 <section class="section section-alt" id="usecases">
@@ -177,7 +177,7 @@ include __DIR__ . '/../../../includes/header.php';
 </section>
 
 <div class="hb-img-slot" data-hb-img-slot>
-  <div class="hb-img-fallback"><div class="ico">🖼️</div><strong>Sales &amp; Support on Messenger</strong><span>Team handling Facebook conversations in one workspace.</span></div>
+  <div class="hb-img-fallback"><div class="ico"><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>️</div><strong>Sales &amp; Support on Messenger</strong><span>Team handling Facebook conversations in one workspace.</span></div>
 </div>
 
 <section class="section section-gradient-1" id="stats">

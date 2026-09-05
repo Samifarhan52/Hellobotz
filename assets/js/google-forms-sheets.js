@@ -1,8 +1,8 @@
 (function(){
   'use strict';
   var flows={
-    capture:{left:'Google Form\nName / Mobile / Email / Requirement\n[Submit]\n\n↓\nGoogle Sheet\nNew Lead Added ✓',right:'WhatsApp\n\nThank you for contacting us. Our team will get back to you shortly.'},
-    welcome:{left:'Google Sheet\nName: {{name}}\nStatus: New',right:'WhatsApp\n\nHello {{name}} 👋\nWelcome! Thanks for reaching out.'},
+    capture:{left:'Google Form\nName / Mobile / Email / Requirement\n[Submit]\n\n↓\nGoogle Sheet\nNew Lead Added <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>',right:'WhatsApp\n\nThank you for contacting us. Our team will get back to you shortly.'},
+    welcome:{left:'Google Sheet\nName: {{name}}\nStatus: New',right:'WhatsApp\n\nHello {{name}} \nWelcome! Thanks for reaching out.'},
     demo:{left:'Google Form\nBook a Demo\n\n↓\nGoogle Sheet\nDemo Date / Time saved',right:'WhatsApp\n\nYour demo request has been received. We will confirm your demo shortly.'},
     followup:{left:'Google Sheet\nLead Status: Follow-up\nName: {{name}}',right:'WhatsApp\n\nHi {{name}}, just following up regarding your earlier enquiry.'},
     payment:{left:'Google Sheet\nPayment Status: Pending\nName: {{name}}',right:'WhatsApp\n\nHi {{name}}, your payment is pending. Please contact our team for assistance.'},

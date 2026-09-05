@@ -9,7 +9,7 @@
   var flows = {
     search: [
       { type: 'user', text: 'Hi, I am looking for a 3 BHK in Bangalore.' },
-      { type: 'bot', text: 'Sure! 👋 What is your preferred budget?' },
+      { type: 'bot', text: 'Sure!  What is your preferred budget?' },
       { type: 'chips', options: ['₹50L–₹75L', '₹75L–₹1Cr', '₹1Cr+'] },
       { type: 'user', text: '₹75L–₹1Cr' },
       { type: 'bot', text: 'Great! I found properties matching your requirements.' },
@@ -31,7 +31,7 @@
       { type: 'bot', text: 'When are you planning to buy?' },
       { type: 'chips', options: ['This month', '1–3 months', '3–6 months'] },
       { type: 'user', text: '1–3 months' },
-      { type: 'bot', text: '✓ Your requirement has been shared with our property consultant.\n🔥 Hot Lead Qualified' }
+      { type: 'bot', text: '<svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Your requirement has been shared with our property consultant.\n<svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 3z"/></svg> Hot Lead Qualified' }
     ],
     visit: [
       { type: 'user', text: 'I want to visit this property.' },
@@ -41,7 +41,7 @@
       { type: 'bot', text: 'Pick a time slot.' },
       { type: 'chips', options: ['11:00 AM', '2:00 PM', '5:00 PM'] },
       { type: 'user', text: '2:00 PM' },
-      { type: 'bot', text: 'Site Visit Confirmed ✓\nSaturday, 2:00 PM\n📅 We will send a reminder.' }
+      { type: 'bot', text: 'Site Visit Confirmed <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>\nSaturday, 2:00 PM\n<svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg> We will send a reminder.' }
     ],
     followup: [
       { type: 'bot', text: 'Property Enquiry Received' },
@@ -52,7 +52,7 @@
       { type: 'bot', text: 'Lead stage updated in CRM' }
     ],
     project: [
-      { type: 'bot', text: '🏠 New Project Launch\nPremium 3 & 4 BHK residences now open for booking.\nStarting from price on request.' },
+      { type: 'bot', text: '<svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> New Project Launch\nPremium 3 & 4 BHK residences now open for booking.\nStarting from price on request.' },
       { type: 'chips', options: ['View Project', 'Book Site Visit'] }
     ],
     support: [
@@ -148,9 +148,9 @@
   if(!steps.length||!text) return;
   var map={
     enquiry:'Customer: Hi, I am looking for a 3 BHK in Bangalore.\nAI: Sure! What is your preferred budget?',
-    qualify:'AI collects: Property type → Location → Budget → Timeline\n✓ Hot Lead Qualified',
+    qualify:'AI collects: Property type → Location → Budget → Timeline\n<svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Hot Lead Qualified',
     recommend:'Here are properties matching your requirements:\n• 3 BHK Premium — Whitefield\n• 3 BHK Resale — Selected location',
-    visit:'Customer: I want to visit this property.\nAI: Choose date — Today / Tomorrow / Weekend\n✓ Site Visit Confirmed',
+    visit:'Customer: I want to visit this property.\nAI: Choose date — Today / Tomorrow / Weekend\n<svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Site Visit Confirmed',
     followup:'Property details sent → Site visit reminder → Counsellor follow-up',
     deal:'Negotiation → Booking stage updated in CRM'
   };

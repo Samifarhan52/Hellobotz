@@ -51,7 +51,7 @@ include __DIR__ . '/../../includes/header.php';
       <div class="isi-chat">
         <p class="m bot">Hi! The item you asked about is back in stock.</p>
         <p class="m bot">View product · Talk to team</p>
-        <p class="m ok">Stock alert sent ✓ · Demo flow</p>
+        <p class="m ok">Stock alert sent <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> · Demo flow</p>
       </div>
       <div class="isi-cards">
         <div class="card">Low stock alerts</div>
@@ -73,7 +73,7 @@ include __DIR__ . '/../../includes/header.php';
       <div class="isi-chat">
         <p class="m bot">Your plan renews soon. Would you like help continuing?</p>
         <p class="m bot">Renew · Change plan · Talk to team</p>
-        <p class="m ok">Renewal reminder sent ✓ · Demo flow</p>
+        <p class="m ok">Renewal reminder sent <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> · Demo flow</p>
       </div>
       <div class="isi-cards">
         <div class="card">Renewal reminders</div>
@@ -95,7 +95,7 @@ include __DIR__ . '/../../includes/header.php';
       <div class="isi-chat">
         <p class="m bot">Invoice #HB-1024 is ready. Amount: as per your bill.</p>
         <p class="m bot">Pay now · View details · Talk to accounts</p>
-        <p class="m ok">Invoice shared ✓ · Demo flow</p>
+        <p class="m ok">Invoice shared <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> · Demo flow</p>
       </div>
       <div class="isi-cards">
         <div class="card">Invoice share</div>

@@ -79,7 +79,7 @@ $rate = (float)$pricing['INR_TO_USD_RATE'];
         </ul>
         <ul class="price-features">
           <?php foreach ($plan['features'] as $f): ?>
-          <li><span class="check">✓</span> <?php echo htmlspecialchars($f); ?></li>
+          <li><span class="check"><svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span> <?php echo htmlspecialchars($f); ?></li>
           <?php endforeach; ?>
         </ul>
         <a class="btn btn-primary btn-lg price-cta" href="<?php echo $reg; ?>"><?php echo htmlspecialchars($plan['cta']); ?></a>

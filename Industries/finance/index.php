@@ -63,7 +63,7 @@ include __DIR__ . '/../../includes/header.php';
       <p class="m user">I need finance for my business.</p>
       <p class="m bot">Sure. What would you like to know?</p>
       <p class="m bot">Eligibility Info · Documents · Application Process · Talk to Team</p>
-      <p class="m ok">Enquiry Submitted ✓ · Demo Flow</p>
+      <p class="m ok">Enquiry Submitted <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> · Demo Flow</p>
     </div>
   </div>
 </section>
@@ -179,7 +179,7 @@ include __DIR__ . '/../../includes/header.php';
 <div class="edu-img-card-wrap reveal" style="margin: 2.5rem 0;">
   <img src="/assets/images/finance_loan_banner.jpg" alt="WhatsApp Instant Loan Eligibility & Document Upload Flow" loading="lazy">
   <div class="edu-img-caption-badge">
-    <strong>💳 Instant Loan Eligibility &amp; Document Upload</strong>
+    <strong><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg> Instant Loan Eligibility &amp; Document Upload</strong>
     <span>Automated EMI Reminders &amp; Verification</span>
   </div>
 </div>
@@ -187,7 +187,7 @@ include __DIR__ . '/../../includes/header.php';
 <div class="edu-img-card-wrap reveal" style="margin: 2.5rem 0;">
   <img src="/assets/images/edtech_shared_inbox.jpg" alt="InboxWa BFSI Finance Lead Pipeline & Shared Team Workspace" loading="lazy">
   <div class="edu-img-caption-badge">
-    <strong>📊 Finance Team Dashboard &amp; Lead Workspace</strong>
+    <strong><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg> Finance Team Dashboard &amp; Lead Workspace</strong>
     <span>Enquiry → Verification → Discrepancy Tracking</span>
   </div>
 </div>

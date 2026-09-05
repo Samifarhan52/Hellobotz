@@ -54,7 +54,7 @@ include __DIR__ . '/../../includes/header.php';
         <p class="m user">I want to know more about this offer.</p>
         <p class="m bot">Sure! What are you interested in?</p>
         <p class="m bot">Product · Pricing · Book Demo</p>
-        <p class="m ok">Lead Captured ✓ · Tagged ✓ · Follow-up Started ✓</p>
+        <p class="m ok">Lead Captured <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> · Tagged <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> · Follow-up Started <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></p>
       </div>
       <div class="mscs-cards">
         <div class="card">Lead Generation</div><div class="card">Campaign Automation</div>
@@ -100,7 +100,7 @@ include __DIR__ . '/../../includes/header.php';
         <p class="m user">I need help with my order.</p>
         <p class="m bot">Sure! Please select an option.</p>
         <p class="m bot">Order Status · Return · Talk to Agent</p>
-        <p class="m ok">Issue Detected ✓ · Agent Assigned ✓</p>
+        <p class="m ok">Issue Detected <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> · Agent Assigned <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></p>
       </div>
       <div class="mscs-cards">
         <div class="card">FAQs</div><div class="card">Order Support</div>
@@ -166,16 +166,16 @@ include __DIR__ . '/../../includes/header.php';
 </section>
 
 <div class="hb-img-slot" data-hb-img-slot>
-  <div class="hb-img-fallback"><div class="ico">🖼️</div><strong>Marketing Automation</strong><span>Campaigns to WhatsApp conversations.</span></div>
+  <div class="hb-img-fallback"><div class="ico"><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>️</div><strong>Marketing Automation</strong><span>Campaigns to WhatsApp conversations.</span></div>
 </div>
 <div class="hb-img-slot hb-img-slot--dark" data-hb-img-slot>
-  <div class="hb-img-fallback"><div class="ico">🖼️</div><strong>Sales / CRM</strong><span>Lead qualification and agent follow-up.</span></div>
+  <div class="hb-img-fallback"><div class="ico"><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>️</div><strong>Sales / CRM</strong><span>Lead qualification and agent follow-up.</span></div>
 </div>
 <div class="hb-img-slot" data-hb-img-slot>
-  <div class="hb-img-fallback"><div class="ico">🖼️</div><strong>Customer Support</strong><span>Bot answers and human handover.</span></div>
+  <div class="hb-img-fallback"><div class="ico"><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>️</div><strong>Customer Support</strong><span>Bot answers and human handover.</span></div>
 </div>
 <div class="hb-img-slot hb-img-slot--dark" data-hb-img-slot>
-  <div class="hb-img-fallback"><div class="ico">🖼️</div><strong>Complete Customer Journey</strong><span>Discover → Engage → Sell → Support → Retain</span></div>
+  <div class="hb-img-fallback"><div class="ico"><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>️</div><strong>Complete Customer Journey</strong><span>Discover → Engage → Sell → Support → Retain</span></div>
 </div>
 
 <section class="section section-alt" id="industries">

@@ -76,7 +76,7 @@ include __DIR__ . '/../../includes/header.php';
 <div class="edu-img-card-wrap reveal" style="margin: 2.5rem 0;">
   <img src="/assets/images/edtech_shared_inbox.jpg" alt="WhatsApp Business Platform Official Meta API & Shared Inbox" loading="lazy">
   <div class="edu-img-caption-badge">
-    <strong>💬 Official Meta WhatsApp Business API &amp; Multi-Agent Inbox</strong>
+    <strong><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg> Official Meta WhatsApp Business API &amp; Multi-Agent Inbox</strong>
     <span>Shared Team Workspace with Green Tick Credibility</span>
   </div>
 </div>
@@ -95,7 +95,7 @@ include __DIR__ . '/../../includes/header.php';
 <div class="edu-img-card-wrap reveal" style="margin: 2.5rem 0;">
   <img src="/assets/images/facebook_ad_funnel_banner.jpg" alt="WhatsApp Broadcast Campaigns & Automated Workflows" loading="lazy">
   <div class="edu-img-caption-badge">
-    <strong>📢 High-Converting WhatsApp Broadcast Campaigns</strong>
+    <strong><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"/></svg> High-Converting WhatsApp Broadcast Campaigns</strong>
     <span>Targeted Messaging with 98% Guaranteed Open Rate</span>
   </div>
 </div>
@@ -111,7 +111,7 @@ include __DIR__ . '/../../includes/header.php';
     </div>
     <div class="wbp-campaign reveal">
       <p><strong>Campaign Created</strong> · Audience: Demo segment · Template: New Offer · Status: Ready</p>
-      <p class="wbp-tpl">Hi {{name}} 👋 Check our latest update. Reply STOP to opt out.</p>
+      <p class="wbp-tpl">Hi {{name}}  Check our latest update. Reply STOP to opt out.</p>
     </div>
   </div>
 </section>
@@ -119,7 +119,7 @@ include __DIR__ . '/../../includes/header.php';
 <div class="edu-img-card-wrap reveal" style="margin: 2.5rem 0;">
   <img src="/assets/images/ecom_discovery_banner.jpg" alt="WhatsApp API Architecture & Seamless CRM Integrations" loading="lazy">
   <div class="edu-img-caption-badge">
-    <strong>⚡ Enterprise WhatsApp API &amp; Webhook Architecture</strong>
+    <strong><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> Enterprise WhatsApp API &amp; Webhook Architecture</strong>
     <span>Seamless Integration with Shopify, WooCommerce &amp; CRMs</span>
   </div>
 </div>

@@ -64,12 +64,12 @@ include __DIR__ . '/../../includes/header.php';
       <div class="wf-field">Dropdown</div><div class="wf-field">Multiple Choice</div><div class="wf-field">Text</div>
       <div class="wf-field">Date</div><div class="wf-field">Location</div><div class="wf-field">Custom Question</div>
     </div>
-    <p class="wf-note reveal">Drag → Configure → Save · Form Published ✓</p>
+    <p class="wf-note reveal">Drag → Configure → Save · Form Published <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></p>
   </div>
 </section>
 
 <div class="hb-img-slot" data-hb-img-slot>
-  <div class="hb-img-fallback"><div class="ico">🖼️</div><strong>WhatsApp Form on Smartphone</strong><span>Step-by-step questions collecting lead details in chat.</span></div>
+  <div class="hb-img-fallback"><div class="ico"><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>️</div><strong>WhatsApp Form on Smartphone</strong><span>Step-by-step questions collecting lead details in chat.</span></div>
 </div>
 
 <section class="section" id="data">
@@ -81,7 +81,7 @@ include __DIR__ . '/../../includes/header.php';
         <tbody><tr><td>Rahul</td><td>+91 XXXXX</td><td>rahul@email.com</td><td>Demo</td><td>Delhi</td><td>New</td></tr></tbody>
       </table>
     </div>
-    <p class="wf-note reveal">New Lead Created ✓ — structured data for your configured workflow.</p>
+    <p class="wf-note reveal">New Lead Created <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> — structured data for your configured workflow.</p>
   </div>
 </section>
 
@@ -100,7 +100,7 @@ include __DIR__ . '/../../includes/header.php';
 </section>
 
 <div class="hb-img-slot hb-img-slot--dark" data-hb-img-slot>
-  <div class="hb-img-fallback"><div class="ico">🖼️</div><strong>Form Builder + Customer Data</strong><span>Dashboard visual for form fields and captured leads.</span></div>
+  <div class="hb-img-fallback"><div class="ico"><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>️</div><strong>Form Builder + Customer Data</strong><span>Dashboard visual for form fields and captured leads.</span></div>
 </div>
 
 <section class="section" id="usecases">
@@ -140,7 +140,7 @@ include __DIR__ . '/../../includes/header.php';
 </section>
 
 <div class="hb-img-slot" data-hb-img-slot>
-  <div class="hb-img-fallback"><div class="ico">🖼️</div><strong>Form → CRM → Automation</strong><span>Workflow from WhatsApp answers to team follow-up.</span></div>
+  <div class="hb-img-fallback"><div class="ico"><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>️</div><strong>Form → CRM → Automation</strong><span>Workflow from WhatsApp answers to team follow-up.</span></div>
 </div>
 
 <section class="section" id="benefits">

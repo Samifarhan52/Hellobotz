@@ -3,12 +3,12 @@
   var tabs=document.querySelectorAll('#ig-tabs button');
   if(!body)return;
   var flows={
-    dm:[{t:'user',m:'Hi 👋 I’m interested in this product'},{t:'bot',m:'Here’s a product card with options'},{t:'user',m:'What’s the price?'},{t:'bot',m:'Details shared. What’s your requirement?'},{t:'user',m:'Need it for my store'},{t:'bot',m:'Lead Captured ✓ · CRM Updated · Agent Assigned'}],
-    lead:[{t:'user',m:'Can someone contact me?'},{t:'bot',m:'Sure — share your name and WhatsApp number'},{t:'user',m:'Priya · +91 XXXXX'},{t:'bot',m:'Lead Created ✓'}],
+    dm:[{t:'user',m:'Hi  I’m interested in this product'},{t:'bot',m:'Here’s a product card with options'},{t:'user',m:'What’s the price?'},{t:'bot',m:'Details shared. What’s your requirement?'},{t:'user',m:'Need it for my store'},{t:'bot',m:'Lead Captured <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> · CRM Updated · Agent Assigned'}],
+    lead:[{t:'user',m:'Can someone contact me?'},{t:'bot',m:'Sure — share your name and WhatsApp number'},{t:'user',m:'Priya · +91 XXXXX'},{t:'bot',m:'Lead Created <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>'}],
     product:[{t:'user',m:'Do you have this in other colors?'},{t:'bot',m:'Yes — here are available options'},{t:'bot',m:'View details · Talk to team'}],
-    comment:[{t:'bot',m:'Thanks for your comment!'},{t:'bot',m:'We sent you a DM with more info ✓'}],
-    story:[{t:'user',m:'Loved your story!'},{t:'bot',m:'Glad you liked it — want product details?'},{t:'user',m:'Yes'},{t:'bot',m:'Details sent in DM ✓'}],
-    support:[{t:'user',m:'My order status?'},{t:'bot',m:'Share order ID or talk to support'},{t:'bot',m:'Handoff available ✓'}]
+    comment:[{t:'bot',m:'Thanks for your comment!'},{t:'bot',m:'We sent you a DM with more info <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>'}],
+    story:[{t:'user',m:'Loved your story!'},{t:'bot',m:'Glad you liked it — want product details?'},{t:'user',m:'Yes'},{t:'bot',m:'Details sent in DM <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>'}],
+    support:[{t:'user',m:'My order status?'},{t:'bot',m:'Share order ID or talk to support'},{t:'bot',m:'Handoff available <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>'}]
   };
   var timer=null;
   function clear(){body.querySelectorAll('.ig-msg').forEach(function(e){e.remove()});typing.classList.remove('on')}

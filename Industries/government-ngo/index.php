@@ -11,7 +11,7 @@ include __DIR__ . '/../../includes/header.php';
   <div class="container">
     <div class="section-header reveal">
       <span class="badge badge-primary">Industry</span>
-      <div style="font-size:2.5rem;margin:.5rem 0">🏛️</div>
+      <div style="font-size:2.5rem;margin:.5rem 0"><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="2" width="16" height="20" rx="2" ry="2"/><line x1="9" y1="6" x2="9.01" y2="6"/><line x1="15" y1="6" x2="15.01" y2="6"/></svg>️</div>
       <h1>Government & NGO automation on WhatsApp &amp; Instagram</h1>
       <p class="lead">Official WhatsApp Business API + Instagram messaging — designed for government & ngo teams that need speed, compliance and a shared inbox.</p>
       <div style="margin-top:1.25rem;display:flex;flex-wrap:wrap;gap:.75rem;justify-content:center">

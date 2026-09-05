@@ -71,14 +71,14 @@ include __DIR__ . '/../../includes/header.php';
   <div class="container">
     <div class="section-header reveal"><h2>E-commerce Solutions</h2></div>
     <div class="ecom-sols">
-      <div class="card reveal"><h3>🛍️ Product Discovery</h3><p>Help customers discover products through WhatsApp.</p></div>
-      <div class="card reveal"><h3>🤖 AI Shopping Assistant</h3><p>Answer product questions and guide customers.</p></div>
-      <div class="card reveal"><h3>🎯 Product Recommendations</h3><p>Recommend relevant products based on requirements.</p></div>
-      <div class="card reveal"><h3>🛒 Cart Recovery</h3><p>Follow up with customers who abandon their cart.</p></div>
-      <div class="card reveal"><h3>💳 Order Updates</h3><p>Send order confirmation and transaction-related updates.</p></div>
-      <div class="card reveal"><h3>📦 Delivery Updates</h3><p>Keep customers informed throughout the order journey.</p></div>
-      <div class="card reveal"><h3>🎧 Customer Support</h3><p>Automate common questions and requests.</p></div>
-      <div class="card reveal"><h3>🔄 Customer Retention</h3><p>Engage after purchase and encourage repeat interactions.</p></div>
+      <div class="card reveal"><h3><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>️ Product Discovery</h3><p>Help customers discover products through WhatsApp.</p></div>
+      <div class="card reveal"><h3><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="10" rx="2"/><circle cx="12" cy="5" r="2"/><path d="M12 7v4"/><line x1="8" y1="16" x2="8.01" y2="16"/><line x1="16" y1="16" x2="16.01" y2="16"/></svg> AI Shopping Assistant</h3><p>Answer product questions and guide customers.</p></div>
+      <div class="card reveal"><h3><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg> Product Recommendations</h3><p>Recommend relevant products based on requirements.</p></div>
+      <div class="card reveal"><h3><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg> Cart Recovery</h3><p>Follow up with customers who abandon their cart.</p></div>
+      <div class="card reveal"><h3><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg> Order Updates</h3><p>Send order confirmation and transaction-related updates.</p></div>
+      <div class="card reveal"><h3><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="16.5" y1="9.4" x2="7.5" y2="4.21"/><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg> Delivery Updates</h3><p>Keep customers informed throughout the order journey.</p></div>
+      <div class="card reveal"><h3><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/></svg> Customer Support</h3><p>Automate common questions and requests.</p></div>
+      <div class="card reveal"><h3><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg> Customer Retention</h3><p>Engage after purchase and encourage repeat interactions.</p></div>
     </div>
   </div>
 </section>
@@ -116,8 +116,8 @@ include __DIR__ . '/../../includes/header.php';
         <a href="/auth/register" class="btn btn-primary">Explore E-commerce Automation</a>
       </div>
       <div class="ecom-catalog">
-        <div class="ecom-prod"><div class="ecom-prod-img">👟</div><strong>Running Shoes</strong><span>₹2,999 · Demo</span></div>
-        <div class="ecom-prod"><div class="ecom-prod-img">👜</div><strong>Everyday Bag</strong><span>Price on request</span></div>
+        <div class="ecom-prod"><div class="ecom-prod-img"><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 17l6-6 4 4 6-6"/></svg></div><strong>Running Shoes</strong><span>₹2,999 · Demo</span></div>
+        <div class="ecom-prod"><div class="ecom-prod-img"><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg></div><strong>Everyday Bag</strong><span>Price on request</span></div>
         <div class="ecom-prod"><div class="ecom-prod-img">⌚</div><strong>Smart Watch</strong><span>Price on request</span></div>
       </div>
     </div>
@@ -126,7 +126,7 @@ include __DIR__ . '/../../includes/header.php';
 <div class="edu-img-card-wrap reveal" style="margin: 2.5rem 0;">
   <img src="/assets/images/ecom_discovery_banner.jpg" alt="WhatsApp Shopping Experience &amp; Product Discovery" loading="lazy">
   <div class="edu-img-caption-badge">
-    <strong>🛍️ Interactive WhatsApp Catalog &amp; Discovery</strong>
+    <strong><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>️ Interactive WhatsApp Catalog &amp; Discovery</strong>
     <span>Native Shopping Experience</span>
   </div>
 </div>
@@ -144,7 +144,7 @@ include __DIR__ . '/../../includes/header.php';
       <span>Order</span>
     </div>
     <div class="ecom-wa-card reveal">
-      <p>Hi Rahul 👋 You left something in your cart. Your selected product is still waiting for you.</p>
+      <p>Hi Rahul  You left something in your cart. Your selected product is still waiting for you.</p>
       <span class="ecom-wa-btn">Complete Order</span>
     </div>
   </div>
@@ -152,7 +152,7 @@ include __DIR__ . '/../../includes/header.php';
 <div class="edu-img-card-wrap reveal" style="margin: 2.5rem 0;">
   <img src="/assets/images/ecom_cart_recovery_banner.jpg" alt="WhatsApp Abandoned Cart Recovery &amp; 1-Click Checkout" loading="lazy">
   <div class="edu-img-caption-badge">
-    <strong>🛒 Abandoned Cart Recovery &amp; Automated Follow-up</strong>
+    <strong><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg> Abandoned Cart Recovery &amp; Automated Follow-up</strong>
     <span>Boost Sales by 35%</span>
   </div>
 </div>
@@ -174,7 +174,7 @@ include __DIR__ . '/../../includes/header.php';
 <div class="edu-img-card-wrap reveal" style="margin: 2.5rem 0;">
   <img src="/assets/images/edtech_shared_inbox.jpg" alt="InboxWa E-commerce Multi-Agent Support & Order Status" loading="lazy">
   <div class="edu-img-caption-badge">
-    <strong>📦 Real-time Order Tracking &amp; Support Inbox</strong>
+    <strong><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="16.5" y1="9.4" x2="7.5" y2="4.21"/><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg> Real-time Order Tracking &amp; Support Inbox</strong>
     <span>Automated Dispatch Alerts</span>
   </div>
 </div>
@@ -184,14 +184,14 @@ include __DIR__ . '/../../includes/header.php';
   <div class="container">
     <div class="section-header reveal"><h2>Your AI Shopping Assistant Works 24/7</h2></div>
     <div class="ecom-ai-feats">
-      <div class="card reveal">✓ Product discovery</div>
-      <div class="card reveal">✓ Product questions</div>
-      <div class="card reveal">✓ Recommendations</div>
-      <div class="card reveal">✓ Order information</div>
-      <div class="card reveal">✓ FAQs</div>
-      <div class="card reveal">✓ Cart assistance</div>
-      <div class="card reveal">✓ Support</div>
-      <div class="card reveal">✓ Human handover</div>
+      <div class="card reveal"><svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Product discovery</div>
+      <div class="card reveal"><svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Product questions</div>
+      <div class="card reveal"><svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Recommendations</div>
+      <div class="card reveal"><svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Order information</div>
+      <div class="card reveal"><svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> FAQs</div>
+      <div class="card reveal"><svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Cart assistance</div>
+      <div class="card reveal"><svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Support</div>
+      <div class="card reveal"><svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Human handover</div>
     </div>
   </div>
 </section>

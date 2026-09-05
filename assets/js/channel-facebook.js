@@ -10,12 +10,12 @@
       {t:'user',m:'Plan A'},
       {t:'bot',m:'Great — please share your requirement.'},
       {t:'user',m:'Need demo for my team'},
-      {t:'bot',m:'Lead captured ✓ · Team notified ✓'}
+      {t:'bot',m:'Lead captured <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> · Team notified <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>'}
     ],
-    support:[{t:'user',m:'I need help with my account'},{t:'bot',m:'I can help. What is the issue?'},{t:'user',m:'Login problem'},{t:'bot',m:'Connecting you to support… Handoff ✓'}],
+    support:[{t:'user',m:'I need help with my account'},{t:'bot',m:'I can help. What is the issue?'},{t:'user',m:'Login problem'},{t:'bot',m:'Connecting you to support… Handoff <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>'}],
     product:[{t:'user',m:'Tell me about your product'},{t:'bot',m:'Here is a short overview + next steps.'},{t:'bot',m:'Details · Demo · Pricing'}],
-    order:[{t:'user',m:'Where is my order?'},{t:'bot',m:'Share your order ID to check status.'},{t:'user',m:'#DEMO123'},{t:'bot',m:'Status shared · Demo flow ✓'}],
-    appt:[{t:'user',m:'I want to book an appointment'},{t:'bot',m:'Choose a time: Today · Tomorrow'},{t:'user',m:'Tomorrow'},{t:'bot',m:'Appointment request saved ✓'}],
+    order:[{t:'user',m:'Where is my order?'},{t:'bot',m:'Share your order ID to check status.'},{t:'user',m:'#DEMO123'},{t:'bot',m:'Status shared · Demo flow <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>'}],
+    appt:[{t:'user',m:'I want to book an appointment'},{t:'bot',m:'Choose a time: Today · Tomorrow'},{t:'user',m:'Tomorrow'},{t:'bot',m:'Appointment request saved <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>'}],
     follow:[{t:'bot',m:'Hi! Following up on your earlier enquiry.'},{t:'bot',m:'Still interested? Book Demo · Talk to Sales'}]
   };
   var timer=null;

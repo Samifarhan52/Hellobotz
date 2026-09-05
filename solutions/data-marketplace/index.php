@@ -56,22 +56,22 @@ include __DIR__ . '/../../includes/header.php';
     <div class="dm-cats">
       <?php
       $categories = [
-        ['Real Estate','Builders, developers, brokers, property consultants and real estate businesses.','🏠'],
-        ['Education','Schools, colleges, coaching institutes, training centres and education businesses.','🎓'],
-        ['Healthcare','Hospitals, clinics, diagnostic centres, wellness and healthcare businesses.','🏥'],
-        ['E-commerce','Online stores, D2C brands, retailers and e-commerce businesses.','🛍️'],
-        ['Finance & Insurance','Financial services, insurance agencies, consultants and related businesses.','💰'],
-        ['Automotive','Dealers, service centres, automobile businesses and automotive professionals.','🚗'],
-        ['Travel & Hospitality','Hotels, resorts, travel agencies, tour operators and hospitality businesses.','✈️'],
-        ['Restaurants & Food','Restaurants, cafes, cloud kitchens, catering and food businesses.','🍽️'],
-        ['Beauty & Wellness','Salons, spas, beauty clinics, wellness centres and professionals.','💅'],
-        ['IT & Software','IT companies, software businesses, technology providers and SaaS companies.','💻'],
-        ['Digital Marketing','Marketing agencies, advertising agencies, SEO businesses and consultants.','📣'],
-        ['Professional Services','Consultants, legal, accounting, HR, business and professional service providers.','💼'],
-        ['Manufacturing','Manufacturers, factories, suppliers and industrial businesses.','🏭'],
-        ['Retail','Local retailers, stores, distributors and consumer businesses.','🏪'],
-        ['B2B & Suppliers','Wholesalers, distributors, suppliers, vendors and B2B businesses.','📦'],
-        ['Events & Wedding','Event planners, wedding businesses, photographers, venues and related services.','🎉'],
+        ['Real Estate','Builders, developers, brokers, property consultants and real estate businesses.','<svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>'],
+        ['Education','Schools, colleges, coaching institutes, training centres and education businesses.','<svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>'],
+        ['Healthcare','Hospitals, clinics, diagnostic centres, wellness and healthcare businesses.','<svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>'],
+        ['E-commerce','Online stores, D2C brands, retailers and e-commerce businesses.','<svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>️'],
+        ['Finance & Insurance','Financial services, insurance agencies, consultants and related businesses.','<svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>'],
+        ['Automotive','Dealers, service centres, automobile businesses and automotive professionals.','<svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 16H9m10 0a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V9l2.5-4h9.5L19 9v7z"/><circle cx="7.5" cy="14.5" r="1.5"/><circle cx="16.5" cy="14.5" r="1.5"/></svg>'],
+        ['Travel & Hospitality','Hotels, resorts, travel agencies, tour operators and hospitality businesses.','<svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>️'],
+        ['Restaurants & Food','Restaurants, cafes, cloud kitchens, catering and food businesses.','<svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2v20M6 2v6a3 3 0 0 0 3 3h0a3 3 0 0 0 3-3V2M9 11v11"/></svg>️'],
+        ['Beauty & Wellness','Salons, spas, beauty clinics, wellness centres and professionals.','<svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20"/></svg>'],
+        ['IT & Software','IT companies, software businesses, technology providers and SaaS companies.','<svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="2" y1="20" x2="22" y2="20"/></svg>'],
+        ['Digital Marketing','Marketing agencies, advertising agencies, SEO businesses and consultants.','<svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>'],
+        ['Professional Services','Consultants, legal, accounting, HR, business and professional service providers.','<svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>'],
+        ['Manufacturing','Manufacturers, factories, suppliers and industrial businesses.','<svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 20h20M4 20V10l4 4V8l4 4V4l8 6v10"/></svg>'],
+        ['Retail','Local retailers, stores, distributors and consumer businesses.','<svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>'],
+        ['B2B & Suppliers','Wholesalers, distributors, suppliers, vendors and B2B businesses.','<svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="16.5" y1="9.4" x2="7.5" y2="4.21"/><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>'],
+        ['Events & Wedding','Event planners, wedding businesses, photographers, venues and related services.','<svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>'],
       ];
       foreach ($categories as $i => $c): ?>
       <article class="dm-cat-card reveal" data-cat="<?php echo htmlspecialchars($c[0]); ?>">
@@ -181,12 +181,12 @@ include __DIR__ . '/../../includes/header.php';
   <div class="container">
     <div class="section-header reveal"><h2>Data Built Around Your Target Market</h2></div>
     <div class="dm-features">
-      <div class="card reveal dm-feat"><span>🎯</span><h3>Industry Focused</h3><p>Find data by business category.</p></div>
-      <div class="card reveal dm-feat"><span>📍</span><h3>Location Based</h3><p>Filter by state, city or region.</p></div>
-      <div class="card reveal dm-feat"><span>📋</span><h3>Business Ready</h3><p>Structured information for business use cases.</p></div>
-      <div class="card reveal dm-feat"><span>🔄</span><h3>Fresh Data</h3><p>Clearly display available freshness information.</p></div>
-      <div class="card reveal dm-feat"><span>🔍</span><h3>Transparent</h3><p>Show relevant source and permitted-use information.</p></div>
-      <div class="card reveal dm-feat"><span>📦</span><h3>Flexible Access</h3><p>Request supported formats or integrations.</p></div>
+      <div class="card reveal dm-feat"><span><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></span><h3>Industry Focused</h3><p>Find data by business category.</p></div>
+      <div class="card reveal dm-feat"><span><svg class="hb-svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span><h3>Location Based</h3><p>Filter by state, city or region.</p></div>
+      <div class="card reveal dm-feat"><span><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><rect x="8" y="2" width="8" height="4" rx="1" ry="1"/></svg></span><h3>Business Ready</h3><p>Structured information for business use cases.</p></div>
+      <div class="card reveal dm-feat"><span><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg></span><h3>Fresh Data</h3><p>Clearly display available freshness information.</p></div>
+      <div class="card reveal dm-feat"><span><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></span><h3>Transparent</h3><p>Show relevant source and permitted-use information.</p></div>
+      <div class="card reveal dm-feat"><span><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="16.5" y1="9.4" x2="7.5" y2="4.21"/><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg></span><h3>Flexible Access</h3><p>Request supported formats or integrations.</p></div>
     </div>
   </div>
 </section>
@@ -386,7 +386,7 @@ include __DIR__ . '/../../includes/header.php';
       <button type="submit" class="btn btn-primary btn-lg" style="width:100%" id="dm-submit">Request Data on WhatsApp</button>
     </form>
     <div class="dm-form-success" id="dm-form-success" hidden>
-      <div class="dm-success-icon">✓</div>
+      <div class="dm-success-icon"><svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>
       <strong>Request Received</strong>
       <p>Opening WhatsApp with your details. Our team will respond shortly.</p>
     </div>

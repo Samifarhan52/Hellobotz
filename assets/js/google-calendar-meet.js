@@ -10,13 +10,13 @@
       {type:'bot',text:'Sure! Please choose a convenient time.'},
       {type:'bot',text:'10:00 AM · 12:00 PM · 4:00 PM'},
       {type:'user',text:'4:00 PM'},
-      {type:'bot',text:'✓ Demo confirmed\n📅 22 August · 4:00 PM\n🎥 Google Meet link will be shared.'}
+      {type:'bot',text:'<svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Demo confirmed\n<svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg> 22 August · 4:00 PM\n<svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg> Google Meet link will be shared.'}
     ],
     consult:[
       {type:'user',text:'I need a consultation slot.'},
       {type:'bot',text:'Please pick a preferred time.'},
       {type:'user',text:'Tomorrow 11:00 AM'},
-      {type:'bot',text:'Consultation booked ✓\nCalendar event + Meet link created.\nWhatsApp confirmation sent.'}
+      {type:'bot',text:'Consultation booked <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>\nCalendar event + Meet link created.\nWhatsApp confirmation sent.'}
     ],
     edu:[
       {type:'user',text:'Book counselling for admissions.'},
@@ -28,7 +28,7 @@
       {type:'user',text:'I want a property consultation.'},
       {type:'bot',text:'Choose a time for site/online meeting.'},
       {type:'user',text:'Saturday 3 PM'},
-      {type:'bot',text:'Property consultation booked ✓\nAgent notified · Calendar updated.'}
+      {type:'bot',text:'Property consultation booked <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>\nAgent notified · Calendar updated.'}
     ],
     support:[
       {type:'user',text:'Schedule a support session.'},
@@ -40,7 +40,7 @@
       {type:'user',text:'Schedule onboarding call.'},
       {type:'bot',text:'Pick a slot for onboarding.'},
       {type:'user',text:'Friday 12 PM'},
-      {type:'bot',text:'Onboarding scheduled ✓\nCalendar + Meet + WhatsApp reminder set.'}
+      {type:'bot',text:'Onboarding scheduled <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>\nCalendar + Meet + WhatsApp reminder set.'}
     ]
   };
   var timer=null;

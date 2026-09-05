@@ -69,7 +69,7 @@ include __DIR__ . '/includes/header.php';
 
         <div class="hb-phone-stage" aria-hidden="false">
           <div class="hb-float hb-float-1">
-            <div class="hb-float-icon">⚡</div>
+            <div class="hb-float-icon"><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></div>
             <div>
               <b>+128 Leads</b>
               <span>Captured today</span>
@@ -77,7 +77,7 @@ include __DIR__ . '/includes/header.php';
           </div>
           
           <div class="hb-float hb-float-2">
-            <div class="hb-float-icon">🤖</div>
+            <div class="hb-float-icon"><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="10" rx="2"/><circle cx="12" cy="5" r="2"/><path d="M12 7v4"/><line x1="8" y1="16" x2="8.01" y2="16"/><line x1="16" y1="16" x2="16.01" y2="16"/></svg></div>
             <div>
               <b>24/7 Active</b>
               <span>AI Chatbot</span>
@@ -85,7 +85,7 @@ include __DIR__ . '/includes/header.php';
           </div>
 
           <div class="hb-float hb-float-3">
-            <div class="hb-float-icon">🚀</div>
+            <div class="hb-float-icon"><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.71 1.26-1.5 1.5-2.5L4.5 16.5z"/><path d="M12 15l-3-3 7.5-7.5c1.5-1.5 4-2.5 4.5-2.5s-1 3-2.5 4.5L12 15z"/></svg></div>
             <div>
               <b>99.9%</b>
               <span>Delivery Rate</span>
@@ -111,7 +111,7 @@ include __DIR__ . '/includes/header.php';
               <!-- AUTHENTIC WHATSAPP FOOTER INPUT BAR -->
               <div class="hb-wa-footer">
                 <input type="text" id="hb-wa-footer-input" placeholder="Type your message..." autocomplete="off" />
-                <button type="button" class="hb-wa-send-btn" id="hb-wa-send-btn" title="Send">➔</button>
+                <button type="button" class="hb-wa-send-btn" id="hb-wa-send-btn" title="Send"><svg class="hb-svg-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></button>
               </div>
             </div>
           </div>
@@ -358,42 +358,42 @@ include __DIR__ . '/includes/header.php';
           <div class="hb-ind-icon"><svg viewBox="0 0 24 24" width="24" height="24" style="width:24px;height:24px;flex-shrink:0;" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><path d="M3 6h18M16 10a4 4 0 01-8 0"/></svg></div>
           <h4>E-Commerce &amp; D2C</h4>
           <p>Recover abandoned carts, send automated order updates, and enable 1-click WhatsApp checkout.</p>
-          <div class="hb-ind-preview-pill">💬 "Order #8410 Confirmed 📦"</div>
+          <div class="hb-ind-preview-pill"><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg> "Order #8410 Confirmed <svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="16.5" y1="9.4" x2="7.5" y2="4.21"/><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>"</div>
         </div>
 
         <div class="hb-ind-card">
           <div class="hb-ind-icon"><svg viewBox="0 0 24 24" width="24" height="24" style="width:24px;height:24px;flex-shrink:0;" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18M5 21V7l7-4 7 4v14"/></svg></div>
           <h4>Real Estate</h4>
           <p>Qualify property inquiries automatically, share digital brochures, and book site visits 24/7.</p>
-          <div class="hb-ind-preview-pill">💬 "Site visit booked for 3 PM 🏠"</div>
+          <div class="hb-ind-preview-pill"><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg> "Site visit booked for 3 PM <svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>"</div>
         </div>
 
         <div class="hb-ind-card">
           <div class="hb-ind-icon"><svg viewBox="0 0 24 24" width="24" height="24" style="width:24px;height:24px;flex-shrink:0;" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10l-10-5L2 10l10 5 10-5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg></div>
           <h4>Education &amp; EdTech</h4>
           <p>Automate student course inquiries, fee reminders, and admission application follow-ups.</p>
-          <div class="hb-ind-preview-pill">💬 "Course Brochure Sent 🎓"</div>
+          <div class="hb-ind-preview-pill"><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg> "Course Brochure Sent <svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>"</div>
         </div>
 
         <div class="hb-ind-card">
           <div class="hb-ind-icon"><svg viewBox="0 0 24 24" width="24" height="24" style="width:24px;height:24px;flex-shrink:0;" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></div>
           <h4>Healthcare &amp; Clinics</h4>
           <p>Schedule doctor appointments, send automated consultation reminders, and dispatch lab reports.</p>
-          <div class="hb-ind-preview-pill">💬 "Doctor Consultation Confirmed 🏥"</div>
+          <div class="hb-ind-preview-pill"><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg> "Doctor Consultation Confirmed <svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>"</div>
         </div>
 
         <div class="hb-ind-card">
           <div class="hb-ind-icon"><svg viewBox="0 0 24 24" width="24" height="24" style="width:24px;height:24px;flex-shrink:0;" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20"/></svg></div>
           <h4>Finance &amp; BFSI</h4>
           <p>Send instant payment alerts, automate loan application collection, and provide secure support.</p>
-          <div class="hb-ind-preview-pill">💬 "KYC Verified Successfully 💳"</div>
+          <div class="hb-ind-preview-pill"><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg> "KYC Verified Successfully <svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>"</div>
         </div>
 
         <div class="hb-ind-card">
           <div class="hb-ind-icon"><svg viewBox="0 0 24 24" width="24" height="24" style="width:24px;height:24px;flex-shrink:0;" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18M5 21V10l7-5 7 5v11"/></svg></div>
           <h4>Hotels &amp; Hospitality</h4>
           <p>Handle room reservations, table bookings, and automated concierge guest services on chat.</p>
-          <div class="hb-ind-preview-pill">💬 "Room Reservation Active 🏨"</div>
+          <div class="hb-ind-preview-pill"><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg> "Room Reservation Active <svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M3 7v14M21 7v14M6 3h12v4H6z"/></svg>"</div>
         </div>
       </div>
     </div>
@@ -491,7 +491,7 @@ include __DIR__ . '/includes/header.php';
       showCustomDemo(text);
     } else {
       showTyping(800, function(){
-        addMsg('bot', 'Thanks, <b>' + visitorName + '</b>! Our team is ready to set this up for your business. Tap <b>Book a Demo</b> to get started! 🚀');
+        addMsg('bot', 'Thanks, <b>' + visitorName + '</b>! Our team is ready to set this up for your business. Tap <b>Book a Demo</b> to get started! <svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.71 1.26-1.5 1.5-2.5L4.5 16.5z"/><path d="M12 15l-3-3 7.5-7.5c1.5-1.5 4-2.5 4.5-2.5s-1 3-2.5 4.5L12 15z"/></svg>');
       });
     }
   }
@@ -518,7 +518,7 @@ include __DIR__ . '/includes/header.php';
     }
 
     showTyping(600, function(){
-      addMsg('bot', '👋 Hi there! Welcome to <b>InboxWa AI</b>.');
+      addMsg('bot', ' Hi there! Welcome to <b>InboxWa AI</b>.');
       showTyping(800, function(){
         addMsg('bot', 'May I please know your name?');
         
@@ -535,7 +535,7 @@ include __DIR__ . '/includes/header.php';
     stepState = "service";
     if(footerInp) footerInp.placeholder = "Type your question or choose...";
     showTyping(800, function(){
-      addMsg('bot', 'Awesome to meet you, <b>' + visitorName + '</b>! 🚀');
+      addMsg('bot', 'Awesome to meet you, <b>' + visitorName + '</b>! <svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.71 1.26-1.5 1.5-2.5L4.5 16.5z"/><path d="M12 15l-3-3 7.5-7.5c1.5-1.5 4-2.5 4.5-2.5s-1 3-2.5 4.5L12 15z"/></svg>');
       showTyping(900, function(){
         addMsg('bot', 'Which WhatsApp automation feature can I demonstrate for you today?');
         
@@ -554,20 +554,20 @@ include __DIR__ . '/includes/header.php';
     if(footerInp) footerInp.placeholder = "Type any follow-up question...";
     showTyping(800, function(){
       if(type === 'api'){
-        addMsg('bot', '<b>' + visitorName + '</b>, with Official Meta WhatsApp API, your brand gets Green Tick verification, 99.9% uptime, and 24/7 lead capture! ⚡');
+        addMsg('bot', '<b>' + visitorName + '</b>, with Official Meta WhatsApp API, your brand gets Green Tick verification, 99.9% uptime, and 24/7 lead capture! <svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>');
       } else if(type === 'flow'){
         addMsg('bot', 'No coding needed, <b>' + visitorName + '</b>! Our visual AI flow builder automatically qualifies leads & answers customer FAQs 24/7.');
       } else if(type === 'broadcast'){
-        addMsg('bot', '<b>' + visitorName + '</b>, send targeted WhatsApp broadcasts to 100,000+ contacts with 98% open rates & instant replies! 📢');
+        addMsg('bot', '<b>' + visitorName + '</b>, send targeted WhatsApp broadcasts to 100,000+ contacts with 98% open rates & instant replies! <svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>');
       } else {
         addMsg('bot', 'Unified inbox, <b>' + visitorName + '</b>! Assign chats across WhatsApp, Instagram DMs & Messenger with live agent handover.');
       }
 
       showTyping(1000, function(){
-        addMsg('bot', 'Ready to test it live with your business team? Tap <b>Book a Demo</b> below! 👇');
+        addMsg('bot', 'Ready to test it live with your business team? Tap <b>Book a Demo</b> below! ');
         
         renderChips([
-          { label: '🔄 Re-start Interactive Demo', action: function(){ startSimulator(); } }
+          { label: '<svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg> Re-start Interactive Demo', action: function(){ startSimulator(); } }
         ]);
       });
     });
@@ -576,11 +576,11 @@ include __DIR__ . '/includes/header.php';
   function showCustomDemo(text){
     stepState = "done";
     showTyping(900, function(){
-      addMsg('bot', 'Great question about <i>"' + text + '"</i>, <b>' + visitorName + '</b>! InboxWa AI seamlessly automates this with official Meta WhatsApp APIs & smart workflows. ⚡');
+      addMsg('bot', 'Great question about <i>"' + text + '"</i>, <b>' + visitorName + '</b>! InboxWa AI seamlessly automates this with official Meta WhatsApp APIs & smart workflows. <svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>');
       showTyping(1000, function(){
-        addMsg('bot', 'Tap <b>Book a Demo</b> to see a custom live workflow for your business! 👇');
+        addMsg('bot', 'Tap <b>Book a Demo</b> to see a custom live workflow for your business! ');
         renderChips([
-          { label: '🔄 Re-start Interactive Demo', action: function(){ startSimulator(); } }
+          { label: '<svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg> Re-start Interactive Demo', action: function(){ startSimulator(); } }
         ]);
       });
     });

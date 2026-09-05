@@ -66,7 +66,7 @@ include __DIR__ . '/../../includes/header.php';
 <div class="edu-img-card-wrap reveal" style="margin: 2.5rem 0;">
   <img src="/assets/images/edtech_shared_inbox.jpg" alt="InboxWa Unified CRM Customer Profile & Contact Details" loading="lazy">
   <div class="edu-img-caption-badge">
-    <strong>👤 Unified CRM Customer Profile &amp; Contact Activity</strong>
+    <strong><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg> Unified CRM Customer Profile &amp; Contact Activity</strong>
     <span>Contact History, Tags &amp; Lead Assignment</span>
   </div>
 </div>
@@ -87,7 +87,7 @@ include __DIR__ . '/../../includes/header.php';
 <div class="edu-img-card-wrap reveal" style="margin: 2.5rem 0;">
   <img src="/assets/images/facebook_ad_funnel_banner.jpg" alt="InboxWa Multi-Stage Lead Kanban Pipeline" loading="lazy">
   <div class="edu-img-caption-badge">
-    <strong>📊 Visual Lead Pipeline &amp; Conversion Analytics</strong>
+    <strong><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg> Visual Lead Pipeline &amp; Conversion Analytics</strong>
     <span>New → Qualified → Proposal → Won</span>
   </div>
 </div>
@@ -117,7 +117,7 @@ include __DIR__ . '/../../includes/header.php';
 <div class="edu-img-card-wrap reveal" style="margin: 2.5rem 0;">
   <img src="/assets/images/finance_loan_banner.jpg" alt="Real-time Analytics Dashboard & Campaign Insights" loading="lazy">
   <div class="edu-img-caption-badge">
-    <strong>📈 Real-Time Conversation &amp; Campaign Analytics</strong>
+    <strong><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg> Real-Time Conversation &amp; Campaign Analytics</strong>
     <span>Agent Performance &amp; ROI Tracking</span>
   </div>
 </div>
@@ -154,7 +154,7 @@ include __DIR__ . '/../../includes/header.php';
 <div class="edu-img-card-wrap reveal" style="margin: 2.5rem 0;">
   <img src="/assets/images/ecom_discovery_banner.jpg" alt="CRM to Analytics Data Workflow" loading="lazy">
   <div class="edu-img-caption-badge">
-    <strong>⚡ Conversation to Intelligence Workflow</strong>
+    <strong><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> Conversation to Intelligence Workflow</strong>
     <span>Automated Data Capture &amp; Insights</span>
   </div>
 </div>

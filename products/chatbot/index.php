@@ -32,20 +32,20 @@ include __DIR__ . '/../../includes/header.php';
         <div class="bot-panel bot-panel-know">
           <div class="bot-panel-h">Knowledge</div>
           <ul>
-            <li>✓ Website</li>
-            <li>✓ Documents</li>
-            <li>✓ FAQs</li>
-            <li>✓ Products</li>
-            <li>✓ Custom Q&amp;A</li>
+            <li><svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Website</li>
+            <li><svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Documents</li>
+            <li><svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> FAQs</li>
+            <li><svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Products</li>
+            <li><svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Custom Q&amp;A</li>
           </ul>
-          <div class="bot-status">Knowledge Connected ✓</div>
+          <div class="bot-status">Knowledge Connected <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>
         </div>
         <div class="bot-phone">
           <div class="bot-notch"></div>
           <div class="bot-screen">
             <div class="bot-wa-head">
               <div class="bot-av">AI</div>
-              <div><strong>InboxWa AI</strong><small>Training Status: Ready ✓</small></div>
+              <div><strong>InboxWa AI</strong><small>Training Status: Ready <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></small></div>
             </div>
             <div class="bot-wa-body" id="bot-wa-body">
               <div class="bot-typing" id="bot-typing"><i></i><i></i><i></i></div>
@@ -83,7 +83,7 @@ include __DIR__ . '/../../includes/header.php';
       <div class="bot-source">Q&amp;A</div>
     </div>
     <div class="bot-scan reveal">
-      <div class="bot-scan-steps">Reading Website → Processing Content → Creating Knowledge → <b>Ready ✓</b></div>
+      <div class="bot-scan-steps">Reading Website → Processing Content → Creating Knowledge → <b>Ready <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></b></div>
       <div class="bot-kb-stat">Knowledge Base · <span>125 Knowledge Items</span> · Demo Data</div>
     </div>
   </div>
@@ -92,7 +92,7 @@ include __DIR__ . '/../../includes/header.php';
 <div class="edu-img-card-wrap reveal" style="margin: 2.5rem 0;">
   <img src="/assets/images/ecom_discovery_banner.jpg" alt="AI Chatbot Training & Dashboard" loading="lazy">
   <div class="edu-img-caption-badge">
-    <strong>🤖 AI Chatbot Knowledge Base &amp; Training Studio</strong>
+    <strong><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="10" rx="2"/><circle cx="12" cy="5" r="2"/><path d="M12 7v4"/><line x1="8" y1="16" x2="8.01" y2="16"/><line x1="16" y1="16" x2="16.01" y2="16"/></svg> AI Chatbot Knowledge Base &amp; Training Studio</strong>
     <span>Website, FAQs &amp; Custom Q&amp;A Sync</span>
   </div>
 </div>
@@ -106,7 +106,7 @@ include __DIR__ . '/../../includes/header.php';
         <div class="bot-qa-val">What is your refund policy?</div>
         <label>Answer</label>
         <div class="bot-qa-val">Customers can request support according to the configured business policy.</div>
-        <div class="bot-qa-ok">✓ Knowledge Added</div>
+        <div class="bot-qa-ok"><svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Knowledge Added</div>
       </div>
     </div>
   </div>
@@ -124,9 +124,9 @@ include __DIR__ . '/../../includes/header.php';
         <p class="bot-bubble ai">Sure! Would you like to book a demo?</p>
       </div>
       <div class="bot-test-flags">
-        <span>AI Response ✓</span>
-        <span>Intent Detected ✓</span>
-        <span>Knowledge Used ✓</span>
+        <span>AI Response <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+        <span>Intent Detected <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+        <span>Knowledge Used <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
       </div>
     </div>
   </div>
@@ -153,7 +153,7 @@ include __DIR__ . '/../../includes/header.php';
       <div class="arr">→</div>
       <div class="card"><h3>Bot</h3><p>I can connect you with our support team.</p></div>
       <div class="arr">→</div>
-      <div class="card"><h3>Human Handover</h3><p>Agent joined · Conversation transferred ✓</p></div>
+      <div class="card"><h3>Human Handover</h3><p>Agent joined · Conversation transferred <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></p></div>
     </div>
     <div class="bot-vs reveal">
       <div class="card">
@@ -171,7 +171,7 @@ include __DIR__ . '/../../includes/header.php';
 <div class="edu-img-card-wrap reveal" style="margin: 2.5rem 0;">
   <img src="/assets/images/edtech_shared_inbox.jpg" alt="Seamless AI to Human Handover Inbox" loading="lazy">
   <div class="edu-img-caption-badge">
-    <strong>💬 Seamless AI to Human Agent Handover</strong>
+    <strong><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg> Seamless AI to Human Agent Handover</strong>
     <span>Zero Waiting Time &amp; Lead Assignment</span>
   </div>
 </div>
@@ -237,7 +237,7 @@ include __DIR__ . '/../../includes/header.php';
 <div class="edu-img-card-wrap reveal" style="margin: 2.5rem 0;">
   <img src="/assets/images/ecom_discovery_banner.jpg" alt="WhatsApp Customer Chatting with AI Assistant" loading="lazy">
   <div class="edu-img-caption-badge">
-    <strong>⚡ 24/7 AI WhatsApp Assistant</strong>
+    <strong><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> 24/7 AI WhatsApp Assistant</strong>
     <span>Instant FAQ Answers &amp; Qualified Lead Capture</span>
   </div>
 </div>
@@ -250,7 +250,7 @@ include __DIR__ . '/../../includes/header.php';
       <p class="bot-bubble user">Can someone contact me?</p>
       <p class="bot-bubble ai">Sure. Please share your name and phone number.</p>
       <div class="bot-web-fields"><span>Name</span><span>Phone</span></div>
-      <div class="bot-web-submit">Submit → Lead Created ✓</div>
+      <div class="bot-web-submit">Submit → Lead Created <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>
     </div>
   </div>
 </section>

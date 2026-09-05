@@ -65,7 +65,7 @@ if (!hb_is_admin_logged_in()) {
     <body>
         <div class="login-card">
             <div class="logo-header">
-                <div class="logo-icon">⚡</div>
+                <div class="logo-icon"><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></div>
                 <h1>InboxWa Console</h1>
                 <p>Sign in to access admin leads & settings</p>
             </div>
@@ -84,7 +84,7 @@ if (!hb_is_admin_logged_in()) {
                 <button type="submit" name="login_submit" class="btn-submit">Access Dashboard</button>
             </form>
             <div class="hint-box">
-                🔑 <strong>Default Admin Access</strong><br>
+                <svg class="hb-svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.778-7.778zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4"/></svg> <strong>Default Admin Access</strong><br>
                 User: <code>admin</code> &nbsp;|&nbsp; Pass: <code>admin123</code>
             </div>
         </div>
@@ -333,22 +333,22 @@ $currentAdminUser = hb_get_setting('admin_user', 'admin');
 <body>
     <header>
         <div class="logo-brand">
-            <div class="logo-badge">⚡</div>
+            <div class="logo-badge"><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></div>
             <div class="logo-title">InboxWa <span>Admin Console</span></div>
         </div>
         <div class="user-panel">
-            <div class="user-tag">👤 User: <strong><?php echo htmlspecialchars($currentAdminUser); ?></strong></div>
-            <a href="?action=export&format=csv" class="btn btn-outline">📥 Export CSV</a>
-            <a href="?action=export&format=json" class="btn btn-outline">📄 Export JSON</a>
+            <div class="user-tag"><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg> User: <strong><?php echo htmlspecialchars($currentAdminUser); ?></strong></div>
+            <a href="?action=export&format=csv" class="btn btn-outline"><svg class="hb-svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="8 17 12 21 16 17"/><line x1="12" y1="12" x2="12" y2="21"/><path d="M20.88 18.09A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.29"/></svg> Export CSV</a>
+            <a href="?action=export&format=json" class="btn btn-outline"><svg class="hb-svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg> Export JSON</a>
             <a href="?action=logout" class="btn btn-danger">Logout</a>
         </div>
     </header>
 
     <?php if ($successMsg): ?>
-        <div class="alert-bar alert-success">✅ <?php echo htmlspecialchars($successMsg); ?></div>
+        <div class="alert-bar alert-success"><svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> <?php echo htmlspecialchars($successMsg); ?></div>
     <?php endif; ?>
     <?php if ($errorMsg): ?>
-        <div class="alert-bar alert-error">⚠️ <?php echo htmlspecialchars($errorMsg); ?></div>
+        <div class="alert-bar alert-error"><svg class="hb-svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>️ <?php echo htmlspecialchars($errorMsg); ?></div>
     <?php endif; ?>
 
     <div class="container">
@@ -374,10 +374,10 @@ $currentAdminUser = hb_get_setting('admin_user', 'admin');
 
         <!-- Navigation Tabs -->
         <div class="tabs-nav">
-            <a href="?tab=leads" class="tab-link <?php echo $activeTab === 'leads' ? 'active' : ''; ?>">📊 Leads & Inquiries (<?php echo count($leads); ?>)</a>
-            <a href="?tab=locations" class="tab-link <?php echo $activeTab === 'locations' ? 'active' : ''; ?>">📍 SEO Locations (<?php echo count($locationsList); ?>)</a>
-            <a href="?tab=add_lead" class="tab-link <?php echo $activeTab === 'add_lead' ? 'active' : ''; ?>">➕ Add Manual Lead</a>
-            <a href="?tab=settings" class="tab-link <?php echo $activeTab === 'settings' ? 'active' : ''; ?>">⚙️ Console Settings</a>
+            <a href="?tab=leads" class="tab-link <?php echo $activeTab === 'leads' ? 'active' : ''; ?>"><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg> Leads & Inquiries (<?php echo count($leads); ?>)</a>
+            <a href="?tab=locations" class="tab-link <?php echo $activeTab === 'locations' ? 'active' : ''; ?>"><svg class="hb-svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> SEO Locations (<?php echo count($locationsList); ?>)</a>
+            <a href="?tab=add_lead" class="tab-link <?php echo $activeTab === 'add_lead' ? 'active' : ''; ?>"><svg class="hb-svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg> Add Manual Lead</a>
+            <a href="?tab=settings" class="tab-link <?php echo $activeTab === 'settings' ? 'active' : ''; ?>"><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>️ Console Settings</a>
         </div>
 
         <?php if ($activeTab === 'leads'): ?>
@@ -441,15 +441,15 @@ $currentAdminUser = hb_get_setting('admin_user', 'admin');
                                     <td><span class="badge badge-type"><?php echo htmlspecialchars($l['type'] ?? 'contact'); ?></span></td>
                                     <td>
                                         <strong style="color:#fff"><?php echo htmlspecialchars($l['name']); ?></strong><br>
-                                        <span style="font-size:0.8rem;color:#94a3b8">✉️ <?php echo htmlspecialchars($l['email'] ?: 'N/A'); ?></span><br>
-                                        <span style="font-size:0.8rem;color:#60a5fa">📞 <?php echo htmlspecialchars($l['phone'] ?: 'N/A'); ?></span>
+                                        <span style="font-size:0.8rem;color:#94a3b8"><svg class="hb-svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>️ <?php echo htmlspecialchars($l['email'] ?: 'N/A'); ?></span><br>
+                                        <span style="font-size:0.8rem;color:#60a5fa"><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg> <?php echo htmlspecialchars($l['phone'] ?: 'N/A'); ?></span>
                                         <?php if (!empty($l['city']) || !empty($l['country'])): ?>
-                                            <br><span style="font-size:0.75rem;color:#cbd5e1">📍 <?php echo htmlspecialchars(implode(', ', array_filter([$l['city'], $l['country']]))); ?></span>
+                                            <br><span style="font-size:0.75rem;color:#cbd5e1"><svg class="hb-svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> <?php echo htmlspecialchars(implode(', ', array_filter([$l['city'], $l['country']]))); ?></span>
                                         <?php endif; ?>
                                     </td>
                                     <td>
                                         <?php if (!empty($l['business'])): ?>
-                                            <strong style="font-size:0.85rem;color:#e2e8f0">🏢 <?php echo htmlspecialchars($l['business']); ?></strong><br>
+                                            <strong style="font-size:0.85rem;color:#e2e8f0"><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="2" width="16" height="20" rx="2" ry="2"/><line x1="9" y1="6" x2="9.01" y2="6"/><line x1="15" y1="6" x2="15.01" y2="6"/><line x1="9" y1="10" x2="9.01" y2="10"/><line x1="15" y1="10" x2="15.01" y2="10"/></svg> <?php echo htmlspecialchars($l['business']); ?></strong><br>
                                         <?php endif; ?>
                                         <span style="font-size:0.8rem;color:#94a3b8"><?php echo htmlspecialchars($l['requirement'] ?: $l['product'] ?: 'General Inquiry'); ?></span>
                                     </td>
@@ -480,7 +480,7 @@ $currentAdminUser = hb_get_setting('admin_user', 'admin');
         <?php elseif ($activeTab === 'locations'): ?>
             <!-- SEO LOCATIONS TAB -->
             <div class="panel-card">
-                <h2>📍 SEO Location Pages Index</h2>
+                <h2><svg class="hb-svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> SEO Location Pages Index</h2>
                 <p style="color:#94a3b8;font-size:0.9rem;margin-bottom:1.25rem">Below are all active regional and international SEO landing pages configured in <code>includes/locations-data.php</code>.</p>
                 <div class="table-wrap">
                     <table>
@@ -498,7 +498,7 @@ $currentAdminUser = hb_get_setting('admin_user', 'admin');
                             <?php foreach ($locationsList as $key => $loc): ?>
                                 <tr>
                                     <td>
-                                        <strong style="color:#fff;font-size:0.95rem">📍 <?php echo htmlspecialchars($loc['city'] ?? $loc['country'] ?? $key); ?></strong><br>
+                                        <strong style="color:#fff;font-size:0.95rem"><svg class="hb-svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> <?php echo htmlspecialchars($loc['city'] ?? $loc['country'] ?? $key); ?></strong><br>
                                         <span style="font-size:0.75rem;color:#94a3b8">Slug: /Locations/<?php echo htmlspecialchars($loc['slug'] ?? $key); ?>/</span>
                                     </td>
                                     <td>
@@ -515,7 +515,7 @@ $currentAdminUser = hb_get_setting('admin_user', 'admin');
                                         <?php endif; ?>
                                     </td>
                                     <td>
-                                        <a href="/Locations/<?php echo htmlspecialchars($loc['slug'] ?? $key); ?>/" target="_blank" class="btn btn-outline" style="padding:0.3rem 0.6rem;font-size:0.75rem">🔗 View Live Page</a>
+                                        <a href="/Locations/<?php echo htmlspecialchars($loc['slug'] ?? $key); ?>/" target="_blank" class="btn btn-outline" style="padding:0.3rem 0.6rem;font-size:0.75rem"><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg> View Live Page</a>
                                     </td>
                                 </tr>
                             <?php endforeach; ?>
@@ -527,7 +527,7 @@ $currentAdminUser = hb_get_setting('admin_user', 'admin');
         <?php elseif ($activeTab === 'add_lead'): ?>
             <!-- ADD MANUAL LEAD TAB -->
             <div class="panel-card" style="max-width:640px;margin:0 auto">
-                <h2>➕ Add Manual Prospect / Lead</h2>
+                <h2><svg class="hb-svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg> Add Manual Prospect / Lead</h2>
                 <form method="post" action="">
                     <input type="hidden" name="form_action" value="add_lead">
                     <div class="form-group-block">
@@ -571,7 +571,7 @@ $currentAdminUser = hb_get_setting('admin_user', 'admin');
             <!-- SETTINGS TAB -->
             <div class="grid-2col">
                 <div class="panel-card">
-                    <h2>⚙️ System Configuration</h2>
+                    <h2><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>️ System Configuration</h2>
                     <form method="post" action="">
                         <input type="hidden" name="form_action" value="save_settings">
                         <div class="form-group-block">
@@ -591,7 +591,7 @@ $currentAdminUser = hb_get_setting('admin_user', 'admin');
                 </div>
 
                 <div class="panel-card">
-                    <h2>🔒 Security & Credentials</h2>
+                    <h2><svg class="hb-svg-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg> Security & Credentials</h2>
                     <form method="post" action="">
                         <input type="hidden" name="form_action" value="change_password">
                         <div class="form-group-block">

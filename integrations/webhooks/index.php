@@ -15,7 +15,7 @@ include __DIR__ . '/../../includes/header.php';
         <img src="/assets/images/integrations/icons/webhooks.svg" alt="Webhooks & API" width="48" height="48"
           onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"
           style="border-radius:12px">
-        <div class="mega-icon mega-icon-purple" style="display:none;width:48px;height:48px;font-size:1.25rem;align-items:center;justify-content:center">⚡</div>
+        <div class="mega-icon mega-icon-purple" style="display:none;width:48px;height:48px;font-size:1.25rem;align-items:center;justify-content:center"><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></div>
       </div>
       <h1 class="int-hero-title">Webhooks & API</h1>
       <p class="lead">Send events from your product; receive message statuses; build custom workflows safely.</p>
@@ -69,7 +69,7 @@ include __DIR__ . '/../../includes/header.php';
 <section class="section section-alt">
   <div class="container" style="max-width:720px">
     <div class="section-header reveal"><h2>Business benefits</h2></div>
-    <ul class="feature-list" style="display:flex;flex-direction:column;gap:.65rem;margin-top:1rem"><li class="feature-list-item reveal"><span class="check">✓</span><span><strong>Fit any stack</strong> — </span></li><li class="feature-list-item reveal"><span class="check">✓</span><span><strong>No brittle screen scrapes</strong> — </span></li><li class="feature-list-item reveal"><span class="check">✓</span><span><strong>Auditable events</strong> — </span></li></ul>
+    <ul class="feature-list" style="display:flex;flex-direction:column;gap:.65rem;margin-top:1rem"><li class="feature-list-item reveal"><span class="check"><svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span><span><strong>Fit any stack</strong> — </span></li><li class="feature-list-item reveal"><span class="check"><svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span><span><strong>No brittle screen scrapes</strong> — </span></li><li class="feature-list-item reveal"><span class="check"><svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span><span><strong>Auditable events</strong> — </span></li></ul>
   </div>
 </section>
 

@@ -70,7 +70,7 @@ include __DIR__ . '/../../includes/header.php';
 <div class="hb-img-slot" data-hb-img-slot>
   
   <div class="hb-img-fallback">
-    <div class="ico">🖼️</div>
+    <div class="ico"><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>️</div>
     <strong>Calendar Booking + Time Slots</strong>
     <span>Available slots and booking on calendar UI.</span>
   </div>
@@ -111,7 +111,7 @@ include __DIR__ . '/../../includes/header.php';
     <div class="section-header reveal"><h2>Every Booking Can Become a Meeting</h2></div>
     <div class="gcm-meet-card reveal">
       <strong>Client Consultation</strong>
-      <div class="gcm-meet-meta">📅 22 August &nbsp; ⏰ 4:00 PM</div>
+      <div class="gcm-meet-meta"><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg> 22 August &nbsp; ⏰ 4:00 PM</div>
       <div class="gcm-meet-btn">Google Meet · Join Meeting</div>
     </div>
     <div class="gcm-meet-flow reveal">
@@ -129,7 +129,7 @@ include __DIR__ . '/../../includes/header.php';
 <div class="hb-img-slot" data-hb-img-slot>
   
   <div class="hb-img-fallback">
-    <div class="ico">🖼️</div>
+    <div class="ico"><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>️</div>
     <strong>Calendar → Google Meet</strong>
     <span>Event creation with Meet link visual.</span>
   </div>
@@ -165,7 +165,7 @@ include __DIR__ . '/../../includes/header.php';
 <div class="hb-img-slot hb-img-slot--dark" data-hb-img-slot>
   
   <div class="hb-img-fallback">
-    <div class="ico">🖼️</div>
+    <div class="ico"><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>️</div>
     <strong>WhatsApp Confirmation + Reminder</strong>
     <span>Meeting confirmed and reminder on mobile.</span>
   </div>

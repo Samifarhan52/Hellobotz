@@ -168,7 +168,7 @@ include __DIR__ . '/../includes/header.php';
 <div class="edu-img-card-wrap reveal" style="margin: 2.5rem 0;">
   <img src="/assets/images/facebook_ad_funnel_banner.jpg" alt="Click-to-WhatsApp Facebook & Instagram Ad Conversion Funnel" loading="lazy">
   <div class="edu-img-caption-badge">
-    <strong>🎯 Click-to-WhatsApp Ad Funnel Architecture</strong>
+    <strong><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg> Click-to-WhatsApp Ad Funnel Architecture</strong>
     <span>Ad Click → Instant WhatsApp Chat → AI Qualification → CRM Sync</span>
   </div>
 </div>
@@ -176,7 +176,7 @@ include __DIR__ . '/../includes/header.php';
 <div class="edu-img-card-wrap reveal" style="margin: 2.5rem 0;">
   <img src="/assets/images/edtech_shared_inbox.jpg" alt="InboxWa Lead Assignment & Multi-Agent CRM Pipeline" loading="lazy">
   <div class="edu-img-caption-badge">
-    <strong>📊 Centralized Lead Pipeline &amp; Multi-Agent Sales Workspace</strong>
+    <strong><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg> Centralized Lead Pipeline &amp; Multi-Agent Sales Workspace</strong>
     <span>Zero Lead Leakage &amp; 3x Higher Conversion</span>
   </div>
 </div>

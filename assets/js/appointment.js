@@ -2,13 +2,13 @@
   var body=document.getElementById('ap-body'),typing=document.getElementById('ap-typing');
   if(body){
     var seq=[
-      {t:'bot',m:'Hello 👋 What would you like to book?'},
+      {t:'bot',m:'Hello  What would you like to book?'},
       {t:'bot',m:'Consultation · Demo · Meeting'},
       {t:'user',m:'Consultation'},
       {t:'bot',m:'Choose Date · Choose Time'},
       {t:'bot',m:'10:00 AM · 11:30 AM · 3:00 PM'},
       {t:'user',m:'11:30 AM'},
-      {t:'bot',m:'Appointment Confirmed ✓ · Demo Booking'}
+      {t:'bot',m:'Appointment Confirmed <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> · Demo Booking'}
     ];
     var i=0;
     function add(m,t){var el=document.createElement('div');el.className='ap-msg '+t;el.textContent=m;body.insertBefore(el,typing);requestAnimationFrame(function(){el.classList.add('show')})}
@@ -20,7 +20,7 @@
     'Choose Date · Demo calendar days',
     'Available Time · 10:00 · 11:30 · 3:00 PM',
     'Your Details · Name · Phone · Notes',
-    '✓ Booking Confirmed · 24 Aug · 11:30 AM · Consultation · Demo'
+    '<svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Booking Confirmed · 24 Aug · 11:30 AM · Consultation · Demo'
   ];
   var panel=document.getElementById('ap-book-panel');
   document.querySelectorAll('#ap-book-steps button').forEach(function(b){

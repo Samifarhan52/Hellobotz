@@ -10,12 +10,12 @@
       {t:'bot',m:"What's your email?"},{t:'user',m:'rahul@example.com'},
       {t:'bot',m:'Requirement? Demo · Pricing · Support'},{t:'user',m:'Demo'},
       {t:'bot',m:'City?'},{t:'user',m:'Delhi'},
-      {t:'bot',m:'Thanks Rahul! Request submitted ✓\nLead Created · Sales Notified'}
+      {t:'bot',m:'Thanks Rahul! Request submitted <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>\nLead Created · Sales Notified'}
     ],
-    demo:[{t:'bot',m:'Demo Form'},{t:'bot',m:'Name → Email → Preferred time'},{t:'user',m:'Tomorrow 4 PM'},{t:'bot',m:'Demo request saved ✓'}],
-    enquiry:[{t:'bot',m:'Enquiry Form'},{t:'bot',m:'What do you need help with?'},{t:'user',m:'Pricing for WhatsApp API'},{t:'bot',m:'Enquiry captured ✓'}],
-    booking:[{t:'bot',m:'Booking Form'},{t:'bot',m:'Service → Date → Time'},{t:'user',m:'Consultation · Sat 11 AM'},{t:'bot',m:'Booking recorded ✓'}],
-    support:[{t:'bot',m:'Support Form'},{t:'bot',m:'Describe your issue'},{t:'user',m:'Billing question'},{t:'bot',m:'Ticket created · Agent notified ✓'}]
+    demo:[{t:'bot',m:'Demo Form'},{t:'bot',m:'Name → Email → Preferred time'},{t:'user',m:'Tomorrow 4 PM'},{t:'bot',m:'Demo request saved <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>'}],
+    enquiry:[{t:'bot',m:'Enquiry Form'},{t:'bot',m:'What do you need help with?'},{t:'user',m:'Pricing for WhatsApp API'},{t:'bot',m:'Enquiry captured <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>'}],
+    booking:[{t:'bot',m:'Booking Form'},{t:'bot',m:'Service → Date → Time'},{t:'user',m:'Consultation · Sat 11 AM'},{t:'bot',m:'Booking recorded <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>'}],
+    support:[{t:'bot',m:'Support Form'},{t:'bot',m:'Describe your issue'},{t:'user',m:'Billing question'},{t:'bot',m:'Ticket created · Agent notified <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>'}]
   };
   var timer=null;
   function clear(){body.querySelectorAll('.wf-msg').forEach(function(e){e.remove()});typing.classList.remove('on')}

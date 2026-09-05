@@ -24,7 +24,7 @@ include __DIR__ . '/../../../includes/header.php';
       <div class="cw-phone-stage">
         <div class="cw-float cw-f1"><b>New Lead</b>+1</div>
         <div class="cw-float cw-f2"><b>Agent Assigned</b>Sales</div>
-        <div class="cw-float cw-f3"><b>Delivered</b>✓</div>
+        <div class="cw-float cw-f3"><b>Delivered</b><svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>
         <div class="cw-phone">
           <div class="cw-notch"></div>
           <div class="cw-screen">
@@ -78,7 +78,7 @@ include __DIR__ . '/../../../includes/header.php';
       <div class="hb-timeline-step">
         <div class="hb-step-num">01</div>
         <div class="hb-step-badge">CUSTOMER INITIATES</div>
-        <div class="hb-step-icon">📱</div>
+        <div class="hb-step-icon"><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg></div>
         <h3>Customer Message</h3>
         <p>Customer sends a message via WhatsApp link, website widget, or QR code.</p>
       </div>
@@ -86,7 +86,7 @@ include __DIR__ . '/../../../includes/header.php';
       <div class="hb-timeline-step">
         <div class="hb-step-num">02</div>
         <div class="hb-step-badge">META API ROUTE</div>
-        <div class="hb-step-icon">🌐</div>
+        <div class="hb-step-icon"><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></div>
         <h3>WhatsApp Business API</h3>
         <p>Verified Meta Cloud API receives the message with green-tick trust.</p>
       </div>
@@ -94,7 +94,7 @@ include __DIR__ . '/../../../includes/header.php';
       <div class="hb-timeline-step">
         <div class="hb-step-num">03</div>
         <div class="hb-step-badge">SMART AUTOMATION</div>
-        <div class="hb-step-icon">🤖</div>
+        <div class="hb-step-icon"><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="10" rx="2"/><circle cx="12" cy="5" r="2"/><path d="M12 7v4"/><line x1="8" y1="16" x2="8.01" y2="16"/><line x1="16" y1="16" x2="16.01" y2="16"/></svg></div>
         <h3>InboxWa AI Engine</h3>
         <p>Interactive catalog, interactive buttons, and AI chatbot respond 24/7.</p>
       </div>
@@ -102,7 +102,7 @@ include __DIR__ . '/../../../includes/header.php';
       <div class="hb-timeline-step">
         <div class="hb-step-num">04</div>
         <div class="hb-step-badge">TEAM ASSIGNMENT</div>
-        <div class="hb-step-icon">👥</div>
+        <div class="hb-step-icon"><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
         <h3>Shared Team Inbox</h3>
         <p>Chat routes to available sales or support agents based on department tags.</p>
       </div>
@@ -110,7 +110,7 @@ include __DIR__ . '/../../../includes/header.php';
       <div class="hb-timeline-step">
         <div class="hb-step-num">05</div>
         <div class="hb-step-badge">CRM INTEGRATION</div>
-        <div class="hb-step-icon">📊</div>
+        <div class="hb-step-icon"><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg></div>
         <h3>CRM Sync</h3>
         <p>Contact profile, stage, and deal notes sync to CRM automatically.</p>
       </div>
@@ -118,7 +118,7 @@ include __DIR__ . '/../../../includes/header.php';
       <div class="hb-timeline-step hb-step-highlight">
         <div class="hb-step-num">06</div>
         <div class="hb-step-badge">AUTO FOLLOW-UP</div>
-        <div class="hb-step-icon">🚀</div>
+        <div class="hb-step-icon"><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.71 1.26-1.5 1.5-2.5L4.5 16.5z"/><path d="M12 15l-3-3 7.5-7.5c1.5-1.5 4-2.5 4.5-2.5s-1 3-2.5 4.5L12 15z"/></svg></div>
         <h3>Broadcast &amp; Nurture</h3>
         <p>Scheduled template follow-ups keep prospects engaged until conversion.</p>
       </div>
@@ -146,7 +146,7 @@ include __DIR__ . '/../../../includes/header.php';
 </section>
 
 <div class="hb-img-slot" data-hb-img-slot>
-  <div class="hb-img-fallback"><div class="ico">🖼️</div><strong>WhatsApp Mobile Conversation</strong><span>Live-style business chat on WhatsApp.</span></div>
+  <div class="hb-img-fallback"><div class="ico"><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>️</div><strong>WhatsApp Mobile Conversation</strong><span>Live-style business chat on WhatsApp.</span></div>
 </div>
 
 <section class="section section-alt" id="inbox">
@@ -161,7 +161,7 @@ include __DIR__ . '/../../../includes/header.php';
 </section>
 
 <div class="hb-img-slot hb-img-slot--dark" data-hb-img-slot>
-  <div class="hb-img-fallback"><div class="ico">🖼️</div><strong>Team Inbox Dashboard</strong><span>Shared workspace for WhatsApp conversations.</span></div>
+  <div class="hb-img-fallback"><div class="ico"><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>️</div><strong>Team Inbox Dashboard</strong><span>Shared workspace for WhatsApp conversations.</span></div>
 </div>
 
 <section class="section" id="broadcast">
@@ -187,7 +187,7 @@ include __DIR__ . '/../../../includes/header.php';
       <p class="cw-b user">I want to book a demo</p>
       <p class="cw-b bot">Sure! Choose a convenient option.</p>
       <p class="cw-b bot">Today · Tomorrow · Talk to Team</p>
-      <p class="cw-ok">Automation Triggered ✓</p>
+      <p class="cw-ok">Automation Triggered <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></p>
     </div>
   </div>
 </section>
@@ -197,7 +197,7 @@ include __DIR__ . '/../../../includes/header.php';
     <div class="section-header reveal"><h2>Capture Structured Leads Directly From WhatsApp</h2></div>
     <div class="cw-form-demo reveal">
       <div>Name · Email · Requirement · City · Option</div>
-      <div class="cw-ok">Form Completed ✓ → Lead Created → Team Notified</div>
+      <div class="cw-ok">Form Completed <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> → Lead Created → Team Notified</div>
     </div>
   </div>
 </section>
@@ -230,10 +230,10 @@ include __DIR__ . '/../../../includes/header.php';
 </section>
 
 <div class="hb-img-slot" data-hb-img-slot>
-  <div class="hb-img-fallback"><div class="ico">🖼️</div><strong>Broadcast Campaign Dashboard</strong><span>Audience, template and send workflow.</span></div>
+  <div class="hb-img-fallback"><div class="ico"><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>️</div><strong>Broadcast Campaign Dashboard</strong><span>Audience, template and send workflow.</span></div>
 </div>
 <div class="hb-img-slot hb-img-slot--dark" data-hb-img-slot>
-  <div class="hb-img-fallback"><div class="ico">🖼️</div><strong>CRM + Analytics Dashboard</strong><span>Contacts, pipeline and WhatsApp activity.</span></div>
+  <div class="hb-img-fallback"><div class="ico"><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>️</div><strong>CRM + Analytics Dashboard</strong><span>Contacts, pipeline and WhatsApp activity.</span></div>
 </div>
 
 <section class="section section-alt" id="usecases">

@@ -27,7 +27,7 @@ include __DIR__ . '/../../includes/header.php';
 
         <!-- Student Name Personalization Interactive Box -->
         <div class="edu-name-input-wrap">
-          <span>⚡ Try Live Demo As:</span>
+          <span><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> Try Live Demo As:</span>
           <input type="text" id="edu-student-name" value="Rahul" placeholder="Enter student name..." aria-label="Enter student name for simulation">
           <div class="edu-preset-names">
             <button type="button" data-name="Rahul">Rahul</button>
@@ -48,15 +48,15 @@ include __DIR__ . '/../../includes/header.php';
 
       <div class="edu-phone-stage">
         <div class="edu-float edu-float-1">
-          <b>⚡ Instant Qualification</b>
+          <b><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> Instant Qualification</b>
           Course &amp; score matched in &lt; 30s
         </div>
         <div class="edu-float edu-float-2">
-          <b>📅 Slot Confirmed</b>
+          <b><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg> Slot Confirmed</b>
           1-on-1 Counselling booked
         </div>
         <div class="edu-float edu-float-3">
-          <b>💳 Fee Collected</b>
+          <b><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg> Fee Collected</b>
           Receipt sent via WhatsApp UPI
         </div>
 
@@ -117,7 +117,7 @@ include __DIR__ . '/../../includes/header.php';
     <div class="edu-img-card-wrap reveal" style="margin-top:2rem;margin-bottom:2.5rem">
       <img src="/assets/images/edtech_admission_journey.jpg" alt="InboxWa Student Admission Journey & Dashboard" loading="lazy">
       <div class="edu-img-caption-badge">
-        <strong>🎓 Interactive Student Journey &amp; Verification Platform</strong>
+        <strong><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg> Interactive Student Journey &amp; Verification Platform</strong>
         <span>Live System Preview</span>
       </div>
     </div>
@@ -313,49 +313,49 @@ include __DIR__ . '/../../includes/header.php';
 
     <div class="edu-solutions-grid">
       <div class="edu-solution-card reveal">
-        <div class="edu-sol-ico">📢</div>
+        <div class="edu-sol-ico"><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></div>
         <h3>WhatsApp Broadcasting</h3>
         <p>Send bulk tailored broadcasts for open-day announcements, application deadlines, and exam schedules to thousands of contacts with zero spam risk.</p>
       </div>
 
       <div class="edu-solution-card reveal">
-        <div class="edu-sol-ico">🤖</div>
+        <div class="edu-sol-ico"><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="10" rx="2"/><circle cx="12" cy="5" r="2"/><path d="M12 7v4"/><line x1="8" y1="16" x2="8.01" y2="16"/><line x1="16" y1="16" x2="16.01" y2="16"/></svg></div>
         <h3>WhatsApp AI Chatbot</h3>
         <p>Automate student inquiries 24/7. Handle course FAQs, hostel queries, fee structures, and syllabus requests instantly without human delay.</p>
       </div>
 
       <div class="edu-solution-card reveal">
-        <div class="edu-sol-ico">📋</div>
+        <div class="edu-sol-ico"><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><rect x="8" y="2" width="8" height="4" rx="1" ry="1"/></svg></div>
         <h3>WhatsApp Forms &amp; Flows</h3>
         <p>Collect student lead details, application form fields, marksheet uploads, and parent feedback directly inside interactive WhatsApp chat forms.</p>
       </div>
 
       <div class="edu-solution-card reveal">
-        <div class="edu-sol-ico">✅</div>
+        <div class="edu-sol-ico"><svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>
         <h3>Meta Verified Blue Tick</h3>
         <p>Establish high credibility and student trust with Meta's official green/blue verified badge on your institution's WhatsApp Business profile.</p>
       </div>
 
       <div class="edu-solution-card reveal">
-        <div class="edu-sol-ico">🎯</div>
+        <div class="edu-sol-ico"><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></div>
         <h3>Click-to-WhatsApp Ads</h3>
         <p>Convert Instagram, Facebook, and Google ad traffic directly into active WhatsApp admission conversations with up to 5x higher conversion.</p>
       </div>
 
       <div class="edu-solution-card reveal">
-        <div class="edu-sol-ico">💳</div>
+        <div class="edu-sol-ico"><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg></div>
         <h3>In-Chat Fee Payments</h3>
         <p>Enable parents and students to pay registration fees, hostel deposits, and tuition installments securely via WhatsApp UPI and cards.</p>
       </div>
 
       <div class="edu-solution-card reveal">
-        <div class="edu-sol-ico">🔄</div>
+        <div class="edu-sol-ico"><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg></div>
         <h3>WhatsApp Drip Campaigns</h3>
         <p>Automate multi-day message sequences to nurture prospective student leads from initial inquiry down to final admission confirmation.</p>
       </div>
 
       <div class="edu-solution-card reveal">
-        <div class="edu-sol-ico">👥</div>
+        <div class="edu-sol-ico"><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
         <h3>Multi-Counsellor Team Inbox</h3>
         <p>Collaborate across faculty and admission teams in a single central workspace with department routing, tags, and internal notes.</p>
       </div>
@@ -374,7 +374,7 @@ include __DIR__ . '/../../includes/header.php';
     <div class="edu-crm-container reveal">
       <div class="edu-crm-header">
         <div class="edu-crm-title">
-          <span>🎓</span> 2026 Student Admission Tracker (Live CRM)
+          <span><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg></span> 2026 Student Admission Tracker (Live CRM)
         </div>
         <div class="edu-crm-filter-btns">
           <button type="button" class="active">All Departments</button>

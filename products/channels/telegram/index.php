@@ -53,7 +53,7 @@ include __DIR__ . '/../../../includes/header.php';
       <div class="hb-timeline-step">
         <div class="hb-step-num">01</div>
         <div class="hb-step-badge">USER /START</div>
-        <div class="hb-step-icon">✈️</div>
+        <div class="hb-step-icon"><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>️</div>
         <h3>Telegram User</h3>
         <p>Prospect clicks t.me bot link or types /start command.</p>
       </div>
@@ -61,7 +61,7 @@ include __DIR__ . '/../../../includes/header.php';
       <div class="hb-timeline-step">
         <div class="hb-step-num">02</div>
         <div class="hb-step-badge">BOT ENGINE</div>
-        <div class="hb-step-icon">🤖</div>
+        <div class="hb-step-icon"><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="10" rx="2"/><circle cx="12" cy="5" r="2"/><path d="M12 7v4"/><line x1="8" y1="16" x2="8.01" y2="16"/><line x1="16" y1="16" x2="16.01" y2="16"/></svg></div>
         <h3>InboxWa Bot</h3>
         <p>AI bot evaluates command logic and inline keyboard buttons.</p>
       </div>
@@ -69,7 +69,7 @@ include __DIR__ . '/../../../includes/header.php';
       <div class="hb-timeline-step">
         <div class="hb-step-num">03</div>
         <div class="hb-step-badge">INSTANT REPLY</div>
-        <div class="hb-step-icon">⚡</div>
+        <div class="hb-step-icon"><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></div>
         <h3>Send Response</h3>
         <p>Bot delivers rich media, product options, and pricing cards.</p>
       </div>
@@ -77,7 +77,7 @@ include __DIR__ . '/../../../includes/header.php';
       <div class="hb-timeline-step">
         <div class="hb-step-num">04</div>
         <div class="hb-step-badge">LEAD CAPTURE</div>
-        <div class="hb-step-icon">📋</div>
+        <div class="hb-step-icon"><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><rect x="8" y="2" width="8" height="4" rx="1" ry="1"/></svg></div>
         <h3>Capture Details</h3>
         <p>Prospect shares contact info and requirement details in chat.</p>
       </div>
@@ -85,7 +85,7 @@ include __DIR__ . '/../../../includes/header.php';
       <div class="hb-timeline-step">
         <div class="hb-step-num">05</div>
         <div class="hb-step-badge">WORKFLOW ACTION</div>
-        <div class="hb-step-icon">⚙️</div>
+        <div class="hb-step-icon"><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>️</div>
         <h3>Business Action</h3>
         <p>Automated webhook triggers CRM update or payment link.</p>
       </div>
@@ -93,7 +93,7 @@ include __DIR__ . '/../../../includes/header.php';
       <div class="hb-timeline-step hb-step-highlight">
         <div class="hb-step-num">06</div>
         <div class="hb-step-badge">TEAM HANDOFF</div>
-        <div class="hb-step-icon">🤝</div>
+        <div class="hb-step-icon"><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 17a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1v-2a1 1 0 0 1 1-1h5z"/><path d="M18 17a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-5a1 1 0 0 1-1-1v-2a1 1 0 0 1 1-1h5z"/><path d="M16 11V7a4 4 0 0 0-8 0v4"/></svg></div>
         <h3>Team &amp; CRM</h3>
         <p>Sales representative takes over high-value conversation.</p>
       </div>
@@ -111,7 +111,7 @@ include __DIR__ . '/../../../includes/header.php';
       </div>
       <div class="tg-builder-col">
         <strong>Live Preview</strong>
-        <p>/start → Welcome to InboxWa 👋</p>
+        <p>/start → Welcome to InboxWa </p>
         <p>Explore Products · Book Demo · Talk to Support</p>
       </div>
     </div>
@@ -146,7 +146,7 @@ include __DIR__ . '/../../../includes/header.php';
       <p class="tg-b bot">What's your name?</p>
       <p class="tg-b user">Rahul</p>
       <p class="tg-b bot">What are you interested in? CRM · WhatsApp API · Automation</p>
-      <p class="tg-ok">Lead Created ✓ · Requirement Saved ✓ · Sales Team Notified ✓</p>
+      <p class="tg-ok">Lead Created <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> · Requirement Saved <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> · Sales Team Notified <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></p>
     </div>
   </div>
 </section>
@@ -203,16 +203,16 @@ include __DIR__ . '/../../../includes/header.php';
 </section>
 
 <div class="hb-img-slot" data-hb-img-slot>
-  <div class="hb-img-fallback"><div class="ico">🖼️</div><strong>Telegram Bot + Mobile</strong><span>Bot conversation and command experience.</span></div>
+  <div class="hb-img-fallback"><div class="ico"><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>️</div><strong>Telegram Bot + Mobile</strong><span>Bot conversation and command experience.</span></div>
 </div>
 <div class="hb-img-slot hb-img-slot--dark" data-hb-img-slot>
-  <div class="hb-img-fallback"><div class="ico">🖼️</div><strong>Bot Builder / Automation Dashboard</strong><span>Commands, responses and workflow setup.</span></div>
+  <div class="hb-img-fallback"><div class="ico"><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>️</div><strong>Bot Builder / Automation Dashboard</strong><span>Commands, responses and workflow setup.</span></div>
 </div>
 <div class="hb-img-slot" data-hb-img-slot>
-  <div class="hb-img-fallback"><div class="ico">🖼️</div><strong>Telegram → CRM Lead Workflow</strong><span>From chat to lead and team notification.</span></div>
+  <div class="hb-img-fallback"><div class="ico"><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>️</div><strong>Telegram → CRM Lead Workflow</strong><span>From chat to lead and team notification.</span></div>
 </div>
 <div class="hb-img-slot hb-img-slot--dark" data-hb-img-slot>
-  <div class="hb-img-fallback"><div class="ico">🖼️</div><strong>Notification Automation</strong><span>Business events delivered on Telegram.</span></div>
+  <div class="hb-img-fallback"><div class="ico"><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>️</div><strong>Notification Automation</strong><span>Business events delivered on Telegram.</span></div>
 </div>
 
 <section class="section" id="usecases">

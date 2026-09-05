@@ -92,11 +92,11 @@ include __DIR__ . '/../../includes/header.php';
   <div class="container">
     <div class="section-header reveal"><h2>Doctor Engagement Simulation</h2></div>
     <div class="hc-chat reveal">
-      <p class="m user">Good morning Doctor 👋</p>
+      <p class="m user">Good morning Doctor </p>
       <p class="m bot">Good morning.</p>
       <p class="m user">I’m sharing the approved information for Product X.</p>
       <p class="m bot">Thank you.</p>
-      <p class="m ok">Information Shared ✓ · Interaction Logged ✓ · Follow-up Scheduled ✓</p>
+      <p class="m ok">Information Shared <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> · Interaction Logged <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> · Follow-up Scheduled <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></p>
     </div>
   </div>
 </section>
@@ -143,7 +143,7 @@ include __DIR__ . '/../../includes/header.php';
     </div>
     <div class="hc-dash reveal" style="max-width:400px;margin:1rem auto 0">
       <strong>Dr. Sharma · Product Discussion</strong>
-      <p>Follow-up: Tomorrow · Status: Pending · Reminder Sent ✓ · Demo Data</p>
+      <p>Follow-up: Tomorrow · Status: Pending · Reminder Sent <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> · Demo Data</p>
     </div>
   </div>
 </section>
@@ -164,7 +164,7 @@ include __DIR__ . '/../../includes/header.php';
     <div class="hc-chat reveal" style="margin-top:1.25rem">
       <p class="m user">I want to book an appointment.</p>
       <p class="m bot">Please select a preferred date.</p>
-      <p class="m ok">Request Captured ✓ · Clinic Team Notified ✓</p>
+      <p class="m ok">Request Captured <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> · Clinic Team Notified <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></p>
     </div>
   </div>
 </section>
@@ -223,7 +223,7 @@ include __DIR__ . '/../../includes/header.php';
 <div class="edu-img-card-wrap reveal" style="margin: 2.5rem 0;">
   <img src="/assets/images/healthcare_booking_banner.jpg" alt="WhatsApp Doctor Appointment Booking & Lab Report PDF Delivery" loading="lazy">
   <div class="edu-img-caption-badge">
-    <strong>🩺 Doctor Appointments &amp; Lab Report Dispatches</strong>
+    <strong><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg> Doctor Appointments &amp; Lab Report Dispatches</strong>
     <span>Automated Slot Selection &amp; Patient Portal</span>
   </div>
 </div>
@@ -231,7 +231,7 @@ include __DIR__ . '/../../includes/header.php';
 <div class="edu-img-card-wrap reveal" style="margin: 2.5rem 0;">
   <img src="/assets/images/edtech_shared_inbox.jpg" alt="Pharma MR Doctor Engagement & Team Workspace" loading="lazy">
   <div class="edu-img-caption-badge">
-    <strong>👨‍⚕️ Pharma MR Doctor Engagement &amp; Compliance Inbox</strong>
+    <strong><svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>‍<svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>️ Pharma MR Doctor Engagement &amp; Compliance Inbox</strong>
     <span>Centralized Approved Information Sharing</span>
   </div>
 </div>
