@@ -251,16 +251,16 @@ textarea.form-input{min-height:100px;resize:vertical}
 .popup-close{position:absolute;top:12px;right:12px;width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.5rem;color:var(--t3);line-height:1}
 .popup-close:hover{background:var(--bg2);color:var(--t)}
 
-/* WhatsApp widget */
-.wa-widget{position:fixed;bottom:1.25rem;right:1.25rem;z-index:9000}
-.wa-widget-btn{width:56px;height:56px;border-radius:50%;background:#25D366;color:#fff;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 20px rgba(37,211,102,.45);transition:transform .2s}
-.wa-widget-btn:hover{transform:scale(1.06)}
+/* WhatsApp & InboxWa AI floating widget */
+.wa-widget{position:fixed;bottom:1.25rem;right:1.25rem;z-index:9900}
+.wa-widget-btn{width:56px;height:56px;border-radius:50%;background:linear-gradient(135deg,#8B5CF6 0%,#6366F1 50%,#06B6D4 100%);color:#fff;display:flex;align-items:center;justify-content:center;box-shadow:0 10px 25px rgba(139,92,246,0.45);cursor:pointer;border:none;transition:all .3s cubic-bezier(0.4,0,0.2,1)}
+.wa-widget-btn:hover{transform:scale(1.08);box-shadow:0 14px 30px rgba(139,92,246,0.55)}
 .wa-widget-btn svg{width:28px;height:28px}
 .wa-widget-btn .icon-close{display:none}
 .wa-widget.open .wa-widget-btn .icon-wa{display:none}
 .wa-widget.open .wa-widget-btn .icon-close{display:block}
-.wa-widget-panel{position:absolute;bottom:70px;right:0;width:300px;background:#fff;border-radius:var(--r2);box-shadow:var(--sh3);opacity:0;visibility:hidden;transform:translateY(10px);transition:all .25s;overflow:hidden}
-.wa-widget.open .wa-widget-panel{opacity:1;visibility:visible;transform:translateY(0)}
+.wa-widget-panel{position:absolute;bottom:70px;right:0;width:320px;max-width:calc(100vw - 2rem);background:#fff;border-radius:20px;box-shadow:0 20px 40px -10px rgba(15,23,42,0.22),0 0 0 1px rgba(0,0,0,0.06);opacity:0;visibility:hidden;transform:translateY(12px) scale(.95);transform-origin:bottom right;transition:all .25s cubic-bezier(0.16,1,0.3,1);overflow:hidden;z-index:10000}
+.wa-widget.open .wa-widget-panel{opacity:1;visibility:visible;transform:translateY(0) scale(1)}
 .wa-widget-header{background:linear-gradient(135deg,var(--p),var(--a));color:#fff;padding:1rem 1.15rem}
 .wa-widget-header h4{color:#fff;font-size:1rem}
 .wa-widget-header span{font-size:.75rem;opacity:.85}

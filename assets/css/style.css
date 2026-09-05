@@ -3022,3 +3022,104 @@ html, body {
   }
 }
 
+/* ===== PERFECT MOBILE WIDGET & MODAL COMPATIBILITY SYSTEM ===== */
+@media (max-width: 768px) {
+  .wa-widget {
+    bottom: 1rem !important;
+    right: 1rem !important;
+    z-index: 9999 !important;
+  }
+  .wa-widget-btn {
+    width: 54px !important;
+    height: 54px !important;
+    border-radius: 50% !important;
+  }
+  .wa-widget-btn svg {
+    width: 26px !important;
+    height: 26px !important;
+  }
+  .wa-widget-panel {
+    position: fixed !important;
+    bottom: 74px !important;
+    right: 12px !important;
+    left: 12px !important;
+    width: auto !important;
+    max-width: 360px !important;
+    margin-left: auto !important;
+    max-height: min(78vh, 460px) !important;
+    border-radius: 18px !important;
+    box-shadow: 0 20px 45px rgba(15, 23, 42, 0.3), 0 0 0 1px rgba(0, 0, 0, 0.08) !important;
+    overflow-y: auto !important;
+    -webkit-overflow-scrolling: touch !important;
+    z-index: 10000 !important;
+  }
+  .wa-widget-header {
+    padding: 14px 16px !important;
+  }
+  .wa-widget-header h4 {
+    font-size: 0.95rem !important;
+  }
+  .wa-widget-header span {
+    font-size: 0.72rem !important;
+  }
+  .wa-widget-body {
+    padding: 10px !important;
+    gap: 8px !important;
+  }
+  .wa-widget-action {
+    padding: 9px 12px !important;
+    font-size: 0.85rem !important;
+    border-radius: 10px !important;
+  }
+  .action-icon {
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 8px !important;
+  }
+  .action-icon svg {
+    width: 16px !important;
+    height: 16px !important;
+  }
+
+  /* Centered, non-overflowing popups on mobile */
+  .popup-overlay {
+    padding: 12px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    z-index: 10000 !important;
+  }
+  .popup-card,
+  .popup-card-compact,
+  .offer-popup-card {
+    position: relative !important;
+    width: calc(100vw - 24px) !important;
+    max-width: 380px !important;
+    max-height: min(85vh, 520px) !important;
+    border-radius: 18px !important;
+    margin: 0 auto !important;
+    padding: 1.25rem !important;
+    overflow-y: auto !important;
+    box-shadow: 0 25px 50px -12px rgba(15, 23, 42, 0.35) !important;
+  }
+}
+
+@media (max-width: 380px) {
+  .wa-widget {
+    bottom: 0.75rem !important;
+    right: 0.75rem !important;
+  }
+  .wa-widget-panel {
+    bottom: 66px !important;
+    right: 8px !important;
+    left: 8px !important;
+    max-height: min(75vh, 420px) !important;
+  }
+  .popup-card,
+  .popup-card-compact,
+  .offer-popup-card {
+    width: calc(100vw - 16px) !important;
+    padding: 1rem !important;
+  }
+}
+
