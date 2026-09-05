@@ -1,5 +1,5 @@
 /* ==========================================================================
-   INBOXWA STORY JOURNEY & GLOBAL DESIGN SYSTEM (v45)
+   INBOXWA STORY JOURNEY & GLOBAL DESIGN SYSTEM (v46)
    ========================================================================== */
 
 /* 1. Global SVG Constraints & Icon Safety (prevents any SVG blowup) */
@@ -564,24 +564,6 @@ body {
   50% { transform: translateY(-8px); }
 }
 
-@media (max-width: 1024px) {
-  .hb-float-1 { left: -10px !important; top: 4% !important; }
-  .hb-float-2 { right: -10px !important; top: 48% !important; }
-  .hb-float-3 { left: -5px !important; bottom: 2% !important; }
-}
-
-@media (max-width: 640px) {
-  .hb-float {
-    padding: 0.55rem 0.85rem !important;
-    font-size: 0.72rem !important;
-    border-radius: 14px !important;
-  }
-  .hb-float b { font-size: 0.88rem !important; }
-  .hb-float-1 { left: -5px !important; top: 2% !important; }
-  .hb-float-2 { right: -5px !important; top: 52% !important; }
-  .hb-float-3 { display: none !important; }
-}
-
 /* 4. Story Section Framework */
 .hb-story-wrapper {
   overflow-x: hidden;
@@ -647,13 +629,6 @@ body {
   gap: 2rem;
   max-width: 1100px;
   margin: 0 auto;
-}
-
-@media (max-width: 768px) {
-  .hb-comparison-grid {
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
-  }
 }
 
 .hb-comp-card {
@@ -777,13 +752,6 @@ body {
   margin: 0 auto;
 }
 
-@media (max-width: 900px) {
-  .hb-steps-grid {
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
-  }
-}
-
 .hb-step-card {
   background: #FFFFFF;
   border: 1px solid #E2E8F0;
@@ -903,14 +871,6 @@ body {
   to { opacity: 1; transform: translateY(0); }
 }
 
-@media (max-width: 850px) {
-  .hb-tab-pane {
-    grid-template-columns: 1fr;
-    padding: 1.75rem;
-    gap: 1.5rem;
-  }
-}
-
 .hb-tab-content h3 {
   font-size: 1.65rem;
   font-weight: 800;
@@ -958,19 +918,6 @@ body {
   gap: 1.75rem;
   max-width: 1100px;
   margin: 0 auto;
-}
-
-@media (max-width: 900px) {
-  .hb-ind-grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1.25rem;
-  }
-}
-
-@media (max-width: 580px) {
-  .hb-ind-grid {
-    grid-template-columns: 1fr;
-  }
 }
 
 .hb-ind-card {
@@ -1043,4 +990,246 @@ body {
   box-shadow: 0 20px 50px rgba(124, 58, 237, 0.3);
   max-width: 1100px;
   margin: 0 auto;
+}
+
+/* ==========================================================================
+   10. UNIVERSAL MOBILE RESPONSIVE OPTIMIZATION SYSTEM (320px - 1024px)
+   ========================================================================== */
+
+/* Zero Horizontal Page Overflow */
+html, body {
+  overflow-x: hidden !important;
+  max-width: 100vw !important;
+  width: 100% !important;
+}
+
+.hb-story-wrapper,
+.container {
+  width: 100% !important;
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+/* Tablet & Mobile Layout Adaptations (<= 1024px) */
+@media (max-width: 1024px) {
+  .hb-story-section {
+    padding: 3.5rem 0 !important;
+  }
+
+  .hb-story-header {
+    margin-bottom: 2.5rem !important;
+  }
+
+  .hb-story-header h2 {
+    font-size: clamp(1.75rem, 5vw, 2.25rem) !important;
+  }
+
+  .hb-float-1 { left: 0px !important; top: 2% !important; }
+  .hb-float-2 { right: 0px !important; top: 48% !important; }
+  .hb-float-3 { display: none !important; }
+}
+
+/* Mobile Screens (<= 768px) */
+@media (max-width: 768px) {
+  /* Hero Copy Stack */
+  .hb-hero-grid {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important;
+    gap: 2rem !important;
+  }
+
+  .hb-hero-copy {
+    width: 100% !important;
+    text-align: center !important;
+  }
+
+  .hb-hero-badge {
+    font-size: 0.72rem !important;
+    padding: 0.35rem 0.75rem !important;
+    max-width: 100% !important;
+    word-break: break-word !important;
+    display: inline-block !important;
+    margin: 0 auto 1rem auto !important;
+  }
+
+  .hb-hero-copy h1 {
+    font-size: clamp(1.65rem, 6.5vw, 2.2rem) !important;
+    line-height: 1.25 !important;
+    text-align: center !important;
+  }
+
+  .hb-lead {
+    font-size: 0.96rem !important;
+    text-align: center !important;
+    margin: 0 auto 1.5rem auto !important;
+  }
+
+  .hb-hero-ctas {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    gap: 0.75rem !important;
+  }
+
+  .hb-hero-ctas .btn {
+    width: 100% !important;
+    justify-content: center !important;
+    text-align: center !important;
+    padding: 0.8rem 1.2rem !important;
+  }
+
+  .hb-stats {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 0.6rem !important;
+    width: 100% !important;
+    margin-top: 1.5rem !important;
+  }
+
+  .hb-stat {
+    padding: 0.6rem 0.5rem !important;
+    text-align: center !important;
+    border-radius: 12px !important;
+    font-size: 0.75rem !important;
+  }
+
+  /* Phone Stage Responsiveness */
+  .hb-phone-stage {
+    min-height: auto !important;
+    padding: 1rem 0 1.5rem 0 !important;
+    width: 100% !important;
+    overflow: visible !important;
+  }
+
+  .hb-phone {
+    width: min(300px, 90vw) !important;
+    margin: 0 auto !important;
+    border-radius: 36px !important;
+    padding: 8px !important;
+  }
+
+  .hb-phone-screen {
+    height: 440px !important;
+    border-radius: 28px !important;
+  }
+
+  /* Floating Metric Cards on Mobile */
+  .hb-float {
+    position: absolute !important;
+    padding: 0.45rem 0.75rem !important;
+    font-size: 0.7rem !important;
+    border-radius: 14px !important;
+  }
+  .hb-float b { font-size: 0.85rem !important; }
+  .hb-float .hb-float-icon { width: 28px !important; height: 28px !important; font-size: 0.9rem !important; }
+  .hb-float-1 { left: -5px !important; top: 0% !important; }
+  .hb-float-2 { right: -5px !important; top: 48% !important; }
+  .hb-float-3 { display: none !important; }
+
+  /* Hero Cards Grid */
+  .hb-hero-cards-grid {
+    grid-template-columns: 1fr !important;
+    gap: 1rem !important;
+    margin-top: 2rem !important;
+  }
+
+  /* Comparison Grid */
+  .hb-comparison-grid {
+    grid-template-columns: 1fr !important;
+    gap: 1.25rem !important;
+  }
+
+  .hb-comp-card {
+    padding: 1.35rem 1.1rem !important;
+    border-radius: 18px !important;
+  }
+
+  .hb-comp-title {
+    font-size: 1.15rem !important;
+    margin-bottom: 1rem !important;
+  }
+
+  /* 3-Step Growth Cards */
+  .hb-steps-grid {
+    grid-template-columns: 1fr !important;
+    gap: 1.1rem !important;
+  }
+
+  .hb-step-card {
+    padding: 1.35rem !important;
+    border-radius: 18px !important;
+  }
+
+  /* Platform Tabs System */
+  .hb-tabs-nav {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch !important;
+    justify-content: flex-start !important;
+    padding-bottom: 0.5rem !important;
+    gap: 0.5rem !important;
+    width: 100% !important;
+  }
+
+  .hb-tab-btn {
+    flex-shrink: 0 !important;
+    padding: 0.55rem 0.95rem !important;
+    font-size: 0.82rem !important;
+  }
+
+  .hb-tab-pane {
+    display: none !important;
+    grid-template-columns: 1fr !important;
+    padding: 1.35rem 1.1rem !important;
+    gap: 1.25rem !important;
+    border-radius: 18px !important;
+  }
+
+  .hb-tab-pane.active {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  .hb-tab-content h3 {
+    font-size: 1.3rem !important;
+  }
+
+  /* Industry Grid */
+  .hb-ind-grid {
+    grid-template-columns: 1fr !important;
+    gap: 1rem !important;
+  }
+
+  .hb-ind-card {
+    padding: 1.25rem !important;
+    border-radius: 16px !important;
+  }
+
+  /* CTA Banner */
+  .hb-cta-banner {
+    padding: 2.5rem 1.25rem !important;
+    border-radius: 20px !important;
+  }
+
+  .hb-cta-banner h2 {
+    font-size: clamp(1.4rem, 5.5vw, 1.8rem) !important;
+  }
+}
+
+/* Compact Mobile Screens (<= 400px) */
+@media (max-width: 400px) {
+  .hb-phone {
+    width: min(270px, 94vw) !important;
+  }
+  .hb-phone-screen {
+    height: 400px !important;
+  }
+  .hb-float {
+    display: none !important;
+  }
 }
