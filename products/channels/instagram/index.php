@@ -42,19 +42,62 @@ include __DIR__ . '/../../../includes/header.php';
   </div>
 </section>
 
-<section class="section section-dark" id="journey">
+<section class="section section-dark hb-journey-section" id="journey">
   <div class="container">
-    <div class="section-header reveal"><h2 style="color:#fff">Instagram Automation Journey</h2></div>
-    <div class="ig-flow reveal">
-      <span>Post / Reel / Story</span><span class="arr">→</span>
-      <span>Comment / DM</span><span class="arr">→</span>
-      <span>Automated Reply</span><span class="arr">→</span>
-      <span>Qualification</span><span class="arr">→</span>
-      <span>Lead Capture</span><span class="arr">→</span>
-      <span>CRM</span><span class="arr">→</span>
-      <span>Sales Team</span><span class="arr">→</span>
-      <span>Follow-up</span><span class="arr">→</span>
-      <span>Conversion</span>
+    <div class="section-header reveal" style="text-align:center;margin-bottom:2rem">
+      <span class="badge" style="background:rgba(236,72,153,.2);color:#F9A8D4;border:1px solid rgba(236,72,153,.4);padding:.4rem .85rem;border-radius:999px;font-weight:700">END-TO-END AUTOMATION FLOW</span>
+      <h2 style="color:#fff;font-size:clamp(1.75rem,4vw,2.5rem);margin-top:.75rem">Instagram Automation Journey</h2>
+      <p style="color:rgba(255,255,255,.75);max-width:36rem;margin:.5rem auto 0">Watch how an Instagram Reel, Post or Story interaction automatically turns into a qualified sales lead in your CRM.</p>
+    </div>
+    
+    <div class="hb-story-timeline reveal">
+      <div class="hb-timeline-step">
+        <div class="hb-step-num">01</div>
+        <div class="hb-step-badge">USER ENGAGES</div>
+        <div class="hb-step-icon">📸</div>
+        <h3>Post / Reel / Story</h3>
+        <p>Prospect comments on a Reel or replies to an Instagram Story offer.</p>
+      </div>
+
+      <div class="hb-timeline-step">
+        <div class="hb-step-num">02</div>
+        <div class="hb-step-badge">AUTO INBOX</div>
+        <div class="hb-step-icon">💬</div>
+        <h3>Comment &amp; DM Trigger</h3>
+        <p>Meta API trigger fires instantly in Instagram DMs without delay.</p>
+      </div>
+
+      <div class="hb-timeline-step">
+        <div class="hb-step-num">03</div>
+        <div class="hb-step-badge">INSTANT BOT</div>
+        <div class="hb-step-icon">⚡</div>
+        <h3>Automated Reply</h3>
+        <p>AI bot delivers product cards, pricing, and catalog details.</p>
+      </div>
+
+      <div class="hb-timeline-step">
+        <div class="hb-step-num">04</div>
+        <div class="hb-step-badge">QUALIFY INTENT</div>
+        <div class="hb-step-icon">🎯</div>
+        <h3>Qualification</h3>
+        <p>Bot collects customer requirements, location, and intent signals.</p>
+      </div>
+
+      <div class="hb-timeline-step">
+        <div class="hb-step-num">05</div>
+        <div class="hb-step-badge">SAVE PROSPECT</div>
+        <div class="hb-step-icon">📋</div>
+        <h3>Lead Capture &amp; CRM</h3>
+        <p>Details sync automatically into your InboxWa CRM &amp; team inbox.</p>
+      </div>
+
+      <div class="hb-timeline-step hb-step-highlight">
+        <div class="hb-step-num">06</div>
+        <div class="hb-step-badge">CLOSE DEAL</div>
+        <div class="hb-step-icon">🎉</div>
+        <h3>Conversion</h3>
+        <p>Assigned sales agent closes the deal with structured follow-ups.</p>
+      </div>
     </div>
   </div>
 </section>

@@ -41,18 +41,62 @@ include __DIR__ . '/../../../includes/header.php';
   </div>
 </section>
 
-<section class="section section-dark" id="flow">
+<section class="section section-dark hb-journey-section" id="flow">
   <div class="container">
-    <div class="section-header reveal"><h2 style="color:#fff">Telegram Automation Flow</h2></div>
-    <div class="tg-flow reveal">
-      <span>Customer</span><span class="arr">↓</span>
-      <span>Telegram</span><span class="arr">↓</span>
-      <span>InboxWa Bot</span><span class="arr">↓</span>
-      <span>Understand Request</span><span class="arr">↓</span>
-      <span>Send Response</span><span class="arr">↓</span>
-      <span>Capture Data</span><span class="arr">↓</span>
-      <span>Business Action</span><span class="arr">↓</span>
-      <span>Team / CRM</span>
+    <div class="section-header reveal" style="text-align:center;margin-bottom:2rem">
+      <span class="badge" style="background:rgba(59,130,246,.2);color:#93C5FD;border:1px solid rgba(59,130,246,.4);padding:.4rem .85rem;border-radius:999px;font-weight:700">TELEGRAM BOT PIPELINE</span>
+      <h2 style="color:#fff;font-size:clamp(1.75rem,4vw,2.5rem);margin-top:.75rem">Telegram Bot Automation Journey</h2>
+      <p style="color:rgba(255,255,255,.75);max-width:36rem;margin:.5rem auto 0">Automate Telegram channel commands, lead capture, and team routing in one seamless flow.</p>
+    </div>
+    
+    <div class="hb-story-timeline reveal">
+      <div class="hb-timeline-step">
+        <div class="hb-step-num">01</div>
+        <div class="hb-step-badge">USER /START</div>
+        <div class="hb-step-icon">✈️</div>
+        <h3>Telegram User</h3>
+        <p>Prospect clicks t.me bot link or types /start command.</p>
+      </div>
+
+      <div class="hb-timeline-step">
+        <div class="hb-step-num">02</div>
+        <div class="hb-step-badge">BOT ENGINE</div>
+        <div class="hb-step-icon">🤖</div>
+        <h3>InboxWa Bot</h3>
+        <p>AI bot evaluates command logic and inline keyboard buttons.</p>
+      </div>
+
+      <div class="hb-timeline-step">
+        <div class="hb-step-num">03</div>
+        <div class="hb-step-badge">INSTANT REPLY</div>
+        <div class="hb-step-icon">⚡</div>
+        <h3>Send Response</h3>
+        <p>Bot delivers rich media, product options, and pricing cards.</p>
+      </div>
+
+      <div class="hb-timeline-step">
+        <div class="hb-step-num">04</div>
+        <div class="hb-step-badge">LEAD CAPTURE</div>
+        <div class="hb-step-icon">📋</div>
+        <h3>Capture Details</h3>
+        <p>Prospect shares contact info and requirement details in chat.</p>
+      </div>
+
+      <div class="hb-timeline-step">
+        <div class="hb-step-num">05</div>
+        <div class="hb-step-badge">WORKFLOW ACTION</div>
+        <div class="hb-step-icon">⚙️</div>
+        <h3>Business Action</h3>
+        <p>Automated webhook triggers CRM update or payment link.</p>
+      </div>
+
+      <div class="hb-timeline-step hb-step-highlight">
+        <div class="hb-step-num">06</div>
+        <div class="hb-step-badge">TEAM HANDOFF</div>
+        <div class="hb-step-icon">🤝</div>
+        <h3>Team &amp; CRM</h3>
+        <p>Sales representative takes over high-value conversation.</p>
+      </div>
     </div>
   </div>
 </section>

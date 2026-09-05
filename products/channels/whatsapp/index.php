@@ -66,16 +66,62 @@ include __DIR__ . '/../../../includes/header.php';
   </div>
 </section>
 
-<section class="section section-dark" id="flow">
+<section class="section section-dark hb-journey-section" id="flow">
   <div class="container">
-    <div class="section-header reveal"><h2 style="color:#fff">WhatsApp Business Flow</h2></div>
-    <div class="cw-flow reveal">
-      <span>Customer</span><span class="arr">↓</span>
-      <span>WhatsApp</span><span class="arr">↓</span>
-      <span>InboxWa</span><span class="arr">↓</span>
-      <span>AI / Automation</span><span class="arr">↓</span>
-      <span>Team / CRM</span><span class="arr">↓</span>
-      <span>Follow-up</span>
+    <div class="section-header reveal" style="text-align:center;margin-bottom:2rem">
+      <span class="badge" style="background:rgba(34,197,94,.2);color:#86EFAC;border:1px solid rgba(34,197,94,.4);padding:.4rem .85rem;border-radius:999px;font-weight:700">OFFICIAL META API WORKFLOW</span>
+      <h2 style="color:#fff;font-size:clamp(1.75rem,4vw,2.5rem);margin-top:.75rem">WhatsApp Business Automation Flow</h2>
+      <p style="color:rgba(255,255,255,.75);max-width:36rem;margin:.5rem auto 0">See how incoming WhatsApp messages are handled automatically from first customer greeting to CRM update.</p>
+    </div>
+    
+    <div class="hb-story-timeline reveal">
+      <div class="hb-timeline-step">
+        <div class="hb-step-num">01</div>
+        <div class="hb-step-badge">CUSTOMER INITIATES</div>
+        <div class="hb-step-icon">📱</div>
+        <h3>Customer Message</h3>
+        <p>Customer sends a message via WhatsApp link, website widget, or QR code.</p>
+      </div>
+
+      <div class="hb-timeline-step">
+        <div class="hb-step-num">02</div>
+        <div class="hb-step-badge">META API ROUTE</div>
+        <div class="hb-step-icon">🌐</div>
+        <h3>WhatsApp Business API</h3>
+        <p>Verified Meta Cloud API receives the message with green-tick trust.</p>
+      </div>
+
+      <div class="hb-timeline-step">
+        <div class="hb-step-num">03</div>
+        <div class="hb-step-badge">SMART AUTOMATION</div>
+        <div class="hb-step-icon">🤖</div>
+        <h3>InboxWa AI Engine</h3>
+        <p>Interactive catalog, interactive buttons, and AI chatbot respond 24/7.</p>
+      </div>
+
+      <div class="hb-timeline-step">
+        <div class="hb-step-num">04</div>
+        <div class="hb-step-badge">TEAM ASSIGNMENT</div>
+        <div class="hb-step-icon">👥</div>
+        <h3>Shared Team Inbox</h3>
+        <p>Chat routes to available sales or support agents based on department tags.</p>
+      </div>
+
+      <div class="hb-timeline-step">
+        <div class="hb-step-num">05</div>
+        <div class="hb-step-badge">CRM INTEGRATION</div>
+        <div class="hb-step-icon">📊</div>
+        <h3>CRM Sync</h3>
+        <p>Contact profile, stage, and deal notes sync to CRM automatically.</p>
+      </div>
+
+      <div class="hb-timeline-step hb-step-highlight">
+        <div class="hb-step-num">06</div>
+        <div class="hb-step-badge">AUTO FOLLOW-UP</div>
+        <div class="hb-step-icon">🚀</div>
+        <h3>Broadcast &amp; Nurture</h3>
+        <p>Scheduled template follow-ups keep prospects engaged until conversion.</p>
+      </div>
     </div>
   </div>
 </section>

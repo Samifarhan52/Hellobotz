@@ -1549,3 +1549,147 @@ div#mobile-menu.open,
   }
 }
 
+/* ==========================================================================
+   13. PREMIUM VISUAL STORY JOURNEY TIMELINE (v49)
+   ========================================================================== */
+
+.hb-story-timeline {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  align-items: stretch;
+  position: relative;
+  margin: 2.5rem 0 1rem;
+}
+
+.hb-timeline-step {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 20px;
+  padding: 1.6rem 1.25rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.hb-timeline-step:hover {
+  transform: translateY(-6px);
+  background: rgba(255, 255, 255, 0.09);
+  border-color: rgba(139, 92, 246, 0.5);
+  box-shadow: 0 16px 36px rgba(139, 92, 246, 0.2);
+}
+
+.hb-step-num {
+  font-size: 1.75rem;
+  font-weight: 900;
+  color: rgba(139, 92, 246, 0.4);
+  position: absolute;
+  top: 0.85rem;
+  right: 1rem;
+  line-height: 1;
+}
+
+.hb-step-badge {
+  font-size: 0.65rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  color: #C4B5FD;
+  background: rgba(139, 92, 246, 0.2);
+  border: 1px solid rgba(139, 92, 246, 0.3);
+  padding: 0.25rem 0.6rem;
+  border-radius: 999px;
+  display: inline-block;
+  align-self: flex-start;
+  margin-bottom: 0.85rem;
+}
+
+.hb-step-icon {
+  font-size: 1.8rem;
+  margin-bottom: 0.65rem;
+}
+
+.hb-timeline-step h3 {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin-bottom: 0.4rem;
+  line-height: 1.25;
+}
+
+.hb-timeline-step p {
+  font-size: 0.82rem;
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 1.45;
+  margin: 0;
+}
+
+.hb-timeline-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #EC4899;
+  font-size: 1.25rem;
+  font-weight: 800;
+}
+
+.hb-step-highlight {
+  background: linear-gradient(145deg, rgba(236, 72, 153, 0.18), rgba(124, 58, 237, 0.25)) !important;
+  border-color: rgba(236, 72, 153, 0.5) !important;
+}
+
+/* Light theme variation */
+.section:not(.section-dark) .hb-timeline-step {
+  background: #FFFFFF;
+  border-color: #E2E8F0;
+  box-shadow: 0 4px 14px rgba(15, 23, 42, 0.04);
+}
+
+.section:not(.section-dark) .hb-timeline-step h3 {
+  color: #0F172A;
+}
+
+.section:not(.section-dark) .hb-timeline-step p {
+  color: #475569;
+}
+
+.section:not(.section-dark) .hb-step-num {
+  color: rgba(124, 58, 237, 0.15);
+}
+
+/* Mobile Story Timeline View */
+@media (max-width: 900px) {
+  .hb-story-timeline {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 1.25rem !important;
+    position: relative !important;
+    padding-left: 0.75rem !important;
+  }
+
+  .hb-timeline-arrow {
+    display: none !important;
+  }
+
+  .hb-timeline-step {
+    width: 100% !important;
+    box-sizing: border-box !important;
+    padding: 1.35rem 1.25rem !important;
+    border-radius: 18px !important;
+  }
+
+  .hb-timeline-step::before {
+    content: '';
+    position: absolute;
+    left: -10px;
+    top: 20px;
+    bottom: 20px;
+    width: 4px;
+    background: linear-gradient(180deg, #EC4899, #8B5CF6, #06B6D4);
+    border-radius: 999px;
+  }
+}
+
+

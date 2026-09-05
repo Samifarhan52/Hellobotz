@@ -60,19 +60,62 @@ include __DIR__ . '/../../../includes/header.php';
   </div>
 </section>
 
-<section class="section section-dark" id="journey">
+<section class="section section-dark hb-journey-section" id="journey">
   <div class="container">
-    <div class="section-header reveal"><h2 style="color:#fff">Facebook Lead Journey</h2></div>
-    <div class="fb-flow reveal">
-      <span>Ad / Post</span><span class="arr">→</span>
-      <span>Messenger</span><span class="arr">→</span>
-      <span>Bot</span><span class="arr">→</span>
-      <span>Qualification</span><span class="arr">→</span>
-      <span>Lead Capture</span><span class="arr">→</span>
-      <span>CRM</span><span class="arr">→</span>
-      <span>Sales Team</span><span class="arr">→</span>
-      <span>Follow-up</span><span class="arr">→</span>
-      <span>Conversion</span>
+    <div class="section-header reveal" style="text-align:center;margin-bottom:2rem">
+      <span class="badge" style="background:rgba(59,130,246,.2);color:#93C5FD;border:1px solid rgba(59,130,246,.4);padding:.4rem .85rem;border-radius:999px;font-weight:700">MESSENGER LEAD FUNNEL</span>
+      <h2 style="color:#fff;font-size:clamp(1.75rem,4vw,2.5rem);margin-top:.75rem">Facebook Lead Journey</h2>
+      <p style="color:rgba(255,255,255,.75);max-width:36rem;margin:.5rem auto 0">Automate your Facebook Page messages and Click-to-Messenger ads from first click to closed deal.</p>
+    </div>
+    
+    <div class="hb-story-timeline reveal">
+      <div class="hb-timeline-step">
+        <div class="hb-step-num">01</div>
+        <div class="hb-step-badge">AD / POST CLICK</div>
+        <div class="hb-step-icon">📣</div>
+        <h3>Ad / Page Post</h3>
+        <p>Prospect clicks a Click-to-Messenger ad or page post button.</p>
+      </div>
+
+      <div class="hb-timeline-step">
+        <div class="hb-step-num">02</div>
+        <div class="hb-step-badge">MESSENGER INBOX</div>
+        <div class="hb-step-icon">💙</div>
+        <h3>Messenger Opened</h3>
+        <p>Instant greeting and interactive quick-reply options load.</p>
+      </div>
+
+      <div class="hb-timeline-step">
+        <div class="hb-step-num">03</div>
+        <div class="hb-step-badge">AI BOT RESPONSE</div>
+        <div class="hb-step-icon">🤖</div>
+        <h3>Bot Automation</h3>
+        <p>Bot answers FAQs, presents catalog, and collects requirements.</p>
+      </div>
+
+      <div class="hb-timeline-step">
+        <div class="hb-step-num">04</div>
+        <div class="hb-step-badge">QUALIFICATION</div>
+        <div class="hb-step-icon">🎯</div>
+        <h3>Lead Qualification</h3>
+        <p>Prospect budget and timeline are scored in real time.</p>
+      </div>
+
+      <div class="hb-timeline-step">
+        <div class="hb-step-num">05</div>
+        <div class="hb-step-badge">CRM SYNC</div>
+        <div class="hb-step-icon">📥</div>
+        <h3>Lead Capture &amp; CRM</h3>
+        <p>Lead info routes to shared team inbox and CRM pipeline.</p>
+      </div>
+
+      <div class="hb-timeline-step hb-step-highlight">
+        <div class="hb-step-num">06</div>
+        <div class="hb-step-badge">CONVERSION</div>
+        <div class="hb-step-icon">🏆</div>
+        <h3>Deal Closed</h3>
+        <p>Sales representative follows up and confirms the purchase.</p>
+      </div>
     </div>
   </div>
 </section>
