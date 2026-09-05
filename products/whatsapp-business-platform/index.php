@@ -73,8 +73,12 @@ include __DIR__ . '/../../includes/header.php';
   </div>
 </section>
 
-<div class="hb-img-slot" data-hb-img-slot>
-  <div class="hb-img-fallback"><div class="ico">🖼️</div><strong>WhatsApp Conversation + Mobile</strong><span>Official API conversation flow visual.</span></div>
+<div class="edu-img-card-wrap reveal" style="margin: 2.5rem 0;">
+  <img src="/assets/images/edtech_shared_inbox.jpg" alt="WhatsApp Business Platform Official Meta API & Shared Inbox" loading="lazy">
+  <div class="edu-img-caption-badge">
+    <strong>💬 Official Meta WhatsApp Business API &amp; Multi-Agent Inbox</strong>
+    <span>Shared Team Workspace with Green Tick Credibility</span>
+  </div>
 </div>
 
 <section class="section" id="inbox-section">
@@ -88,8 +92,12 @@ include __DIR__ . '/../../includes/header.php';
   </div>
 </section>
 
-<div class="hb-img-slot hb-img-slot--dark" data-hb-img-slot>
-  <div class="hb-img-fallback"><div class="ico">🖼️</div><strong>Shared Team Inbox Dashboard</strong><span>Multi-agent conversation workspace mockup.</span></div>
+<div class="edu-img-card-wrap reveal" style="margin: 2.5rem 0;">
+  <img src="/assets/images/facebook_ad_funnel_banner.jpg" alt="WhatsApp Broadcast Campaigns & Automated Workflows" loading="lazy">
+  <div class="edu-img-caption-badge">
+    <strong>📢 High-Converting WhatsApp Broadcast Campaigns</strong>
+    <span>Targeted Messaging with 98% Guaranteed Open Rate</span>
+  </div>
 </div>
 
 <section class="section section-gradient-1" id="broadcast-section">
@@ -108,24 +116,12 @@ include __DIR__ . '/../../includes/header.php';
   </div>
 </section>
 
-<div class="hb-img-slot" data-hb-img-slot>
-  <div class="hb-img-fallback"><div class="ico">🖼️</div><strong>Broadcast Campaign Dashboard</strong><span>Audience, template and send workflow visual.</span></div>
-</div>
-
-<section class="section" id="api-arch">
-  <div class="container">
-    <div class="section-header reveal"><h2>API Integration</h2></div>
-    <div class="wbp-journey reveal">
-      <span>Website / CRM / App</span><span class="arr">↓</span>
-      <span>InboxWa</span><span class="arr">↓</span>
-      <span>WhatsApp Business API</span><span class="arr">↓</span>
-      <span>Customer</span>
-    </div>
+<div class="edu-img-card-wrap reveal" style="margin: 2.5rem 0;">
+  <img src="/assets/images/ecom_discovery_banner.jpg" alt="WhatsApp API Architecture & Seamless CRM Integrations" loading="lazy">
+  <div class="edu-img-caption-badge">
+    <strong>⚡ Enterprise WhatsApp API &amp; Webhook Architecture</strong>
+    <span>Seamless Integration with Shopify, WooCommerce &amp; CRMs</span>
   </div>
-</section>
-
-<div class="hb-img-slot hb-img-slot--dark" data-hb-img-slot>
-  <div class="hb-img-fallback"><div class="ico">🖼️</div><strong>WhatsApp API Architecture</strong><span>Integration architecture visual.</span></div>
 </div>
 
 <section class="section section-alt" id="usecases">

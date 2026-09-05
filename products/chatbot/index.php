@@ -89,8 +89,12 @@ include __DIR__ . '/../../includes/header.php';
   </div>
 </section>
 
-<div class="hb-img-slot" data-hb-img-slot>
-  <div class="hb-img-fallback"><div class="ico">🖼️</div><strong>AI Chatbot Dashboard</strong><span>Knowledge sources, training status and bot configuration visual.</span></div>
+<div class="edu-img-card-wrap reveal" style="margin: 2.5rem 0;">
+  <img src="/assets/images/ecom_discovery_banner.jpg" alt="AI Chatbot Training & Dashboard" loading="lazy">
+  <div class="edu-img-caption-badge">
+    <strong>🤖 AI Chatbot Knowledge Base &amp; Training Studio</strong>
+    <span>Website, FAQs &amp; Custom Q&amp;A Sync</span>
+  </div>
 </div>
 
 <section class="section" id="qa">
@@ -164,8 +168,12 @@ include __DIR__ . '/../../includes/header.php';
   </div>
 </section>
 
-<div class="hb-img-slot hb-img-slot--dark" data-hb-img-slot>
-  <div class="hb-img-fallback"><div class="ico">🖼️</div><strong>AI → Lead → Human Agent</strong><span>Handover and lead capture visual for chatbot conversations.</span></div>
+<div class="edu-img-card-wrap reveal" style="margin: 2.5rem 0;">
+  <img src="/assets/images/edtech_shared_inbox.jpg" alt="Seamless AI to Human Handover Inbox" loading="lazy">
+  <div class="edu-img-caption-badge">
+    <strong>💬 Seamless AI to Human Agent Handover</strong>
+    <span>Zero Waiting Time &amp; Lead Assignment</span>
+  </div>
 </div>
 
 <section class="section" id="flow">
@@ -226,8 +234,12 @@ include __DIR__ . '/../../includes/header.php';
   </div>
 </section>
 
-<div class="hb-img-slot" data-hb-img-slot>
-  <div class="hb-img-fallback"><div class="ico">🖼️</div><strong>Customer Chatting with AI on WhatsApp</strong><span>WhatsApp conversation powered by trained InboxWa chatbot.</span></div>
+<div class="edu-img-card-wrap reveal" style="margin: 2.5rem 0;">
+  <img src="/assets/images/ecom_discovery_banner.jpg" alt="WhatsApp Customer Chatting with AI Assistant" loading="lazy">
+  <div class="edu-img-caption-badge">
+    <strong>⚡ 24/7 AI WhatsApp Assistant</strong>
+    <span>Instant FAQ Answers &amp; Qualified Lead Capture</span>
+  </div>
 </div>
 
 <section class="section" id="website">

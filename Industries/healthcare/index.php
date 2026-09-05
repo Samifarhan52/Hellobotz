@@ -220,17 +220,20 @@ include __DIR__ . '/../../includes/header.php';
   </div>
 </section>
 
-<div class="hb-img-slot" data-hb-img-slot>
-  <div class="hb-img-fallback"><div class="ico">🖼️</div><strong>MR Doctor Engagement</strong><span>Medical representative mobile workflow visual.</span></div>
+<div class="edu-img-card-wrap reveal" style="margin: 2.5rem 0;">
+  <img src="/assets/images/healthcare_booking_banner.jpg" alt="WhatsApp Doctor Appointment Booking & Lab Report PDF Delivery" loading="lazy">
+  <div class="edu-img-caption-badge">
+    <strong>🩺 Doctor Appointments &amp; Lab Report Dispatches</strong>
+    <span>Automated Slot Selection &amp; Patient Portal</span>
+  </div>
 </div>
-<div class="hb-img-slot hb-img-slot--dark" data-hb-img-slot>
-  <div class="hb-img-fallback"><div class="ico">🖼️</div><strong>Pharma Team Dashboard</strong><span>Engagement, follow-ups and reporting.</span></div>
-</div>
-<div class="hb-img-slot" data-hb-img-slot>
-  <div class="hb-img-fallback"><div class="ico">🖼️</div><strong>Doctor WhatsApp Conversation</strong><span>Approved product information sharing.</span></div>
-</div>
-<div class="hb-img-slot hb-img-slot--dark" data-hb-img-slot>
-  <div class="hb-img-fallback"><div class="ico">🖼️</div><strong>Healthcare Ecosystem</strong><span>Pharma · MR · Doctor · Clinic connected.</span></div>
+
+<div class="edu-img-card-wrap reveal" style="margin: 2.5rem 0;">
+  <img src="/assets/images/edtech_shared_inbox.jpg" alt="Pharma MR Doctor Engagement & Team Workspace" loading="lazy">
+  <div class="edu-img-caption-badge">
+    <strong>👨‍⚕️ Pharma MR Doctor Engagement &amp; Compliance Inbox</strong>
+    <span>Centralized Approved Information Sharing</span>
+  </div>
 </div>
 
 <section class="section section-alt" id="usecases">

@@ -123,12 +123,11 @@ include __DIR__ . '/../../includes/header.php';
     </div>
   </div>
 </section>
-<div class="hb-img-slot" data-hb-img-slot>
-  
-  <div class="hb-img-fallback">
-    <div class="ico">🖼️</div>
-    <strong>WhatsApp Shopping Experience</strong>
-    <span>Product cards and discovery inside WhatsApp.</span>
+<div class="edu-img-card-wrap reveal" style="margin: 2.5rem 0;">
+  <img src="/assets/images/ecom_discovery_banner.jpg" alt="WhatsApp Shopping Experience &amp; Product Discovery" loading="lazy">
+  <div class="edu-img-caption-badge">
+    <strong>🛍️ Interactive WhatsApp Catalog &amp; Discovery</strong>
+    <span>Native Shopping Experience</span>
   </div>
 </div>
 
@@ -150,12 +149,11 @@ include __DIR__ . '/../../includes/header.php';
     </div>
   </div>
 </section>
-<div class="hb-img-slot" data-hb-img-slot>
-  
-  <div class="hb-img-fallback">
-    <div class="ico">🖼️</div>
-    <strong>Abandoned Cart Recovery</strong>
-    <span>Product → Cart → WhatsApp reminder visual.</span>
+<div class="edu-img-card-wrap reveal" style="margin: 2.5rem 0;">
+  <img src="/assets/images/ecom_cart_recovery_banner.jpg" alt="WhatsApp Abandoned Cart Recovery &amp; 1-Click Checkout" loading="lazy">
+  <div class="edu-img-caption-badge">
+    <strong>🛒 Abandoned Cart Recovery &amp; Automated Follow-up</strong>
+    <span>Boost Sales by 35%</span>
   </div>
 </div>
 
@@ -173,12 +171,11 @@ include __DIR__ . '/../../includes/header.php';
     </div>
   </div>
 </section>
-<div class="hb-img-slot hb-img-slot--dark" data-hb-img-slot>
-  
-  <div class="hb-img-fallback">
-    <div class="ico">🖼️</div>
-    <strong>Order Lifecycle</strong>
-    <span>Confirm → Pack → Ship → Deliver on mobile/dashboard.</span>
+<div class="edu-img-card-wrap reveal" style="margin: 2.5rem 0;">
+  <img src="/assets/images/edtech_shared_inbox.jpg" alt="InboxWa E-commerce Multi-Agent Support & Order Status" loading="lazy">
+  <div class="edu-img-caption-badge">
+    <strong>📦 Real-time Order Tracking &amp; Support Inbox</strong>
+    <span>Automated Dispatch Alerts</span>
   </div>
 </div>
 

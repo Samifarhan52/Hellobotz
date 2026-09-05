@@ -176,20 +176,20 @@ include __DIR__ . '/../../includes/header.php';
   </div>
 </section>
 
-<div class="hb-img-slot" data-hb-img-slot>
-  <div class="hb-img-fallback"><div class="ico">🖼️</div><strong>Finance WhatsApp</strong><span>Customer enquiry conversation.</span></div>
+<div class="edu-img-card-wrap reveal" style="margin: 2.5rem 0;">
+  <img src="/assets/images/finance_loan_banner.jpg" alt="WhatsApp Instant Loan Eligibility & Document Upload Flow" loading="lazy">
+  <div class="edu-img-caption-badge">
+    <strong>💳 Instant Loan Eligibility &amp; Document Upload</strong>
+    <span>Automated EMI Reminders &amp; Verification</span>
+  </div>
 </div>
-<div class="hb-img-slot hb-img-slot--dark" data-hb-img-slot>
-  <div class="hb-img-fallback"><div class="ico">🖼️</div><strong>Lead Dashboard</strong><span>Enquiries and assignments.</span></div>
-</div>
-<div class="hb-img-slot" data-hb-img-slot>
-  <div class="hb-img-fallback"><div class="ico">🖼️</div><strong>Application Journey</strong><span>Status and next steps.</span></div>
-</div>
-<div class="hb-img-slot hb-img-slot--dark" data-hb-img-slot>
-  <div class="hb-img-fallback"><div class="ico">🖼️</div><strong>Team on Leads</strong><span>Finance team follow-up workspace.</span></div>
-</div>
-<div class="hb-img-slot" data-hb-img-slot>
-  <div class="hb-img-fallback"><div class="ico">🖼️</div><strong>WhatsApp + CRM</strong><span>Connected finance workflows.</span></div>
+
+<div class="edu-img-card-wrap reveal" style="margin: 2.5rem 0;">
+  <img src="/assets/images/edtech_shared_inbox.jpg" alt="InboxWa BFSI Finance Lead Pipeline & Shared Team Workspace" loading="lazy">
+  <div class="edu-img-caption-badge">
+    <strong>📊 Finance Team Dashboard &amp; Lead Workspace</strong>
+    <span>Enquiry → Verification → Discrepancy Tracking</span>
+  </div>
 </div>
 
 <section class="section" id="benefits">

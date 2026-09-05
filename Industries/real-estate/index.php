@@ -137,12 +137,11 @@ include __DIR__ . '/../../includes/header.php';
     </div>
   </div>
 </section>
-<div class="hb-img-slot" data-hb-img-slot>
-  
-  <div class="hb-img-fallback">
-    <div class="ico">🖼️</div>
-    <strong>Property Listing + WhatsApp Enquiry</strong>
-    <span>Property showcase with customer enquiry conversation.</span>
+<div class="edu-img-card-wrap reveal" style="margin: 2.5rem 0;">
+  <img src="/assets/images/re_property_search_banner.jpg" alt="WhatsApp Real Estate Property Search & Specification Cards" loading="lazy">
+  <div class="edu-img-caption-badge">
+    <strong>🏠 Luxury Property Search &amp; Specifications</strong>
+    <span>Instant WhatsApp Brochure Dispatch</span>
   </div>
 </div>
 
@@ -171,12 +170,11 @@ include __DIR__ . '/../../includes/header.php';
     </div>
   </div>
 </section>
-<div class="hb-img-slot" data-hb-img-slot>
-  
-  <div class="hb-img-fallback">
-    <div class="ico">🖼️</div>
-    <strong>Property Recommendations</strong>
-    <span>Multiple property cards matched to buyer requirements.</span>
+<div class="edu-img-card-wrap reveal" style="margin: 2.5rem 0;">
+  <img src="/assets/images/re_property_search_banner.jpg" alt="AI Real Estate Buyer Qualification & Property Recommendations" loading="lazy">
+  <div class="edu-img-caption-badge">
+    <strong>🤖 AI Buyer Intent Qualification</strong>
+    <span>Automated Filter Matching</span>
   </div>
 </div>
 
@@ -199,12 +197,11 @@ include __DIR__ . '/../../includes/header.php';
     </div>
   </div>
 </section>
-<div class="hb-img-slot hb-img-slot--dark" data-hb-img-slot>
-  
-  <div class="hb-img-fallback">
-    <div class="ico">🖼️</div>
-    <strong>Site Visit + Agent Follow-up</strong>
-    <span>Booking confirmation and agent conversation visual.</span>
+<div class="edu-img-card-wrap reveal" style="margin: 2.5rem 0;">
+  <img src="/assets/images/edtech_reminders_banner.jpg" alt="WhatsApp Real Estate Site Visit Booking & Location Pin" loading="lazy">
+  <div class="edu-img-caption-badge">
+    <strong>📅 Interactive Site Visit Booking &amp; Reminders</strong>
+    <span>Automated Calendar &amp; GPS Location Pin</span>
   </div>
 </div>
 
@@ -292,12 +289,11 @@ include __DIR__ . '/../../includes/header.php';
     </div>
   </div>
 </section>
-<div class="hb-img-slot" data-hb-img-slot>
-  
-  <div class="hb-img-fallback">
-    <div class="ico">🖼️</div>
-    <strong>Journey Result Visual</strong>
-    <span>From lead to deal — Real Estate customer journey outcome.</span>
+<div class="edu-img-card-wrap reveal" style="margin: 2.5rem 0;">
+  <img src="/assets/images/edtech_shared_inbox.jpg" alt="InboxWa Real Estate Agent Lead Pipeline & Multi-Agent CRM Inbox" loading="lazy">
+  <div class="edu-img-caption-badge">
+    <strong>📊 Real Estate Lead Pipeline &amp; Multi-Agent Workspace</strong>
+    <span>Enquiry → Site Visit → Booking Conversion</span>
   </div>
 </div>
 

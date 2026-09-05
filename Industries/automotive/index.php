@@ -166,20 +166,20 @@ include __DIR__ . '/../../includes/header.php';
   </div>
 </section>
 
-<div class="hb-img-slot" data-hb-img-slot>
-  <div class="hb-img-fallback"><div class="ico">🖼️</div><strong>Showroom + WhatsApp</strong><span>Premium dealership conversation visual.</span></div>
+<div class="edu-img-card-wrap reveal" style="margin: 2.5rem 0;">
+  <img src="/assets/images/auto_test_drive_banner.jpg" alt="WhatsApp Automotive Dealership Test Drive Booking & Brochure PDF" loading="lazy">
+  <div class="edu-img-caption-badge">
+    <strong>🚘 Interactive Test Drive Booking &amp; Showroom Flow</strong>
+    <span>Instant Brochure PDF &amp; Location Pin</span>
+  </div>
 </div>
-<div class="hb-img-slot hb-img-slot--dark" data-hb-img-slot>
-  <div class="hb-img-fallback"><div class="ico">🖼️</div><strong>Vehicle Enquiry Mobile</strong><span>Category and model selection.</span></div>
-</div>
-<div class="hb-img-slot" data-hb-img-slot>
-  <div class="hb-img-fallback"><div class="ico">🖼️</div><strong>Test Drive Booking</strong><span>Date, time and location confirm.</span></div>
-</div>
-<div class="hb-img-slot hb-img-slot--dark" data-hb-img-slot>
-  <div class="hb-img-fallback"><div class="ico">🖼️</div><strong>Sales Dashboard</strong><span>Leads, test drives and follow-ups.</span></div>
-</div>
-<div class="hb-img-slot" data-hb-img-slot>
-  <div class="hb-img-fallback"><div class="ico">🖼️</div><strong>Service Automation</strong><span>Workshop appointments on WhatsApp.</span></div>
+
+<div class="edu-img-card-wrap reveal" style="margin: 2.5rem 0;">
+  <img src="/assets/images/edtech_shared_inbox.jpg" alt="InboxWa Automotive Sales Team Workspace & Lead Pipeline" loading="lazy">
+  <div class="edu-img-caption-badge">
+    <strong>📊 Dealership Sales Team Dashboard &amp; Lead Tracker</strong>
+    <span>Enquiry → Test Drive → Purchase</span>
+  </div>
 </div>
 
 <section class="section" id="benefits">

@@ -63,8 +63,12 @@ include __DIR__ . '/../../includes/header.php';
   </div>
 </section>
 
-<div class="hb-img-slot" data-hb-img-slot>
-  <div class="hb-img-fallback"><div class="ico">🖼️</div><strong>CRM Customer Profile</strong><span>Contact details, tags, agent and status in one view.</span></div>
+<div class="edu-img-card-wrap reveal" style="margin: 2.5rem 0;">
+  <img src="/assets/images/edtech_shared_inbox.jpg" alt="InboxWa Unified CRM Customer Profile & Contact Details" loading="lazy">
+  <div class="edu-img-caption-badge">
+    <strong>👤 Unified CRM Customer Profile &amp; Contact Activity</strong>
+    <span>Contact History, Tags &amp; Lead Assignment</span>
+  </div>
 </div>
 
 <section class="section section-alt" id="pipeline">
@@ -80,8 +84,12 @@ include __DIR__ . '/../../includes/header.php';
   </div>
 </section>
 
-<div class="hb-img-slot hb-img-slot--dark" data-hb-img-slot>
-  <div class="hb-img-fallback"><div class="ico">🖼️</div><strong>Lead Pipeline / Kanban</strong><span>New → Contacted → Qualified → Proposal → Won</span></div>
+<div class="edu-img-card-wrap reveal" style="margin: 2.5rem 0;">
+  <img src="/assets/images/facebook_ad_funnel_banner.jpg" alt="InboxWa Multi-Stage Lead Kanban Pipeline" loading="lazy">
+  <div class="edu-img-caption-badge">
+    <strong>📊 Visual Lead Pipeline &amp; Conversion Analytics</strong>
+    <span>New → Qualified → Proposal → Won</span>
+  </div>
 </div>
 
 <section class="section" id="analytics">
@@ -106,8 +114,12 @@ include __DIR__ . '/../../includes/header.php';
   </div>
 </section>
 
-<div class="hb-img-slot" data-hb-img-slot>
-  <div class="hb-img-fallback"><div class="ico">🖼️</div><strong>Analytics Dashboard</strong><span>Trends, volume and pipeline charts — demo data.</span></div>
+<div class="edu-img-card-wrap reveal" style="margin: 2.5rem 0;">
+  <img src="/assets/images/finance_loan_banner.jpg" alt="Real-time Analytics Dashboard & Campaign Insights" loading="lazy">
+  <div class="edu-img-caption-badge">
+    <strong>📈 Real-Time Conversation &amp; Campaign Analytics</strong>
+    <span>Agent Performance &amp; ROI Tracking</span>
+  </div>
 </div>
 
 <section class="section section-gradient-1" id="flow">
@@ -139,8 +151,12 @@ include __DIR__ . '/../../includes/header.php';
   </div>
 </section>
 
-<div class="hb-img-slot hb-img-slot--dark" data-hb-img-slot>
-  <div class="hb-img-fallback"><div class="ico">🖼️</div><strong>CRM → Analytics Workflow</strong><span>From conversation capture to insight.</span></div>
+<div class="edu-img-card-wrap reveal" style="margin: 2.5rem 0;">
+  <img src="/assets/images/ecom_discovery_banner.jpg" alt="CRM to Analytics Data Workflow" loading="lazy">
+  <div class="edu-img-caption-badge">
+    <strong>⚡ Conversation to Intelligence Workflow</strong>
+    <span>Automated Data Capture &amp; Insights</span>
+  </div>
 </div>
 
 <section class="section section-alt" id="usecases">

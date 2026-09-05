@@ -165,20 +165,20 @@ include __DIR__ . '/../includes/header.php';
   </div>
 </section>
 
-<div class="hb-img-slot" data-hb-img-slot>
-  <div class="hb-img-fallback"><div class="ico">🖼️</div><strong>Facebook Ad + WhatsApp</strong><span>Ad click becomes a conversation.</span></div>
+<div class="edu-img-card-wrap reveal" style="margin: 2.5rem 0;">
+  <img src="/assets/images/facebook_ad_funnel_banner.jpg" alt="Click-to-WhatsApp Facebook & Instagram Ad Conversion Funnel" loading="lazy">
+  <div class="edu-img-caption-badge">
+    <strong>🎯 Click-to-WhatsApp Ad Funnel Architecture</strong>
+    <span>Ad Click → Instant WhatsApp Chat → AI Qualification → CRM Sync</span>
+  </div>
 </div>
-<div class="hb-img-slot hb-img-slot--dark" data-hb-img-slot>
-  <div class="hb-img-fallback"><div class="ico">🖼️</div><strong>Lead Capture</strong><span>Lead form to InboxWa.</span></div>
-</div>
-<div class="hb-img-slot" data-hb-img-slot>
-  <div class="hb-img-fallback"><div class="ico">🖼️</div><strong>WhatsApp Qualification</strong><span>Questions and quick replies.</span></div>
-</div>
-<div class="hb-img-slot hb-img-slot--dark" data-hb-img-slot>
-  <div class="hb-img-fallback"><div class="ico">🖼️</div><strong>CRM Lead Dashboard</strong><span>Source Facebook · assigned sales.</span></div>
-</div>
-<div class="hb-img-slot" data-hb-img-slot>
-  <div class="hb-img-fallback"><div class="ico">🖼️</div><strong>Complete Sales Funnel</strong><span>Ad → Lead → Chat → CRM → Follow-up</span></div>
+
+<div class="edu-img-card-wrap reveal" style="margin: 2.5rem 0;">
+  <img src="/assets/images/edtech_shared_inbox.jpg" alt="InboxWa Lead Assignment & Multi-Agent CRM Pipeline" loading="lazy">
+  <div class="edu-img-caption-badge">
+    <strong>📊 Centralized Lead Pipeline &amp; Multi-Agent Sales Workspace</strong>
+    <span>Zero Lead Leakage &amp; 3x Higher Conversion</span>
+  </div>
 </div>
 
 <section class="section section-alt" id="benefits">
