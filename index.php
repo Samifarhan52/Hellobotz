@@ -68,9 +68,29 @@ include __DIR__ . '/includes/header.php';
         </div>
 
         <div class="hb-phone-stage" aria-hidden="false">
-          <div class="hb-float hb-float-1"><b>+128</b>Leads today</div>
-          <div class="hb-float hb-float-2"><b>24/7</b>Bot active</div>
-          <div class="hb-float hb-float-3"><b>99.9%</b>Delivery</div>
+          <div class="hb-float hb-float-1">
+            <div class="hb-float-icon">⚡</div>
+            <div>
+              <b>+128 Leads</b>
+              <span>Captured today</span>
+            </div>
+          </div>
+          
+          <div class="hb-float hb-float-2">
+            <div class="hb-float-icon">🤖</div>
+            <div>
+              <b>24/7 Active</b>
+              <span>AI Chatbot</span>
+            </div>
+          </div>
+
+          <div class="hb-float hb-float-3">
+            <div class="hb-float-icon">🚀</div>
+            <div>
+              <b>99.9%</b>
+              <span>Delivery Rate</span>
+            </div>
+          </div>
 
           <div class="hb-phone">
             <div class="hb-phone-notch"></div>
@@ -78,7 +98,7 @@ include __DIR__ . '/includes/header.php';
               <div class="hb-wa-head">
                 <div class="hb-wa-av">HB</div>
                 <div>
-                  <strong>InboxWa AI</strong>
+                  <strong>InboxWa AI <svg width="14" height="14" viewBox="0 0 24 24" fill="#25D366" style="vertical-align:middle;display:inline-block;margin-left:2px;"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg></strong>
                   <small>online</small>
                 </div>
               </div>
@@ -88,10 +108,10 @@ include __DIR__ . '/includes/header.php';
                 <div class="hb-typing" id="hb-typing"><i></i><i></i><i></i></div>
               </div>
 
-              <!-- WHATSAPP FOOTER SIMULATOR -->
+              <!-- AUTHENTIC WHATSAPP FOOTER INPUT BAR -->
               <div class="hb-wa-footer">
-                <input type="text" id="hb-wa-footer-input" placeholder="Type message..." disabled />
-                <span style="color:#8696A0;font-size:0.9rem;">🎤</span>
+                <input type="text" id="hb-wa-footer-input" placeholder="Type your message..." autocomplete="off" />
+                <button type="button" class="hb-wa-send-btn" id="hb-wa-send-btn" title="Send">➔</button>
               </div>
             </div>
           </div>
@@ -399,12 +419,17 @@ include __DIR__ . '/includes/header.php';
 (function(){
   var body = document.getElementById('hb-wa-body');
   var typing = document.getElementById('hb-typing');
+  var footerInp = document.getElementById('hb-wa-footer-input');
+  var sendBtn = document.getElementById('hb-wa-send-btn');
   if(!body || !typing) return;
 
   var visitorName = "Friend";
+  var stepState = "name"; // 'name' | 'service' | 'done'
 
   function scrollBottom(){
-    body.scrollTop = body.scrollHeight;
+    setTimeout(function(){
+      body.scrollTop = body.scrollHeight;
+    }, 50);
   }
 
   function addMsg(kind, text){
@@ -427,6 +452,10 @@ include __DIR__ . '/includes/header.php';
   }
 
   function renderChips(options){
+    // Remove existing chips if any
+    var old = body.querySelectorAll('.hb-chips');
+    old.forEach(function(o){ o.remove(); });
+
     var wrap = document.createElement('div');
     wrap.className = 'hb-chips on';
     options.forEach(function(opt){
@@ -444,64 +473,70 @@ include __DIR__ . '/includes/header.php';
     scrollBottom();
   }
 
-  function renderNameInput(){
-    var wrap = document.createElement('div');
-    wrap.className = 'hb-name-input-wrap';
-    wrap.id = 'hb-name-box';
+  function handleUserInput(val){
+    var text = val.trim();
+    if(!text) return;
     
-    var inp = document.createElement('input');
-    inp.type = 'text';
-    inp.className = 'hb-name-input';
-    inp.placeholder = 'Type your name here...';
-    
-    var btn = document.createElement('button');
-    btn.type = 'button';
-    btn.className = 'hb-name-btn';
-    btn.textContent = 'Send ➔';
+    // Remove chips when user types manually
+    var old = body.querySelectorAll('.hb-chips');
+    old.forEach(function(o){ o.remove(); });
 
-    function submitName(){
-      var val = inp.value.trim();
-      if(!val) val = "Farhan";
-      visitorName = val;
-      wrap.remove();
-      addMsg('user', visitorName);
+    addMsg('user', text);
+    if(footerInp) footerInp.value = '';
+
+    if(stepState === "name"){
+      visitorName = text;
       continueJourney();
+    } else if(stepState === "service"){
+      showCustomDemo(text);
+    } else {
+      showTyping(800, function(){
+        addMsg('bot', 'Thanks, <b>' + visitorName + '</b>! Our team is ready to set this up for your business. Tap <b>Book a Demo</b> to get started! 🚀');
+      });
     }
+  }
 
-    btn.onclick = submitName;
-    inp.onkeydown = function(e){ if(e.key === 'Enter') submitName(); };
-
-    wrap.appendChild(inp);
-    wrap.appendChild(btn);
-    body.appendChild(wrap);
-    inp.focus();
-    scrollBottom();
+  if(footerInp && sendBtn){
+    sendBtn.onclick = function(){
+      handleUserInput(footerInp.value);
+    };
+    footerInp.onkeydown = function(e){
+      if(e.key === 'Enter'){
+        e.preventDefault();
+        handleUserInput(footerInp.value);
+      }
+    };
   }
 
   function startSimulator(){
+    stepState = "name";
     body.innerHTML = '';
     body.appendChild(typing);
+    if(footerInp) {
+      footerInp.placeholder = "Type your name or tap below...";
+      footerInp.disabled = false;
+    }
 
-    showTyping(800, function(){
+    showTyping(600, function(){
       addMsg('bot', '👋 Hi there! Welcome to <b>InboxWa AI</b>.');
-      showTyping(900, function(){
+      showTyping(800, function(){
         addMsg('bot', 'May I please know your name?');
         
-        // Suggestion chips + text input
         renderChips([
           { label: 'Farhan', action: function(){ visitorName = 'Farhan'; continueJourney(); } },
           { label: 'Alex', action: function(){ visitorName = 'Alex'; continueJourney(); } },
           { label: 'Guest', action: function(){ visitorName = 'Guest'; continueJourney(); } }
         ]);
-        renderNameInput();
       });
     });
   }
 
   function continueJourney(){
-    showTyping(900, function(){
+    stepState = "service";
+    if(footerInp) footerInp.placeholder = "Type your question or choose...";
+    showTyping(800, function(){
       addMsg('bot', 'Awesome to meet you, <b>' + visitorName + '</b>! 🚀');
-      showTyping(1000, function(){
+      showTyping(900, function(){
         addMsg('bot', 'Which WhatsApp automation feature can I demonstrate for you today?');
         
         renderChips([
@@ -515,7 +550,9 @@ include __DIR__ . '/includes/header.php';
   }
 
   function showServiceDemo(type){
-    showTyping(900, function(){
+    stepState = "done";
+    if(footerInp) footerInp.placeholder = "Type any follow-up question...";
+    showTyping(800, function(){
       if(type === 'api'){
         addMsg('bot', '<b>' + visitorName + '</b>, with Official Meta WhatsApp API, your brand gets Green Tick verification, 99.9% uptime, and 24/7 lead capture! ⚡');
       } else if(type === 'flow'){
@@ -526,9 +563,22 @@ include __DIR__ . '/includes/header.php';
         addMsg('bot', 'Unified inbox, <b>' + visitorName + '</b>! Assign chats across WhatsApp, Instagram DMs & Messenger with live agent handover.');
       }
 
-      showTyping(1100, function(){
+      showTyping(1000, function(){
         addMsg('bot', 'Ready to test it live with your business team? Tap <b>Book a Demo</b> below! 👇');
         
+        renderChips([
+          { label: '🔄 Re-start Interactive Demo', action: function(){ startSimulator(); } }
+        ]);
+      });
+    });
+  }
+
+  function showCustomDemo(text){
+    stepState = "done";
+    showTyping(900, function(){
+      addMsg('bot', 'Great question about <i>"' + text + '"</i>, <b>' + visitorName + '</b>! InboxWa AI seamlessly automates this with official Meta WhatsApp APIs & smart workflows. ⚡');
+      showTyping(1000, function(){
+        addMsg('bot', 'Tap <b>Book a Demo</b> to see a custom live workflow for your business! 👇');
         renderChips([
           { label: '🔄 Re-start Interactive Demo', action: function(){ startSimulator(); } }
         ]);
