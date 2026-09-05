@@ -24,6 +24,10 @@ if (is_file($directPath) && substr($directPath, -4) === '.php') {
     require $directPath;
     exit;
 }
+if (is_file($directPath . '.php')) {
+    require $directPath . '.php';
+    exit;
+}
 if (is_dir($directPath) && is_file(rtrim($directPath, '/') . '/index.php')) {
     require rtrim($directPath, '/') . '/index.php';
     exit;

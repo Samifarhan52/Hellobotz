@@ -1,3 +1,2 @@
 <?php
-header('Location: https://inboxwa.com/auth/login', true, 301);
-exit;
+require __DIR__ . '/../login.php';
