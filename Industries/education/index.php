@@ -190,134 +190,79 @@ include __DIR__ . '/../../includes/header.php';
 <section class="edu-usecase-section">
   <div class="container">
     <div class="section-header reveal text-center" style="margin-bottom: 4rem;">
-      <h2>In-Depth Education &amp; EdTech WhatsApp Use Cases</h2>
-      <p class="lead">Discover how top universities, coaching institutes, and online learning platforms operate with InboxWa.</p>
+      <h2 style="font-size: clamp(2rem, 3.5vw, 2.75rem); font-weight: 800; color:#0F172A;">WhatsApp Use Case for EdTech</h2>
+      <p class="lead" style="color:#64748B">Transform student admissions, class alerts, hall tickets &amp; parent communications natively on WhatsApp.</p>
     </div>
 
-    <!-- Use Case 1 (Admissions) -->
-    <div class="edu-usecase-row reveal">
-      <div class="edu-usecase-content">
-        <span class="edu-usecase-tag">Admissions &amp; Enrollment</span>
-        <h3>Take Admissions &amp; Complete Enrollments Natively</h3>
-        <p>Eliminate long email back-and-forth and paper application forms. InboxWa allows prospective students to check eligibility, explore course brochures, and complete admission applications directly inside WhatsApp.</p>
-        <ul class="edu-usecase-list">
-          <li>Quickly share eligibility criteria, fee structures, and downloadable course brochures.</li>
-          <li>Automate FAQ responses on admission deadlines, accreditation, and hostel facilities.</li>
-          <li>Send direct application links and verify uploaded marksheets in real-time.</li>
-          <li>Keep applicants updated on application status stages with automated notifications.</li>
-        </ul>
-        <a href="https://inboxwa.com/auth/register" class="btn btn-primary">Try Admission Automation</a>
-      </div>
-
-      <div class="edu-img-card-wrap">
-        <img src="/assets/images/edtech_admission_journey.jpg" alt="WhatsApp Student Admission Journey & Verification" loading="lazy">
-        <div class="edu-img-caption-badge">
-          <strong>🎓 Native WhatsApp Application Flow</strong>
-          <span>Automated Eligibility &amp; Verification</span>
-        </div>
-      </div>
-    </div>
-
-    <!-- Use Case 2 (Classes & Reminders - Reverse) -->
+    <!-- Use Case 1 (Take Admission & Enrollment - Screenshot 1 Match) -->
     <div class="edu-usecase-row reverse reveal">
       <div class="edu-usecase-content">
-        <span class="edu-usecase-tag">Classes &amp; Deadlines</span>
-        <h3>Automated Class Reminders &amp; Assignment Alerts</h3>
-        <p>Reduce student drop-offs and missed deadlines with automated, timely reminders for live classes, workshops, and assignment submissions on the app students check every minute.</p>
+        <h3>Take Admission &amp; Enrollment</h3>
         <ul class="edu-usecase-list">
-          <li>Send instant reminders for upcoming webinars, live lectures, and interactive workshops.</li>
-          <li>Broadcast assignment submission deadlines directly into student WhatsApp chats.</li>
-          <li>Notify students immediately regarding schedule changes, substitute faculty, or room updates.</li>
-          <li>Alert students about upcoming fee due dates before late charges apply.</li>
+          <li>Quickly send eligibility criteria, course details, and brochures.</li>
+          <li>Automation for offering instant responses to FAQs without any delays.</li>
+          <li>Share application links and confirm enrollment in real-time.</li>
+          <li>Send the latest updates on application status to keep students in the loop.</li>
         </ul>
-        <a href="https://inboxwa.com/auth/register" class="btn btn-primary">Schedule Reminders</a>
+        <a href="https://wa.me/918050854445?text=Hi%20InboxWa%2C%20I%20want%20to%20enquire%20about%20WhatsApp%20Admission%20Automation" class="btn-enquiry">Enquiry Now</a>
       </div>
 
-      <div class="edu-img-card-wrap">
-        <img src="/assets/images/edtech_class_reminders.jpg" alt="Automated WhatsApp Class Reminders & Hall Tickets" loading="lazy">
-        <div class="edu-img-caption-badge">
-          <strong>⏰ Class &amp; Exam Hall Ticket Dispatcher</strong>
-          <span>Instant Mobile &amp; Desktop Alerts</span>
-        </div>
+      <div class="edu-usecase-img-box">
+        <img src="/assets/images/edtech_admission_banner.jpg" alt="WhatsApp Take Admission &amp; Enrollment - Female Teacher with WhatsApp Flow Card" loading="lazy">
       </div>
     </div>
 
-    <!-- Use Case 3 (Exams & Results) -->
+    <!-- Use Case 2 (Automated Reminders - Screenshot 2 Match) -->
     <div class="edu-usecase-row reveal">
       <div class="edu-usecase-content">
-        <span class="edu-usecase-tag">Exams &amp; Results</span>
-        <h3>Exam Timetables, Hall Tickets &amp; Instant Results</h3>
-        <p>Ensure seamless exam management by delivering exam schedules, digital hall tickets, and official result grade cards straight to students and parents with 98% guaranteed open rates.</p>
+        <h3>Automated Reminders (Classes &amp; Deadlines)</h3>
         <ul class="edu-usecase-list">
-          <li>Broadcast exam timetables, room numbers, and digital hall tickets with QR codes.</li>
-          <li>Notify students and parents instantly of any last-minute exam schedule updates or venue shifts.</li>
-          <li>Deliver confidential semester results, report cards, and performance summaries directly.</li>
-          <li>Provide targeted exam preparation study tips and subject revision notes automatically.</li>
+          <li>Remind students of upcoming webinars, workshops, and classes.</li>
+          <li>Post deadlines for assignment submission on chat in real-time.</li>
+          <li>Notifies students of last-minute changes in the schedule.</li>
+          <li>Alert students about fees due dates and enrollments.</li>
         </ul>
-        <a href="https://inboxwa.com/auth/register" class="btn btn-primary">Automate Result Delivery</a>
+        <a href="https://wa.me/918050854445?text=Hi%20InboxWa%2C%20I%20want%20to%20enquire%20about%20Automated%20Class%20Reminders" class="btn-enquiry">Enquiry Now</a>
       </div>
 
-      <div class="edu-usecase-card-box">
-        <div class="edu-usecase-box-head">
-          <div class="icon">📜</div>
-          <div>
-            <strong>Exam &amp; Results Portal</strong>
-            <small style="display:block;color:#94A3B8;font-size:0.75rem">Instant Grade Sheet Dispatch</small>
-          </div>
-        </div>
-        <div class="edu-usecase-box-body">
-          <div class="edu-chat-bubble bot">🎓 <b>Semester 4 Results:</b> Rahul Sharma | CGPA: <span class="highlight">9.2 (Distinction)</span></div>
-          <div class="edu-chat-bubble user">Download Grade Card PDF</div>
-          <div class="edu-chat-bubble bot">Official Marksheet dispatched to your email &amp; parent's WhatsApp number.</div>
-        </div>
+      <div class="edu-usecase-img-box">
+        <img src="/assets/images/edtech_reminders_banner.jpg" alt="WhatsApp Automated Reminders - Textbooks, Gold Medal &amp; WhatsApp Class Cards" loading="lazy">
       </div>
     </div>
 
-    <!-- Use Case 4 (Parental Communication - Reverse) -->
+    <!-- Use Case 3 (Exams, Digital Hall Tickets & Instant Results) -->
     <div class="edu-usecase-row reverse reveal">
       <div class="edu-usecase-content">
-        <span class="edu-usecase-tag">Parental Communication</span>
-        <h3>Real-Time Parent Communication &amp; Attendance Alerts</h3>
-        <p>Build trust and transparency with parents by delivering real-time academic progress reports, attendance warnings, parent-teacher meeting invites, and digital consent forms.</p>
+        <h3>Exams, Digital Hall Tickets &amp; Instant Results</h3>
         <ul class="edu-usecase-list">
-          <li>Provide instant attendance notifications when a student misses a class or lecture.</li>
-          <li>Send parent-teacher conference invitations with automated slot booking links.</li>
-          <li>Inform parents about co-curricular achievements, sports events, and award ceremony highlights.</li>
-          <li>Deliver digital report cards, fee receipts, and field trip consent forms directly on WhatsApp.</li>
+          <li>Broadcast exam timetables, room seating plans, and digital hall tickets with QR codes.</li>
+          <li>Instantly notify students and parents of any last-minute exam schedule shifts.</li>
+          <li>Deliver confidential semester results, report cards, and marksheets directly on WhatsApp.</li>
+          <li>Provide targeted exam preparation study notes and revision guidelines automatically.</li>
         </ul>
-        <a href="https://inboxwa.com/auth/register" class="btn btn-primary">Engage Parents Now</a>
+        <a href="https://wa.me/918050854445?text=Hi%20InboxWa%2C%20I%20want%20to%20enquire%20about%20Exam%20Results%20%26%20Hall%20Tickets" class="btn-enquiry">Enquiry Now</a>
       </div>
 
-      <div class="edu-img-card-wrap">
-        <img src="/assets/images/edtech_parent_updates.jpg" alt="WhatsApp Parental Communication & Attendance Tracker" loading="lazy">
-        <div class="edu-img-caption-badge">
-          <strong>👨‍👩‍👧‍👦 Parent Communication &amp; Fee Payments</strong>
-          <span>Real-time Progress &amp; UPI Reminders</span>
-        </div>
+      <div class="edu-usecase-img-box">
+        <img src="/assets/images/edtech_parent_updates.jpg" alt="WhatsApp Exam Hall Tickets &amp; Grade Cards" loading="lazy">
       </div>
     </div>
 
-    <!-- Use Case 5 (24/7 AI Support & Faculty Shared Inbox) -->
+    <!-- Use Case 4 (Parent Communication & Multi-Counsellor Inbox) -->
     <div class="edu-usecase-row reveal">
       <div class="edu-usecase-content">
-        <span class="edu-usecase-tag">24/7 AI Support &amp; Faculty</span>
-        <h3>24/7 Student AI Bot &amp; Shared Multi-Counsellor Inbox</h3>
-        <p>Let an intelligent AI chatbot handle 80% of repetitive inquiries on schedules, fees, and portal logins, while routing complex academic questions to faculty and counsellors in a unified inbox.</p>
+        <h3>Parent Communication &amp; Multi-Counsellor Shared Inbox</h3>
         <ul class="edu-usecase-list">
-          <li>Automate 24/7 answers for course FAQs, entrance exam syllabus, and library timings.</li>
-          <li>Distribute study materials, video lectures, and revision PDFs automatically.</li>
-          <li>Assist students with portal login issues, password resets, and LMS technical queries.</li>
-          <li>Enable 1-on-1 mentorship by connecting students directly with departmental faculty.</li>
+          <li>Provide instant attendance notifications when a student misses a lecture or class.</li>
+          <li>Send parent-teacher conference (PTM) invitations with automated slot booking links.</li>
+          <li>Collect registration fees and tuition installments securely via WhatsApp UPI.</li>
+          <li>Multi-agent shared team inbox with department lead routing &amp; full interaction history.</li>
         </ul>
-        <a href="https://inboxwa.com/auth/register" class="btn btn-primary">Set Up AI Assistant</a>
+        <a href="https://wa.me/918050854445?text=Hi%20InboxWa%2C%20I%20want%20to%20enquire%20about%20Parent%20Communication%20%26%20Shared%20Inbox" class="btn-enquiry">Enquiry Now</a>
       </div>
 
-      <div class="edu-img-card-wrap">
+      <div class="edu-usecase-img-box">
         <img src="/assets/images/edtech_shared_inbox.jpg" alt="InboxWa Multi-Counsellor WhatsApp Shared Inbox" loading="lazy">
-        <div class="edu-img-caption-badge">
-          <strong>🤖 Multi-Counsellor Shared Team Inbox</strong>
-          <span>Department Lead Routing &amp; Analytics</span>
-        </div>
       </div>
     </div>
   </div>
