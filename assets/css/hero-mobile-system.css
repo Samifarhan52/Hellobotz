@@ -193,10 +193,6 @@
 }
 
 /* ===== Marketing image slots (replaceable) ===== */
-.hb-img-slot{
-  margin:1.75rem auto;
-  max-width:960px;
-  border-radius:16px;
 .hb-img-slot {
   border-radius: 20px;
   overflow: hidden;

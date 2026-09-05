@@ -1433,3 +1433,119 @@ div#mobile-menu.open,
   color: #7C3AED !important;
   background: rgba(139, 92, 246, 0.1) !important;
 }
+
+/* ==========================================================================
+   12. UNIVERSAL MOBILE RESPONSIVE OVERFLOW PROTECTION (v48)
+   ========================================================================== */
+
+@media (max-width: 900px) {
+  html, body {
+    overflow-x: hidden !important;
+    width: 100% !important;
+    max-width: 100vw !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  *, *::before, *::after {
+    box-sizing: border-box !important;
+    max-width: 100vw;
+  }
+
+  .container, section, div, header, footer, main {
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  /* Headings word wrap protection */
+  h1, .h1, h2, .h2, h3, .h3,
+  .ig-hero h1, .tg-hero h1, .fb-hero h1, .wa-hero h1,
+  .edu-hero h1, .re-hero h1, .ecom-hero h1, .crm-hero h1 {
+    font-size: clamp(1.2rem, 5vw, 1.6rem) !important;
+    line-height: 1.22 !important;
+    word-break: break-word !important;
+    overflow-wrap: break-word !important;
+    hyphens: auto !important;
+    max-width: 100% !important;
+  }
+
+  /* Stack button containers full width */
+  .ig-ctas, .tg-ctas, .fb-ctas, .wa-ctas, .hero-ctas, .hb-hero-ctas,
+  .edu-ctas, .re-ctas, .ecom-ctas, .crm-ctas, .prt-ctas, .prc-ctas, .ig-ctas {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    gap: 0.65rem !important;
+  }
+
+  .ig-ctas .btn, .tg-ctas .btn, .fb-ctas .btn, .wa-ctas .btn,
+  .hero-ctas .btn, .hb-hero-ctas .btn, .edu-ctas .btn, .re-ctas .btn,
+  .ecom-ctas .btn, .crm-ctas .btn, .prt-ctas .btn, .prc-ctas .btn {
+    width: 100% !important;
+    max-width: 100% !important;
+    justify-content: center !important;
+    text-align: center !important;
+    box-sizing: border-box !important;
+    white-space: normal !important;
+    word-break: break-word !important;
+  }
+
+  /* Horizontal scrolling tab bars with zero parent overflow */
+  .ig-tabs, .tg-tabs, .fb-tabs, .wa-tabs, .edu-sim-tabs,
+  .re-sim-tabs, .ecom-tabs, .crm-tabs, .gcm-tabs, .gfs-tabs {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+    padding: 0.5rem 0 !important;
+    margin-top: 0.75rem !important;
+    margin-bottom: 0.75rem !important;
+    scrollbar-width: none !important;
+  }
+
+  .ig-tabs::-webkit-scrollbar, .tg-tabs::-webkit-scrollbar,
+  .fb-tabs::-webkit-scrollbar, .wa-tabs::-webkit-scrollbar {
+    display: none !important;
+  }
+
+  .ig-tabs button, .tg-tabs button, .fb-tabs button, .wa-tabs button,
+  .edu-sim-tabs button, .re-sim-tabs button, .ecom-tabs button, .crm-tabs button {
+    flex: 0 0 auto !important;
+    max-width: none !important;
+    white-space: nowrap !important;
+    font-size: 0.75rem !important;
+    padding: 0.45rem 0.8rem !important;
+  }
+
+  /* Grid collapse to single column */
+  .ig-hero-grid, .tg-hero-grid, .fb-hero-grid, .wa-hero-grid,
+  .edu-grid, .re-grid, .ecom-hero-grid, .crm-hero-grid, .ig-split {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    gap: 1.25rem !important;
+  }
+
+  /* Phone Stage & Mocks */
+  .ig-phone-stage, .tg-phone-stage, .fb-phone-stage, .wa-phone-stage,
+  .edu-phone-stage, .re-phone-stage {
+    width: 100% !important;
+    max-width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    box-sizing: border-box !important;
+  }
+
+  .ig-phone, .tg-phone, .fb-phone, .wa-phone, .edu-phone, .re-phone {
+    width: min(230px, 78vw) !important;
+    max-width: 230px !important;
+    margin: 0 auto !important;
+    box-sizing: border-box !important;
+  }
+}
+
