@@ -1,6 +1,7 @@
 <?php
 /**
  * InboxWa Secure Console Configuration & DB Handler
+ * Vercel Serverless Compatible - Uses /tmp or Local Data directory
  */
 declare(strict_types=1);
 
@@ -9,11 +10,18 @@ if (session_status() === PHP_SESSION_NONE) {
 }
 
 function hb_get_db_path(): string {
-    $dir = __DIR__ . '/data';
-    if (!is_dir($dir)) {
-        @mkdir($dir, 0755, true);
+    $localDir = __DIR__ . '/data';
+    // Check if local directory can be written to
+    if (!is_dir($localDir)) {
+        @mkdir($localDir, 0755, true);
     }
-    return $dir . '/leads.sqlite';
+    if (is_dir($localDir) && is_writable($localDir)) {
+        return $localDir . '/leads.sqlite';
+    }
+
+    // Fallback to system /tmp directory (Vercel Serverless / AWS Lambda writable space)
+    $tmpDir = sys_get_temp_dir();
+    return rtrim($tmpDir, '/\\') . '/inboxwa_leads.sqlite';
 }
 
 function hb_pdo(): PDO {
@@ -23,10 +31,19 @@ function hb_pdo(): PDO {
     }
 
     $dbFile = hb_get_db_path();
-    $pdo = new PDO('sqlite:' . $dbFile, null, null, [
-        PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
-        PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC
-    ]);
+    
+    try {
+        $pdo = new PDO('sqlite:' . $dbFile, null, null, [
+            PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
+            PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC
+        ]);
+    } catch (Throwable $e) {
+        // Ultimate fallback to in-memory SQLite if file system creation fails
+        $pdo = new PDO('sqlite::memory:', null, null, [
+            PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
+            PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC
+        ]);
+    }
 
     // Create leads table
     $pdo->exec("
@@ -180,17 +197,25 @@ function hb_pdo(): PDO {
 }
 
 function hb_get_setting(string $key, string $default = ''): string {
-    $db = hb_pdo();
-    $stmt = $db->prepare("SELECT value FROM settings WHERE key = ?");
-    $stmt->execute([$key]);
-    $val = $stmt->fetchColumn();
-    return $val !== false ? (string)$val : $default;
+    try {
+        $db = hb_pdo();
+        $stmt = $db->prepare("SELECT value FROM settings WHERE key = ?");
+        $stmt->execute([$key]);
+        $val = $stmt->fetchColumn();
+        return $val !== false ? (string)$val : $default;
+    } catch (Throwable $e) {
+        return $default;
+    }
 }
 
 function hb_set_setting(string $key, string $value): void {
-    $db = hb_pdo();
-    $stmt = $db->prepare("INSERT OR REPLACE INTO settings (key, value, updated_at) VALUES (?, ?, CURRENT_TIMESTAMP)");
-    $stmt->execute([$key, $value]);
+    try {
+        $db = hb_pdo();
+        $stmt = $db->prepare("INSERT OR REPLACE INTO settings (key, value, updated_at) VALUES (?, ?, CURRENT_TIMESTAMP)");
+        $stmt->execute([$key, $value]);
+    } catch (Throwable $e) {
+        // Silently handle in case of DB read-only lock
+    }
 }
 
 function hb_is_admin_logged_in(): bool {
