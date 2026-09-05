@@ -5,8 +5,8 @@ $pageDescription = 'Power up your school, college, institute, or EdTech growth w
 $canonicalUrl = 'https://inboxwa.com/industries/education/';
 include __DIR__ . '/../../includes/header.php';
 ?>
-<link rel="stylesheet" href="/assets/css/education.css?v=45">
-<link rel="stylesheet" href="/assets/css/hero-mobile-system.css?v=5">
+<link rel="stylesheet" href="/assets/css/education.css?v=46">
+<link rel="stylesheet" href="/assets/css/hero-mobile-system.css?v=6">
 
 <!-- Hero Section -->
 <section class="edu-hero" aria-label="Education & EdTech solution hero">
@@ -113,6 +113,15 @@ include __DIR__ . '/../../includes/header.php';
       <p class="lead">From initial ad click to graduation — automate every single touchpoint on WhatsApp.</p>
     </div>
 
+    <!-- Visual Journey Graphic Banner -->
+    <div class="edu-img-card-wrap reveal" style="margin-top:2rem;margin-bottom:2.5rem">
+      <img src="/assets/images/edtech_admission_journey.jpg" alt="InboxWa Student Admission Journey & Dashboard" loading="lazy">
+      <div class="edu-img-caption-badge">
+        <strong>🎓 Interactive Student Journey &amp; Verification Platform</strong>
+        <span>Live System Preview</span>
+      </div>
+    </div>
+
     <div class="edu-journey-5grid">
       <!-- Stage 1 -->
       <div class="edu-journey-card reveal">
@@ -177,7 +186,7 @@ include __DIR__ . '/../../includes/header.php';
   </div>
 </section>
 
-<!-- Alternating Rich Use Case Showcase Section -->
+<!-- Alternating Rich Use Case Showcase Section with Images -->
 <section class="edu-usecase-section">
   <div class="container">
     <div class="section-header reveal text-center" style="margin-bottom: 4rem;">
@@ -185,7 +194,7 @@ include __DIR__ . '/../../includes/header.php';
       <p class="lead">Discover how top universities, coaching institutes, and online learning platforms operate with InboxWa.</p>
     </div>
 
-    <!-- Use Case 1 -->
+    <!-- Use Case 1 (Admissions) -->
     <div class="edu-usecase-row reveal">
       <div class="edu-usecase-content">
         <span class="edu-usecase-tag">Admissions &amp; Enrollment</span>
@@ -200,24 +209,16 @@ include __DIR__ . '/../../includes/header.php';
         <a href="https://inboxwa.com/auth/register" class="btn btn-primary">Try Admission Automation</a>
       </div>
 
-      <div class="edu-usecase-card-box">
-        <div class="edu-usecase-box-head">
-          <div class="icon">🎓</div>
-          <div>
-            <strong>Instant Admission Flow</strong>
-            <small style="display:block;color:#94A3B8;font-size:0.75rem">Live WhatsApp Application Demo</small>
-          </div>
-        </div>
-        <div class="edu-usecase-box-body">
-          <div class="edu-chat-bubble user">Hi, I want to apply for B.Tech Computer Science 2026.</div>
-          <div class="edu-chat-bubble bot">Hello Rahul! 👋 Eligibility: <span class="highlight">80%+ in 12th PCM</span>. Please tap below to upload your 12th Marksheet PDF.</div>
-          <div class="edu-chat-bubble user">Uploaded Marksheet_Rahul.pdf 📄</div>
-          <div class="edu-chat-bubble bot">Verification PASSED! ✅ Application #CS-2026 registered. Seat reserved!</div>
+      <div class="edu-img-card-wrap">
+        <img src="/assets/images/edtech_admission_journey.jpg" alt="WhatsApp Student Admission Journey & Verification" loading="lazy">
+        <div class="edu-img-caption-badge">
+          <strong>🎓 Native WhatsApp Application Flow</strong>
+          <span>Automated Eligibility &amp; Verification</span>
         </div>
       </div>
     </div>
 
-    <!-- Use Case 2 (Reverse) -->
+    <!-- Use Case 2 (Classes & Reminders - Reverse) -->
     <div class="edu-usecase-row reverse reveal">
       <div class="edu-usecase-content">
         <span class="edu-usecase-tag">Classes &amp; Deadlines</span>
@@ -232,23 +233,16 @@ include __DIR__ . '/../../includes/header.php';
         <a href="https://inboxwa.com/auth/register" class="btn btn-primary">Schedule Reminders</a>
       </div>
 
-      <div class="edu-usecase-card-box">
-        <div class="edu-usecase-box-head">
-          <div class="icon">⏰</div>
-          <div>
-            <strong>Class &amp; Deadline Dispatcher</strong>
-            <small style="display:block;color:#94A3B8;font-size:0.75rem">Automated Student Alerts</small>
-          </div>
-        </div>
-        <div class="edu-usecase-box-body">
-          <div class="edu-chat-bubble bot">🔔 <b>Class Alert:</b> Data Structures Live Session starts in <span class="highlight">15 Minutes</span>! Tap to join Zoom lecture.</div>
-          <div class="edu-chat-bubble user">Joined lecture 👍</div>
-          <div class="edu-chat-bubble bot">📌 <b>Assignment Due:</b> Machine Learning Project due tomorrow by 11:59 PM. Submit on portal!</div>
+      <div class="edu-img-card-wrap">
+        <img src="/assets/images/edtech_class_reminders.jpg" alt="Automated WhatsApp Class Reminders & Hall Tickets" loading="lazy">
+        <div class="edu-img-caption-badge">
+          <strong>⏰ Class &amp; Exam Hall Ticket Dispatcher</strong>
+          <span>Instant Mobile &amp; Desktop Alerts</span>
         </div>
       </div>
     </div>
 
-    <!-- Use Case 3 -->
+    <!-- Use Case 3 (Exams & Results) -->
     <div class="edu-usecase-row reveal">
       <div class="edu-usecase-content">
         <span class="edu-usecase-tag">Exams &amp; Results</span>
@@ -279,7 +273,7 @@ include __DIR__ . '/../../includes/header.php';
       </div>
     </div>
 
-    <!-- Use Case 4 (Reverse) -->
+    <!-- Use Case 4 (Parental Communication - Reverse) -->
     <div class="edu-usecase-row reverse reveal">
       <div class="edu-usecase-content">
         <span class="edu-usecase-tag">Parental Communication</span>
@@ -294,23 +288,16 @@ include __DIR__ . '/../../includes/header.php';
         <a href="https://inboxwa.com/auth/register" class="btn btn-primary">Engage Parents Now</a>
       </div>
 
-      <div class="edu-usecase-card-box">
-        <div class="edu-usecase-box-head">
-          <div class="icon">👨‍👩‍👧‍👦</div>
-          <div>
-            <strong>Parent Communication Hub</strong>
-            <small style="display:block;color:#94A3B8;font-size:0.75rem">Real-time Parent Updates</small>
-          </div>
-        </div>
-        <div class="edu-usecase-box-body">
-          <div class="edu-chat-bubble bot">📢 <b>Parent Update:</b> Rahul's Monthly Attendance is <span class="highlight">94%</span>. Overall Performance: EXCELLENT.</div>
-          <div class="edu-chat-bubble user">Book Parent-Teacher Conference Slot</div>
-          <div class="edu-chat-bubble bot">Slot Confirmed for Saturday 11:00 AM with Prof. Mehta.</div>
+      <div class="edu-img-card-wrap">
+        <img src="/assets/images/edtech_parent_updates.jpg" alt="WhatsApp Parental Communication & Attendance Tracker" loading="lazy">
+        <div class="edu-img-caption-badge">
+          <strong>👨‍👩‍👧‍👦 Parent Communication &amp; Fee Payments</strong>
+          <span>Real-time Progress &amp; UPI Reminders</span>
         </div>
       </div>
     </div>
 
-    <!-- Use Case 5 -->
+    <!-- Use Case 5 (24/7 AI Support & Faculty Shared Inbox) -->
     <div class="edu-usecase-row reveal">
       <div class="edu-usecase-content">
         <span class="edu-usecase-tag">24/7 AI Support &amp; Faculty</span>
@@ -325,19 +312,11 @@ include __DIR__ . '/../../includes/header.php';
         <a href="https://inboxwa.com/auth/register" class="btn btn-primary">Set Up AI Assistant</a>
       </div>
 
-      <div class="edu-usecase-card-box">
-        <div class="edu-usecase-box-head">
-          <div class="icon">🤖</div>
-          <div>
-            <strong>AI Bot + Faculty Inbox</strong>
-            <small style="display:block;color:#94A3B8;font-size:0.75rem">Hybrid Academic Support</small>
-          </div>
-        </div>
-        <div class="edu-usecase-box-body">
-          <div class="edu-chat-bubble user">How do I reset my LMS student portal password?</div>
-          <div class="edu-chat-bubble bot">Tap <span class="highlight">Reset Password</span> to receive your OTP instantly on WhatsApp.</div>
-          <div class="edu-chat-bubble user">I need guidance on choosing my major elective.</div>
-          <div class="edu-chat-bubble bot">Connected to Prof. Sharma (Computer Science Department)!</div>
+      <div class="edu-img-card-wrap">
+        <img src="/assets/images/edtech_shared_inbox.jpg" alt="InboxWa Multi-Counsellor WhatsApp Shared Inbox" loading="lazy">
+        <div class="edu-img-caption-badge">
+          <strong>🤖 Multi-Counsellor Shared Team Inbox</strong>
+          <span>Department Lead Routing &amp; Analytics</span>
         </div>
       </div>
     </div>
@@ -638,5 +617,5 @@ include __DIR__ . '/../../includes/header.php';
   </div>
 </section>
 
-<script src="/assets/js/education-sim.js?v=38" defer></script>
+<script src="/assets/js/education-sim.js?v=39" defer></script>
 <?php include __DIR__ . '/../../includes/footer.php'; ?>
