@@ -102,7 +102,7 @@ include __DIR__ . '/includes/header.php';
       <div class="hb-hero-cards-grid">
         <div class="hb-hero-card hb-card-light">
           <div class="hb-card-icon icon-purple">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"/></svg>
+            <svg viewBox="0 0 24 24" width="24" height="24" style="width:24px;height:24px;flex-shrink:0;" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"/></svg>
           </div>
           <h3>Instant Lead Qualification</h3>
           <p>Automated workflow on automated workflows and lead capture.</p>
@@ -110,7 +110,7 @@ include __DIR__ . '/includes/header.php';
 
         <div class="hb-hero-card hb-card-dark">
           <div class="hb-card-icon icon-dark-purple">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            <svg viewBox="0 0 24 24" width="24" height="24" style="width:24px;height:24px;flex-shrink:0;" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
           </div>
           <h3>24/7 Customer Support</h3>
           <p>Boost engagement, qualify leads, and provide 24/7 customer conversations.</p>
@@ -118,7 +118,7 @@ include __DIR__ . '/includes/header.php';
 
         <div class="hb-hero-card hb-card-light">
           <div class="hb-card-icon icon-cyan">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+            <svg viewBox="0 0 24 24" width="24" height="24" style="width:24px;height:24px;flex-shrink:0;" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
           </div>
           <h3>Broadcast Campaigns</h3>
           <p>Broadcast campaigns proven and consistent to engaging new prospects.</p>
@@ -126,7 +126,7 @@ include __DIR__ . '/includes/header.php';
 
         <div class="hb-hero-card hb-card-dark">
           <div class="hb-card-icon icon-dark-cyan">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 20V10M12 20V4M6 20v-6"/></svg>
+            <svg viewBox="0 0 24 24" width="24" height="24" style="width:24px;height:24px;flex-shrink:0;" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 20V10M12 20V4M6 20v-6"/></svg>
           </div>
           <h3>Smart Analytics</h3>
           <p>Performance dashboard on analytics in real-time performance dashboard.</p>
@@ -165,15 +165,15 @@ include __DIR__ . '/includes/header.php';
           <div class="hb-comp-title">Slow, Unorganized &amp; Losing Revenue</div>
           <div class="hb-comp-list">
             <div class="hb-comp-item">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg>
+              <svg viewBox="0 0 24 24" width="22" height="22" style="width:22px;height:22px;flex-shrink:0;" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg>
               <span>Missed customer inquiries after business hours and on weekends.</span>
             </div>
             <div class="hb-comp-item">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg>
+              <svg viewBox="0 0 24 24" width="22" height="22" style="width:22px;height:22px;flex-shrink:0;" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg>
               <span>Single phone login bottleneck creating customer support delays.</span>
             </div>
             <div class="hb-comp-item">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg>
+              <svg viewBox="0 0 24 24" width="22" height="22" style="width:22px;height:22px;flex-shrink:0;" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg>
               <span>Risk of number getting banned due to un-official broadcast tools.</span>
             </div>
           </div>
@@ -185,15 +185,15 @@ include __DIR__ . '/includes/header.php';
           <div class="hb-comp-title">Instant, Automated &amp; Scaling Revenue</div>
           <div class="hb-comp-list">
             <div class="hb-comp-item">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              <svg viewBox="0 0 24 24" width="22" height="22" style="width:22px;height:22px;flex-shrink:0;" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
               <span>Instant 2-second AI auto-replies qualifying leads 24/7/365.</span>
             </div>
             <div class="hb-comp-item">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              <svg viewBox="0 0 24 24" width="22" height="22" style="width:22px;height:22px;flex-shrink:0;" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
               <span>Multi-agent shared team inbox with live chat handover &amp; internal notes.</span>
             </div>
             <div class="hb-comp-item">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              <svg viewBox="0 0 24 24" width="22" height="22" style="width:22px;height:22px;flex-shrink:0;" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
               <span>Official Meta WhatsApp API access with green tick badge support.</span>
             </div>
           </div>
@@ -215,7 +215,7 @@ include __DIR__ . '/includes/header.php';
         <div class="hb-step-card">
           <div class="hb-step-num">01</div>
           <div class="hb-step-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"/></svg>
+            <svg viewBox="0 0 24 24" width="26" height="26" style="width:26px;height:26px;flex-shrink:0;" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"/></svg>
           </div>
           <h3>Connect Meta WhatsApp API</h3>
           <p>Link your official WhatsApp Business number directly via Meta embedded signup in 2 minutes.</p>
@@ -224,7 +224,7 @@ include __DIR__ . '/includes/header.php';
         <div class="hb-step-card">
           <div class="hb-step-num">02</div>
           <div class="hb-step-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="6" height="6" rx="1"/><rect x="15" y="3" width="6" height="6" rx="1"/><rect x="9" y="15" width="6" height="6" rx="1"/><path d="M6 9v3a3 3 0 003 3h6a3 3 0 003-3V9"/></svg>
+            <svg viewBox="0 0 24 24" width="26" height="26" style="width:26px;height:26px;flex-shrink:0;" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="6" height="6" rx="1"/><rect x="15" y="3" width="6" height="6" rx="1"/><rect x="9" y="15" width="6" height="6" rx="1"/><path d="M6 9v3a3 3 0 003 3h6a3 3 0 003-3V9"/></svg>
           </div>
           <h3>Build AI Chatbot Workflows</h3>
           <p>Use our visual no-code flow builder to design lead qualification bots &amp; support FAQs.</p>
@@ -233,7 +233,7 @@ include __DIR__ . '/includes/header.php';
         <div class="hb-step-card">
           <div class="hb-step-num">03</div>
           <div class="hb-step-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+            <svg viewBox="0 0 24 24" width="26" height="26" style="width:26px;height:26px;flex-shrink:0;" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
           </div>
           <h3>Broadcast &amp; Multiply Sales</h3>
           <p>Send personalized WhatsApp broadcasts to 100,000+ contacts with 98% open rates.</p>
@@ -263,8 +263,8 @@ include __DIR__ . '/includes/header.php';
           <h3>Official Meta WhatsApp Business API</h3>
           <p>Get enterprise reliability with Meta-approved official API access. Enable green tick verification and high-volume delivery.</p>
           <div class="hb-tab-checklist">
-            <div class="hb-tab-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg> Green Tick Verification badge assistance</div>
-            <div class="hb-tab-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg> Interactive quick-reply buttons</div>
+            <div class="hb-tab-check"><svg viewBox="0 0 24 24" width="18" height="18" style="width:18px;height:18px;flex-shrink:0;" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg> Green Tick Verification badge assistance</div>
+            <div class="hb-tab-check"><svg viewBox="0 0 24 24" width="18" height="18" style="width:18px;height:18px;flex-shrink:0;" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg> Interactive quick-reply buttons</div>
           </div>
           <a href="https://inboxwa.com/auth/register" class="btn btn-primary" style="margin-top:1rem;">Connect WhatsApp API &rarr;</a>
         </div>
@@ -335,42 +335,42 @@ include __DIR__ . '/includes/header.php';
 
       <div class="hb-ind-grid">
         <div class="hb-ind-card">
-          <div class="hb-ind-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><path d="M3 6h18M16 10a4 4 0 01-8 0"/></svg></div>
+          <div class="hb-ind-icon"><svg viewBox="0 0 24 24" width="24" height="24" style="width:24px;height:24px;flex-shrink:0;" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><path d="M3 6h18M16 10a4 4 0 01-8 0"/></svg></div>
           <h4>E-Commerce &amp; D2C</h4>
           <p>Recover abandoned carts, send automated order updates, and enable 1-click WhatsApp checkout.</p>
           <div class="hb-ind-preview-pill">💬 "Order #8410 Confirmed 📦"</div>
         </div>
 
         <div class="hb-ind-card">
-          <div class="hb-ind-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18M5 21V7l7-4 7 4v14"/></svg></div>
+          <div class="hb-ind-icon"><svg viewBox="0 0 24 24" width="24" height="24" style="width:24px;height:24px;flex-shrink:0;" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18M5 21V7l7-4 7 4v14"/></svg></div>
           <h4>Real Estate</h4>
           <p>Qualify property inquiries automatically, share digital brochures, and book site visits 24/7.</p>
           <div class="hb-ind-preview-pill">💬 "Site visit booked for 3 PM 🏠"</div>
         </div>
 
         <div class="hb-ind-card">
-          <div class="hb-ind-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10l-10-5L2 10l10 5 10-5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg></div>
+          <div class="hb-ind-icon"><svg viewBox="0 0 24 24" width="24" height="24" style="width:24px;height:24px;flex-shrink:0;" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10l-10-5L2 10l10 5 10-5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg></div>
           <h4>Education &amp; EdTech</h4>
           <p>Automate student course inquiries, fee reminders, and admission application follow-ups.</p>
           <div class="hb-ind-preview-pill">💬 "Course Brochure Sent 🎓"</div>
         </div>
 
         <div class="hb-ind-card">
-          <div class="hb-ind-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></div>
+          <div class="hb-ind-icon"><svg viewBox="0 0 24 24" width="24" height="24" style="width:24px;height:24px;flex-shrink:0;" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></div>
           <h4>Healthcare &amp; Clinics</h4>
           <p>Schedule doctor appointments, send automated consultation reminders, and dispatch lab reports.</p>
           <div class="hb-ind-preview-pill">💬 "Doctor Consultation Confirmed 🏥"</div>
         </div>
 
         <div class="hb-ind-card">
-          <div class="hb-ind-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20"/></svg></div>
+          <div class="hb-ind-icon"><svg viewBox="0 0 24 24" width="24" height="24" style="width:24px;height:24px;flex-shrink:0;" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20"/></svg></div>
           <h4>Finance &amp; BFSI</h4>
           <p>Send instant payment alerts, automate loan application collection, and provide secure support.</p>
           <div class="hb-ind-preview-pill">💬 "KYC Verified Successfully 💳"</div>
         </div>
 
         <div class="hb-ind-card">
-          <div class="hb-ind-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18M5 21V10l7-5 7 5v11"/></svg></div>
+          <div class="hb-ind-icon"><svg viewBox="0 0 24 24" width="24" height="24" style="width:24px;height:24px;flex-shrink:0;" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18M5 21V10l7-5 7 5v11"/></svg></div>
           <h4>Hotels &amp; Hospitality</h4>
           <p>Handle room reservations, table bookings, and automated concierge guest services on chat.</p>
           <div class="hb-ind-preview-pill">💬 "Room Reservation Active 🏨"</div>

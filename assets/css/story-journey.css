@@ -1,5 +1,31 @@
+/* ==========================================================================
+   INBOXWA STORY JOURNEY & GLOBAL DESIGN SYSTEM (v44)
+   ========================================================================== */
 
-/* InboxWa Global Floating Pill Header System */
+/* 1. Global SVG Constraints & Icon Safety (prevents any SVG blowup) */
+svg {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.hb-comp-item svg,
+.hb-step-icon svg,
+.hb-tab-check svg,
+.hb-ind-icon svg,
+.hb-card-icon svg,
+.hb-hero-card svg {
+  width: 22px !important;
+  height: 22px !important;
+  max-width: 22px !important;
+  max-height: 22px !important;
+  min-width: 22px !important;
+  min-height: 22px !important;
+  flex-shrink: 0 !important;
+  display: inline-block !important;
+  vertical-align: middle;
+}
+
+/* 2. Global Floating Pill Header System */
 body {
   padding-top: 0;
 }
@@ -117,7 +143,7 @@ body {
   }
 }
 
-/* Mobile Header: Fixed Floating Pill Bar at Top */
+/* Mobile Header */
 @media (max-width: 1024px) {
   body {
     padding-top: 64px !important;
@@ -164,5 +190,465 @@ body {
   }
 }
 
-.nav-link { color: #475569 !important; }
-.nav-link:hover { color: #8B5CF6 !important; background: rgba(139, 92, 246, 0.06) !important; }
+/* 3. Story Section Framework */
+.hb-story-wrapper {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.hb-story-section {
+  padding: 5rem 0;
+  background: #FFFFFF;
+  position: relative;
+}
+
+.hb-story-section-alt {
+  background: #F8FAFC;
+  border-top: 1px solid #E2E8F0;
+  border-bottom: 1px solid #E2E8F0;
+}
+
+.hb-story-header {
+  text-align: center;
+  max-width: 48rem;
+  margin: 0 auto 3.5rem auto;
+}
+
+.hb-story-badge {
+  display: inline-block;
+  padding: 0.35rem 0.9rem;
+  background: rgba(139, 92, 246, 0.1);
+  color: #7C3AED;
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  border-radius: 9999px;
+  margin-bottom: 1rem;
+  border: 1px solid rgba(139, 92, 246, 0.2);
+}
+
+.hb-story-header h2 {
+  font-size: clamp(2rem, 3.5vw, 2.75rem);
+  font-weight: 800;
+  color: #0F172A;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.hb-text-grad {
+  background: linear-gradient(135deg, #7C3AED 0%, #06B6D4 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hb-story-header p {
+  font-size: 1.1rem;
+  color: #475569;
+  line-height: 1.6;
+}
+
+/* 4. Story Chapter 1: Old Way vs InboxWa AI Comparison Grid */
+.hb-comparison-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .hb-comparison-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
+
+.hb-comp-card {
+  border-radius: 24px;
+  padding: 2.25rem;
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hb-comp-old {
+  background: #FFF5F5;
+  border: 1px solid #FECDD3;
+}
+
+.hb-comp-old:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(225, 29, 72, 0.08);
+}
+
+.hb-comp-new {
+  background: linear-gradient(145deg, #0F172A 0%, #1E1B4B 100%);
+  border: 1px solid rgba(139, 92, 246, 0.4);
+  color: #FFFFFF;
+  box-shadow: 0 16px 40px rgba(15, 23, 42, 0.2);
+}
+
+.hb-comp-new:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 48px rgba(139, 92, 246, 0.25);
+}
+
+.hb-comp-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.4rem 0.85rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  border-radius: 9999px;
+  margin-bottom: 1.25rem;
+}
+
+.hb-comp-old .hb-comp-badge {
+  background: #FFE4E6;
+  color: #E11D48;
+}
+
+.hb-comp-new .hb-comp-badge {
+  background: rgba(16, 185, 129, 0.15);
+  color: #34D399;
+  border: 1px solid rgba(52, 211, 153, 0.3);
+}
+
+.hb-comp-title {
+  font-size: 1.35rem;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+  line-height: 1.3;
+}
+
+.hb-comp-old .hb-comp-title {
+  color: #9F1239;
+}
+
+.hb-comp-new .hb-comp-title {
+  color: #FFFFFF;
+}
+
+.hb-comp-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.hb-comp-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.85rem;
+  font-size: 0.98rem;
+  line-height: 1.5;
+}
+
+.hb-comp-old .hb-comp-item {
+  color: #475569;
+}
+
+.hb-comp-old .hb-comp-item svg {
+  width: 22px !important;
+  height: 22px !important;
+  min-width: 22px !important;
+  min-height: 22px !important;
+  max-width: 22px !important;
+  max-height: 22px !important;
+  stroke: #E11D48;
+  flex-shrink: 0 !important;
+  display: block;
+}
+
+.hb-comp-new .hb-comp-item {
+  color: #CBD5E1;
+}
+
+.hb-comp-new .hb-comp-item svg {
+  width: 22px !important;
+  height: 22px !important;
+  min-width: 22px !important;
+  min-height: 22px !important;
+  max-width: 22px !important;
+  max-height: 22px !important;
+  stroke: #34D399;
+  flex-shrink: 0 !important;
+  display: block;
+}
+
+/* 5. Story Chapter 2: 3-Step Growth Journey */
+.hb-steps-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+@media (max-width: 900px) {
+  .hb-steps-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
+
+.hb-step-card {
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  border-radius: 20px;
+  padding: 2rem;
+  position: relative;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.03);
+}
+
+.hb-step-card:hover {
+  transform: translateY(-5px);
+  border-color: #8B5CF6;
+  box-shadow: 0 16px 36px rgba(139, 92, 246, 0.12);
+}
+
+.hb-step-num {
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: rgba(139, 92, 246, 0.15);
+  position: absolute;
+  top: 1.25rem;
+  right: 1.5rem;
+  line-height: 1;
+}
+
+.hb-step-icon {
+  width: 52px;
+  height: 52px;
+  border-radius: 14px;
+  background: rgba(139, 92, 246, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #7C3AED;
+  margin-bottom: 1.25rem;
+}
+
+.hb-step-icon svg {
+  width: 26px !important;
+  height: 26px !important;
+  min-width: 26px !important;
+  min-height: 26px !important;
+  max-width: 26px !important;
+  max-height: 26px !important;
+  stroke: #7C3AED;
+  flex-shrink: 0 !important;
+}
+
+.hb-step-card h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #0F172A;
+  margin-bottom: 0.6rem;
+}
+
+.hb-step-card p {
+  font-size: 0.95rem;
+  color: #64748B;
+  line-height: 1.55;
+}
+
+/* 6. Story Chapter 3: Platform Suite Interactive Tabs */
+.hb-tabs-nav {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-bottom: 2.5rem;
+}
+
+.hb-tab-btn {
+  padding: 0.75rem 1.4rem;
+  border-radius: 9999px;
+  font-size: 0.92rem;
+  font-weight: 700;
+  background: #F1F5F9;
+  color: #475569;
+  border: 1px solid #E2E8F0;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.hb-tab-btn:hover {
+  background: #E2E8F0;
+  color: #0F172A;
+}
+
+.hb-tab-btn.active {
+  background: #7C3AED;
+  color: #FFFFFF;
+  border-color: #7C3AED;
+  box-shadow: 0 8px 20px rgba(124, 58, 237, 0.3);
+}
+
+.hb-tab-pane {
+  display: none;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 2.5rem;
+  background: #0F172A;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 24px;
+  padding: 3rem;
+  color: #FFFFFF;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.hb-tab-pane.active {
+  display: grid;
+  animation: hbFadeIn 0.35s ease;
+}
+
+@keyframes hbFadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 850px) {
+  .hb-tab-pane {
+    grid-template-columns: 1fr;
+    padding: 1.75rem;
+    gap: 1.5rem;
+  }
+}
+
+.hb-tab-content h3 {
+  font-size: 1.65rem;
+  font-weight: 800;
+  color: #FFFFFF;
+  margin-bottom: 0.85rem;
+  line-height: 1.3;
+}
+
+.hb-tab-content p {
+  font-size: 1.02rem;
+  color: #94A3B8;
+  line-height: 1.6;
+  margin-bottom: 1.25rem;
+}
+
+.hb-tab-checklist {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.hb-tab-check {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-size: 0.95rem;
+  color: #E2E8F0;
+  font-weight: 500;
+}
+
+.hb-tab-check svg {
+  width: 18px !important;
+  height: 18px !important;
+  min-width: 18px !important;
+  min-height: 18px !important;
+  stroke: #34D399;
+  flex-shrink: 0 !important;
+}
+
+/* 7. Story Chapter 4: Industry Cards */
+.hb-ind-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.75rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+@media (max-width: 900px) {
+  .hb-ind-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.25rem;
+  }
+}
+
+@media (max-width: 580px) {
+  .hb-ind-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.hb-ind-card {
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  border-radius: 20px;
+  padding: 1.75rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.03);
+}
+
+.hb-ind-card:hover {
+  transform: translateY(-4px);
+  border-color: #8B5CF6;
+  box-shadow: 0 14px 32px rgba(139, 92, 246, 0.12);
+}
+
+.hb-ind-icon {
+  width: 46px;
+  height: 46px;
+  border-radius: 12px;
+  background: rgba(139, 92, 246, 0.08);
+  color: #7C3AED;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.hb-ind-icon svg {
+  width: 24px !important;
+  height: 24px !important;
+  min-width: 24px !important;
+  min-height: 24px !important;
+  stroke: #7C3AED;
+  flex-shrink: 0 !important;
+}
+
+.hb-ind-card h4 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #0F172A;
+  margin-bottom: 0.5rem;
+}
+
+.hb-ind-card p {
+  font-size: 0.92rem;
+  color: #64748B;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.hb-ind-preview-pill {
+  font-size: 0.8rem;
+  font-weight: 600;
+  background: #F1F5F9;
+  color: #334155;
+  padding: 0.4rem 0.75rem;
+  border-radius: 9999px;
+  display: inline-block;
+  border: 1px solid #E2E8F0;
+}
+
+/* 8. Story Final CTA Banner */
+.hb-cta-banner {
+  background: linear-gradient(135deg, #7C3AED 0%, #4C1D95 50%, #06B6D4 100%);
+  border-radius: 28px;
+  padding: 4rem 2rem;
+  text-align: center;
+  box-shadow: 0 20px 50px rgba(124, 58, 237, 0.3);
+  max-width: 1100px;
+  margin: 0 auto;
+}
