@@ -2801,11 +2801,11 @@ body.menu-open{overflow:hidden !important}
   display:flex;
   align-items:center;
   justify-content:space-between;
-  height:54px;
+  height:58px;
   gap:1rem;
-  max-width:980px;
+  max-width:min(1220px, 94vw);
   margin:0 auto;
-  padding:0 1.25rem;
+  padding:0 1.25rem 0 1.5rem;
   background:rgba(255,255,255,.96);
   backdrop-filter:blur(20px) saturate(1.6);
   -webkit-backdrop-filter:blur(20px) saturate(1.6);
@@ -2816,8 +2816,8 @@ body.menu-open{overflow:hidden !important}
   transition:all .3s var(--ease-out);
 }
 .site-header.scrolled .header-inner{
-  height:50px;
-  max-width:940px;
+  height:52px;
+  max-width:min(1180px, 94vw);
   background:rgba(255,255,255,.98);
   border-color:rgba(226,232,240,.95);
   box-shadow:0 14px 36px -4px rgba(15,23,42,.16),0 6px 16px rgba(139,92,246,.12);
