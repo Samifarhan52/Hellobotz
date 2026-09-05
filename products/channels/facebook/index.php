@@ -17,7 +17,7 @@ include __DIR__ . '/../../../includes/header.php';
         <h1>Turn Facebook Conversations Into <span class="grad">Sales &amp; Support</span></h1>
         <p class="fb-lead">Capture leads, reply instantly, run chatbot automation, support customers and follow up — all from Facebook Messenger with InboxWa.</p>
         <div class="fb-ctas">
-          <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg">Start Free</a>
+          <a href="/auth/register" class="btn btn-primary btn-lg">Start Free</a>
           <button type="button" class="btn btn-outline btn-lg btn-demo-open" style="border-color:rgba(255,255,255,.5);color:#fff;background:transparent">Book Facebook Demo</button>
         </div>
         <div class="fb-tabs" id="fb-tabs">
@@ -194,7 +194,7 @@ include __DIR__ . '/../../../includes/header.php';
     <div class="section-header reveal">
       <h2 style="color:#fff">Ready to Turn Facebook Conversations Into Customers?</h2>
       <div style="margin-top:1.5rem;display:flex;flex-wrap:wrap;gap:.75rem;justify-content:center">
-        <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg">Start Free</a>
+        <a href="/auth/register" class="btn btn-primary btn-lg">Start Free</a>
         <button type="button" class="btn btn-outline btn-lg btn-demo-open" style="border-color:rgba(255,255,255,.5);color:#fff;background:transparent">Book Facebook Demo</button>
       </div>
     </div>

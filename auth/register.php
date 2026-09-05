@@ -3,7 +3,7 @@ $basePath = '../';
 $robots = 'noindex, nofollow';
 $pageTitle = 'Create Account';
 $pageDescription = 'Create your InboxWa account and start with Official WhatsApp Business API, inbox and automation.';
-$canonicalUrl = 'https://inboxwa.com/auth/register';
+$canonicalUrl = '/auth/register';
 include __DIR__ . '/../includes/header.php';
 ?>
 <section class="section" style="padding-top:calc(var(--nav,72px) + 2.5rem);padding-bottom:4rem">
@@ -32,7 +32,7 @@ include __DIR__ . '/../includes/header.php';
         <button type="submit" class="btn btn-primary btn-block btn-lg" style="width:100%">Create account</button>
       </form>
       <p style="text-align:center;margin-top:1.25rem;font-size:.9rem;color:var(--t2)">
-        Already have an account? <a href="https://inboxwa.com/auth/login"><strong>Sign in</strong></a>
+        Already have an account? <a href="/auth/login"><strong>Sign in</strong></a>
       </p>
     </div>
   </div>

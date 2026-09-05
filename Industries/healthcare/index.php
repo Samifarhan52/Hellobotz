@@ -17,7 +17,7 @@ include __DIR__ . '/../../includes/header.php';
         <h1>Connect Pharma Teams, Medical Representatives &amp; Doctors With <span class="grad">Smarter Automation</span></h1>
         <p class="hc-lead">Help medical teams manage doctor engagement, MR workflows, appointment requests, follow-ups, product information and customer communication through connected WhatsApp automation.</p>
         <div class="hc-ctas">
-          <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg">Start Free</a>
+          <a href="/auth/register" class="btn btn-primary btn-lg">Start Free</a>
           <button type="button" class="btn btn-outline btn-lg btn-demo-open" style="border-color:rgba(255,255,255,.5);color:#fff;background:transparent">Book Healthcare Demo</button>
         </div>
         <div class="hc-tabs" id="hc-tabs">
@@ -289,7 +289,7 @@ include __DIR__ . '/../../includes/header.php';
       <h2 style="color:#fff">Build a Smarter Healthcare Communication Workflow</h2>
       <p class="lead" style="color:rgba(255,255,255,.75)">Connect your pharma teams, medical representatives, doctors and healthcare operations with InboxWa automation.</p>
       <div style="margin-top:1.5rem;display:flex;flex-wrap:wrap;gap:.75rem;justify-content:center">
-        <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg">Start Free</a>
+        <a href="/auth/register" class="btn btn-primary btn-lg">Start Free</a>
         <button type="button" class="btn btn-outline btn-lg btn-demo-open" style="border-color:rgba(255,255,255,.5);color:#fff;background:transparent">Book Healthcare Demo</button>
       </div>
     </div>

@@ -16,7 +16,7 @@ $ios = trim($appLinks['ios'] ?? '');
 <?php if ($ios): ?>
 <a class="btn btn-primary btn-lg" style="margin-top:1rem" href="<?php echo htmlspecialchars($ios); ?>" target="_blank" rel="noopener"> Download on the App Store</a>
 <?php else: ?>
-<a class="btn btn-primary btn-lg" style="margin-top:1rem" href="https://inboxwa.com/auth/login">Use Web App until App Store link is live</a>
+<a class="btn btn-primary btn-lg" style="margin-top:1rem" href="/auth/login">Use Web App until App Store link is live</a>
 <?php endif; ?>
 </div></div></section>
 <section class="section"><div class="container"><div class="res-grid">

@@ -21,7 +21,7 @@ include __DIR__ . '/../../includes/header.php';
         <h1>Turn Property Enquiries Into <span class="grad">Site Visits &amp; Sales</span></h1>
         <p class="re-lead">Capture real estate leads, understand buyer requirements, recommend properties and automate follow-ups with AI-powered WhatsApp automation.</p>
         <div class="re-ctas">
-          <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg">Start Free</a>
+          <a href="/auth/register" class="btn btn-primary btn-lg">Start Free</a>
           <button type="button" class="btn-ghost-light btn-demo-open">Book Real Estate Demo</button>
         </div>
         <div class="re-sim-tabs" id="re-tabs" role="tablist" aria-label="Real estate simulations">
@@ -118,7 +118,7 @@ include __DIR__ . '/../../includes/header.php';
           <span>Location</span><span>Property Type</span><span>Budget</span>
           <span>Bedrooms</span><span>Possession</span><span>Purpose</span>
         </div>
-        <a href="https://inboxwa.com/auth/register" class="btn btn-primary">Explore Properties</a>
+        <a href="/auth/register" class="btn btn-primary">Explore Properties</a>
       </div>
       <div class="re-prop-cards">
         <div class="re-prop-card">
@@ -426,7 +426,7 @@ include __DIR__ . '/../../includes/header.php';
       <h2 style="color:#fff">Turn Every Property Enquiry Into a Sales Opportunity</h2>
       <p class="lead" style="color:rgba(255,255,255,.75)">Capture leads, recommend properties, automate follow-ups and book more site visits with InboxWa.</p>
       <div style="margin-top:1.5rem;display:flex;flex-wrap:wrap;gap:.75rem;justify-content:center">
-        <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg">Start Free</a>
+        <a href="/auth/register" class="btn btn-primary btn-lg">Start Free</a>
         <button type="button" class="btn btn-outline btn-lg btn-demo-open" style="border-color:rgba(255,255,255,.45);color:#fff;background:transparent">Book Real Estate Demo</button>
       </div>
     </div>

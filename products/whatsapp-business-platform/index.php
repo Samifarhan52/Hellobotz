@@ -17,7 +17,7 @@ include __DIR__ . '/../../includes/header.php';
         <h1>One WhatsApp Platform for <span class="grad">Conversations, Teams &amp; Growth</span></h1>
         <p class="wbp-lead">Connect your official WhatsApp Business API, manage customer conversations with your team and run targeted broadcast campaigns from one powerful platform.</p>
         <div class="wbp-ctas">
-          <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg">Start Free Trial</a>
+          <a href="/auth/register" class="btn btn-primary btn-lg">Start Free Trial</a>
           <button type="button" class="btn btn-outline btn-lg btn-demo-open" style="border-color:rgba(255,255,255,.5);color:#fff;background:transparent">Book WhatsApp Demo</button>
         </div>
         <div class="wbp-tabs" id="wbp-tabs">
@@ -171,7 +171,7 @@ include __DIR__ . '/../../includes/header.php';
     <div class="section-header reveal">
       <h2 style="color:#fff">Turn WhatsApp Into Your Complete Business Communication Platform</h2>
       <div style="margin-top:1.5rem;display:flex;flex-wrap:wrap;gap:.75rem;justify-content:center">
-        <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg">Start Free Trial</a>
+        <a href="/auth/register" class="btn btn-primary btn-lg">Start Free Trial</a>
         <button type="button" class="btn btn-outline btn-lg btn-demo-open" style="border-color:rgba(255,255,255,.5);color:#fff;background:transparent">Book WhatsApp Demo</button>
       </div>
     </div>

@@ -18,7 +18,7 @@ include __DIR__ . '/../../includes/header.php';
         <h1>Turn WhatsApp Conversations Into <span class="grad">E-commerce Sales</span></h1>
         <p class="ecom-lead">Help customers discover products, answer questions, recover abandoned carts, send order updates and automate customer engagement with WhatsApp and AI.</p>
         <div class="ecom-ctas">
-          <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg">Get Started</a>
+          <a href="/auth/register" class="btn btn-primary btn-lg">Get Started</a>
           <button type="button" class="btn btn-outline btn-lg btn-demo-open" style="border-color:rgba(255,255,255,.5);color:#fff;background:transparent">Book E-commerce Demo</button>
         </div>
         <div class="ecom-tabs" id="ecom-tabs">
@@ -113,7 +113,7 @@ include __DIR__ . '/../../includes/header.php';
           <li>Purchase guidance</li>
           <li>Human handover</li>
         </ul>
-        <a href="https://inboxwa.com/auth/register" class="btn btn-primary">Explore E-commerce Automation</a>
+        <a href="/auth/register" class="btn btn-primary">Explore E-commerce Automation</a>
       </div>
       <div class="ecom-catalog">
         <div class="ecom-prod"><div class="ecom-prod-img">👟</div><strong>Running Shoes</strong><span>₹2,999 · Demo</span></div>
@@ -251,7 +251,7 @@ include __DIR__ . '/../../includes/header.php';
       <h2 style="color:#fff">Turn Conversations Into Commerce</h2>
       <p class="lead" style="color:rgba(255,255,255,.75)">Connect your store, automate customer conversations and build a better shopping experience with InboxWa.</p>
       <div style="margin-top:1.5rem;display:flex;flex-wrap:wrap;gap:.75rem;justify-content:center">
-        <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg">Get Started</a>
+        <a href="/auth/register" class="btn btn-primary btn-lg">Get Started</a>
         <button type="button" class="btn btn-outline btn-lg btn-demo-open" style="border-color:rgba(255,255,255,.5);color:#fff;background:transparent">Book E-commerce Demo</button>
       </div>
     </div>

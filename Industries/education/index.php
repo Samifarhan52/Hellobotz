@@ -21,7 +21,7 @@ include __DIR__ . '/../../includes/header.php';
         <p class="edu-lead">Simplify admissions instantly, deliver class reminders, share exam updates, collect tuition fees, and engage students &amp; parents with ease! Built for schools, colleges, coaching institutes, and EdTech platforms.</p>
         
         <div class="edu-ctas">
-          <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg">Start 14-Day Free Trial</a>
+          <a href="/auth/register" class="btn btn-primary btn-lg">Start 14-Day Free Trial</a>
           <button type="button" class="btn-ghost-light btn-demo-open">Book Education Demo</button>
         </div>
 
@@ -555,7 +555,7 @@ include __DIR__ . '/../../includes/header.php';
       <h2 style="color:#fff">Ready to Power Up Your EdTech &amp; Institution Growth?</h2>
       <p class="lead" style="color:rgba(255,255,255,.8)">Join hundreds of schools, universities, coaching institutes, and EdTech platforms growing faster with InboxWa.</p>
       <div style="margin-top:1.5rem;display:flex;flex-wrap:wrap;gap:1rem;justify-content:center">
-        <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg">Start 14-Day Free Trial</a>
+        <a href="/auth/register" class="btn btn-primary btn-lg">Start 14-Day Free Trial</a>
         <a href="https://wa.me/918050854445?text=Hi%20InboxWa%2C%20I%20want%20a%20demo%20for%20our%20educational%20institution" target="_blank" rel="noopener" class="btn btn-outline btn-lg" style="border-color:rgba(255,255,255,.4);color:#fff">WhatsApp Sales Direct</a>
       </div>
     </div>

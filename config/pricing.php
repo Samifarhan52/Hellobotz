@@ -8,7 +8,7 @@ return [
   'INR_TO_USD_RATE' => 0.012, // configurable – not a live FX feed
   'gst_rate' => 0.18,
   'trial_days' => 14,
-  'register_url' => 'https://inboxwa.com/auth/register',
+  'register_url' => '/auth/register',
   'whatsapp' => '918050854445',
 
   'plans' => [

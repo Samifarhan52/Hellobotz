@@ -17,7 +17,7 @@ include __DIR__ . '/../../includes/header.php';
         <h1>Turn your Shopify store into a <span class="grad">WhatsApp sales machine</span></h1>
         <p class="shy-lead">Recover abandoned carts, recommend products, automate orders, run WhatsApp campaigns and support customers with InboxWa.</p>
         <div class="shy-ctas">
-          <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg">Start Free</a>
+          <a href="/auth/register" class="btn btn-primary btn-lg">Start Free</a>
           <button type="button" class="btn-ghost-light btn-demo-open">Book Shopify Demo</button>
         </div>
         <div class="shy-tabs" id="shy-tabs" role="tablist">
@@ -266,7 +266,7 @@ include __DIR__ . '/../../includes/header.php';
     <h2 style="color:#fff">Ready to turn your Shopify store into a WhatsApp sales channel?</h2>
     <p class="lead" style="color:rgba(255,255,255,.75)">Connect Shopify with InboxWa and automate product discovery, marketing, orders, support and engagement.</p>
     <div style="margin-top:1.25rem;display:flex;flex-wrap:wrap;gap:.75rem;justify-content:center">
-      <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg">Start Free</a>
+      <a href="/auth/register" class="btn btn-primary btn-lg">Start Free</a>
       <button type="button" class="btn btn-outline btn-lg btn-demo-open" style="border-color:rgba(255,255,255,.45);color:#fff;background:transparent">Book Shopify Demo</button>
     </div>
   </div></div>

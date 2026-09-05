@@ -18,7 +18,7 @@ include __DIR__ . '/../../includes/header.php';
         <h1>Book Meetings. Automate Reminders. <span class="grad">Close More Deals.</span></h1>
         <p class="gcm-lead">Connect Google Calendar and Google Meet with InboxWa to let customers book appointments, automatically create meetings and receive confirmations and reminders on WhatsApp.</p>
         <div class="gcm-ctas">
-          <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg">Get Started</a>
+          <a href="/auth/register" class="btn btn-primary btn-lg">Get Started</a>
           <button type="button" class="btn btn-outline btn-lg btn-demo-open" style="border-color:rgba(255,255,255,.5);color:#fff;background:transparent">Book a Demo</button>
         </div>
         <div class="gcm-tabs" id="gcm-tabs" role="tablist">
@@ -99,7 +99,7 @@ include __DIR__ . '/../../includes/header.php';
           <li>Rescheduling support where configured</li>
           <li>Automated customer notifications</li>
         </ul>
-        <a href="https://inboxwa.com/auth/register" class="btn btn-primary">Start Booking Automation</a>
+        <a href="/auth/register" class="btn btn-primary">Start Booking Automation</a>
         <p class="gcm-note">Google Calendar branding used for illustration only — not an official Google endorsement.</p>
       </div>
     </div>
@@ -328,7 +328,7 @@ include __DIR__ . '/../../includes/header.php';
       <h2 style="color:#fff">Make Every Appointment Automatic</h2>
       <p class="lead" style="color:rgba(255,255,255,.75)">Connect Google Calendar and Google Meet with InboxWa and turn bookings into seamless WhatsApp-powered meeting experiences.</p>
       <div style="margin-top:1.5rem;display:flex;flex-wrap:wrap;gap:.75rem;justify-content:center">
-        <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg">Get Started</a>
+        <a href="/auth/register" class="btn btn-primary btn-lg">Get Started</a>
         <button type="button" class="btn btn-outline btn-lg btn-demo-open" style="border-color:rgba(255,255,255,.5);color:#fff;background:transparent">Book a Demo</button>
       </div>
     </div>

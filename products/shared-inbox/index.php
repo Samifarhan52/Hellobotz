@@ -16,7 +16,7 @@ include __DIR__ . '/../../includes/header.php';
     <h1>One shared inbox for WhatsApp and social messages</h1>
     <p class="lead">Assign chats, collaborate with notes, and keep SLAs visible across your support and sales teams.</p>
     <div style="margin-top:1.5rem;display:flex;flex-wrap:wrap;gap:.75rem;justify-content:center">
-      <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg">Start Free Trial</a>
+      <a href="/auth/register" class="btn btn-primary btn-lg">Start Free Trial</a>
       <a href="/#contact-section" class="btn btn-outline btn-lg" style="border-color:rgba(255,255,255,.4);color:#fff">Book a Demo</a>
     </div>
   </div>

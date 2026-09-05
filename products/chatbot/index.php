@@ -17,7 +17,7 @@ include __DIR__ . '/../../includes/header.php';
         <h1>Build a Chatbot That <span class="grad">Knows Your Business</span></h1>
         <p class="bot-lead">Train your AI chatbot with your own business knowledge, test conversations instantly and deploy it on WhatsApp to answer customers 24/7.</p>
         <div class="bot-ctas">
-          <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg">Build Your Chatbot</a>
+          <a href="/auth/register" class="btn btn-primary btn-lg">Build Your Chatbot</a>
           <button type="button" class="btn btn-outline btn-lg btn-demo-open" style="border-color:rgba(255,255,255,.5);color:#fff;background:transparent">Try Live Demo</button>
         </div>
         <div class="bot-tabs" id="bot-tabs">
@@ -366,7 +366,7 @@ include __DIR__ . '/../../includes/header.php';
       <h2 style="color:#fff">Build Your AI Chatbot Today</h2>
       <p class="lead" style="color:rgba(255,255,255,.75)">Train it on your business knowledge, test every conversation and deploy an AI assistant that works alongside your team.</p>
       <div style="margin-top:1.5rem;display:flex;flex-wrap:wrap;gap:.75rem;justify-content:center">
-        <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg">Build Your Chatbot</a>
+        <a href="/auth/register" class="btn btn-primary btn-lg">Build Your Chatbot</a>
         <button type="button" class="btn btn-outline btn-lg btn-demo-open" style="border-color:rgba(255,255,255,.5);color:#fff;background:transparent">Try Live Demo</button>
       </div>
     </div>

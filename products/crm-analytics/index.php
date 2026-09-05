@@ -17,7 +17,7 @@ include __DIR__ . '/../../includes/header.php';
         <h1>Turn Every Customer Conversation Into <span class="grad">Actionable Intelligence</span></h1>
         <p class="ca-lead">Manage contacts, conversations, leads and customer journeys while turning your business data into clear insights from one powerful workspace.</p>
         <div class="ca-ctas">
-          <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg">Start Free Trial</a>
+          <a href="/auth/register" class="btn btn-primary btn-lg">Start Free Trial</a>
           <button type="button" class="btn btn-outline btn-lg btn-demo-open" style="border-color:rgba(255,255,255,.5);color:#fff;background:transparent">Book CRM Demo</button>
         </div>
         <div class="ca-tabs" id="ca-tabs">
@@ -205,7 +205,7 @@ include __DIR__ . '/../../includes/header.php';
     <div class="section-header reveal">
       <h2 style="color:#fff">Manage Customers Smarter. Understand Your Business Better.</h2>
       <div style="margin-top:1.5rem;display:flex;flex-wrap:wrap;gap:.75rem;justify-content:center">
-        <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg">Start Free Trial</a>
+        <a href="/auth/register" class="btn btn-primary btn-lg">Start Free Trial</a>
         <button type="button" class="btn btn-outline btn-lg btn-demo-open" style="border-color:rgba(255,255,255,.5);color:#fff;background:transparent">Book CRM Demo</button>
       </div>
     </div>

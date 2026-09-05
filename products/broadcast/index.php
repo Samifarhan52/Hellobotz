@@ -16,7 +16,7 @@ include __DIR__ . '/../../includes/header.php';
     <h1>Broadcast campaigns with segments, templates and results</h1>
     <p class="lead">Run marketing and utility campaigns on Official API with audience segments and clear delivery metrics.</p>
     <div style="margin-top:1.5rem;display:flex;flex-wrap:wrap;gap:.75rem;justify-content:center">
-      <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg">Start Free Trial</a>
+      <a href="/auth/register" class="btn btn-primary btn-lg">Start Free Trial</a>
       <a href="/#contact-section" class="btn btn-outline btn-lg" style="border-color:rgba(255,255,255,.4);color:#fff">Book a Demo</a>
     </div>
   </div>

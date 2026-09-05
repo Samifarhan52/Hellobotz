@@ -236,7 +236,7 @@ if (!function_exists('hb_seo_esc')) {
                 <span class="mega-guide-badge">PLATFORM</span>
                 <h4>WhatsApp API + Automation</h4>
                 <p>Official Meta API, inbox, broadcasts, flows and CRM — built for sales and support teams.</p>
-                <a href="https://inboxwa.com/auth/register" class="btn btn-sm btn-primary" style="margin-top:.5rem;align-self:flex-start">Start Free Trial</a>
+                <a href="<?php echo $bp; ?>auth/register" class="btn btn-sm btn-primary" style="margin-top:.5rem;align-self:flex-start">Start Free Trial</a>
               </div>
             </div>
           </div>
@@ -418,14 +418,14 @@ if (!function_exists('hb_seo_esc')) {
             <li role="option" data-lang="fr">Français</li>
           </ul>
         </div>
-        <a href="https://inboxwa.com/auth/login" class="header-login"><span>Login</span></a>
-        <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-sm header-cta-start">Start Free</a>
+        <a href="<?php echo $bp; ?>auth/login" class="header-login"><span>Login</span></a>
+        <a href="<?php echo $bp; ?>auth/register" class="btn btn-primary btn-sm header-cta-start">Start Free</a>
         <button type="button" class="mobile-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
       </div>
     </div>
   </header>
 
-  <div class="mobile-menu" id="mobile-menu" role="dialog" aria-label="Mobile navigation" hidden aria-hidden="true" style="display:none">
+  <div class="mobile-menu" id="mobile-menu" role="dialog" aria-label="Mobile navigation" hidden aria-hidden="true">
     <div class="mobile-backdrop"></div>
     <div class="mobile-drawer">
       <div class="mobile-drawer-header">
@@ -517,8 +517,8 @@ if (!function_exists('hb_seo_esc')) {
           </div></div>
         </div>
         <div class="mobile-nav-actions">
-          <a href="https://inboxwa.com/auth/login" class="mnav-login">Login</a>
-          <a href="https://inboxwa.com/auth/register" class="mnav-start">Start Free</a>
+          <a href="<?php echo $bp; ?>auth/login" class="mnav-login">Login</a>
+          <a href="<?php echo $bp; ?>auth/register" class="mnav-start">Start Free</a>
           <a href="/#contact-section" class="mnav-demo btn-demo-open">Book a Demo</a>
         </div>
       </div>

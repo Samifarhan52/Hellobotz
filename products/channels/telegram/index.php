@@ -17,7 +17,7 @@ include __DIR__ . '/../../../includes/header.php';
         <h1>Turn Telegram Into a Smart <span class="grad">Business Automation Channel</span></h1>
         <p class="tg-lead">Automate conversations, build Telegram bot experiences, capture customer information and connect your business workflows through InboxWa.</p>
         <div class="tg-ctas">
-          <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg">Start Free</a>
+          <a href="/auth/register" class="btn btn-primary btn-lg">Start Free</a>
           <button type="button" class="btn btn-outline btn-lg btn-demo-open" style="border-color:rgba(255,255,255,.5);color:#fff;background:transparent">Book Telegram Demo</button>
         </div>
         <div class="tg-tabs" id="tg-tabs">
@@ -268,7 +268,7 @@ include __DIR__ . '/../../../includes/header.php';
       <h2 style="color:#fff">Build a Smarter Telegram Experience</h2>
       <p class="lead" style="color:rgba(255,255,255,.75)">Automate conversations and connect Telegram with your business workflows.</p>
       <div style="margin-top:1.5rem;display:flex;flex-wrap:wrap;gap:.75rem;justify-content:center">
-        <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg">Start Free</a>
+        <a href="/auth/register" class="btn btn-primary btn-lg">Start Free</a>
         <button type="button" class="btn btn-outline btn-lg btn-demo-open" style="border-color:rgba(255,255,255,.5);color:#fff;background:transparent">Book Telegram Demo</button>
       </div>
     </div>

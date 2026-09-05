@@ -18,7 +18,7 @@ include __DIR__ . '/../../includes/header.php';
         <h1>Connect Your CRM. Automate Every <span class="grad">Customer Conversation.</span></h1>
         <p class="crm-lead">Bring your CRM, WhatsApp and AI together to capture leads, automate communication, manage follow-ups and help your sales team close opportunities faster.</p>
         <div class="crm-ctas">
-          <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg">Get Started</a>
+          <a href="/auth/register" class="btn btn-primary btn-lg">Get Started</a>
           <button type="button" class="btn btn-outline btn-lg btn-demo-open" style="border-color:rgba(255,255,255,.5);color:#fff;background:transparent">Book CRM Demo</button>
         </div>
         <div class="crm-tabs" id="crm-tabs">
@@ -212,7 +212,7 @@ include __DIR__ . '/../../includes/header.php';
       <h2 style="color:#fff">Connect Your CRM With WhatsApp Automation</h2>
       <p class="lead" style="color:rgba(255,255,255,.75)">Bring your customer data, sales team and WhatsApp conversations together with InboxWa.</p>
       <div style="margin-top:1.5rem;display:flex;flex-wrap:wrap;gap:.75rem;justify-content:center">
-        <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg">Get Started</a>
+        <a href="/auth/register" class="btn btn-primary btn-lg">Get Started</a>
         <button type="button" class="btn btn-outline btn-lg btn-demo-open" style="border-color:rgba(255,255,255,.5);color:#fff;background:transparent">Book CRM Demo</button>
       </div>
     </div>

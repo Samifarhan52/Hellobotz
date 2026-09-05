@@ -17,7 +17,7 @@ include __DIR__ . '/../../includes/header.php';
         <h1>Turn Your WooCommerce Store Into a <span class="grad">WhatsApp Sales Machine</span></h1>
         <p class="woo-lead">Connect WooCommerce with InboxWa and automate product discovery, abandoned carts, orders, payments, marketing, delivery updates and customer support on WhatsApp.</p>
         <div class="woo-ctas">
-          <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg">Start Free</a>
+          <a href="/auth/register" class="btn btn-primary btn-lg">Start Free</a>
           <button type="button" class="btn-ghost-light btn-demo-open">Book WooCommerce Demo</button>
         </div>
         <div class="woo-tabs" id="woo-tabs" role="tablist">
@@ -344,7 +344,7 @@ include __DIR__ . '/../../includes/header.php';
     <h2 style="color:#fff">Ready to Connect WooCommerce With WhatsApp?</h2>
     <p class="lead" style="color:rgba(255,255,255,.75)">Automate shopping, marketing, orders and customer support with InboxWa.</p>
     <div style="margin-top:1.25rem;display:flex;flex-wrap:wrap;gap:.75rem;justify-content:center">
-      <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg">Start Free</a>
+      <a href="/auth/register" class="btn btn-primary btn-lg">Start Free</a>
       <button type="button" class="btn btn-outline btn-lg btn-demo-open" style="border-color:rgba(255,255,255,.45);color:#fff;background:transparent">Book WooCommerce Demo</button>
     </div>
   </div></div>

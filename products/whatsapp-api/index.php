@@ -16,7 +16,7 @@ include __DIR__ . '/../../includes/header.php';
     <h1>Official WhatsApp Business API for serious teams</h1>
     <p class="lead">Connect your WhatsApp Business Account, send compliant templates, and run support and sales chats with full delivery visibility.</p>
     <div style="margin-top:1.5rem;display:flex;flex-wrap:wrap;gap:.75rem;justify-content:center">
-      <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg">Start Free Trial</a>
+      <a href="/auth/register" class="btn btn-primary btn-lg">Start Free Trial</a>
       <a href="/#contact-section" class="btn btn-outline btn-lg" style="border-color:rgba(255,255,255,.4);color:#fff">Book a Demo</a>
     </div>
   </div>

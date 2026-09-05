@@ -17,7 +17,7 @@ include __DIR__ . '/../../includes/header.php';
         <h1>Turn Every Enquiry Into a <span class="grad">Confirmed Appointment</span></h1>
         <p class="ap-lead">Let customers discover available slots, book appointments, receive WhatsApp confirmations and reminders, while your team manages everything from one connected workflow.</p>
         <div class="ap-ctas">
-          <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg">Start Free</a>
+          <a href="/auth/register" class="btn btn-primary btn-lg">Start Free</a>
           <button type="button" class="btn btn-outline btn-lg btn-demo-open" style="border-color:rgba(255,255,255,.5);color:#fff;background:transparent">Book a Demo</button>
         </div>
       </div>
@@ -199,7 +199,7 @@ include __DIR__ . '/../../includes/header.php';
       <h2 style="color:#fff">Make Appointment Booking Effortless</h2>
       <p class="lead" style="color:rgba(255,255,255,.75)">Let customers book, confirm, reschedule and receive reminders through one connected workflow.</p>
       <div style="margin-top:1.5rem;display:flex;flex-wrap:wrap;gap:.75rem;justify-content:center">
-        <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg">Start Free</a>
+        <a href="/auth/register" class="btn btn-primary btn-lg">Start Free</a>
         <button type="button" class="btn btn-outline btn-lg btn-demo-open" style="border-color:rgba(255,255,255,.5);color:#fff;background:transparent">Book a Demo</button>
       </div>
     </div>

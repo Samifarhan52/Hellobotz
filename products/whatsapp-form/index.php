@@ -17,7 +17,7 @@ include __DIR__ . '/../../includes/header.php';
         <h1>Turn WhatsApp Conversations Into <span class="grad">Smart Lead Forms</span></h1>
         <p class="wf-lead">Collect customer information directly through WhatsApp, qualify leads and trigger the right business workflow automatically.</p>
         <div class="wf-ctas">
-          <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg">Get Started</a>
+          <a href="/auth/register" class="btn btn-primary btn-lg">Get Started</a>
           <button type="button" class="btn btn-outline btn-lg btn-demo-open" style="border-color:rgba(255,255,255,.5);color:#fff;background:transparent">Try WhatsApp Form</button>
         </div>
         <div class="wf-tabs" id="wf-tabs">
@@ -187,7 +187,7 @@ include __DIR__ . '/../../includes/header.php';
     <div class="section-header reveal">
       <h2 style="color:#fff">Start Collecting Better Leads on WhatsApp</h2>
       <div style="margin-top:1.5rem;display:flex;flex-wrap:wrap;gap:.75rem;justify-content:center">
-        <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg">Get Started</a>
+        <a href="/auth/register" class="btn btn-primary btn-lg">Get Started</a>
         <button type="button" class="btn btn-outline btn-lg btn-demo-open" style="border-color:rgba(255,255,255,.5);color:#fff;background:transparent">Try WhatsApp Form</button>
       </div>
     </div>

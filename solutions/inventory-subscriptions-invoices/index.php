@@ -17,7 +17,7 @@ include __DIR__ . '/../../includes/header.php';
         <h1>Inventory, Subscriptions &amp; Invoices — <span class="grad">One Connected Flow</span></h1>
         <p class="isi-lead">Send stock alerts, manage renewals and collect invoice payments through WhatsApp workflows with InboxWa.</p>
         <div class="isi-ctas">
-          <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg">Start Free</a>
+          <a href="/auth/register" class="btn btn-primary btn-lg">Start Free</a>
           <button type="button" class="btn btn-outline btn-lg btn-demo-open" style="border-color:rgba(255,255,255,.5);color:#fff;background:transparent">Book a Demo</button>
         </div>
       </div>
@@ -151,7 +151,7 @@ include __DIR__ . '/../../includes/header.php';
     <div class="section-header reveal">
       <h2 style="color:#fff">Run Operations Conversations on WhatsApp</h2>
       <div style="margin-top:1.5rem;display:flex;flex-wrap:wrap;gap:.75rem;justify-content:center">
-        <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg">Start Free</a>
+        <a href="/auth/register" class="btn btn-primary btn-lg">Start Free</a>
         <button type="button" class="btn btn-outline btn-lg btn-demo-open" style="border-color:rgba(255,255,255,.5);color:#fff;background:transparent">Book a Demo</button>
       </div>
     </div>

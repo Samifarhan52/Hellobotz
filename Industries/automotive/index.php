@@ -17,7 +17,7 @@ include __DIR__ . '/../../includes/header.php';
         <h1>Turn Every Vehicle Enquiry Into a <span class="grad">Sales Opportunity</span></h1>
         <p class="au-lead">Capture automotive leads, answer vehicle enquiries, book test drives, manage follow-ups and connect customers with your sales team through WhatsApp automation.</p>
         <div class="au-ctas">
-          <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg">Start Free</a>
+          <a href="/auth/register" class="btn btn-primary btn-lg">Start Free</a>
           <button type="button" class="btn btn-outline btn-lg btn-demo-open" style="border-color:rgba(255,255,255,.5);color:#fff;background:transparent">Book Automotive Demo</button>
         </div>
       </div>
@@ -216,7 +216,7 @@ include __DIR__ . '/../../includes/header.php';
       <h2 style="color:#fff">Turn Every Automotive Enquiry Into Your Next Opportunity</h2>
       <p class="lead" style="color:rgba(255,255,255,.75)">Capture leads, book test drives, automate follow-ups and connect your sales &amp; service teams with InboxWa.</p>
       <div style="margin-top:1.5rem;display:flex;flex-wrap:wrap;gap:.75rem;justify-content:center">
-        <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg">Start Free</a>
+        <a href="/auth/register" class="btn btn-primary btn-lg">Start Free</a>
         <button type="button" class="btn btn-outline btn-lg btn-demo-open" style="border-color:rgba(255,255,255,.5);color:#fff;background:transparent">Book Automotive Demo</button>
       </div>
     </div>

@@ -3,7 +3,7 @@ $basePath = '../';
 $robots = 'noindex, nofollow';
 $pageTitle = 'Login';
 $pageDescription = 'Sign in to your InboxWa account — WhatsApp API, shared inbox, automation and CRM.';
-$canonicalUrl = 'https://inboxwa.com/auth/login';
+$canonicalUrl = '/auth/login';
 include __DIR__ . '/../includes/header.php';
 ?>
 <section class="section" style="padding-top:calc(var(--nav,72px) + 2.5rem);padding-bottom:4rem">
@@ -26,7 +26,7 @@ include __DIR__ . '/../includes/header.php';
         <button type="submit" class="btn btn-primary btn-block btn-lg" style="width:100%">Sign in</button>
       </form>
       <p style="text-align:center;margin-top:1.25rem;font-size:.9rem;color:var(--t2)">
-        New to InboxWa? <a href="https://inboxwa.com/auth/register"><strong>Create an account</strong></a>
+        New to InboxWa? <a href="/auth/register"><strong>Create an account</strong></a>
       </p>
       <p style="text-align:center;margin-top:.75rem;font-size:.8rem;color:var(--t3)">
         Or <a href="<?php echo $bp; ?>#contact-section">book a demo</a> with sales

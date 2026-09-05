@@ -25,10 +25,10 @@ $desktop = trim($appLinks['desktop'] ?? '');
 <section class="section"><div class="container"><div class="res-grid">
 <div class="card res-card reveal"><h3>Android</h3><p>Inbox, replies and notifications on the go.</p><?php if ($android): ?><a class="btn btn-sm btn-primary" href="<?php echo htmlspecialchars($android); ?>" target="_blank" rel="noopener">Google Play</a><?php else: ?><span class="btn btn-sm btn-outline" style="opacity:.6;pointer-events:none">Link not configured</span><?php endif; ?></div>
 <div class="card res-card reveal"><h3>iOS</h3><p>iPhone and iPad experience for agents and owners.</p><a class="btn btn-sm btn-outline" href="/resources/download-ios-app/">iOS page</a></div>
-<div class="card res-card reveal"><h3>Desktop</h3><p>Full workspace in the browser — and desktop when available.</p><?php if ($desktop): ?><a class="btn btn-sm btn-primary" href="<?php echo htmlspecialchars($desktop); ?>">Download Desktop</a><?php else: ?><a class="btn btn-sm btn-outline" href="https://inboxwa.com/auth/login">Open Web App</a><?php endif; ?></div>
+<div class="card res-card reveal"><h3>Desktop</h3><p>Full workspace in the browser — and desktop when available.</p><?php if ($desktop): ?><a class="btn btn-sm btn-primary" href="<?php echo htmlspecialchars($desktop); ?>">Download Desktop</a><?php else: ?><a class="btn btn-sm btn-outline" href="/auth/login">Open Web App</a><?php endif; ?></div>
 </div></div></section>
 <section class="section section-alt" id="notify"><div class="container" style="max-width:520px;text-align:center">
 <p class="lead">Store links are configured in <code>config/app-links.php</code>. Until then, use the web app.</p>
-<a class="btn btn-primary" href="https://inboxwa.com/auth/login">Open InboxWa</a>
+<a class="btn btn-primary" href="/auth/login">Open InboxWa</a>
 </div></section>
 <?php include __DIR__ . '/../../includes/footer.php'; ?>

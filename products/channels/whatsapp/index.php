@@ -17,7 +17,7 @@ include __DIR__ . '/../../../includes/header.php';
         <h1>Turn WhatsApp Into Your Most <span class="grad">Powerful Business Channel</span></h1>
         <p class="cw-lead">Connect with customers, capture leads, automate conversations, manage your team and grow your business — all through WhatsApp with InboxWa.</p>
         <div class="cw-ctas">
-          <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg">Start Free Trial</a>
+          <a href="/auth/register" class="btn btn-primary btn-lg">Start Free Trial</a>
           <button type="button" class="btn btn-outline btn-lg btn-demo-open" style="border-color:rgba(255,255,255,.5);color:#fff;background:transparent">Book WhatsApp Demo</button>
         </div>
       </div>
@@ -246,7 +246,7 @@ include __DIR__ . '/../../../includes/header.php';
     <div class="section-header reveal">
       <h2 style="color:#fff">Ready to Make WhatsApp Your Business Growth Channel?</h2>
       <div style="margin-top:1.5rem;display:flex;flex-wrap:wrap;gap:.75rem;justify-content:center">
-        <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg">Start Free Trial</a>
+        <a href="/auth/register" class="btn btn-primary btn-lg">Start Free Trial</a>
         <button type="button" class="btn btn-outline btn-lg btn-demo-open" style="border-color:rgba(255,255,255,.5);color:#fff;background:transparent">Book WhatsApp Demo</button>
       </div>
     </div>

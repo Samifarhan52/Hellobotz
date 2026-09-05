@@ -20,7 +20,7 @@ include __DIR__ . '/includes/header.php';
   },
   "potentialAction": {
     "@type": "RegisterAction",
-    "target": "https://inboxwa.com/auth/register"
+    "target": "/auth/register"
   }
 }
 </script>
@@ -56,7 +56,7 @@ include __DIR__ . '/includes/header.php';
           <h1>WhatsApp Automation Software &amp; <span class="hb-grad">AI Chatbot</span> for Business</h1>
           <p class="hb-lead">Boost engagement, qualify leads, and provide 24/7 support with seamless, AI-powered WhatsApp conversations. Integrate instantly and scale efficiently.</p>
           <div class="hb-hero-ctas">
-            <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg">Start Automating - It's Free</a>
+            <a href="/auth/register" class="btn btn-primary btn-lg">Start Automating - It's Free</a>
             <button type="button" class="btn btn-outline btn-lg btn-demo-open">Book a Demo</button>
           </div>
           <div class="hb-stats">
@@ -286,7 +286,7 @@ include __DIR__ . '/includes/header.php';
             <div class="hb-tab-check"><svg viewBox="0 0 24 24" width="18" height="18" style="width:18px;height:18px;flex-shrink:0;" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg> Green Tick Verification badge assistance</div>
             <div class="hb-tab-check"><svg viewBox="0 0 24 24" width="18" height="18" style="width:18px;height:18px;flex-shrink:0;" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg> Interactive quick-reply buttons</div>
           </div>
-          <a href="https://inboxwa.com/auth/register" class="btn btn-primary" style="margin-top:1rem;">Connect WhatsApp API &rarr;</a>
+          <a href="/auth/register" class="btn btn-primary" style="margin-top:1rem;">Connect WhatsApp API &rarr;</a>
         </div>
         <div class="hb-tab-preview">
           <div style="font-weight:700;color:#C4B5FD;margin-bottom:0.75rem;font-size:0.85rem;text-transform:uppercase;">Meta API Status</div>
@@ -304,7 +304,7 @@ include __DIR__ . '/includes/header.php';
         <div class="hb-tab-content">
           <h3>Shared Team Inbox with Live Handover</h3>
           <p>Unify customer conversations across WhatsApp, Instagram DMs, and Facebook Messenger into one shared team workspace.</p>
-          <a href="https://inboxwa.com/auth/register" class="btn btn-primary" style="margin-top:1rem;">Try Shared Inbox &rarr;</a>
+          <a href="/auth/register" class="btn btn-primary" style="margin-top:1rem;">Try Shared Inbox &rarr;</a>
         </div>
         <div class="hb-tab-preview">
           <div style="font-weight:700;color:#67E8F9;margin-bottom:0.75rem;font-size:0.85rem;text-transform:uppercase;">Team Workspace</div>
@@ -318,7 +318,7 @@ include __DIR__ . '/includes/header.php';
         <div class="hb-tab-content">
           <h3>No-Code Visual AI Flow Builder</h3>
           <p>Drag, drop, and construct conversational AI bots that capture leads and answer support queries 24/7.</p>
-          <a href="https://inboxwa.com/auth/register" class="btn btn-primary" style="margin-top:1rem;">Build AI Bot Now &rarr;</a>
+          <a href="/auth/register" class="btn btn-primary" style="margin-top:1rem;">Build AI Bot Now &rarr;</a>
         </div>
         <div class="hb-tab-preview">
           <div style="font-weight:700;color:#C4B5FD;margin-bottom:0.75rem;font-size:0.85rem;text-transform:uppercase;">Flow Canvas</div>
@@ -332,7 +332,7 @@ include __DIR__ . '/includes/header.php';
         <div class="hb-tab-content">
           <h3>Targeted Broadcast Campaigns</h3>
           <p>Send bulk WhatsApp messages to targeted customer lists with media attachments and CTA buttons.</p>
-          <a href="https://inboxwa.com/auth/register" class="btn btn-primary" style="margin-top:1rem;">Launch Campaign &rarr;</a>
+          <a href="/auth/register" class="btn btn-primary" style="margin-top:1rem;">Launch Campaign &rarr;</a>
         </div>
         <div class="hb-tab-preview">
           <div style="font-weight:700;color:#67E8F9;margin-bottom:0.75rem;font-size:0.85rem;text-transform:uppercase;">Campaign Analytics</div>
@@ -406,7 +406,7 @@ include __DIR__ . '/includes/header.php';
         <h2 style="font-size:clamp(2rem,4vw,3.25rem);font-weight:800;color:#fff;margin-bottom:1rem;">Ready to Transform Your <span style="color:#67E8F9">Customer Messaging?</span></h2>
         <p style="font-size:1.15rem;color:rgba(255,255,255,0.9);max-width:36rem;margin:0 auto 2rem;">Start your 14-day free trial today. Access Official WhatsApp API, Shared Inbox, and AI Flow Builder in minutes.</p>
         <div style="display:flex;justify-content:center;gap:1rem;flex-wrap:wrap;">
-          <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg" style="background:#fff;color:#7C3AED;">Start Free Trial Now &rarr;</a>
+          <a href="/auth/register" class="btn btn-primary btn-lg" style="background:#fff;color:#7C3AED;">Start Free Trial Now &rarr;</a>
           <button type="button" class="btn btn-outline btn-lg btn-demo-open" style="border-color:rgba(255,255,255,0.4);color:#fff;background:transparent;">Book a Live Demo</button>
         </div>
       </div>

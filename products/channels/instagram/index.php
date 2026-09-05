@@ -17,7 +17,7 @@ include __DIR__ . '/../../../includes/header.php';
         <h1>Turn Instagram Conversations Into <span class="grad">Customers</span></h1>
         <p class="ig-lead">Automate Instagram DMs for lead generation, instant replies, product enquiries, support, qualification and follow-ups with InboxWa.</p>
         <div class="ig-ctas">
-          <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg">Start Free</a>
+          <a href="/auth/register" class="btn btn-primary btn-lg">Start Free</a>
           <button type="button" class="btn btn-outline btn-lg btn-demo-open" style="border-color:rgba(255,255,255,.5);color:#fff;background:transparent">Book Instagram Demo</button>
         </div>
         <div class="ig-tabs" id="ig-tabs">
@@ -172,7 +172,7 @@ include __DIR__ . '/../../../includes/header.php';
     <div class="section-header reveal">
       <h2 style="color:#fff">Turn Every Instagram Conversation Into an Opportunity</h2>
       <div style="margin-top:1.5rem;display:flex;flex-wrap:wrap;gap:.75rem;justify-content:center">
-        <a href="https://inboxwa.com/auth/register" class="btn btn-primary btn-lg">Start Free</a>
+        <a href="/auth/register" class="btn btn-primary btn-lg">Start Free</a>
         <button type="button" class="btn btn-outline btn-lg btn-demo-open" style="border-color:rgba(255,255,255,.5);color:#fff;background:transparent">Book Instagram Demo</button>
       </div>
     </div>
