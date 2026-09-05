@@ -7,19 +7,19 @@
       {t:'user',m:'Hello Doctor, I would like to share information about our new product.'},
       {t:'bot',m:'Sure, send me the details.'},
       {t:'user',m:'Here is the approved product information.'},
-      {t:'bot',m:'Product Information Sent <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>'},
-      {t:'bot',m:'Doctor Interaction Recorded <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> · Follow-up Created <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>'}
+      {t:'bot',m:'Product Information Sent ✓'},
+      {t:'bot',m:'Doctor Interaction Recorded ✓ · Follow-up Created ✓'}
     ],
     rep:[
       {t:'bot',m:'MR Dashboard: Today\'s doctors · Pending follow-ups'},
       {t:'user',m:'Sharing approved brochure for Product X'},
-      {t:'bot',m:'Interaction logged · Follow-up tomorrow <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>'}
+      {t:'bot',m:'Interaction logged · Follow-up tomorrow ✓'}
     ],
     doc:[
       {t:'user',m:'I want to book an appointment.'},
       {t:'bot',m:'Please select a preferred date.'},
       {t:'user',m:'Thursday morning'},
-      {t:'bot',m:'Request captured · Clinic team notified <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>'}
+      {t:'bot',m:'Request captured · Clinic team notified ✓'}
     ]
   };
   var timer=null;

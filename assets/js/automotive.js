@@ -7,7 +7,7 @@
       {t:'bot',m:'View Details · Book Test Drive · Talk to Sales'},
       {t:'user',m:'Book Test Drive'},
       {t:'bot',m:'Select Date · Select Time'},
-      {t:'bot',m:'Test Drive Confirmed <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> · Sales Notified <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> · Demo'}
+      {t:'bot',m:'Test Drive Confirmed ✓ · Sales Notified ✓ · Demo'}
     ];
     var i=0;
     function add(m,t){var el=document.createElement('div');el.className='au-msg '+t;el.textContent=m;body.insertBefore(el,typing);requestAnimationFrame(function(){el.classList.add('show')})}

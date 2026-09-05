@@ -3,7 +3,7 @@
   var tabs=document.querySelectorAll('#wbp-tabs button');
   if(!body)return;
   var flows={
-    api:[{t:'user',m:'Hi, I need help'},{t:'bot',m:'Message Received <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>'},{t:'bot',m:'Customer → WhatsApp API → InboxWa → Agent'},{t:'bot',m:'Conversation ready in inbox'}],
+    api:[{t:'user',m:'Hi, I need help'},{t:'bot',m:'Message Received ✓'},{t:'bot',m:'Customer → WhatsApp API → InboxWa → Agent'},{t:'bot',m:'Conversation ready in inbox'}],
     inbox:[{t:'bot',m:'New Conversation'},{t:'user',m:'I need product details'},{t:'bot',m:'Assign to: Sales Team · Agent: Rahul'},{t:'bot',m:'Status: In Progress'}],
     broadcast:[{t:'bot',m:'Campaign Created'},{t:'bot',m:'Audience: Demo segment'},{t:'bot',m:'Template: New Offer'},{t:'bot',m:'Status: Ready to send'}]
   };

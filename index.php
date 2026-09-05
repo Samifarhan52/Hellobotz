@@ -461,7 +461,7 @@ include __DIR__ . '/includes/header.php';
     options.forEach(function(opt){
       var btn = document.createElement('button');
       btn.type = 'button';
-      btn.textContent = opt.label;
+      btn.innerHTML = opt.label;
       btn.onclick = function(){
         wrap.remove();
         addMsg('user', opt.label);
@@ -491,7 +491,7 @@ include __DIR__ . '/includes/header.php';
       showCustomDemo(text);
     } else {
       showTyping(800, function(){
-        addMsg('bot', 'Thanks, <b>' + visitorName + '</b>! Our team is ready to set this up for your business. Tap <b>Book a Demo</b> to get started! <svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.71 1.26-1.5 1.5-2.5L4.5 16.5z"/><path d="M12 15l-3-3 7.5-7.5c1.5-1.5 4-2.5 4.5-2.5s-1 3-2.5 4.5L12 15z"/></svg>');
+        addMsg('bot', 'Thanks, <b>' + visitorName + '</b>! Our team is ready to set this up for your business. Tap <b>Book a Demo</b> to get started!');
       });
     }
   }
@@ -518,7 +518,7 @@ include __DIR__ . '/includes/header.php';
     }
 
     showTyping(600, function(){
-      addMsg('bot', ' Hi there! Welcome to <b>InboxWa AI</b>.');
+      addMsg('bot', 'Hi there! Welcome to <b>InboxWa AI</b>.');
       showTyping(800, function(){
         addMsg('bot', 'May I please know your name?');
         
@@ -535,7 +535,7 @@ include __DIR__ . '/includes/header.php';
     stepState = "service";
     if(footerInp) footerInp.placeholder = "Type your question or choose...";
     showTyping(800, function(){
-      addMsg('bot', 'Awesome to meet you, <b>' + visitorName + '</b>! <svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.71 1.26-1.5 1.5-2.5L4.5 16.5z"/><path d="M12 15l-3-3 7.5-7.5c1.5-1.5 4-2.5 4.5-2.5s-1 3-2.5 4.5L12 15z"/></svg>');
+      addMsg('bot', 'Awesome to meet you, <b>' + visitorName + '</b>!');
       showTyping(900, function(){
         addMsg('bot', 'Which WhatsApp automation feature can I demonstrate for you today?');
         
@@ -554,20 +554,20 @@ include __DIR__ . '/includes/header.php';
     if(footerInp) footerInp.placeholder = "Type any follow-up question...";
     showTyping(800, function(){
       if(type === 'api'){
-        addMsg('bot', '<b>' + visitorName + '</b>, with Official Meta WhatsApp API, your brand gets Green Tick verification, 99.9% uptime, and 24/7 lead capture! <svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>');
+        addMsg('bot', '<b>' + visitorName + '</b>, with Official Meta WhatsApp API, your brand gets Green Tick verification, 99.9% uptime, and 24/7 lead capture!');
       } else if(type === 'flow'){
         addMsg('bot', 'No coding needed, <b>' + visitorName + '</b>! Our visual AI flow builder automatically qualifies leads & answers customer FAQs 24/7.');
       } else if(type === 'broadcast'){
-        addMsg('bot', '<b>' + visitorName + '</b>, send targeted WhatsApp broadcasts to 100,000+ contacts with 98% open rates & instant replies! <svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>');
+        addMsg('bot', '<b>' + visitorName + '</b>, send targeted WhatsApp broadcasts to 100,000+ contacts with 98% open rates & instant replies!');
       } else {
         addMsg('bot', 'Unified inbox, <b>' + visitorName + '</b>! Assign chats across WhatsApp, Instagram DMs & Messenger with live agent handover.');
       }
 
       showTyping(1000, function(){
-        addMsg('bot', 'Ready to test it live with your business team? Tap <b>Book a Demo</b> below! ');
+        addMsg('bot', 'Ready to test it live with your business team? Tap <b>Book a Demo</b> below!');
         
         renderChips([
-          { label: '<svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg> Re-start Interactive Demo', action: function(){ startSimulator(); } }
+          { label: 'Restart Interactive Demo', action: function(){ startSimulator(); } }
         ]);
       });
     });
@@ -576,11 +576,11 @@ include __DIR__ . '/includes/header.php';
   function showCustomDemo(text){
     stepState = "done";
     showTyping(900, function(){
-      addMsg('bot', 'Great question about <i>"' + text + '"</i>, <b>' + visitorName + '</b>! InboxWa AI seamlessly automates this with official Meta WhatsApp APIs & smart workflows. <svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>');
+      addMsg('bot', 'Great question about <i>"' + text + '"</i>, <b>' + visitorName + '</b>! InboxWa AI seamlessly automates this with official Meta WhatsApp APIs & smart workflows.');
       showTyping(1000, function(){
-        addMsg('bot', 'Tap <b>Book a Demo</b> to see a custom live workflow for your business! ');
+        addMsg('bot', 'Tap <b>Book a Demo</b> to see a custom live workflow for your business!');
         renderChips([
-          { label: '<svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg> Re-start Interactive Demo', action: function(){ startSimulator(); } }
+          { label: 'Restart Interactive Demo', action: function(){ startSimulator(); } }
         ]);
       });
     });

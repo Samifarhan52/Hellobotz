@@ -17,7 +17,7 @@
   var out=document.getElementById('api-test-out');
   var btn=document.getElementById('api-test');
   if(btn&&out){
-    var steps=['Request Sent…','Authenticated…','Request Processed…','WhatsApp Message Triggered…','Response Received <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> · 200 OK (Demo)'];
+    var steps=['Request Sent…','Authenticated…','Request Processed…','WhatsApp Message Triggered…','Response Received ✓ · 200 OK (Demo)'];
     btn.addEventListener('click',function(){
       var i=0;out.textContent=steps[0];
       var t=setInterval(function(){i++;if(i>=steps.length){clearInterval(t);return}out.textContent=steps[i]},550);
@@ -28,7 +28,7 @@
     run.addEventListener('click',function(){
       var tr=document.getElementById('api-trigger');
       var ac=document.getElementById('api-action');
-      rout.textContent=(tr?tr.value:'Trigger')+' → InboxWa → '+(ac?ac.value:'Action')+' · Workflow Executed <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> (Demo)';
+      rout.textContent=(tr?tr.value:'Trigger')+' → InboxWa → '+(ac?ac.value:'Action')+' · Workflow Executed ✓ (Demo)';
     });
   }
 })();

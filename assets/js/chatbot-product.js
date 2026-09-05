@@ -3,8 +3,8 @@
   var tabs=document.querySelectorAll('#bot-tabs button');
   if(!body)return;
   var flows={
-    build:[{t:'bot',m:'Bot Name: InboxWa Assistant'},{t:'bot',m:'Welcome: Hi  How can I help you today?'},{t:'bot',m:'Language: Hindi + English · Tone: Professional'},{t:'bot',m:'<svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Chatbot Created'}],
-    train:[{t:'bot',m:'Knowledge sources connected'},{t:'bot',m:'Website · PDF · FAQ · Q&A'},{t:'bot',m:'Reading → Processing → Ready <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>'}],
+    build:[{t:'bot',m:'Bot Name: InboxWa Assistant'},{t:'bot',m:'Welcome: Hi  How can I help you today?'},{t:'bot',m:'Language: Hindi + English · Tone: Professional'},{t:'bot',m:'✓ Chatbot Created'}],
+    train:[{t:'bot',m:'Knowledge sources connected'},{t:'bot',m:'Website · PDF · FAQ · Q&A'},{t:'bot',m:'Reading → Processing → Ready ✓'}],
     test:[{t:'user',m:'What does InboxWa do?'},{t:'bot',m:'InboxWa helps businesses automate WhatsApp with AI, CRM and workflows.'},{t:'user',m:'Can I book a demo?'},{t:'bot',m:'Absolutely. Book Demo · Talk to Team'}],
     deploy:[{t:'bot',m:'Build → Train → Test → Approve → Deploy'},{t:'bot',m:'Channels: WhatsApp · Website · API'},{t:'bot',m:'● Chatbot Live'}],
     live:[{t:'user',m:'Hi, what does InboxWa do?'},{t:'bot',m:'Hello!  InboxWa helps businesses automate WhatsApp conversations with AI, CRM and business workflows.'},{t:'user',m:'Can I book a demo?'},{t:'bot',m:'Absolutely. I can help you book a demo.\nBook Demo · Talk to Team'}]
@@ -20,7 +20,7 @@
     demo:'Bot: Great! I can help you book a demo. Please share a preferred time.',
     pricing:'Bot: I can share plan options. Would you like View Plans or Talk to Sales?',
     product:'Bot: InboxWa provides WhatsApp API, automation, CRM and AI chatbot for business messaging.',
-    agent:'Bot: Connecting you with a team member… Human handover initiated <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>',
+    agent:'Bot: Connecting you with a team member… Human handover initiated ✓',
     order:'Bot: Please share your order ID to check status.',
     support:'Bot: I can help with common questions or connect you to support.'
   };
@@ -33,7 +33,7 @@
     product:'Customer: What is InboxWa?\nAI: InboxWa is a WhatsApp + AI automation platform for business messaging, CRM and workflows.',
     pricing:'Customer: What is the pricing?\nAI: I can help with plans. Would you like me to connect you with sales?',
     demo:'Customer: Book a demo\nAI: Sure! Demo request created. Our team will confirm shortly.',
-    agent:'Customer: Talk to a human\nAI: Transferring to an agent… Handover complete <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>'
+    agent:'Customer: Talk to a human\nAI: Transferring to an agent… Handover complete ✓'
   };
   var liveOut=document.getElementById('bot-live-out');
   document.querySelectorAll('#bot-live-btns button').forEach(function(b){

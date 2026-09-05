@@ -11,12 +11,12 @@
       {t:'bot',m:'WhatsApp Automation · CRM · AI Chatbot'},
       {t:'user',m:'I want a demo.'},
       {t:'bot',m:'Book Demo · Talk to Team'},
-      {t:'bot',m:'Lead Captured <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> · Conversation Saved <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> · Team Notified <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>'}
+      {t:'bot',m:'Lead Captured ✓ · Conversation Saved ✓ · Team Notified ✓'}
     ],
-    lead:[{t:'user',m:'I want a demo.'},{t:'bot',m:"What's your name?"},{t:'user',m:'Rahul'},{t:'bot',m:'Interest: CRM · WhatsApp API · Automation'},{t:'bot',m:'Lead Created <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>'}],
-    support:[{t:'user',m:'I need help'},{t:'bot',m:'Describe your issue or /support'},{t:'bot',m:'Answer sent · Handover available <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>'}],
-    notify:[{t:'bot',m:'<svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg> New Lead notification'},{t:'bot',m:'Order update · Appointment reminder · Team alert'}],
-    book:[{t:'user',m:'Book a demo'},{t:'bot',m:'Choose: Today · Tomorrow'},{t:'user',m:'Tomorrow'},{t:'bot',m:'Booking request saved <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>'}]
+    lead:[{t:'user',m:'I want a demo.'},{t:'bot',m:"What's your name?"},{t:'user',m:'Rahul'},{t:'bot',m:'Interest: CRM · WhatsApp API · Automation'},{t:'bot',m:'Lead Created ✓'}],
+    support:[{t:'user',m:'I need help'},{t:'bot',m:'Describe your issue or /support'},{t:'bot',m:'Answer sent · Handover available ✓'}],
+    notify:[{t:'bot',m:' New Lead notification'},{t:'bot',m:'Order update · Appointment reminder · Team alert'}],
+    book:[{t:'user',m:'Book a demo'},{t:'bot',m:'Choose: Today · Tomorrow'},{t:'user',m:'Tomorrow'},{t:'bot',m:'Booking request saved ✓'}]
   };
   var timer=null;
   function clear(){body.querySelectorAll('.tg-msg').forEach(function(e){e.remove()});typing.classList.remove('on')}

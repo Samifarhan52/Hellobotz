@@ -5,7 +5,7 @@
       {t:'user',m:'Hi, I’m interested in this offer.'},
       {t:'bot',m:'Great! How can we help you?'},
       {t:'bot',m:'Get Details · Talk to Sales · Book Demo'},
-      {t:'bot',m:'Lead Captured <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> · WhatsApp Connected <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> · Sales Notified <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>'}
+      {t:'bot',m:'Lead Captured ✓ · WhatsApp Connected ✓ · Sales Notified ✓'}
     ];
     var i=0,timer=null;
     function add(m,t){var el=document.createElement('div');el.className='fa-msg '+t;el.textContent=m;body.insertBefore(el,typing);requestAnimationFrame(function(){el.classList.add('show')})}
@@ -15,7 +15,7 @@
   var status=document.getElementById('fa-ad-status');
   var btn=document.getElementById('fa-ad-click');
   if(btn&&status){
-    var steps=['Ad Click…','Lead Form open…','Lead Submitted <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>','WhatsApp Started <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>'];
+    var steps=['Ad Click…','Lead Form open…','Lead Submitted ✓','WhatsApp Started ✓'];
     btn.addEventListener('click',function(){
       var n=0;status.textContent=steps[0];
       var t=setInterval(function(){n++;if(n>=steps.length){clearInterval(t);return}status.textContent=steps[n]},700);

@@ -12,12 +12,12 @@
         {t:'chips', opts: ['B.Tech CSE', 'MBA / PGDM', 'BBA / BCA', 'Medical'], pick: 'B.Tech CSE'},
         {t:'user', text: 'B.Tech CSE'},
         {t:'typing', ms:650},
-        {t:'bot', text: 'Awesome choice ' + name + '! <svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.71 1.26-1.5 1.5-2.5L4.5 16.5z"/><path d="M12 15l-3-3 7.5-7.5c1.5-1.5 4-2.5 4.5-2.5s-1 3-2.5 4.5L12 15z"/></svg> B.Tech CSE has 94.8% placement record.'},
+        {t:'bot', text: 'Awesome choice ' + name + '!  B.Tech CSE has 94.8% placement record.'},
         {t:'bot', text: 'Would you like to download the syllabus or book a campus tour?'},
         {t:'chips', opts: ['Book Campus Tour', 'Get Syllabus', 'Scholarships'], pick: 'Book Campus Tour'},
         {t:'user', text: 'Book Campus Tour'},
         {t:'typing', ms:600},
-        {t:'bot', text: 'Campus Tour Reserved for ' + name + '! <svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="6" width="20" height="12" rx="2"/><line x1="12" y1="6" x2="12" y2="18"/></svg>️ Our admission counsellor will ping you with details.'}
+        {t:'bot', text: 'Campus Tour Reserved for ' + name + '! ️ Our admission counsellor will ping you with details.'}
       ];
     },
     course: function(name) {
@@ -25,7 +25,7 @@
         {t:'typing', ms:500},
         {t:'user', text: 'Can you send the complete course fee structure?'},
         {t:'typing', ms:700},
-        {t:'bot', text: 'Hi ' + name + '! <svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg> Here is our 2026-27 Fee & Course Catalog.'},
+        {t:'bot', text: 'Hi ' + name + '!  Here is our 2026-27 Fee & Course Catalog.'},
         {t:'bot', text: 'B.Tech: ₹1.2L/yr · MBA: ₹1.8L/yr · BBA: ₹85k/yr'},
         {t:'chips', opts: ['Check Merit Scholarship', 'Hostel Fees', 'Apply Now'], pick: 'Check Merit Scholarship'},
         {t:'user', text: 'Check Merit Scholarship'},
@@ -44,34 +44,34 @@
         {t:'chips', opts: ['Today 4:00 PM', 'Tomorrow 11:00 AM'], pick: 'Tomorrow 11:00 AM'},
         {t:'user', text: 'Tomorrow 11:00 AM'},
         {t:'typing', ms:550},
-        {t:'bot', text: 'Slot Confirmed! <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Calendar invite sent to your email.'}
+        {t:'bot', text: 'Slot Confirmed! ✓ Calendar invite sent to your email.'}
       ];
     },
     docs: function(name) {
       return [
         {t:'typing', ms:500},
-        {t:'bot', text: 'Hi ' + name + ', submit your admission documents inside WhatsApp Flow <svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/></svg>'},
+        {t:'bot', text: 'Hi ' + name + ', submit your admission documents inside WhatsApp Flow '},
         {t:'chips', opts: ['Upload 12th Marksheet', 'Aadhaar / ID Card'], pick: 'Upload 12th Marksheet'},
         {t:'user', text: 'Uploaded 12th Marksheet PDF'},
         {t:'typing', ms:700},
-        {t:'bot', text: 'Document Received! Instant verification complete for ' + name + '. Eligibility: PASSED <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>'}
+        {t:'bot', text: 'Document Received! Instant verification complete for ' + name + '. Eligibility: PASSED ✓'}
       ];
     },
     fee: function(name) {
       return [
         {t:'typing', ms:500},
-        {t:'bot', text: 'Fee Payment Reminder for ' + name + ' <svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>'},
+        {t:'bot', text: 'Fee Payment Reminder for ' + name + ' '},
         {t:'bot', text: 'Semester 2 Tuition Fee: ₹45,000 (Due Date: 15 Sept)'},
         {t:'chips', opts: ['Pay via WhatsApp UPI', 'Download Invoice'], pick: 'Pay via WhatsApp UPI'},
         {t:'user', text: 'Pay via WhatsApp UPI'},
         {t:'typing', ms:600},
-        {t:'bot', text: 'Payment Successful! <svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> Receipt #EDU-9921 generated for ' + name + '.'}
+        {t:'bot', text: 'Payment Successful!  Receipt #EDU-9921 generated for ' + name + '.'}
       ];
     },
     results: function(name) {
       return [
         {t:'typing', ms:500},
-        {t:'bot', text: 'Final Exam Result Announcement <svg class="hb-svg-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>'},
+        {t:'bot', text: 'Final Exam Result Announcement '},
         {t:'bot', text: 'Student Name: ' + name + '\nCGPA: 9.2 (Distinction)'},
         {t:'chips', opts: ['View Grade Card', 'Share with Parent'], pick: 'View Grade Card'},
         {t:'user', text: 'View Grade Card'},

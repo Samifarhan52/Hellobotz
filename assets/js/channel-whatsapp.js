@@ -8,8 +8,8 @@
     {t:'user',m:'Book Demo'},
     {t:'bot',m:'Great! Please share your name.'},
     {t:'user',m:'Rahul Sharma'},
-    {t:'bot',m:'Thanks Rahul! Your request has been received. <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>'},
-    {t:'bot',m:'Lead Created <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> · Team Notified <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> · Follow-up Ready <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>'}
+    {t:'bot',m:'Thanks Rahul! Your request has been received. ✓'},
+    {t:'bot',m:'Lead Created ✓ · Team Notified ✓ · Follow-up Ready ✓'}
   ];
   var i=0,timer=null;
   function add(m,t){var el=document.createElement('div');el.className='cw-msg '+t;el.textContent=m;body.insertBefore(el,typing);requestAnimationFrame(function(){el.classList.add('show')})}

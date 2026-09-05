@@ -3,10 +3,10 @@
   var tabs=document.querySelectorAll('#crm-tabs button');
   if(!body)return;
   var flows={
-    capture:[{t:'bot',m:'New lead received from CRM <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>'},{t:'bot',m:'Hi Rahul  Thanks for your interest. How can we help?'},{t:'bot',m:'Book Demo · View Pricing · Talk to Sales'}],
-    wa:[{t:'user',m:'Book Demo'},{t:'bot',m:'Demo request created <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>'},{t:'bot',m:'CRM status → Demo Requested'}],
+    capture:[{t:'bot',m:'New lead received from CRM ✓'},{t:'bot',m:'Hi Rahul  Thanks for your interest. How can we help?'},{t:'bot',m:'Book Demo · View Pricing · Talk to Sales'}],
+    wa:[{t:'user',m:'Book Demo'},{t:'bot',m:'Demo request created ✓'},{t:'bot',m:'CRM status → Demo Requested'}],
     qualify:[{t:'user',m:'I want to know more about your product.'},{t:'bot',m:'What are you interested in?'},{t:'bot',m:'Pricing · Demo · Enterprise · Support'},{t:'user',m:'Demo'},{t:'bot',m:'Intent: Demo · Status: Qualified · Assign to Sales'}],
-    assign:[{t:'bot',m:'Lead Assigned → Sales Team'},{t:'bot',m:'Sales Agent Notified <svg class="hb-check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>'}],
+    assign:[{t:'bot',m:'Lead Assigned → Sales Team'},{t:'bot',m:'Sales Agent Notified ✓'}],
     followup:[{t:'bot',m:'Hi Rahul  Just following up regarding your enquiry.'},{t:'bot',m:'Would you like to continue?'}],
     pipeline:[{t:'bot',m:'Pipeline: New → Contacted → Qualified → Demo → Proposal → Converted'}]
   };
